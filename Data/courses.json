@@ -1,0 +1,1751 @@
+{
+  "count" : 6,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 1000
+  },
+  "items" : [ {
+    "pureId" : 71267386,
+    "externalId" : "crc9900000000",
+    "externalIdSource" : "synchronisedCourse",
+    "externallyManaged" : true,
+    "uuid" : "90d2732c-194f-46e4-bbcb-2ae96e546270",
+    "period" : {
+      "startDate" : "2010-03-01T12:00:00.000+03:00",
+      "endDate" : "2020-03-31T12:00:00.000+03:00"
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "09971b19-384c-4b78-b17c-6ea2921a31a7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/09971b19-384c-4b78-b17c-6ea2921a31a7"
+      },
+      "externalId" : "50110267",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Directorate on Human Resources"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Главное управление по организации работы с персоналом"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "info" : {
+      "createdBy" : "sync_user",
+      "createdDate" : "2020-12-01T05:24:40.983+0300",
+      "modifiedBy" : "st001010",
+      "modifiedDate" : "2025-02-24T14:12:06.752+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Java1111 programming"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Java1111 programming"
+      } ]
+    },
+    "type" : {
+      "pureId" : 15350,
+      "uri" : "/dk/atira/pure/course/coursetypes/course/course",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Course"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Курс"
+        } ]
+      }
+    },
+    "level" : {
+      "pureId" : 38546084,
+      "uri" : "/dk/atira/pure/course/level/credits04",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "4 ECTS"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "4 зачётные единицы"
+        } ]
+      }
+    },
+    "format" : {
+      "pureId" : 513831,
+      "uri" : "/dk/atira/pure/course/format/courseunittype10",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "course unit"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "учебная дисциплина"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "workflow" : {
+      "workflowStep" : "validated",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Validated"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Проверено"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 71267388,
+      "externalId" : "coursedescription",
+      "externalIdSource" : "synchronisedCourse",
+      "externallyManaged" : true,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Introduction to Java programming"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Introduction to Java programming"
+        } ]
+      },
+      "type" : {
+        "pureId" : 15408,
+        "uri" : "/dk/atira/pure/course/descriptions/coursedescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Аннотация"
+          } ]
+        }
+      }
+    } ],
+    "ids" : [ {
+      "pureId" : 71267424,
+      "externalId" : "500602",
+      "externalIdSource" : "synchronisedCourse",
+      "externallyManaged" : true,
+      "value" : {
+        "formatted" : false,
+        "value" : "500602"
+      },
+      "type" : {
+        "pureId" : 15356,
+        "uri" : "/dk/atira/pure/course/coursesources/course",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Course number/ID"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Номер/ID курса"
+          } ]
+        }
+      }
+    } ],
+    "creators" : [ {
+      "pureId" : 71267389,
+      "externalId" : "dev1",
+      "externalIdSource" : "synchronisedCourse",
+      "externallyManaged" : true,
+      "person" : {
+        "uuid" : "421589ed-022c-46da-abdf-50182a54fa3e",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/421589ed-022c-46da-abdf-50182a54fa3e"
+        },
+        "externalId" : "50012264",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Тимур Андреевич Лепихин"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "09971b19-384c-4b78-b17c-6ea2921a31a7",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/09971b19-384c-4b78-b17c-6ea2921a31a7"
+        },
+        "externalId" : "50110267",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Directorate on Human Resources"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Главное управление по организации работы с персоналом"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "09971b19-384c-4b78-b17c-6ea2921a31a7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/09971b19-384c-4b78-b17c-6ea2921a31a7"
+      },
+      "externalId" : "50110267",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Directorate on Human Resources"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Главное управление по организации работы с персоналом"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 71267395,
+    "externalId" : "crc00001",
+    "externalIdSource" : "synchronisedCourse",
+    "externallyManaged" : true,
+    "uuid" : "9bde5ad7-1746-428f-b9f9-89799ec73643",
+    "period" : {
+      "startDate" : "2011-03-01T12:00:00.000+03:00",
+      "endDate" : "2018-03-31T12:00:00.000+03:00"
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "85ba8b34-71a8-468e-92b2-1bfb6d7b2e48",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/85ba8b34-71a8-468e-92b2-1bfb6d7b2e48"
+      },
+      "externalId" : "CB50032017",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "CB.5003.2017 Programming and Information Technology"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "CB.5003.2017 Программирование и информационные технологии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    },
+    "info" : {
+      "createdBy" : "sync_user",
+      "createdDate" : "2020-12-01T05:24:40.985+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-01-28T15:42:19.630+0300",
+      "additionalExternalIds" : [ {
+        "value" : "38546344",
+        "idSource" : "synchronisedCourse"
+      } ],
+      "previousUuids" : [ "079a2929-4a2e-403a-9701-83c71e54bea5" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Course 1"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Курс 1"
+      } ]
+    },
+    "type" : {
+      "pureId" : 15350,
+      "uri" : "/dk/atira/pure/course/coursetypes/course/course",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Course"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Курс"
+        } ]
+      }
+    },
+    "level" : {
+      "pureId" : 38546084,
+      "uri" : "/dk/atira/pure/course/level/credits04",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "4 ECTS"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "4 зачётные единицы"
+        } ]
+      }
+    },
+    "format" : {
+      "pureId" : 513831,
+      "uri" : "/dk/atira/pure/course/format/courseunittype10",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "course unit"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "учебная дисциплина"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "workflow" : {
+      "workflowStep" : "validated",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Validated"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Проверено"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 71267403,
+      "externalId" : "coursedescription",
+      "externalIdSource" : "synchronisedCourse",
+      "externallyManaged" : true,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Описание курса, дополнительное"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Тестовый курс дополнил описание"
+        } ]
+      },
+      "type" : {
+        "pureId" : 15408,
+        "uri" : "/dk/atira/pure/course/descriptions/coursedescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Аннотация"
+          } ]
+        }
+      }
+    } ],
+    "ids" : [ {
+      "pureId" : 71267441,
+      "externalId" : "500602",
+      "externalIdSource" : "synchronisedCourse",
+      "externallyManaged" : true,
+      "value" : {
+        "formatted" : false,
+        "value" : "500602"
+      },
+      "type" : {
+        "pureId" : 15356,
+        "uri" : "/dk/atira/pure/course/coursesources/course",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Course number/ID"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Номер/ID курса"
+          } ]
+        }
+      }
+    } ],
+    "creators" : [ {
+      "pureId" : 71267405,
+      "externalId" : "dev1",
+      "externalIdSource" : "synchronisedCourse",
+      "externallyManaged" : true,
+      "person" : {
+        "uuid" : "421589ed-022c-46da-abdf-50182a54fa3e",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/421589ed-022c-46da-abdf-50182a54fa3e"
+        },
+        "externalId" : "50012264",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Тимур Андреевич Лепихин"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "09971b19-384c-4b78-b17c-6ea2921a31a7",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/09971b19-384c-4b78-b17c-6ea2921a31a7"
+        },
+        "externalId" : "50110267",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Directorate on Human Resources"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Главное управление по организации работы с персоналом"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "09971b19-384c-4b78-b17c-6ea2921a31a7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/09971b19-384c-4b78-b17c-6ea2921a31a7"
+      },
+      "externalId" : "50110267",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Directorate on Human Resources"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Главное управление по организации работы с персоналом"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 75602016,
+    "uuid" : "dfc36c88-0fb5-4420-a761-8831f69ec0dc",
+    "period" : {
+      "startDate" : "2020-08-10T12:00:00.000+03:00"
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "79aed046-c267-4c71-9535-5d4bc608a609",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/79aed046-c267-4c71-9535-5d4bc608a609"
+      },
+      "externalId" : "50024524",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Design"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра дизайна"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-04-03T13:50:04.361+0300",
+      "modifiedBy" : "st801657",
+      "modifiedDate" : "2023-03-14T14:07:51.794+0300",
+      "prettyURLIdentifiers" : [ "художественное-проектирование-сайта-открытое-образование" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Художественное проектирование сайта, Открытое образование"
+      } ]
+    },
+    "type" : {
+      "pureId" : 15350,
+      "uri" : "/dk/atira/pure/course/coursetypes/course/course",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Course"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Курс"
+        } ]
+      }
+    },
+    "level" : {
+      "pureId" : 38546073,
+      "uri" : "/dk/atira/pure/course/level/credits02",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "2 ECTS"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "2 зачётные единицы"
+        } ]
+      }
+    },
+    "format" : {
+      "pureId" : 513831,
+      "uri" : "/dk/atira/pure/course/format/courseunittype10",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "course unit"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "учебная дисциплина"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "workflow" : {
+      "workflowStep" : "forValidation",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "For validation"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Для проверки"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 75602018,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "В курсе рассматривается логическое строение, художественная композиция и технологическая организация сайта.<br/>Курс состоит из Введения и пяти тематических модулей. Модули курса описывают пять тем: идея, материал, гипертекст, взаимодействие, дисплей – по одной теме на один модуль. Каждая тема освещена с позиций логической, образной и технологической организации сайта-презентации. Такой сайт предполагает размещение  информации в нём автором-разработчиком, не предполагая обмена данными, и рассматривается в курсе, как базовая форма сайта.<br/>В результате освоения каждого модуля предусмотрено создание Слушателем веб-страницы, описывающей логические и образные аспекты проектирования в рамках заданной темы. Таким образом, Слушатель, изучая: научные, художественные, технологические – средства и принципы дизайна сайта, создаёт сайт из пяти страниц в базовых клиентских веб-технологиях."
+        } ]
+      },
+      "type" : {
+        "pureId" : 15408,
+        "uri" : "/dk/atira/pure/course/descriptions/coursedescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Аннотация"
+          } ]
+        }
+      }
+    } ],
+    "creators" : [ {
+      "pureId" : 75602019,
+      "person" : {
+        "uuid" : "5c9f9fdb-f3e5-4166-a14e-a048fda361ba",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/5c9f9fdb-f3e5-4166-a14e-a048fda361ba"
+        },
+        "externalId" : "50092982",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Анна Александровна Зырянова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Анна Александровна",
+        "lastName" : "Зырянова"
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "79aed046-c267-4c71-9535-5d4bc608a609",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/79aed046-c267-4c71-9535-5d4bc608a609"
+        },
+        "externalId" : "50024524",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Design"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра дизайна"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "79aed046-c267-4c71-9535-5d4bc608a609",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/79aed046-c267-4c71-9535-5d4bc608a609"
+      },
+      "externalId" : "50024524",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Design"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра дизайна"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "keywordgroups" : [ {
+      "pureId" : 75646040,
+      "logicalName" : "/dk/atira/pure/funding/oecdwos",
+      "type" : {
+        "uri" : "/dk/atira/pure/funding/oecdwos",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "International codes"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Тематическая классификация"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 75715673,
+        "structuredKeyword" : {
+          "pureId" : 513728,
+          "uri" : "/dk/atira/pure/funding/oecdwos/06/04",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "06.04.00 Art"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "06.04.00 Искусствоведение"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 75715674,
+        "structuredKeyword" : {
+          "pureId" : 512888,
+          "uri" : "/dk/atira/pure/funding/oecdwos/01/02",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "01.02.00 Сomputer and information sciences"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "01.02.00 Компьютерные и информационные науки"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 75602111,
+      "logicalName" : "/dk/atira/pure/core/languages",
+      "type" : {
+        "uri" : "/dk/atira/pure/core/languages",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Language(s)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Язык(и) обучения"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 75602112,
+        "structuredKeyword" : {
+          "pureId" : 201,
+          "uri" : "/dk/atira/pure/core/languages/ru_RU",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Russian"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "русский"
+            } ]
+          }
+        }
+      } ]
+    } ]
+  }, {
+    "pureId" : 75648050,
+    "uuid" : "d8d7fefa-d888-4f1f-aa6b-ebeb9de4a693",
+    "period" : {
+      "startDate" : "2021-04-05T12:00:00.000+03:00",
+      "endDate" : "2022-06-05T12:00:00.000+03:00"
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "79aed046-c267-4c71-9535-5d4bc608a609",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/79aed046-c267-4c71-9535-5d4bc608a609"
+      },
+      "externalId" : "50024524",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Design"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра дизайна"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-04-05T16:50:28.275+0300",
+      "modifiedBy" : "st801657",
+      "modifiedDate" : "2023-03-18T09:52:35.582+0300",
+      "prettyURLIdentifiers" : [ "художественное-проектирование-сайта-httpswwwcourseraorglearnart-s" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Художественное проектирование сайта, Coursera, https://www.coursera.org/learn/art-site-engineering"
+      } ]
+    },
+    "type" : {
+      "pureId" : 15350,
+      "uri" : "/dk/atira/pure/course/coursetypes/course/course",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Course"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Курс"
+        } ]
+      }
+    },
+    "level" : {
+      "pureId" : 38546073,
+      "uri" : "/dk/atira/pure/course/level/credits02",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "2 ECTS"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "2 зачётные единицы"
+        } ]
+      }
+    },
+    "format" : {
+      "pureId" : 513831,
+      "uri" : "/dk/atira/pure/course/format/courseunittype10",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "course unit"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "учебная дисциплина"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "workflow" : {
+      "workflowStep" : "forValidation",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "For validation"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Для проверки"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 75648052,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Курс посвящен проектированию сайта методами и средствами дизайна визуальных коммуникаций.<br/>В курсе рассматривается логическое строение, художественная композиция и технологическая организация сайта. Курс рассчитан на широкий круг слушателей, в частности, на студентов бакалавриата и магистратуры направления подготовки «Дизайн», а также на действующих дизайнеров и художников, желающих проектировать авторские сайты. Курс состоит из Введения и пяти тематических модулей. Модули курса описывают пять тем: идея, материал, гипертекст, взаимодействие, дисплей – по одной теме на один модуль. Каждая тема освещена с позиций логической, образной и технологической организации сайта. В результате освоения каждого модуля предусмотрено создание. Слушателем веб-страницы, описывающей логические и образные аспекты проектирования в рамках заданной темы. Таким образом, Слушатель, изучая: научные, художественные, технологические – средства и принципы дизайна сайта, создаёт сайт из пяти страниц в базовых клиентских веб-технологиях."
+        } ]
+      },
+      "type" : {
+        "pureId" : 15408,
+        "uri" : "/dk/atira/pure/course/descriptions/coursedescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Аннотация"
+          } ]
+        }
+      }
+    } ],
+    "creators" : [ {
+      "pureId" : 75648053,
+      "person" : {
+        "uuid" : "5c9f9fdb-f3e5-4166-a14e-a048fda361ba",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/5c9f9fdb-f3e5-4166-a14e-a048fda361ba"
+        },
+        "externalId" : "50092982",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Анна Александровна Зырянова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Анна Александровна",
+        "lastName" : "Зырянова"
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "79aed046-c267-4c71-9535-5d4bc608a609",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/79aed046-c267-4c71-9535-5d4bc608a609"
+        },
+        "externalId" : "50024524",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Design"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра дизайна"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "79aed046-c267-4c71-9535-5d4bc608a609",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/79aed046-c267-4c71-9535-5d4bc608a609"
+      },
+      "externalId" : "50024524",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Design"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра дизайна"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "keywordgroups" : [ {
+      "pureId" : 75715666,
+      "logicalName" : "/dk/atira/pure/funding/oecdwos",
+      "type" : {
+        "uri" : "/dk/atira/pure/funding/oecdwos",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "International codes"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Тематическая классификация"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 75715667,
+        "structuredKeyword" : {
+          "pureId" : 513728,
+          "uri" : "/dk/atira/pure/funding/oecdwos/06/04",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "06.04.00 Art"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "06.04.00 Искусствоведение"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 75715668,
+        "structuredKeyword" : {
+          "pureId" : 512888,
+          "uri" : "/dk/atira/pure/funding/oecdwos/01/02",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "01.02.00 Сomputer and information sciences"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "01.02.00 Компьютерные и информационные науки"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 75715669,
+      "logicalName" : "/dk/atira/pure/core/languages",
+      "type" : {
+        "uri" : "/dk/atira/pure/core/languages",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Language(s)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Язык(и) обучения"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 75715670,
+        "structuredKeyword" : {
+          "pureId" : 201,
+          "uri" : "/dk/atira/pure/core/languages/ru_RU",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Russian"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "русский"
+            } ]
+          }
+        }
+      } ]
+    } ]
+  }, {
+    "pureId" : 75648143,
+    "uuid" : "dd6c6306-f0f2-462e-9c18-83c9304ab1f9",
+    "period" : {
+      "startDate" : "2012-04-03T12:00:00.000+04:00"
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "b7146df8-8132-450d-82b1-d7c6455ba171",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/b7146df8-8132-450d-82b1-d7c6455ba171"
+      },
+      "externalId" : "50024577",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Russian for Students in Humanities and NaturalSciences"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра русского языка для гуманитарных и естественных факультетов"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-04-05T16:54:23.974+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-04-05T16:59:59.486+0300",
+      "prettyURLIdentifiers" : [ "русский-язык-в-профессиональной-сфере-естественно-научный-профиль" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Русский язык в профессиональной сфере (естественно-научный профиль). Дистанционный курс"
+      } ]
+    },
+    "type" : {
+      "pureId" : 15350,
+      "uri" : "/dk/atira/pure/course/coursetypes/course/course",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Course"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Курс"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "workflow" : {
+      "workflowStep" : "entryInProgress",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Entry in progress"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Ввод данных"
+        } ]
+      }
+    },
+    "creators" : [ {
+      "pureId" : 75648146,
+      "person" : {
+        "uuid" : "fafbc8f2-38a7-4056-b87c-7e54ef8aca28",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/fafbc8f2-38a7-4056-b87c-7e54ef8aca28"
+        },
+        "externalId" : "50040571",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Наталья Анатольевна Буре"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Наталья Анатольевна",
+        "lastName" : "Буре"
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "b7146df8-8132-450d-82b1-d7c6455ba171",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/b7146df8-8132-450d-82b1-d7c6455ba171"
+        },
+        "externalId" : "50024577",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Russian for Students in Humanities and NaturalSciences"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра русского языка для гуманитарных и естественных факультетов"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 75648148,
+      "person" : {
+        "uuid" : "32ccc602-573e-4ed8-aa39-0e67199af462",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/32ccc602-573e-4ed8-aa39-0e67199af462"
+        },
+        "externalId" : "50040653",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Лариса Борисовна Волкова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Лариса Борисовна",
+        "lastName" : "Волкова"
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "b7146df8-8132-450d-82b1-d7c6455ba171",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/b7146df8-8132-450d-82b1-d7c6455ba171"
+        },
+        "externalId" : "50024577",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Russian for Students in Humanities and NaturalSciences"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра русского языка для гуманитарных и естественных факультетов"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 75648150,
+      "person" : {
+        "uuid" : "258e49dc-7951-49be-a8e4-8f038298e484",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/258e49dc-7951-49be-a8e4-8f038298e484"
+        },
+        "externalId" : "50040582",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Марина Викторовна Быстрых"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Марина Викторовна",
+        "lastName" : "Быстрых"
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "b7146df8-8132-450d-82b1-d7c6455ba171",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/b7146df8-8132-450d-82b1-d7c6455ba171"
+        },
+        "externalId" : "50024577",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Russian for Students in Humanities and NaturalSciences"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра русского языка для гуманитарных и естественных факультетов"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "b7146df8-8132-450d-82b1-d7c6455ba171",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/b7146df8-8132-450d-82b1-d7c6455ba171"
+      },
+      "externalId" : "50024577",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Russian for Students in Humanities and NaturalSciences"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра русского языка для гуманитарных и естественных факультетов"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 89195488,
+    "uuid" : "93289f13-800a-4280-86ba-08e9c760b7b5",
+    "period" : {
+      "startDate" : "2020-09-01T12:00:00.000+03:00"
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "010c1906-bdb0-4f85-8a80-0c7428b029b7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/010c1906-bdb0-4f85-8a80-0c7428b029b7"
+      },
+      "externalId" : "50024651",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of History of Journalism"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра истории журналистики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-12-06T22:45:51.632+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-12-06T22:45:51.632+0300",
+      "prettyURLIdentifiers" : [ "школа-истории-русской-журналистики" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Школа истории русской журналистики"
+      } ]
+    },
+    "type" : {
+      "pureId" : 15350,
+      "uri" : "/dk/atira/pure/course/coursetypes/course/course",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Course"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Курс"
+        } ]
+      }
+    },
+    "format" : {
+      "pureId" : 513831,
+      "uri" : "/dk/atira/pure/course/format/courseunittype10",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "course unit"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "учебная дисциплина"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "workflow" : {
+      "workflowStep" : "entryInProgress",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Entry in progress"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Ввод данных"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 89195490,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Онлайн-курс \"Школа истории русской журналистики\" выложен на <br/>https://presshistory.ru/, посвящен истории русской журналистики XVIII <br/>- начала ХХ века (до 1917 года). Бесплатный онлайн-курс"
+        } ]
+      },
+      "type" : {
+        "pureId" : 15408,
+        "uri" : "/dk/atira/pure/course/descriptions/coursedescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Аннотация"
+          } ]
+        }
+      }
+    } ],
+    "creators" : [ {
+      "pureId" : 89195491,
+      "person" : {
+        "uuid" : "12a17f44-debc-4c0f-adb2-dfcd8f28b35c",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/12a17f44-debc-4c0f-adb2-dfcd8f28b35c"
+        },
+        "externalId" : "50028933",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Елена Сергеевна Сонина"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Елена Сергеевна",
+        "lastName" : "Сонина"
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "010c1906-bdb0-4f85-8a80-0c7428b029b7",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/010c1906-bdb0-4f85-8a80-0c7428b029b7"
+        },
+        "externalId" : "50024651",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of History of Journalism"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра истории журналистики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "010c1906-bdb0-4f85-8a80-0c7428b029b7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/010c1906-bdb0-4f85-8a80-0c7428b029b7"
+      },
+      "externalId" : "50024651",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of History of Journalism"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра истории журналистики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "keywordgroups" : [ {
+      "pureId" : 89195493,
+      "logicalName" : "/dk/atira/pure/core/languages",
+      "type" : {
+        "uri" : "/dk/atira/pure/core/languages",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Language(s)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Язык(и) обучения"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 89195494,
+        "structuredKeyword" : {
+          "pureId" : 201,
+          "uri" : "/dk/atira/pure/core/languages/ru_RU",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Russian"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "русский"
+            } ]
+          }
+        }
+      } ]
+    } ]
+  } ]
+}

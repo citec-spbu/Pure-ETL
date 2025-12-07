@@ -1,0 +1,328 @@
+{
+  "count" : 10,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 1000
+  },
+  "items" : [ {
+    "pureId" : 78949007,
+    "uuid" : "5be45f53-c52a-4e55-aa15-8a8f8d47c3d8",
+    "acronym" : "chm",
+    "workflow" : "OmniScienceChemistry",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T00:11:03.813+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T00:11:03.813+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Chemical Compounds"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Химические соединения"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Compendex (Ei) Thesaurus and MeSH Thesaurus and MeSH Supplementals"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Тезаурусы: Compendex (Ei) Thesaurus, MeSH Thesaurus и MeSH Supplementals"
+      } ]
+    }
+  }, {
+    "pureId" : 79474991,
+    "uuid" : "0aaff7fe-843d-48ba-8694-3db89dccdb15",
+    "acronym" : "cpx",
+    "workflow" : "Compendex",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T00:22:54.605+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T00:22:54.605+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Engineering & Materials Science"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Технические дисциплины и материаловедение"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Compendex (Ei) Thesaurus"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Тезаурус Compendex (Ei)"
+      } ]
+    }
+  }, {
+    "pureId" : 79529456,
+    "uuid" : "fa0d6747-7f29-4d0d-9959-2271903e3672",
+    "acronym" : "eco",
+    "workflow" : "Economics",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T00:24:01.847+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T00:24:01.847+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Business & Economics"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Экономика и предпринимательство"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Business and Economics Vocabulary"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Словарь экономики и предпринимательства"
+      } ]
+    }
+  }, {
+    "pureId" : 79644131,
+    "uuid" : "0198335d-d8dd-4fed-ad75-8ea058732bc1",
+    "acronym" : "geo",
+    "workflow" : "Geobase",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T00:26:28.487+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T00:26:28.487+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Earth & Environmental Sciences"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Науки об окружающей среде"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Geobase Thesaurus"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Тезаурус Geobase"
+      } ]
+    }
+  }, {
+    "pureId" : 79700506,
+    "uuid" : "f6c95413-3718-466d-a1ef-5bc5b1a0f857",
+    "acronym" : "soc",
+    "workflow" : "Gesis",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T00:27:50.141+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T00:27:50.141+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Social Sciences"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Социальные науки"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Gesis Thesaurus (Expanded) + WBLaw Thesaurus"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Тезаурусы:  Gesis Thesaurus (расширенная версия), WBLaw Thesaurus"
+      } ]
+    }
+  }, {
+    "pureId" : 79780735,
+    "uuid" : "a0b3c005-89f8-46e2-9504-d42bd408e185",
+    "acronym" : "hum",
+    "workflow" : "Humanities",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T00:29:38.658+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T00:29:38.658+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Arts & Humanities"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Гуманитарные науки и искусство"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Arts and Humanities Vocabulary"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Словарь гуманитарных наук и искусства"
+      } ]
+    }
+  }, {
+    "pureId" : 79970424,
+    "uuid" : "9912d0ca-5cd1-4eb0-bfb8-7632a3a970a2",
+    "acronym" : "mat",
+    "workflow" : "Math",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T00:34:00.519+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T00:34:00.519+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Mathematics"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Математика"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Cambridge Math Thesaurus (Expanded)"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Тезаурус: Cambridge Math Thesaurus (расширенная версия)"
+      } ]
+    }
+  }, {
+    "pureId" : 80063041,
+    "uuid" : "f5169785-6af8-4466-a598-0c5dd4e9bb08",
+    "acronym" : "msh",
+    "workflow" : "MeSH",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T00:36:30.026+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T00:36:30.026+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Medicine & Life Sciences"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Биологические науки и медицина"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "MeSH Thesaurus and MeSH Supplementals"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Тезаурусы: MeSH Thesaurus и  MeSH Supplementals"
+      } ]
+    }
+  }, {
+    "pureId" : 81645950,
+    "uuid" : "8329eb7c-c21b-484c-b66d-5d42656677eb",
+    "acronym" : "nal",
+    "workflow" : "NAL",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T01:08:26.598+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T01:08:26.598+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Agriculture & Biology"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Биология и сельское хозяйство"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "NALT National Agricultural Library Agricultural Thesaurus"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Тезаурус Национальной библиотеки сельского хозяйства (National Agricultural Library Agricultural Thesaurus, NALT)"
+      } ]
+    }
+  }, {
+    "pureId" : 82027124,
+    "uuid" : "2d837729-8910-4261-bab5-9ae364c0989a",
+    "acronym" : "phy",
+    "workflow" : "NASA",
+    "thesaurusVersion" : "202007",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2021-07-20T01:16:50.017+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2021-07-20T01:16:50.017+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Physics & Astronomy"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Физика и астрономия"
+      } ]
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "National Aeronautics and Space Administration (NASA) Thesaurus"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Тезаурус:  National Aeronautics and Space Administration (NASA) Thesaurus"
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,4263 @@
+{
+  "count" : 12,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 1000
+  },
+  "items" : [ {
+    "pureId" : 87323146,
+    "uuid" : "7346cc64-aa22-4dce-8334-83456e269d88",
+    "temporalCoveragePeriod" : {
+      "startDate" : {
+        "year" : 2013
+      },
+      "endDate" : {
+        "year" : 2021
+      }
+    },
+    "dataProductionPeriod" : {
+      "startDate" : {
+        "year" : 2013
+      },
+      "endDate" : {
+        "year" : 2021
+      }
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "f6b58bb8-7deb-432d-bab2-e2835f5bba0d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/f6b58bb8-7deb-432d-bab2-e2835f5bba0d"
+      },
+      "externalId" : "1",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "External users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Внешние пользователи"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17276,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_0",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 0"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Уровень организации"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "1b1b8890-2cce-4f78-a8e8-2720def339ff",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/1b1b8890-2cce-4f78-a8e8-2720def339ff"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Mendeley"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.17632/h2t5nsjg2k.1",
+    "publicationDate" : {
+      "year" : 2021,
+      "month" : 10,
+      "day" : 18
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-10-20T16:34:26.547+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-10-20T16:35:24.312+0300",
+      "prettyURLIdentifiers" : [ "trends-in-the-sustainable-development-of-financial-markets-prospe" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Trends in the sustainable development of financial markets: prospects for the EAEU"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "openAccessPermission" : {
+      "pureId" : 6179259,
+      "uri" : "/dk/atira/pure/dataset/accesspermission/open",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Open"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Открыто"
+        } ]
+      }
+    },
+    "relatedProjects" : [ {
+      "uuid" : "29fbb513-6734-486d-b556-da49d31ca6d0",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/projects/29fbb513-6734-486d-b556-da49d31ca6d0"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Устойчивые финансы как новая парадигма развития финансового рынка ЕАЭС: 2021г. этап 3"
+        } ]
+      },
+      "type" : {
+        "pureId" : 34794403,
+        "uri" : "/dk/atira/pure/upmproject/upmprojecttypes/upmproject/grantfulfilment/grant_stage_fulfilment",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Grant stage fulfilment"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "исполнение этапа гранта/договора"
+          } ]
+        }
+      }
+    } ],
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 87323149,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "The presented data reflect new challenges in the field of sustainable development of financial markets. This issue is of great importance for the common financial market of the EAEU. Thus, the content and structure of the data correspond to possible information requirements in this area, including data on responsible investments and other segments of the sustainable financial services market.  The presented data relate to: a) the ESG debt market in the EAEU and other countries for 2013-2020 (2021); b) stock indices of the EAEU countries and global stock indices, including ESG indices for 2012-2021; c) dissemination of ESG reporting in the EAEU and other countries (in 2021); d) empirical data for building econometric models that take into account energy, macroeconomic and climate factors; e) asset growth dynamics of investment funds with ESG mandates and distribution of financial assets of responsible investments in ESG funds; f) comparative assessment of green and traditional investments for 2020, supplemented by characteristics of a sustainable equity market since 2003; g) data on the UN PRI signatures growth with additional dynamic indicators.\r\nThe reported study was funded by RFBR according to the research project № 19-010-00526."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6181,
+        "uri" : "/dk/atira/pure/dataset/descriptions/datasetdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 87323154,
+      "person" : {
+        "uuid" : "9c2f78ec-9e4c-4ff1-bf56-3d36a0bc993b",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/9c2f78ec-9e4c-4ff1-bf56-3d36a0bc993b"
+        },
+        "externalId" : "A01002459",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Зохид Юсупович Рахимов"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Зохид Юсупович",
+        "lastName" : "Рахимов"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "f6b58bb8-7deb-432d-bab2-e2835f5bba0d",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/f6b58bb8-7deb-432d-bab2-e2835f5bba0d"
+        },
+        "externalId" : "1",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "External users"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Внешние пользователи"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17276,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_0",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 0"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Уровень организации"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "9e818394-a2b9-425e-b9f7-3f66a6317ce2",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/9e818394-a2b9-425e-b9f7-3f66a6317ce2"
+        },
+        "externalId" : "MK30262016",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "MK.3026.2016 Economics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "MK.3026.2016 Экономика"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 87323157,
+      "person" : {
+        "uuid" : "2e320ed6-60c8-4ad4-98f9-b94ccabf4975",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/2e320ed6-60c8-4ad4-98f9-b94ccabf4975"
+        },
+        "externalId" : "50006565",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Надежда Алексеевна Львова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Надежда Алексеевна",
+        "lastName" : "Львова"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "e6bb2a97-6b8e-48b7-ae9a-f0dbce35d61d",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/e6bb2a97-6b8e-48b7-ae9a-f0dbce35d61d"
+        },
+        "externalId" : "50000021",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Credit Theory and Financial Management"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра теории кредита и финансового менеджмента"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "f6b58bb8-7deb-432d-bab2-e2835f5bba0d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/f6b58bb8-7deb-432d-bab2-e2835f5bba0d"
+      },
+      "externalId" : "1",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "External users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Внешние пользователи"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17276,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_0",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 0"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Уровень организации"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "9e818394-a2b9-425e-b9f7-3f66a6317ce2",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/9e818394-a2b9-425e-b9f7-3f66a6317ce2"
+      },
+      "externalId" : "MK30262016",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "MK.3026.2016 Economics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "MK.3026.2016 Экономика"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "e6bb2a97-6b8e-48b7-ae9a-f0dbce35d61d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/e6bb2a97-6b8e-48b7-ae9a-f0dbce35d61d"
+      },
+      "externalId" : "50000021",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Credit Theory and Financial Management"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра теории кредита и финансового менеджмента"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "links" : [ {
+      "pureId" : 87323150,
+      "url" : "https://data.mendeley.com/datasets/h2t5nsjg2k/1"
+    } ]
+  }, {
+    "pureId" : 88545566,
+    "uuid" : "577bbe43-49c4-41be-b766-903da2c01e21",
+    "dataProductionPeriod" : {
+      "startDate" : {
+        "year" : 2021,
+        "month" : 10,
+        "day" : 28
+      },
+      "endDate" : {
+        "year" : 2021,
+        "month" : 10,
+        "day" : 28
+      }
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+      },
+      "externalId" : "50104715",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Laboratory of Biomolecular NMR"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Научная лаборатория биомолекулярного ЯМР"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "5d1aa9f0-203e-4d02-bac6-4ed9548ff72a",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/5d1aa9f0-203e-4d02-bac6-4ed9548ff72a"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Protein Data Bank"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.2210/pdb7Q3V/pdb",
+    "publicationDate" : {
+      "year" : 2022
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st900340",
+      "createdDate" : "2021-11-18T13:55:06.807+0300",
+      "modifiedBy" : "st900340",
+      "modifiedDate" : "2022-05-23T13:44:33.191+0300",
+      "prettyURLIdentifiers" : [ "re-refined-structure-of-a-type-iii-antifreeze-protein-isoform-hpl", "re-refined-structure-of-a-type-iii-antifreeze-protein-isoform-hpl-2" ],
+      "previousUuids" : [ "247586bc-228b-46f1-9e62-a5c8c119ff97" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Re-refined structure of a type III antifreeze protein isoform HPLC 12"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Re-refined structure of a type III antifreeze protein isoform HPLC 12"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "openAccessPermission" : {
+      "pureId" : 6179259,
+      "uri" : "/dk/atira/pure/dataset/accesspermission/open",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Open"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Открыто"
+        } ]
+      }
+    },
+    "relatedProjects" : [ {
+      "uuid" : "e747692a-9b16-44e7-96ab-9085d7b3fb85",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/projects/e747692a-9b16-44e7-96ab-9085d7b3fb85"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Лаборатория биомолекулярного ядерного магнитного резонанса: 2022 г. этап 10"
+        } ]
+      },
+      "type" : {
+        "pureId" : 34794403,
+        "uri" : "/dk/atira/pure/upmproject/upmprojecttypes/upmproject/grantfulfilment/grant_stage_fulfilment",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Grant stage fulfilment"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "исполнение этапа гранта/договора"
+          } ]
+        }
+      }
+    } ],
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 88545571,
+      "person" : {
+        "uuid" : "65f19347-97c3-4ae0-92aa-4aa9f826b440",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/65f19347-97c3-4ae0-92aa-4aa9f826b440"
+        },
+        "externalId" : "50068213",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Олег Владимирович Михайловский"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Олег Владимирович",
+        "lastName" : "Михайловский"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 88545573,
+      "externalPerson" : {
+        "uuid" : "dd7c6f40-557e-4e34-a2a5-f28e56e769cf",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/external-persons/dd7c6f40-557e-4e34-a2a5-f28e56e769cf"
+        },
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Yi Xue"
+          } ]
+        },
+        "type" : {
+          "pureId" : 16827,
+          "uri" : "/dk/atira/pure/externalperson/externalpersontypes/externalperson/externalperson",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "External person"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Внешнее лицо"
+            } ]
+          }
+        }
+      },
+      "name" : {
+        "firstName" : "Yi",
+        "lastName" : "Xue"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "externalOrganisations" : [ {
+        "uuid" : "303161cc-38f8-4595-ae43-63bb5e891798",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/external-organisations/303161cc-38f8-4595-ae43-63bb5e891798"
+        },
+        "externalId" : "Tsinghua University",
+        "externalIdSource" : "researchoutputwizard",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Tsinghua University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Tsinghua University"
+          } ]
+        },
+        "type" : {
+          "pureId" : 16804,
+          "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "University"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "университет"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "f7ae7624-6234-4b94-9036-5890c5e1db41",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/external-organisations/f7ae7624-6234-4b94-9036-5890c5e1db41"
+        },
+        "externalId" : "Purdue University",
+        "externalIdSource" : "researchoutputwizard",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Purdue University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Purdue University"
+          } ]
+        },
+        "type" : {
+          "pureId" : 16804,
+          "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "University"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "университет"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 88545574,
+      "externalPerson" : {
+        "uuid" : "3f1a443f-8066-4c0f-a7a6-ba9babd99123",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/external-persons/3f1a443f-8066-4c0f-a7a6-ba9babd99123"
+        },
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Zongchao Jia"
+          } ]
+        },
+        "type" : {
+          "pureId" : 16827,
+          "uri" : "/dk/atira/pure/externalperson/externalpersontypes/externalperson/externalperson",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "External person"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Внешнее лицо"
+            } ]
+          }
+        }
+      },
+      "name" : {
+        "firstName" : "Zongchao",
+        "lastName" : "Jia"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "externalOrganisations" : [ {
+        "uuid" : "9cc4ebc4-6042-48a2-a371-57f0624600fd",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/external-organisations/9cc4ebc4-6042-48a2-a371-57f0624600fd"
+        },
+        "externalId" : "Queen's University",
+        "externalIdSource" : "researchoutputwizard",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Queen’s University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Queen's University"
+          } ]
+        },
+        "type" : {
+          "pureId" : 16804,
+          "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "University"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "университет"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 88545575,
+      "person" : {
+        "uuid" : "60c1b53f-d5f9-41c1-8ed2-1899dd46460e",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/60c1b53f-d5f9-41c1-8ed2-1899dd46460e"
+        },
+        "externalId" : "50104802",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Николай Русланович Скрынников"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Николай Русланович",
+        "lastName" : "Скрынников"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "documents" : [ {
+      "pureId" : 95124093,
+      "title" : "7q3v.cif",
+      "url" : "https://pure.spbu.ru/ws/files/95124093/7q3v.cif",
+      "visibleOnPortalDate" : "2022-05-23T12:00:00.000+03:00",
+      "creator" : "st900340",
+      "created" : "2022-05-23T13:17:56.041+0300",
+      "documentType" : {
+        "pureId" : 11322,
+        "uri" : "/dk/atira/pure/dataset/documents/text",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Text"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текст"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      }
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+      },
+      "externalId" : "50104715",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Laboratory of Biomolecular NMR"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Научная лаборатория биомолекулярного ЯМР"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    } ],
+    "relatedResearchOutputs" : [ {
+      "uuid" : "72a2f9e0-39f3-43e8-83ae-95b1ff97cb7c",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/research-outputs/72a2f9e0-39f3-43e8-83ae-95b1ff97cb7c"
+      },
+      "externalId" : "85122728918",
+      "externalIdSource" : "Scopus",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Modeling a unit cell: crystallographic refinement procedure using the biomolecular MD simulation platform Amber"
+        } ]
+      },
+      "type" : {
+        "pureId" : 3973,
+        "uri" : "/dk/atira/pure/researchoutput/researchoutputtypes/contributiontojournal/article",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Article"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "статья"
+          } ]
+        }
+      }
+    } ],
+    "links" : [ {
+      "pureId" : 95124475,
+      "url" : "https://www.rcsb.org/structure/7Q3V"
+    } ]
+  }, {
+    "pureId" : 91879188,
+    "uuid" : "f0472f37-ddd7-450a-bb3a-b0bf5007d920",
+    "managingOrganisationalUnit" : {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "9bffcfa9-1e8a-473b-90a3-c5f05e60cb67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/9bffcfa9-1e8a-473b-90a3-c5f05e60cb67"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Marine Geoscience Data System (MGDS)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.26022/IEDA/329892",
+    "publicationDate" : {
+      "year" : 2020
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st900725",
+      "createdDate" : "2022-01-24T18:19:50.004+0300",
+      "modifiedBy" : "st900725",
+      "modifiedDate" : "2022-01-24T18:19:50.004+0300",
+      "prettyURLIdentifiers" : [ "eurasia-north-america-chrons-1-6-plate-reconstruction-data-arctic" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Eurasia-North America Chrons 1-6 plate reconstruction data: Arctic and north Atlantic basins"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 91879191,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "dentifications of magnetic reversals from Anomaly 1 (0.78 Ma) to Anomaly 6 (~20 Ma) from a wide range of shipboard and airborne magnetic data from the Arctic Basin and northern Atlantic spreading centers are embedded in a text file along with fracture zone (and transform fault) traces that were digitized from best-available bathymetric and satellite gravity data. These include all the data that were used to estimate the high-resolution Eurasia-North America plate rotation sequence described by Merkouriev and DeMets (2014). A detailed description of the file contents is found at the start of the file. The data file is in ASCII text format and was generated as part of a project called Toward an understanding of Neogene plate dynamics: Completion of a high-resolution, closure-enforced chronology of global plate motions since 20 Ma. Funding was provided through NSF award OCE14-33323 and Russian Foundation grant 05-04-64297."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6181,
+        "uri" : "/dk/atira/pure/dataset/descriptions/datasetdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 91879193,
+      "person" : {
+        "uuid" : "539a26a6-3cdf-4ef9-9de1-30590ddab819",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/539a26a6-3cdf-4ef9-9de1-30590ddab819"
+        },
+        "externalId" : "50101599",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Сергей Александрович Меркурьев"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Сергей Александрович",
+        "lastName" : "Меркурьев"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+        },
+        "externalId" : "50107800",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Geophysics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра геофизики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 91879262,
+    "uuid" : "b2bd5463-6207-4b12-a706-c9314db5e467",
+    "managingOrganisationalUnit" : {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "9bffcfa9-1e8a-473b-90a3-c5f05e60cb67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/9bffcfa9-1e8a-473b-90a3-c5f05e60cb67"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Marine Geoscience Data System (MGDS)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.26022/IEDA/329893",
+    "publicationDate" : {
+      "year" : 2020
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st900725",
+      "createdDate" : "2022-01-24T18:24:02.078+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-01-25T11:32:59.722+0300",
+      "prettyURLIdentifiers" : [ "nubia-north-america-chrons-1-6-plate-reconstruction-data-northern" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : " Nubia-North America Chrons 1-6 plate reconstruction data: Northern Atlantic basin"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 91879265,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Identifications of magnetic reversals from Anomaly 1 (0.78 Ma) to Anomaly 6 (~20 Ma) from a wide range of shipboard and airborne magnetic data from the Nubia-North America portion of the Mid-Atlantic Ridge are embedded in a text file along with fracture zone (and transform fault) traces that were digitized from best-available bathymetric and satellite gravity data. These include all the data that were used to estimate the high-resolution Nubia-North America plate rotation sequence described by Merkouriev and DeMets (2013). A detailed description of the file contents is found at the start of the file. The data file is in ASCII text format and was generated as part of a project called Closing the global plate circuit: High-resolution reconstructions of African plate motion from 0 to 20 Ma. Funding was provided through NSF award OCE09-26274 and Russian Foundation grant 05-04-64297."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6181,
+        "uri" : "/dk/atira/pure/dataset/descriptions/datasetdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 91879267,
+      "person" : {
+        "uuid" : "539a26a6-3cdf-4ef9-9de1-30590ddab819",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/539a26a6-3cdf-4ef9-9de1-30590ddab819"
+        },
+        "externalId" : "50101599",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Сергей Александрович Меркурьев"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Сергей Александрович",
+        "lastName" : "Меркурьев"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+        },
+        "externalId" : "50107800",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Geophysics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра геофизики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "relatedStudentTheses" : [ {
+      "uuid" : "3a30b228-9e03-4bbc-83ff-9c72ff7ddaed",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/student-theses/3a30b228-9e03-4bbc-83ff-9c72ff7ddaed"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Лингвокультурологическое описание русских устойчивых сравнений с компонентом-зоонимом (на фоне китайского языка)  "
+        } ]
+      },
+      "type" : {
+        "pureId" : 2890,
+        "uri" : "/dk/atira/pure/studentthesis/studentthesistypes/studentthesis/doc",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Doctoral Thesis (Ph.D.)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кандидатская диссертация"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 91879484,
+    "uuid" : "563ce59b-491c-4796-901d-6de6cb270975",
+    "managingOrganisationalUnit" : {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "9bffcfa9-1e8a-473b-90a3-c5f05e60cb67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/9bffcfa9-1e8a-473b-90a3-c5f05e60cb67"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Marine Geoscience Data System (MGDS)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.26022/IEDA/329894",
+    "publicationDate" : {
+      "year" : 2020
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st900725",
+      "createdDate" : "2022-01-24T18:29:31.810+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-01-25T11:33:00.338+0300",
+      "prettyURLIdentifiers" : [ "nubia-south-america-chrons-1-13-plate-reconstruction-data-central" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Nubia-South America Chrons 1-13 plate reconstruction data: Central and southern Atlantic basin"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 91879487,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Identifications of magnetic reversals from Anomaly 1 (0.78 Ma) to Anomaly 13 (~34 Ma) from a wide range of shipboard and airborne magnetic data from the central and southern Mid-Atlantic Ridge are embedded in a text file along with fracture zone (and transform fault) traces that were digitized from best-available bathymetric and satellite gravity data. These include all the data that were used to estimate the high-resolution Nubia-South America plate rotation sequence described by Merkouriev and DeMets (2019). A detailed description of the file contents is found at the start of the file. The data file is in ASCII text format and was generated as part of a project called Toward an understanding of Neogene plate dynamics: Completion of a high-resolution, closure-enforced chronology of global plate motions since 20 Ma. Funding was provided through NSF award OCE14-33323 and Russian Foundation grant 05-04-64297."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6181,
+        "uri" : "/dk/atira/pure/dataset/descriptions/datasetdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 91879489,
+      "person" : {
+        "uuid" : "539a26a6-3cdf-4ef9-9de1-30590ddab819",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/539a26a6-3cdf-4ef9-9de1-30590ddab819"
+        },
+        "externalId" : "50101599",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Сергей Александрович Меркурьев"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Сергей Александрович",
+        "lastName" : "Меркурьев"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+        },
+        "externalId" : "50107800",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Geophysics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра геофизики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 91879574,
+    "uuid" : "48e1ca59-93a5-46b9-bb33-3e0ef5a329f0",
+    "managingOrganisationalUnit" : {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "9bffcfa9-1e8a-473b-90a3-c5f05e60cb67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/9bffcfa9-1e8a-473b-90a3-c5f05e60cb67"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Marine Geoscience Data System (MGDS)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.26022/IEDA/329895",
+    "publicationDate" : {
+      "year" : 2020
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st900725",
+      "createdDate" : "2022-01-24T18:32:11.271+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-01-25T11:33:00.694+0300",
+      "prettyURLIdentifiers" : [ "india-somalia-chrons-1-6-plate-reconstruction-data-northern-india" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "India-Somalia Chrons 1-6 plate reconstruction data: northern Indian Ocean"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 91879577,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Identifications of magnetic reversals from Anomaly 1 (0.78 Ma) to Anomaly 6 (~20 Ma) from a wide range of shipboard and airborne magnetic data from the India-Somalia portion of the Carlsberg Ridge and Central Indian Ridge are embedded in a text file along with fracture zone (and transform fault) traces that were digitized from best-available bathymetric and satellite gravity data. These include all the data that were used to estimate the high-resolution India-Somalia plate rotation sequence described by DeMets et al. (2020). A detailed description of the file contents is found at the start of the file. The data file is in ASCII text format and was generated as part of a project called Toward an understanding of Neogene plate dynamics: Completion of a high-resolution, closure-enforced chronology of global plate motions since 20 Ma. Funding was provided through NSF award OCE14-33323 and Russian Foundation grant 05-04-64297."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6181,
+        "uri" : "/dk/atira/pure/dataset/descriptions/datasetdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 91879579,
+      "person" : {
+        "uuid" : "539a26a6-3cdf-4ef9-9de1-30590ddab819",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/539a26a6-3cdf-4ef9-9de1-30590ddab819"
+        },
+        "externalId" : "50101599",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Сергей Александрович Меркурьев"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Сергей Александрович",
+        "lastName" : "Меркурьев"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+        },
+        "externalId" : "50107800",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Geophysics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра геофизики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 91879627,
+    "uuid" : "cf56eee3-2d1d-4de2-86f2-c1cb15ba184c",
+    "managingOrganisationalUnit" : {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "9bffcfa9-1e8a-473b-90a3-c5f05e60cb67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/9bffcfa9-1e8a-473b-90a3-c5f05e60cb67"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Marine Geoscience Data System (MGDS)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.26022/IEDA/329896",
+    "publicationDate" : {
+      "year" : 2020
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st900725",
+      "createdDate" : "2022-01-24T18:34:47.488+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-01-25T11:33:01.058+0300",
+      "prettyURLIdentifiers" : [ "southwest-indian-ridge-chrons-1-6-plate-reconstruction-data-south" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Southwest Indian Ridge Chrons 1-6 plate reconstruction data: Southern ocean basin"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 91879630,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Identifications of magnetic reversals from Anomaly 1 (0.78 Ma) to Anomaly 6 (~20 Ma) from a wide range of shipboard and airborne magnetic data from the Southwest Indian Ridge are embedded in three text files with fracture zone and transform fault traces that were digitized from best-available bathymetric and satellite gravity data. These include all the data that were used to estimate the high-resolution rotation sequences for the Nubia, Lwandle, and Somalia plates relative to Antarctica described by DeMets et al. (2015). Detailed descriptions of the file contents are found at the starts of all three files. The data file is in ASCII text format and was generated as part of a project called Toward an understanding of Neogene plate dynamics: Completion of a high-resolution, closure-enforced chronology of global plate motions since 20 Ma. Funding was provided through NSF award OCE14-33323 and Russian Foundation grant 05-04-64297."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6181,
+        "uri" : "/dk/atira/pure/dataset/descriptions/datasetdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 91879632,
+      "person" : {
+        "uuid" : "539a26a6-3cdf-4ef9-9de1-30590ddab819",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/539a26a6-3cdf-4ef9-9de1-30590ddab819"
+        },
+        "externalId" : "50101599",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Сергей Александрович Меркурьев"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Сергей Александрович",
+        "lastName" : "Меркурьев"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+        },
+        "externalId" : "50107800",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Geophysics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра геофизики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 93883848,
+    "uuid" : "46bf17de-66c1-47ef-997e-eb9fff640fcb",
+    "dataProductionPeriod" : {
+      "startDate" : {
+        "year" : 2022
+      },
+      "endDate" : {
+        "year" : 2022
+      }
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "476e44ab-9ac2-4779-9f63-9b5ebf64ea67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/476e44ab-9ac2-4779-9f63-9b5ebf64ea67"
+      },
+      "externalId" : "50018306",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Physics of Earth"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра физики Земли"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "1b1b8890-2cce-4f78-a8e8-2720def339ff",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/1b1b8890-2cce-4f78-a8e8-2720def339ff"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Mendeley"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.17632/n3hrnxwmv8.1",
+    "publicationDate" : {
+      "year" : 2022
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st004367",
+      "createdDate" : "2022-04-01T21:23:50.502+0300",
+      "modifiedBy" : "st004367",
+      "modifiedDate" : "2022-04-01T21:23:50.502+0300",
+      "prettyURLIdentifiers" : [ "epma-data-for-obtaining-artificial-analogues-of-impact-glasses-by" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "EPMA Data for Obtaining artificial analogues of impact glasses by high-temperature melting"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "openAccessPermission" : {
+      "pureId" : 6179259,
+      "uri" : "/dk/atira/pure/dataset/accesspermission/open",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Open"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Открыто"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 93883853,
+      "person" : {
+        "uuid" : "beb129e4-4429-42fd-81ae-d052933007d8",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/beb129e4-4429-42fd-81ae-d052933007d8"
+        },
+        "externalId" : "50022272",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Елена Сергеевна Сергиенко"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Елена Сергеевна",
+        "lastName" : "Сергиенко"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "476e44ab-9ac2-4779-9f63-9b5ebf64ea67",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/476e44ab-9ac2-4779-9f63-9b5ebf64ea67"
+        },
+        "externalId" : "50018306",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Physics of Earth"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра физики Земли"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "476e44ab-9ac2-4779-9f63-9b5ebf64ea67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/476e44ab-9ac2-4779-9f63-9b5ebf64ea67"
+      },
+      "externalId" : "50018306",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Physics of Earth"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра физики Земли"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 93883876,
+    "uuid" : "3753205a-a7cc-4f8e-8552-9ab645ece0d2",
+    "dataProductionPeriod" : {
+      "startDate" : {
+        "year" : 2022
+      },
+      "endDate" : {
+        "year" : 2022
+      }
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "476e44ab-9ac2-4779-9f63-9b5ebf64ea67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/476e44ab-9ac2-4779-9f63-9b5ebf64ea67"
+      },
+      "externalId" : "50018306",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Physics of Earth"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра физики Земли"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "1b1b8890-2cce-4f78-a8e8-2720def339ff",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/1b1b8890-2cce-4f78-a8e8-2720def339ff"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Mendeley"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.17632/dwxyww6c6b.1",
+    "publicationDate" : {
+      "year" : 2022
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st004367",
+      "createdDate" : "2022-04-01T21:25:49.572+0300",
+      "modifiedBy" : "st004367",
+      "modifiedDate" : "2022-04-01T21:25:49.572+0300",
+      "prettyURLIdentifiers" : [ "x-ray-fluorescent-data-for-obtaining-artificial-analogues-of-impa" ]
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "X-ray fluorescent data for Obtaining artificial analogues of impact glasses by high-temperature melting"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "openAccessPermission" : {
+      "pureId" : 6179259,
+      "uri" : "/dk/atira/pure/dataset/accesspermission/open",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Open"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Открыто"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 93883881,
+      "person" : {
+        "uuid" : "beb129e4-4429-42fd-81ae-d052933007d8",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/beb129e4-4429-42fd-81ae-d052933007d8"
+        },
+        "externalId" : "50022272",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Елена Сергеевна Сергиенко"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Елена Сергеевна",
+        "lastName" : "Сергиенко"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "476e44ab-9ac2-4779-9f63-9b5ebf64ea67",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/476e44ab-9ac2-4779-9f63-9b5ebf64ea67"
+        },
+        "externalId" : "50018306",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Physics of Earth"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра физики Земли"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "476e44ab-9ac2-4779-9f63-9b5ebf64ea67",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/476e44ab-9ac2-4779-9f63-9b5ebf64ea67"
+      },
+      "externalId" : "50018306",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Physics of Earth"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра физики Земли"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 99751522,
+    "uuid" : "67f1b68a-0ad9-4876-8d4b-7a02fef96553",
+    "dataProductionPeriod" : {
+      "startDate" : {
+        "year" : 2022
+      },
+      "endDate" : {
+        "year" : 2022
+      }
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+      },
+      "externalId" : "50104715",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Laboratory of Biomolecular NMR"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Научная лаборатория биомолекулярного ЯМР"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "d741562d-70ab-41a9-8b96-e5b035b43218",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/d741562d-70ab-41a9-8b96-e5b035b43218"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "ZENODO"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.5281/zenodo.6824283",
+    "publicationDate" : {
+      "year" : 2022
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st900340",
+      "createdDate" : "2022-10-28T14:02:28.019+0300",
+      "modifiedBy" : "st900340",
+      "modifiedDate" : "2022-10-28T14:02:28.019+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "matlab-scripts-for-JMR"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "openAccessPermission" : {
+      "pureId" : 6179259,
+      "uri" : "/dk/atira/pure/dataset/accesspermission/open",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Open"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Открыто"
+        } ]
+      }
+    },
+    "relatedProjects" : [ {
+      "uuid" : "e747692a-9b16-44e7-96ab-9085d7b3fb85",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/projects/e747692a-9b16-44e7-96ab-9085d7b3fb85"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Лаборатория биомолекулярного ядерного магнитного резонанса: 2022 г. этап 10"
+        } ]
+      },
+      "type" : {
+        "pureId" : 34794403,
+        "uri" : "/dk/atira/pure/upmproject/upmprojecttypes/upmproject/grantfulfilment/grant_stage_fulfilment",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Grant stage fulfilment"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "исполнение этапа гранта/договора"
+          } ]
+        }
+      }
+    } ],
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 99751528,
+      "person" : {
+        "uuid" : "a60abef1-f175-4d2e-ad6f-434c45175c45",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/a60abef1-f175-4d2e-ad6f-434c45175c45"
+        },
+        "externalId" : "50105575",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Иван Сергеевич Подкорытов"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Иван Сергеевич",
+        "lastName" : "Подкорытов"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 99751530,
+      "person" : {
+        "uuid" : "60c1b53f-d5f9-41c1-8ed2-1899dd46460e",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/60c1b53f-d5f9-41c1-8ed2-1899dd46460e"
+        },
+        "externalId" : "50104802",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Николай Русланович Скрынников"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Николай Русланович",
+        "lastName" : "Скрынников"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+      },
+      "externalId" : "50104715",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Laboratory of Biomolecular NMR"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Научная лаборатория биомолекулярного ЯМР"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    } ],
+    "relatedStudentTheses" : [ {
+      "uuid" : "496a40b3-152e-47b2-b338-a04d0a6a1834",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/student-theses/496a40b3-152e-47b2-b338-a04d0a6a1834"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "«   1. Соискатель: Фу Ямэй СИНОНИМИЧЕСКИЕ РЯДЫ РУССКИХ ГЛАГОЛОВ РЕЧЕВОГО ВОЗДЕЙСТВИЯ  С ДОМИНАНТАМИ ХВАЛИТЬ  РУГАТЬ НА ФОНЕ КИТАЙСКОГО  ЯЗЫКА::ФУНКЦИОНАЛЬНО-СЕМАНТИЧЕСКИЙ АСПЕКТ."
+        } ]
+      },
+      "type" : {
+        "pureId" : 2890,
+        "uri" : "/dk/atira/pure/studentthesis/studentthesistypes/studentthesis/doc",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Doctoral Thesis (Ph.D.)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кандидатская диссертация"
+          } ]
+        }
+      }
+    } ],
+    "links" : [ {
+      "pureId" : 99751526,
+      "url" : "https://zenodo.org/record/6824283#.Y1u1YnZByUk"
+    } ]
+  }, {
+    "pureId" : 100133950,
+    "uuid" : "907e45e1-5a87-4fca-9a35-3ba1b6bdbbc0",
+    "temporalCoveragePeriod" : {
+      "startDate" : {
+        "year" : 2022,
+        "month" : 5,
+        "day" : 14
+      },
+      "endDate" : {
+        "year" : 2022,
+        "month" : 11,
+        "day" : 25
+      }
+    },
+    "dataProductionPeriod" : {
+      "startDate" : {
+        "year" : 2022,
+        "month" : 5,
+        "day" : 14
+      },
+      "endDate" : {
+        "year" : 2022,
+        "month" : 11,
+        "day" : 25
+      }
+    },
+    "managingOrganisationalUnit" : {
+      "uuid" : "09d36cea-d784-4e2c-a032-9a6aa51515d9",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/09d36cea-d784-4e2c-a032-9a6aa51515d9"
+      },
+      "externalId" : "50000018",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Management and Planning of Socio-Economic Processes"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра управления и планирования социально-экономических процессов"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "3e72311e-3d85-451a-8891-1c0310842cef",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/3e72311e-3d85-451a-8891-1c0310842cef"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Фонд содействия развитию малых форм предприятий в научно-технической̆ сфере"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "publicationDate" : {
+      "year" : 2022,
+      "month" : 11,
+      "day" : 25
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st003006",
+      "createdDate" : "2022-11-14T22:08:30.045+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2023-06-28T10:23:09.214+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Договор No597ГРНТИС5/63423 с ФГБУ «Фонд содействия развитию малых форм предприятий в научно-технической̆ сфере» «О предоставлении гранта на проведение научно-исследовательских и опытно-конструкторских работ  на тему «Разработка цифровой платформы реализации hi-tech проектов полного жизненного цикла: совокупности приложений и ресурсов, направленных на обеспечение взаимодействия высокотехнологичных предприятий и проектных команд школьников в цифровой среде». "
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "geographicalCoverage" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Санкт-Петербург"
+      } ]
+    },
+    "openAccessPermission" : {
+      "pureId" : 6179261,
+      "uri" : "/dk/atira/pure/dataset/accesspermission/closed",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Closed"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Закрыто"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 100133952,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Этап 4. «Разработка предварительноӗ версии продукта (Release candidate). Наполнение Базы Данных, поэтапное наполнение информационным контентом. Подключение пользователей̆ (образовательных организаций, школьников, представителей̆ бизнеса. Устранение ошибок, возникающих в процессе использования. Корректировка пользовательского интерфейса»."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6181,
+        "uri" : "/dk/atira/pure/dataset/descriptions/datasetdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 100133955,
+      "person" : {
+        "uuid" : "e9899e1c-72b3-4e35-93b7-8e27f286fb2d",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/e9899e1c-72b3-4e35-93b7-8e27f286fb2d"
+        },
+        "externalId" : "50005914",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Валентина Петровна Кайсарова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Валентина Петровна",
+        "lastName" : "Кайсарова"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "09d36cea-d784-4e2c-a032-9a6aa51515d9",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/09d36cea-d784-4e2c-a032-9a6aa51515d9"
+        },
+        "externalId" : "50000018",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Management and Planning of Socio-Economic Processes"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра управления и планирования социально-экономических процессов"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "documents" : [ {
+      "pureId" : 100133953,
+      "title" : "_2022_14_11.pdf",
+      "url" : "https://pure.spbu.ru/ws/files/100133953/_2022_14_11.pdf",
+      "creator" : "st003006",
+      "created" : "2022-11-14T22:08:30.044+0300",
+      "documentType" : {
+        "pureId" : 11304,
+        "uri" : "/dk/atira/pure/dataset/documents/audiovisual",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Audiovisual"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Аудиовизуальные"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      }
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "09d36cea-d784-4e2c-a032-9a6aa51515d9",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/09d36cea-d784-4e2c-a032-9a6aa51515d9"
+      },
+      "externalId" : "50000018",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Management and Planning of Socio-Economic Processes"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра управления и планирования социально-экономических процессов"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "externalOrganisations" : [ {
+      "uuid" : "4f8c1e58-4193-4ca0-99d4-d13711c6ff98",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/4f8c1e58-4193-4ca0-99d4-d13711c6ff98"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "ООО «АБ ИнтехСистемы» "
+        } ]
+      },
+      "type" : {
+        "pureId" : 16813,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/company",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Company"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "компания"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 114281721,
+    "uuid" : "ddf022cc-7c64-465f-8355-177b79382e18",
+    "managingOrganisationalUnit" : {
+      "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+      },
+      "externalId" : "50104715",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Laboratory of Biomolecular NMR"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Научная лаборатория биомолекулярного ЯМР"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    },
+    "publisher" : {
+      "uuid" : "5d1aa9f0-203e-4d02-bac6-4ed9548ff72a",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/publishers/5d1aa9f0-203e-4d02-bac6-4ed9548ff72a"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "value" : "Protein Data Bank"
+        } ]
+      },
+      "type" : {
+        "pureId" : 1088,
+        "uri" : "/dk/atira/pure/publisher/publishertypes/publisher/publisher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Publisher"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Издатель"
+          } ]
+        }
+      }
+    },
+    "doi" : "10.2210/pdb8C3E/pdb",
+    "publicationDate" : {
+      "year" : 2023
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st900340",
+      "createdDate" : "2023-11-23T21:46:00.972+0300",
+      "modifiedBy" : "st900340",
+      "modifiedDate" : "2023-11-24T12:31:37.704+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Engineered mini-protein LCB2 (blocking ligand of SARS-Cov-2 spike protein)"
+      } ]
+    },
+    "type" : {
+      "pureId" : 6175,
+      "uri" : "/dk/atira/pure/dataset/datasettypes/dataset/dataset",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Dataset"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Набор данных"
+        } ]
+      }
+    },
+    "openAccessPermission" : {
+      "pureId" : 6179259,
+      "uri" : "/dk/atira/pure/dataset/accesspermission/open",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Open"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Открыто"
+        } ]
+      }
+    },
+    "relatedProjects" : [ {
+      "uuid" : "7ec4d239-d285-4ad8-ab22-7e39078243bb",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/projects/7ec4d239-d285-4ad8-ab22-7e39078243bb"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Лаборатория биомолекулярного ядерного магнитного резонанса: 2023 г. этап 11"
+        } ]
+      },
+      "type" : {
+        "pureId" : 34794403,
+        "uri" : "/dk/atira/pure/upmproject/upmprojecttypes/upmproject/grantfulfilment/grant_stage_fulfilment",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Grant stage fulfilment"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "исполнение этапа гранта/договора"
+          } ]
+        }
+      }
+    } ],
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 114281729,
+      "person" : {
+        "uuid" : "c9baedf9-10ef-4436-83e3-de17835cc096",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/c9baedf9-10ef-4436-83e3-de17835cc096"
+        },
+        "externalId" : "7962",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Светлана Андреевна Корбан"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Светлана Андреевна",
+        "lastName" : "Корбан"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114281731,
+      "person" : {
+        "uuid" : "65f19347-97c3-4ae0-92aa-4aa9f826b440",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/65f19347-97c3-4ae0-92aa-4aa9f826b440"
+        },
+        "externalId" : "50068213",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Олег Владимирович Михайловский"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Олег Владимирович",
+        "lastName" : "Михайловский"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 114281732,
+      "person" : {
+        "uuid" : "7a9d9f36-d604-40b4-834b-4882f9dca26a",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/7a9d9f36-d604-40b4-834b-4882f9dca26a"
+        },
+        "externalId" : "50124022",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Дмитрий Александрович Лузик"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Дмитрий Александрович",
+        "lastName" : "Лузик"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114281734,
+      "person" : {
+        "uuid" : "59acb23b-5800-4866-9ce4-c7f7670659c5",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/59acb23b-5800-4866-9ce4-c7f7670659c5"
+        },
+        "externalId" : "50006613",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Владислав Владимирович Гуржий"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Владислав Владимирович",
+        "lastName" : "Гуржий"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "3a401bf0-3be5-44e1-8918-27d6a07ba495",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/3a401bf0-3be5-44e1-8918-27d6a07ba495"
+        },
+        "externalId" : "50107856",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Crystallography"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра кристаллографии"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114281736,
+      "person" : {
+        "uuid" : "a3190164-a8c0-4e5c-a07d-aa0f9f363ac8",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/a3190164-a8c0-4e5c-a07d-aa0f9f363ac8"
+        },
+        "externalId" : "S-80A7C583-D5AD-4481-BC5E-F6B755A32A32",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Александра Денисовна Лёвкина"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Александра Денисовна",
+        "lastName" : "Лёвкина"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "20666bdf-5e64-4196-8f67-b847c46328cd",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/20666bdf-5e64-4196-8f67-b847c46328cd"
+        },
+        "externalId" : "BM55112023",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "BM.5511.2023 Physics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "BM.5511.2023 Физика"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114281739,
+      "person" : {
+        "uuid" : "955cc03c-406f-4f5e-a3ce-45ed61d32a19",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/955cc03c-406f-4f5e-a3ce-45ed61d32a19"
+        },
+        "externalId" : "1480",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Борис Борисович Харьков"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Борис Борисович",
+        "lastName" : "Харьков"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114281741,
+      "person" : {
+        "uuid" : "60c1b53f-d5f9-41c1-8ed2-1899dd46460e",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/60c1b53f-d5f9-41c1-8ed2-1899dd46460e"
+        },
+        "externalId" : "50104802",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Николай Русланович Скрынников"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Николай Русланович",
+        "lastName" : "Скрынников"
+      },
+      "personRole" : {
+        "pureId" : 6191,
+        "uri" : "/dk/atira/pure/dataset/roles/dataset/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+        },
+        "externalId" : "50104715",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Laboratory of Biomolecular NMR"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научная лаборатория биомолекулярного ЯМР"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "documents" : [ {
+      "pureId" : 114303307,
+      "title" : "8c3e.cif",
+      "url" : "https://pure.spbu.ru/ws/files/114303307/8c3e.cif",
+      "visibleOnPortalDate" : "2023-11-24T12:00:00.000+03:00",
+      "creator" : "st900340",
+      "created" : "2023-11-24T12:31:37.534+0300",
+      "documentType" : {
+        "pureId" : 11322,
+        "uri" : "/dk/atira/pure/dataset/documents/text",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Text"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текст"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      }
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "7219b566-7b7b-4a4c-ac7a-3fd7619bb287",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/7219b566-7b7b-4a4c-ac7a-3fd7619bb287"
+      },
+      "externalId" : "50104715",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Laboratory of Biomolecular NMR"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Научная лаборатория биомолекулярного ЯМР"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "3a401bf0-3be5-44e1-8918-27d6a07ba495",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/3a401bf0-3be5-44e1-8918-27d6a07ba495"
+      },
+      "externalId" : "50107856",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Crystallography"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра кристаллографии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "20666bdf-5e64-4196-8f67-b847c46328cd",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/20666bdf-5e64-4196-8f67-b847c46328cd"
+      },
+      "externalId" : "BM55112023",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "BM.5511.2023 Physics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "BM.5511.2023 Физика"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    } ],
+    "links" : [ {
+      "pureId" : 114281725,
+      "url" : "https://www.rcsb.org/structure/8C3E"
+    } ]
+  } ]
+}
