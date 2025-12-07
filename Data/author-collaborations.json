@@ -1,0 +1,6189 @@
+{
+  "count" : 167,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 1000
+  },
+  "items" : [ {
+    "pureId" : 19237472,
+    "uuid" : "d7849fdc-2a62-4a20-9e7c-376c0c67b20f",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:44:51.086+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T11:27:36.233+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ALICE Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "ALICE Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "(ALICE Collaboration)", "The ALICE collaboration", "(A Large Ion Collider Experiment Collaboration)", "A Large Ion Collider Experiment Collaboration" ],
+    "classifiedSources" : [ {
+      "pureId" : 48530245,
+      "value" : {
+        "formatted" : false,
+        "value" : "56397081000"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19237568,
+    "uuid" : "9ae1f551-4748-48ed-964f-fea29db337a7",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:44:51.115+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:51:08.018+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "VERITAS Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "VERITAS Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 19237792,
+    "uuid" : "abc0a40a-e7ce-4818-b593-b5e736414ec9",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:44:51.622+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-03T13:58:27.655+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "GASP-WEBT Consortium"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "GASP-WEBT Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 19238380,
+    "uuid" : "99dde7e4-067e-4b12-8b30-6f1e61d0a76a",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:44:52.227+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-05T15:55:27.048+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "NIMH Research group "
+      }, {
+        "locale" : "ru_RU",
+        "value" : "NIMH Research group "
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 19238658,
+    "uuid" : "5eb2d9fd-e545-4df7-8824-ae2bcae0f0af",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:44:52.742+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-05T16:39:27.688+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "AGILE Team"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "AGILE Team"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 19239188,
+    "uuid" : "5ec1f37b-fccb-4ca6-9a80-f1223418c224",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:44:53.315+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:49:43.983+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "BOB Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "BOB Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 19239544,
+    "uuid" : "a3e89af0-bfb1-469d-a517-a00bc2a9f6c6",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:44:53.845+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:50:28.399+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Fermi-LAT Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Fermi-LAT Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "for the Fermi-LAT Collaboration" ]
+  }, {
+    "pureId" : 19239886,
+    "uuid" : "21d5fdde-1175-4892-b21f-766f0e52946a",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:44:54.320+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-02-16T23:33:36.387+0300",
+      "previousUuids" : [ "7e905f0a-edee-4a15-9197-3f241779874e" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "NIMH Collaborative HIV/STD Prevention Trial Group"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "NIMH Collaborative HIV/STD Prevention Trial Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "The Nimh Collaborative Hiv/Std Prevention Trial Group" ]
+  }, {
+    "pureId" : 19243129,
+    "uuid" : "034bf076-8b97-4c07-9f4b-0faa5c71abaa",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.528+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:27:28.241+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ATLAS collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "ATLAS collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "The Atlas Collaboration" ],
+    "classifiedSources" : [ {
+      "pureId" : 19243131,
+      "value" : {
+        "formatted" : false,
+        "value" : "36945086700"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 19243132,
+      "value" : {
+        "formatted" : false,
+        "value" : "55849449300"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 19243133,
+      "value" : {
+        "formatted" : false,
+        "value" : "56463039300"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243134,
+    "uuid" : "55ee4e60-2463-4b10-af2c-02ef0833ef18",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.529+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.529+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ATLAS Publications"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "ATLAS Publications"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243136,
+      "value" : {
+        "formatted" : false,
+        "value" : "56884813200"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243137,
+    "uuid" : "52bf9a36-38f2-4dd6-b5e4-2d8b876e5bdb",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.530+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.530+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The CMS collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The CMS collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243139,
+      "value" : {
+        "formatted" : false,
+        "value" : "54415475800"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243140,
+    "uuid" : "6ce05e93-1c22-4c20-8f7a-01654729a980",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.530+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.530+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "HADES Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "HADES Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243142,
+      "value" : {
+        "formatted" : false,
+        "value" : "56940974200"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243143,
+    "uuid" : "47ee0ca8-0e44-482a-8e67-f220feb2eaeb",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.533+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.533+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The NA62 Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The NA62 Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243145,
+      "value" : {
+        "formatted" : false,
+        "value" : "57193440460"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243146,
+    "uuid" : "8ee9006a-403b-494b-91e4-6ee03dccf148",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.533+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.533+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "GERDA collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "GERDA collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243148,
+      "value" : {
+        "formatted" : false,
+        "value" : "56242745200"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243149,
+    "uuid" : "f717bd9c-6f06-4971-9b82-a45e9a759f19",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.534+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.534+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The LUX-ZEPLIN (LZ) Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The LUX-ZEPLIN (LZ) Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243151,
+      "value" : {
+        "formatted" : false,
+        "value" : "57196038284"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243152,
+    "uuid" : "686b132f-cecf-46b5-9999-1e6c4f35c26b",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.535+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.535+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Fermi Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Fermi Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243154,
+      "value" : {
+        "formatted" : false,
+        "value" : "57193162086"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243155,
+    "uuid" : "4d1de9fd-f5c2-4dfe-bef7-45e806c9fcf2",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.535+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.535+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The LHCb collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The LHCb collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243157,
+      "value" : {
+        "formatted" : false,
+        "value" : "56731311400"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243158,
+    "uuid" : "2004e815-79db-4cbd-8ad1-48675a8715ad",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.536+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.536+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The HAL QCD collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The HAL QCD collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243160,
+      "value" : {
+        "formatted" : false,
+        "value" : "57191675381"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243161,
+    "uuid" : "48c23322-7c52-4c8b-ac44-d5a93f399de4",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.537+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.537+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The CALICE Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The CALICE Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243163,
+      "value" : {
+        "formatted" : false,
+        "value" : "57188757368"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243164,
+    "uuid" : "4f0394b9-2195-499e-9684-ff5e06dbfe50",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.538+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.538+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The Double Chooz collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The Double Chooz collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243166,
+      "value" : {
+        "formatted" : false,
+        "value" : "56530858300"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243167,
+    "uuid" : "35a5dc2a-5e04-40c8-ac34-6758b8eab0aa",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.538+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.538+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The KamLAND Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The KamLAND Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243169,
+      "value" : {
+        "formatted" : false,
+        "value" : "57148459500"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243170,
+    "uuid" : "3b765c31-b5a5-49a9-8673-ab9886050b45",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.539+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-17T11:15:19.612+0300",
+      "previousUuids" : [ "c5527bb1-f115-467f-89fb-dfbc7b77b3ef" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "MAGIC Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "MAGIC Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "FOR THE MAGIC COLLABORATION" ],
+    "classifiedSources" : [ {
+      "pureId" : 19243172,
+      "value" : {
+        "formatted" : false,
+        "value" : "37070420600"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243173,
+    "uuid" : "c5999f79-a795-4779-96f8-9117948af9f4",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.540+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.540+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The Darkside Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "The Darkside Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243175,
+      "value" : {
+        "formatted" : false,
+        "value" : "57190570902"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243176,
+    "uuid" : "6d427ed1-8c23-437b-a3d3-1081c4108c97",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.541+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.541+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Pierre Auger Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Pierre Auger Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243178,
+      "value" : {
+        "formatted" : false,
+        "value" : "55867538400"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243179,
+    "uuid" : "4ed0ecce-a761-47d7-844a-b9bd81ef3ece",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.542+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.542+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Icecube Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Icecube Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243181,
+      "value" : {
+        "formatted" : false,
+        "value" : "57195058760"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243182,
+    "uuid" : "06e89b49-b2ee-4fb8-81ff-75c3e008d8ec",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.542+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.542+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Califa Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Califa Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243184,
+      "value" : {
+        "formatted" : false,
+        "value" : "57196353034"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243185,
+    "uuid" : "5375bd99-1349-4cb1-a323-809b3bded9b5",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.543+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.543+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Kascade-Grande Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Kascade-Grande Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243187,
+      "value" : {
+        "formatted" : false,
+        "value" : "57196123504"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19243188,
+    "uuid" : "542c7342-9b5b-45b7-ad65-bf7c957bde03",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2018-04-18T19:45:49.544+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:45:49.544+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "H.E.S.S. Collaboration"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "H.E.S.S. Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "classifiedSources" : [ {
+      "pureId" : 19243190,
+      "value" : {
+        "formatted" : false,
+        "value" : "24309867000"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 26390397,
+    "uuid" : "7ff82b3a-8b2d-44ca-9602-bc0970173918",
+    "info" : {
+      "createdBy" : "st007130",
+      "createdDate" : "2018-05-14T16:28:17.336+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T14:47:19.698+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 26390401,
+    "uuid" : "8a6efdb8-8d29-4baf-a736-3ea1364bfe1b",
+    "info" : {
+      "createdBy" : "st007130",
+      "createdDate" : "2018-05-14T16:28:17.648+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T14:50:13.919+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 26390405,
+    "uuid" : "2488589c-1877-402a-b490-667a9e679cfb",
+    "info" : {
+      "createdBy" : "st007130",
+      "createdDate" : "2018-05-14T16:28:17.687+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T14:50:13.718+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 34103277,
+    "uuid" : "f8202481-db7c-47d2-8584-9f072d31300b",
+    "info" : {
+      "createdBy" : "st803384",
+      "createdDate" : "2018-09-26T19:59:03.093+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-12T11:56:27.184+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "modENCODE consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 34669182,
+    "uuid" : "03023533-06d3-4ef8-9b6a-86017380e5ea",
+    "info" : {
+      "createdBy" : "st803373",
+      "createdDate" : "2018-10-01T21:47:29.136+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-06T16:53:33.381+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "UK IBD Genetics Consortium and COLORS in IBD and Oxford IBD cohort study investigators and WGS500 Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 34673774,
+    "uuid" : "a6012e15-bafc-42ba-b705-dcb25f3576f2",
+    "info" : {
+      "createdBy" : "st803373",
+      "createdDate" : "2018-10-01T21:53:54.397+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-10T18:50:07.986+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "H-Invitational"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 35508529,
+    "uuid" : "21be0aca-58e6-48ce-8d8f-8fd17d062386",
+    "info" : {
+      "createdBy" : "st008670",
+      "createdDate" : "2018-11-08T18:24:42.631+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-10T18:48:35.557+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "CRAC HEEP"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 35820991,
+    "uuid" : "84e11ce2-8a50-448f-8477-cbb724d4d024",
+    "info" : {
+      "createdBy" : "st001077",
+      "createdDate" : "2018-11-22T17:38:26.441+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-12T12:07:09.462+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The Dinard Workshop Contributors"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 36019197,
+    "uuid" : "08957867-106d-4313-a547-6ac6ff8ef01f",
+    "info" : {
+      "createdBy" : "st004936",
+      "createdDate" : "2018-11-27T21:08:14.998+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T14:50:15.877+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 36050710,
+    "uuid" : "87ec3cd7-16bb-49d0-86f4-807fc6b1d81c",
+    "info" : {
+      "createdBy" : "st900464",
+      "createdDate" : "2018-11-28T17:15:35.205+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-02-28T13:50:10.274+0300",
+      "previousUuids" : [ "80b28458-867a-4e65-8199-1bec5deec870" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The Genome Standards Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 36091130,
+    "uuid" : "c1dd1b53-6d65-4ef2-9403-8983c7b7d264",
+    "info" : {
+      "createdBy" : "st901683",
+      "createdDate" : "2018-11-29T08:48:01.703+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T14:50:13.881+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 36297024,
+    "uuid" : "6eb34127-0bde-4031-b2af-337485588b3a",
+    "info" : {
+      "createdBy" : "st004881",
+      "createdDate" : "2018-12-03T12:51:20.331+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-10T18:42:20.532+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "CGTP Collaborators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 37506354,
+    "uuid" : "7a508e9b-8486-4503-883e-0e77656f22c0",
+    "info" : {
+      "createdBy" : "st024396",
+      "createdDate" : "2019-01-16T18:29:29.815+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:26:31.909+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "FACT Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 38736883,
+    "uuid" : "fc495f10-e428-4f8b-ae0d-5a1ae474289a",
+    "info" : {
+      "createdBy" : "st008470",
+      "createdDate" : "2019-02-20T02:00:03.187+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T13:53:01.390+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "REDUCE-IT Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 38737078,
+    "uuid" : "b584c196-49b2-47e5-8bde-c85366b7f538",
+    "info" : {
+      "createdBy" : "st008470",
+      "createdDate" : "2019-02-20T02:01:07.522+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T13:49:12.031+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ORIGIN Trial Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "The ORIGIN Trial Investigators Hamilton, Ontario, Canada" ]
+  }, {
+    "pureId" : 38737887,
+    "uuid" : "7048981f-fc31-44f6-8740-33d4b596878f",
+    "info" : {
+      "createdBy" : "st008470",
+      "createdDate" : "2019-02-20T02:14:02.342+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-02-04T15:00:22.357+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Raloxifene Use for the Heart (RUTH) Trial Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "Raloxifene Use Heart RUTH Trial In " ]
+  }, {
+    "pureId" : 38738622,
+    "uuid" : "1a6986ee-6a4c-4721-83b5-9ae6846c7daf",
+    "info" : {
+      "createdBy" : "st008470",
+      "createdDate" : "2019-02-20T02:19:41.516+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-25T13:50:12.527+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "TRILOGY ACS Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 38739439,
+    "uuid" : "11df3274-8ead-4efb-8786-51095bd70eb7",
+    "info" : {
+      "createdBy" : "st008470",
+      "createdDate" : "2019-02-20T02:43:12.928+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-06-02T11:29:08.872+0300",
+      "previousUuids" : [ "c53c89fc-036f-46f2-8e3a-dbd917811fcc", "708d9f4a-c4c1-4907-bb3b-c65855f7dee2", "272c2c1c-dedc-4e22-bb32-04ad49f3082e", "889cb875-058e-4c85-b5ef-13fb24f7f036", "1ae95029-6acf-4e4d-a670-900db6d1a4e5" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ODYSSEY OUTCOMES Committees and Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "ODYSSEY OUTCOMES Comm Inve", "ODYSSEY OUTCOMES Comm Investigator", "ODYSSEY OUTCOMES Investigators", "ODYSSEY OUTCOMES Comm", "ODYSSEY OUTCOMES Comm Investigato" ]
+  }, {
+    "pureId" : 39840622,
+    "uuid" : "2156ba35-931e-4972-ada5-9e96dc0a276b",
+    "info" : {
+      "createdBy" : "st901110",
+      "createdDate" : "2019-03-24T20:43:22.394+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-14T13:19:46.460+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "HERAFitter developers’ team"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 41190441,
+    "uuid" : "035b2e1d-bf6d-41fa-9267-ea7c99a9359d",
+    "info" : {
+      "createdBy" : "st024396",
+      "createdDate" : "2019-04-25T13:23:57.173+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-15T14:03:03.033+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "Event Horizon Telescope Collabort" ]
+  }, {
+    "pureId" : 42214690,
+    "uuid" : "e0757f1c-6c5f-421e-9f1f-40d3f7b1772c",
+    "info" : {
+      "createdBy" : "st804012",
+      "createdDate" : "2019-05-24T17:54:53.239+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-15T14:03:30.765+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "European Evidence-Based Suicide Prevention Program [EESPP] Group by the Expert Platform on Mental Health, Focus on Depression"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 42260125,
+    "uuid" : "975f6e5a-ac0b-4cca-9484-855ad0cabc9a",
+    "info" : {
+      "createdBy" : "st008921",
+      "createdDate" : "2019-05-26T12:31:30.647+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-15T14:03:57.287+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Рабочая группа КИППАГ"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 43612662,
+    "uuid" : "1dbed33b-7edf-4a9c-a738-bc5ba9528865",
+    "info" : {
+      "createdBy" : "st804007",
+      "createdDate" : "2019-07-12T18:56:36.241+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-11-12T12:51:15.366+0300",
+      "previousUuids" : [ "5d5e819d-90c9-4945-9e8f-f5555fb77aa1" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Stress Echo 2020 study group of the Italian Society of Cardiovascular Echography"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "Stress Echo 2020 study group of the Italian Society of Cardiovascular Echography (SIEC)", "on behalf of Stress Echo 2020 study group of the Italian Society of Cardiovascular Echography", "Stress Echo 2020 Study Group of the Italian Society of Echocardiography and Cardiovascular Imaging", "Stress Echo 2020 Study Group of the Italian Society of Cardiovascular Imaging", "the Stress Echo 2020 study group of the Italian Society of Echocardiography, Cardiovascular Imaging", "The Stress Echo 2020 study group of the Italian Society of Echocardiography and Cardiovascular Imaging - Subproject all you need is LAV" ]
+  }, {
+    "pureId" : 44928664,
+    "uuid" : "c7ea2694-e2f9-4443-8667-1f65c4a49619",
+    "info" : {
+      "createdBy" : "st004386",
+      "createdDate" : "2019-08-11T17:05:27.511+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:53:19.488+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "FRS-ESR, ILIMA, SPARC, and TBWD Collaborations"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 47570721,
+    "uuid" : "323dace9-02fe-4dd7-9883-ba848985dc6e",
+    "info" : {
+      "createdBy" : "st009602",
+      "createdDate" : "2019-10-16T15:21:19.614+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:51:31.660+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Storage Ring EDM Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 47616331,
+    "uuid" : "a1ee9516-a785-442a-aca9-8d69501e631d",
+    "info" : {
+      "createdBy" : "st009602",
+      "createdDate" : "2019-10-18T16:06:24.661+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:25:41.520+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "JEDI Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 47750705,
+    "uuid" : "e95e76e6-c6d7-4cef-ab93-776d77923fc3",
+    "info" : {
+      "createdBy" : "st004330",
+      "createdDate" : "2019-10-25T16:24:02.644+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-11-11T14:19:02.611+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ISOLDE-Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "4e51bc94-cb37-48c2-8e38-de852345bda4",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/4e51bc94-cb37-48c2-8e38-de852345bda4"
+      },
+      "externalId" : "903000039",
+      "externalIdSource" : "synchronisedUnifiedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "European Organization for Nuclear Research"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "European Organization for Nuclear Research"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16819,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/privatenonprofit",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Private non-profit"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "некоммерческая организация"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 49767522,
+    "uuid" : "fbc2f791-7328-4b8a-90bb-835dcc3c6015",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2019-12-19T10:44:36.298+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2019-12-19T11:03:13.991+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ROCKET AF Steering Committee & Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 51049979,
+    "uuid" : "3343d815-15bd-455d-90ec-deff88ebe300",
+    "info" : {
+      "createdBy" : "st008403",
+      "createdDate" : "2020-01-29T21:15:31.909+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-01-30T10:40:30.829+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "NA57 Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 52064225,
+    "uuid" : "2bda2679-9eed-4099-bf62-99ecc85177ce",
+    "info" : {
+      "createdBy" : "st002951",
+      "createdDate" : "2020-03-06T03:26:33.915+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-03-25T13:25:08.035+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 53263892,
+    "uuid" : "faf48180-2088-4100-8797-886ea073b726",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2020-05-06T19:55:46.167+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-05-06T20:20:24.018+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "NAVIGATE ESUS Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 53571535,
+    "uuid" : "a45e246e-d05d-4f39-9a92-a022e011ab39",
+    "info" : {
+      "createdBy" : "st008470",
+      "createdDate" : "2020-05-25T03:36:26.730+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-05-25T14:16:05.045+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 60961972,
+    "uuid" : "f46d49a9-a5d7-45a7-9f7d-1bf8a064d78d",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2020-07-30T12:09:31.189+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-07-30T12:12:48.030+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "WEBT Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 60961976,
+    "uuid" : "e022c610-1693-40fd-a699-ffb3b8767bb6",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2020-07-30T12:09:31.467+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-07-30T12:12:40.513+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "OVRO Team"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 61032790,
+    "uuid" : "14846b15-5aaa-4344-8282-632369c4f0e4",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2020-08-04T12:08:22.488+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-08-04T12:09:52.175+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Members of the International Situations Project      "
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 61959439,
+    "uuid" : "f293f82a-305d-4870-ba84-b18d52aea251",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2020-09-04T14:03:55.799+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-09-04T16:27:42.646+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Event Horizon Telescope Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 62298383,
+    "uuid" : "859524c3-4e33-4392-bb33-13042a9ba73d",
+    "info" : {
+      "createdBy" : "st002645",
+      "createdDate" : "2020-09-19T17:25:42.358+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-09-19T19:17:54.246+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "ELPHIN mission"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 62371380,
+    "uuid" : "3a8dc440-9400-4507-96cb-5d70dedde4d4",
+    "info" : {
+      "createdBy" : "st901683",
+      "createdDate" : "2020-09-22T18:27:17.609+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-09-23T11:00:37.088+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "MetaSUB Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 62762826,
+    "uuid" : "1299bf1b-0379-47d8-8833-e7b667a222cd",
+    "info" : {
+      "createdBy" : "st901093",
+      "createdDate" : "2020-09-30T16:45:11.313+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-10-01T11:13:27.734+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Disease Control Priorities-3 Child and Adolescent Health and Development Authors Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 71332931,
+    "uuid" : "ab47d4c0-5b5f-45dd-aab2-5e3208f1b11f",
+    "info" : {
+      "createdBy" : "st036481",
+      "createdDate" : "2020-12-03T14:54:36.500+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2020-12-03T15:25:21.187+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The Genome 10K Community of Scientists"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 71492717,
+    "uuid" : "5a92f8a7-1b0d-408e-813d-059cd147e232",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2020-12-09T13:57:27.585+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-11-27T23:20:28.915+0300",
+      "previousUuids" : [ "70538442-0189-40e0-865f-04829fc3be89" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "NBCS Collaborators"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "NBCS Collaborators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "dce9756d-fa33-4690-a131-d7e37e9ff27b",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/dce9756d-fa33-4690-a131-d7e37e9ff27b"
+      },
+      "externalId" : "University of Oslo",
+      "externalIdSource" : "researchoutputwizard",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "University of Oslo"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Университет Осло"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16804,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университет"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 71492721,
+    "uuid" : "cb33ea92-7a85-4355-b199-f094bcb1b969",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2020-12-09T13:57:27.766+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-11-27T23:20:19.360+0300",
+      "previousUuids" : [ "d2959ee6-9e43-4cb6-885a-ad180b1a8d9d" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ABCTB Investigators"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "ABCTB Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "a334de77-9829-41a6-b434-024b96b2fa9d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/a334de77-9829-41a6-b434-024b96b2fa9d"
+      },
+      "externalId" : "University of Sydney",
+      "externalIdSource" : "researchoutputwizard",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "University of Sydney"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "University of Sydney"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16804,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университет"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 73929573,
+    "uuid" : "29bcb6c8-15b6-43cd-9326-88d60a96e9ec",
+    "info" : {
+      "createdBy" : "st806420",
+      "createdDate" : "2021-02-14T12:09:15.484+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-05-31T16:47:01.028+0300",
+      "previousUuids" : [ "d8fd3463-583f-415c-9bf1-6cab3ea0c21b" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "СПбГБУЗ Городская больница №40"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "отделение реабилитации Городской больницы №40" ],
+    "externalOrganisations" : [ {
+      "uuid" : "77fde893-54f2-4159-ad8c-4087b3e21960",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/77fde893-54f2-4159-ad8c-4087b3e21960"
+      },
+      "externalId" : "ГБ СПб ГБУЗ «Городская больница №40",
+      "externalIdSource" : "researchoutputwizard",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Saint-Petersburg State City Hospital №40"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "СПб ГБУЗ «Городская больница №40»"
+        } ]
+      },
+      "type" : {
+        "pureId" : 116207994,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/medical_organization",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "medical organization"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "медицинская организация"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 73952798,
+    "uuid" : "983a521e-4f17-4933-bd9f-baa81f63eb40",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-02-15T17:23:51.077+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-02-15T17:50:05.575+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The MAGIC and Fermi-LAT Collaborations"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 73953109,
+    "uuid" : "35ab5bf5-916e-47a1-ac07-49da6face73c",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-02-15T17:26:47.085+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-02-15T17:50:12.651+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "the WEBT Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 74108890,
+    "uuid" : "ad4f62b2-4bbb-4ca3-8e34-58f459a635f1",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-02-19T12:45:52.299+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-05-10T12:14:40.361+0300",
+      "previousUuids" : [ "09c06b27-4e45-4343-bf76-d17cc21111eb" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "EuroSIDA Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "EuroSIDA study group" ]
+  }, {
+    "pureId" : 74277342,
+    "uuid" : "07c9785b-5872-49fe-bfe8-6e187b62e7a6",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-02-25T16:53:11.865+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-02-25T17:12:26.167+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ATMOSPHERE Committees Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 74442127,
+    "uuid" : "aae34bd3-a804-47c2-b73a-85089d2f3fd9",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-03-01T11:32:25.457+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-03-01T11:33:45.185+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "International Pheochromocytoma and Pregnancy Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 74727441,
+    "uuid" : "3f1ddd49-1349-4eed-b2ce-a9eb3d46fdb4",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-03-08T11:05:31.845+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-03-08T14:53:05.798+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "VICCCS group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 74825875,
+    "uuid" : "844d8c3b-dd08-458e-a9a8-c322597e9f7a",
+    "info" : {
+      "createdBy" : "st001891",
+      "createdDate" : "2021-03-10T18:19:35.613+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-03-10T19:53:22.663+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 74848551,
+    "uuid" : "c936c7c0-b403-44c5-97eb-d19e3961e3a6",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-03-11T10:26:42.199+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-03-11T10:45:15.601+0300",
+      "previousUuids" : [ "7c167bde-c93b-4db7-93d7-e977d3999ce4" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Multinational Study of Cultural Display Rules"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "37 Members of the Multinational Study of Cultural Display Rules" ]
+  }, {
+    "pureId" : 75056187,
+    "uuid" : "2611b6c9-0ba3-42c0-9135-82ad6af6906f",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-03-18T11:56:12.254+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-03-18T12:10:43.544+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "International Situations Project"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 75795929,
+    "uuid" : "83cc6f3b-f283-4b12-8c77-9b6f11bde01e",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-04-08T17:49:00.533+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-04-08T22:25:00.167+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "International Altimetry Team"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 76676310,
+    "uuid" : "111eb645-5cf8-4cdb-ac6e-5f72cc5ded55",
+    "info" : {
+      "createdBy" : "st003793",
+      "createdDate" : "2021-05-10T00:45:46.388+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-05-10T11:25:27.851+0300",
+      "previousUuids" : [ "47d3a9ea-713a-4905-b7cf-4af39ecdba64", "71ae09cb-769e-4723-a867-caa2f8955e8f" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "TB:HIV Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "TB:HIV study group", "TB: HIV study in EuroCoord" ],
+    "externalOrganisations" : [ {
+      "uuid" : "0d6e9190-0d5a-44ec-8794-5c4d04abc757",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/0d6e9190-0d5a-44ec-8794-5c4d04abc757"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "CHIP (Centre for Health and Infectious Disease Research)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "9ea1255f-3874-481d-b606-c6399a19f111",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/9ea1255f-3874-481d-b606-c6399a19f111"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Rigshospitalet"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 76690632,
+    "uuid" : "3aa6743b-befe-40f1-9a7d-51f855952079",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-05-10T12:18:21.439+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-05-10T12:25:37.596+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "AI438011 study team"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 76817399,
+    "uuid" : "537c0df4-bf6c-4312-9200-79c4194cb6bb",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-05-16T12:51:45.791+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-05-16T12:52:56.885+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Professional Medical Society \"Pancreatic Club Russia\""
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 84439745,
+    "uuid" : "23344553-426d-4da7-871e-35ebd2330af6",
+    "info" : {
+      "createdBy" : "st062069",
+      "createdDate" : "2021-08-05T19:39:08.444+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-08-05T21:44:16.142+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "COVIDSurg Collaborative"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 84439749,
+    "uuid" : "a92b8c1f-67dd-4c87-956b-8e2849b77347",
+    "info" : {
+      "createdBy" : "st062069",
+      "createdDate" : "2021-08-05T19:39:08.533+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-08-05T21:44:56.271+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "GlobalSurg Collaborative"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 84486937,
+    "uuid" : "67d4080a-d475-4829-8d83-57537c8e2f2c",
+    "info" : {
+      "createdBy" : "st900464",
+      "createdDate" : "2021-08-08T12:19:45.904+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-08-08T14:34:15.985+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 84672245,
+    "uuid" : "e7180c12-798a-4a24-91d6-e6d2059e8f36",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-08-17T10:48:44.955+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-08-17T10:49:08.874+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Bedmap Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 84831016,
+    "uuid" : "4dc13725-5ada-4255-823f-160565d2b5ff",
+    "info" : {
+      "createdBy" : "st001361",
+      "createdDate" : "2021-08-22T07:27:07.044+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-08-22T19:44:05.720+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "IODP Expedition 379 Scientists"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 85052122,
+    "uuid" : "d7f5f2ec-f08d-455b-bbe2-f7f0e01dc5dd",
+    "info" : {
+      "createdBy" : "st900230",
+      "createdDate" : "2021-08-30T13:56:25.029+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-10-15T11:19:07.529+0300",
+      "previousUuids" : [ "2d27742f-efb8-4051-b26c-305086eddc2d" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "(EHT Collaboration)"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "EHT collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 85560569,
+    "uuid" : "44f4f0c7-b818-44ca-a793-3358b2bf9134",
+    "info" : {
+      "createdBy" : "st804007",
+      "createdDate" : "2021-09-14T18:43:56.253+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-09-15T17:35:20.689+0300",
+      "previousUuids" : [ "c83b33e4-fccc-4cdc-b728-06ec4f8bccfb" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Stress Echo 2030 Study Group of the Italian Society of Echocardiography Cardiovascular Imaging"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "The Stress Echo 2030 Study Group of the Italian Society of Echocardiography and Cardiovascular Imaging (SIECVI)" ]
+  }, {
+    "pureId" : 87706923,
+    "uuid" : "a8c1a950-0ecf-43d8-bdad-3f0f35efe56f",
+    "info" : {
+      "createdBy" : "st008641",
+      "createdDate" : "2021-11-02T12:07:35.806+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-03T13:18:27.207+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "TROPOMI Validation"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 87876719,
+    "uuid" : "ac7590cf-f5f1-4f79-bb05-7c77174032a4",
+    "info" : {
+      "createdBy" : "st002561",
+      "createdDate" : "2021-11-08T15:16:01.061+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-08T17:47:38.132+0300",
+      "previousUuids" : [ "ac218af4-70e2-4077-b654-358eb71cfa34", "f519bc2b-70fa-4a37-aec6-5774d9d3d18e", "23f17aff-ef61-42a6-9202-f5333ecf1af0" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "EMPA-REG OUTCOME Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "EMPA-REG OUTCOME Investigato", "EMPA-REG OUTCOME trial inves" ]
+  }, {
+    "pureId" : 88099013,
+    "uuid" : "949b7df0-01c8-41fe-86a7-471f22d99352",
+    "info" : {
+      "createdBy" : "st004433",
+      "createdDate" : "2021-11-13T14:00:33.583+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-14T23:14:24.671+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "HYBS"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 88157871,
+    "uuid" : "1b1f83ab-5ca5-487f-9b3e-1451c8c3a39c",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-11-14T23:03:10.981+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-14T23:07:27.015+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "RIVER Registry Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 88383999,
+    "uuid" : "115a55d3-c6cc-4dc8-94be-b23e2ee8695f",
+    "info" : {
+      "createdBy" : "st007130",
+      "createdDate" : "2021-11-16T22:34:58.171+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-17T11:15:06.469+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "AGILE COLLABORATION"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 88385639,
+    "uuid" : "d7e9a733-1c42-4810-a37d-68c0c7f6595c",
+    "info" : {
+      "createdBy" : "st007130",
+      "createdDate" : "2021-11-16T22:43:41.228+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-17T11:14:38.360+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "MAGIC and Fermi-LAT Collaborations"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 88541204,
+    "uuid" : "c2c407e6-b3f7-478e-aca7-1372a9ef705f",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-11-18T13:02:13.048+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-18T16:45:43.993+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Pallas Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 88549372,
+    "uuid" : "34e0ebf4-2205-4931-8a15-ef5cfac7089c",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-11-18T14:07:12.858+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-18T16:45:35.095+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ALPHEE study"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 88549734,
+    "uuid" : "fd31258e-b81c-4fa0-9305-7144bbd73eb1",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-11-18T14:10:55.599+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-18T16:45:29.607+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Euro Heart Survey"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 88565064,
+    "uuid" : "1339d987-3c7b-4bc0-b43e-782cc8f71e51",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-11-18T21:09:55.544+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-19T11:38:36.025+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Russian Society of Cardiology (RSC)"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 88566624,
+    "uuid" : "e9ae9074-eba5-4173-b25c-a07606955217",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2021-11-18T21:22:47.438+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-11-19T11:38:28.754+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "BEAUTIFUL Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 89274941,
+    "uuid" : "4790eb83-7539-4a78-97b9-17fbf0b5f5e5",
+    "info" : {
+      "createdBy" : "st002561",
+      "createdDate" : "2021-12-08T17:08:20.448+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-12-08T21:18:55.705+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "HIBISCUS Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 89276426,
+    "uuid" : "0bda0cce-96ce-41f1-93ed-98ff7f5bfeb7",
+    "info" : {
+      "createdBy" : "st002561",
+      "createdDate" : "2021-12-08T18:15:38.991+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-12-08T21:29:28.993+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "EXSCEL Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 89276655,
+    "uuid" : "5ea73aef-d955-42bd-afd8-7b4b7584f59e",
+    "info" : {
+      "createdBy" : "st002561",
+      "createdDate" : "2021-12-08T18:16:39.259+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-12-08T21:29:36.355+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "CANVAS Program Collaborative Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 89276852,
+    "uuid" : "79b40661-87af-4086-8d10-05d11da21450",
+    "info" : {
+      "createdBy" : "st002561",
+      "createdDate" : "2021-12-08T18:17:41.442+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-12-08T21:29:45.643+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "XANTUS Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 89276980,
+    "uuid" : "66aff6f1-e54d-4fee-b359-7c0e91d090a4",
+    "info" : {
+      "createdBy" : "st002561",
+      "createdDate" : "2021-12-08T18:18:27.704+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-12-08T21:29:54.575+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ARISTOTLE Committees and Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 89277094,
+    "uuid" : "8f02724e-6f36-4dd4-8816-4ab25eeb06b5",
+    "info" : {
+      "createdBy" : "st002561",
+      "createdDate" : "2021-12-08T18:19:40.052+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-12-08T21:30:10.074+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "SHIFT Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 90415235,
+    "uuid" : "7fb09112-c094-464a-a6f7-0f87243eefa6",
+    "info" : {
+      "createdBy" : "st008470",
+      "createdDate" : "2021-12-28T23:34:55.605+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2021-12-29T12:52:18.268+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "EAS Familial Hypercholesterolaemia Studies Collaboration (FHSC)"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 92358087,
+    "uuid" : "657b09bd-88e8-4d5a-9bd5-a289a6c0dc50",
+    "info" : {
+      "createdBy" : "st804012",
+      "createdDate" : "2022-02-07T17:07:14.428+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-02-08T01:34:30.069+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "VA Million Veteran Program"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 92358091,
+    "uuid" : "1d2af38a-5a52-4aa3-b5e2-180151acddcf",
+    "info" : {
+      "createdBy" : "st804012",
+      "createdDate" : "2022-02-07T17:07:14.449+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-02-08T01:34:19.827+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Major Depressive Disorder Working Group of the Psychiatric Genomics Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 92358095,
+    "uuid" : "ff821f28-8864-41b1-b4bf-ad0eb52a7c66",
+    "info" : {
+      "createdBy" : "st804012",
+      "createdDate" : "2022-02-07T17:07:14.459+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-02-08T01:34:09.309+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Bipolar Disorder Working Group of the Psychiatric Genomics Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 92358099,
+    "uuid" : "8294e608-9644-4725-bf13-ac78d24a689a",
+    "info" : {
+      "createdBy" : "st804012",
+      "createdDate" : "2022-02-07T17:07:14.465+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-02-08T01:33:59.114+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Eating Disorders Working Group of the Psychiatric Genomics Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 92358103,
+    "uuid" : "7b7ab7ad-7d70-4fbd-aacc-cb1c3df9bde1",
+    "info" : {
+      "createdBy" : "st804012",
+      "createdDate" : "2022-02-07T17:07:14.495+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-02-08T01:33:48.786+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "German Borderline Genomics Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 92358107,
+    "uuid" : "61dd8787-9342-463f-ade8-8ff0127b0154",
+    "info" : {
+      "createdBy" : "st804012",
+      "createdDate" : "2022-02-07T17:07:14.509+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-02-08T01:33:38.632+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "MVP Suicide Exemplar Workgroup"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 92962570,
+    "uuid" : "bade9e7c-f33c-4e03-b76c-bb30b972b620",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-02-25T15:37:02.827+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-02-25T15:41:28.111+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Комитет экспертов"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 93207421,
+    "uuid" : "048a0103-5000-4e8a-82aa-333063be9dab",
+    "info" : {
+      "createdBy" : "st002343",
+      "createdDate" : "2022-03-07T21:17:23.375+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2023-08-31T15:49:46.281+0300",
+      "previousUuids" : [ "89e852b1-0e05-4f3e-835a-72c5784870f1" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "NA61/SHINE Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "NA61 Collaboration", "NA61/SHINE Collaboration", "(NA61/SHINE Collaboration)", "NA61/SHINE", "for the NA61/SHINE collaboration", "NA61 SHINE Collaboration" ],
+    "classifiedSources" : [ {
+      "pureId" : 108468546,
+      "value" : {
+        "formatted" : false,
+        "value" : "57189893933"
+      },
+      "type" : {
+        "pureId" : 19236988,
+        "uri" : "/dk/atira/pure/authorcollaboration/authorcollaborationsources/scopus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 93492150,
+    "uuid" : "a384ba93-6a2c-412e-96f2-fbf906f6caba",
+    "info" : {
+      "createdBy" : "st001258",
+      "createdDate" : "2022-03-17T15:07:00.455+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-03-18T10:53:07.918+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Группа экспертов по управлению ресурсами"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 93636912,
+    "uuid" : "941b1a9c-e9da-448e-86b4-bcd9b08abc8d",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-03-22T13:57:20.221+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-01-16T12:57:53.227+0300",
+      "previousUuids" : [ "fe78cd92-215d-4423-a8e9-588a4e3e73b0", "640523b9-c5c2-4e66-8094-7cbcdf3451eb", "2ae17541-5e05-4173-b253-a0994e49ab48", "e019f98e-458c-45a4-86ce-d4eff5042f2d", "5b701d9d-facb-4233-87d7-80b4d2168535", "280babb1-4099-4420-aff6-a2943abd5755" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Авторский коллектив"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Коллектив авторов"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "Авторский коллектив", "Альгин А.П., Ачкасов В.А., Барыгин И.Н., Бондарев А.К., Быков В.П., Волкова А.В., Волчкова Л.Т., Вульфович Р.М., Горный М.В., Грибанова Г.И., Гузов Ю.Н., Елисеев С.М., Кашина М.А., Кузнецов Н.В., Кулакова Т.А., Курочкин А.В., Кошкаров Н.В., Ланцов С.А., Ломагин Н.А., Меркулов В.М. и др.", "Авхадеев В.Р,Асташова В.С.,Андриченко Л.В,Бальхаева С.Б.,Габов А.В., Городов О.А. и др." ]
+  }, {
+    "pureId" : 93659418,
+    "uuid" : "c219fa6a-fada-4c0c-b119-bf8940f66eb3",
+    "info" : {
+      "createdBy" : "st803860",
+      "createdDate" : "2022-03-23T10:57:08.430+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-03-23T14:27:14.038+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ERACODA Collaborators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 94683806,
+    "uuid" : "0c1b1afe-628d-4162-927f-b6d9f47c018c",
+    "info" : {
+      "createdBy" : "st800032",
+      "createdDate" : "2022-05-03T16:26:01.055+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-05-04T10:41:51.034+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "T2T consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 95377907,
+    "uuid" : "28b64f02-c533-4a96-9cd5-029572a9df04",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-05-31T16:45:45.837+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-05-31T16:46:25.826+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Российское общество акушеров-гинекологов"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 95377911,
+    "uuid" : "4e1bf439-2cee-41d0-8304-39c1ca3be17f",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-05-31T16:45:45.948+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-05-31T16:46:19.919+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Ассоциация анестезиологов-реаниматологов"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 95377915,
+    "uuid" : "de4f7555-9486-4ceb-ab82-265f8a1d72e8",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-05-31T16:45:45.980+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-05-31T16:46:14.267+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Ассоциация акушерских анестезиологов-реаниматологов"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 97678999,
+    "uuid" : "2fbc601e-2796-47f9-ba42-1820230b3496",
+    "info" : {
+      "createdBy" : "st002343",
+      "createdDate" : "2022-08-15T00:25:33.139+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-08-15T18:11:18.271+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The MPD Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 97695207,
+    "uuid" : "63b15a17-55c7-466e-9050-2a544e2e0802",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-08-15T22:09:47.811+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-08-19T09:44:18.812+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Montreal Tourette Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 98829850,
+    "uuid" : "a01f774c-7aef-45a7-9759-188029352635",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-09-21T10:32:36.203+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-09-21T15:55:18.884+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ALICE ITS project"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "4e51bc94-cb37-48c2-8e38-de852345bda4",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/4e51bc94-cb37-48c2-8e38-de852345bda4"
+      },
+      "externalId" : "903000039",
+      "externalIdSource" : "synchronisedUnifiedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "European Organization for Nuclear Research"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "European Organization for Nuclear Research"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16819,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/privatenonprofit",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Private non-profit"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "некоммерческая организация"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 99016105,
+    "uuid" : "095f9eff-5e0e-44fd-970b-dd5cec5cae2c",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-09-30T13:26:28.909+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-09-30T15:34:31.167+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Рабочая группа по разработке рекомендаций"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 99373000,
+    "uuid" : "08210f81-a5f5-42f9-94c0-4d574bc7a568",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-10-13T06:45:37.020+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-10-13T10:22:39.294+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "the International Zebrafish Neuroscience Research Consortium ZNRC"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 99415699,
+    "uuid" : "9a3c5fa6-44b1-44e5-a0cc-2ad0e66c2549",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-10-14T08:59:35.208+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-10-17T14:40:13.393+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "behalf of the JEDI Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 99846725,
+    "uuid" : "f546b96b-05cf-4636-8c19-0de8278ba58f",
+    "info" : {
+      "createdBy" : "st024396",
+      "createdDate" : "2022-11-01T15:04:57.343+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-01T15:14:57.349+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "IXPE"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 99847062,
+    "uuid" : "3ab10a48-c1cb-4f9f-91d5-45c73eefffb6",
+    "info" : {
+      "createdBy" : "st024396",
+      "createdDate" : "2022-11-01T15:07:48.457+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-01T15:14:42.436+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The Event Horizon Telescope Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 100016257,
+    "uuid" : "d611d3d2-0e0c-43e3-b0d2-3a86b42c95ca",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-09T11:04:21.346+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-09T17:44:17.952+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Fermi Large Area Telescope Collaboration"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 100668564,
+    "uuid" : "c1564cf5-3b44-4221-a68c-88b232bb72ec",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.387+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-05-02T12:32:31.903+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "GC-HBOC Study Collaborators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "c0d5e976-2362-4371-a4a6-068833f32c2b",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/c0d5e976-2362-4371-a4a6-068833f32c2b"
+      },
+      "externalId" : "University of Cologne",
+      "externalIdSource" : "researchoutputwizard",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "University of Cologne"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Университет Кельна"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16804,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университет"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100668568,
+    "uuid" : "883431d3-7901-47d7-8554-39b632f4bd21",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.439+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-30T11:43:49.312+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "EMBRACE Collaborators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "68180eb1-d672-48c0-9519-21fae782ed4d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/68180eb1-d672-48c0-9519-21fae782ed4d"
+      },
+      "externalId" : "University of Cambridge",
+      "externalIdSource" : "researchoutputwizard",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "University of Cambridge"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "University of Cambridge"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16804,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университет"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "e4c3814b-0527-442d-9705-3f1e4fa93f78",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/e4c3814b-0527-442d-9705-3f1e4fa93f78"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Public Health and Primary Care"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100668572,
+    "uuid" : "0498c90a-b212-41a7-99ea-96d95ecd4bab",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.490+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-30T11:43:38.844+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "OPAL Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "97c87424-4559-402f-a8c4-a69827d53597",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/97c87424-4559-402f-a8c4-a69827d53597"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Population Health Department"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "15613f3a-b800-4f4f-b431-b30b11342131",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/15613f3a-b800-4f4f-b431-b30b11342131"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "QIMR Berghofer Medical Research Institute"
+        } ]
+      },
+      "type" : {
+        "pureId" : 13731213,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/researchinstitute/nonacademicinstitute",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Non-Academic Institute"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "неакадемический институт"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100668576,
+    "uuid" : "a3bc956a-2d5d-47f4-a3a5-c163cfe1a055",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.538+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-11-27T23:20:23.646+0300",
+      "previousUuids" : [ "d79d4172-6d23-4ad9-a1e4-b6c69e7d0058" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "KConFab Investigators"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "kConFab Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "31952566-285d-4f9c-ad89-364308748b91",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/31952566-285d-4f9c-ad89-364308748b91"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Peter MacCallum Cancer Center"
+        } ]
+      },
+      "type" : {
+        "pureId" : 116207994,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/medical_organization",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "medical organization"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "медицинская организация"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100668580,
+    "uuid" : "f71cba07-5803-40fb-a862-be826d4031a4",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.584+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-30T11:43:27.888+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "HEBON Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "2ffc3084-969d-4e63-a1af-c429680fe8b6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/2ffc3084-969d-4e63-a1af-c429680fe8b6"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "The Hereditary Breast and Ovarian Cancer Research Group Netherlands (HEBON)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100668584,
+    "uuid" : "afa20adb-865e-401e-beb2-71e64700af59",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.644+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-30T11:45:12.940+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The CIMBA Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "68180eb1-d672-48c0-9519-21fae782ed4d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/68180eb1-d672-48c0-9519-21fae782ed4d"
+      },
+      "externalId" : "University of Cambridge",
+      "externalIdSource" : "researchoutputwizard",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "University of Cambridge"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "University of Cambridge"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16804,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университет"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "e4c3814b-0527-442d-9705-3f1e4fa93f78",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/e4c3814b-0527-442d-9705-3f1e4fa93f78"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Public Health and Primary Care"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100668588,
+    "uuid" : "116913a1-3b1d-400b-9cbf-6808f8424fce",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.695+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-30T11:43:16.716+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "GEMO Study Collaborators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "2933065b-267b-4c66-80fb-7c161b32f29a",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/2933065b-267b-4c66-80fb-7c161b32f29a"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Tumour Biology"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "133289de-28bf-484e-abcd-dc980d9d632a",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/133289de-28bf-484e-abcd-dc980d9d632a"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Institut Curie"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "475cc0f3-ae5d-4baf-a29c-9202b3420ff6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/475cc0f3-ae5d-4baf-a29c-9202b3420ff6"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ecole des Mines de Paris"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16807,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/universitycollege",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University College"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университетский колледж"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100668592,
+    "uuid" : "0959eea5-f217-4375-9084-e9a1b7943c59",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.745+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-11-27T17:13:43.338+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "AOCS Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "31952566-285d-4f9c-ad89-364308748b91",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/31952566-285d-4f9c-ad89-364308748b91"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Peter MacCallum Cancer Center"
+        } ]
+      },
+      "type" : {
+        "pureId" : 116207994,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/medical_organization",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "medical organization"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "медицинская организация"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "d7c3379a-4ce6-4f75-9f5e-cff136486ee9",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/d7c3379a-4ce6-4f75-9f5e-cff136486ee9"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Centre for Cancer Research"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "a334de77-9829-41a6-b434-024b96b2fa9d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/a334de77-9829-41a6-b434-024b96b2fa9d"
+      },
+      "externalId" : "University of Sydney",
+      "externalIdSource" : "researchoutputwizard",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "University of Sydney"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "University of Sydney"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16804,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университет"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100668596,
+    "uuid" : "693653a1-9e98-4157-8cc4-48028481de82",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:36:11.795+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2023-09-19T14:42:42.946+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The OCAC Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "b3784b7f-5518-4cd3-97ea-1b346806f6f5",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/b3784b7f-5518-4cd3-97ea-1b346806f6f5"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Gynecologic Oncology"
+        } ]
+      },
+      "type" : {
+        "pureId" : 996,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/unknown",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Unknown"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "нет данных"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "3245931b-c6b6-4c50-a615-4ad347208300",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/3245931b-c6b6-4c50-a615-4ad347208300"
+      },
+      "externalId" : "Duke University",
+      "externalIdSource" : "researchoutputwizard",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Duke University"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Duke University"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16804,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университет"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 100669299,
+    "uuid" : "9e1d6997-8ca7-46a8-9a3d-7426b8048e3a",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:52:49.425+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-30T11:42:58.081+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Breast Cancer Association Consortium"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 100669749,
+    "uuid" : "b7d81414-99d0-47c7-aead-7a5599dc6d69",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2022-11-29T16:57:37.300+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-30T11:42:48.018+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "kConFab/AOCS Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 100688324,
+    "uuid" : "250609ee-6eab-4f1f-9212-8fd65326806e",
+    "info" : {
+      "createdBy" : "st008446",
+      "createdDate" : "2022-11-30T10:35:39.523+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2022-11-30T11:42:42.443+0300"
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 102817860,
+    "uuid" : "cbecc763-215a-4931-8f2e-b13b23cff794",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2023-02-13T12:55:58.538+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2023-02-13T15:53:28.941+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Комитет экспертов ВНОК "
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 104934705,
+    "uuid" : "fef45812-ef41-41c2-ae1c-112d8980b064",
+    "info" : {
+      "createdBy" : "st900560",
+      "createdDate" : "2023-05-11T09:28:21.730+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2023-05-11T10:49:53.657+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "THYCOVID Collaboration Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 108471627,
+    "uuid" : "c31aa16e-72a6-43ce-bb58-4edbc854a4fb",
+    "info" : {
+      "createdBy" : "st004329",
+      "createdDate" : "2023-08-31T19:58:42.874+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2023-09-01T14:30:32.069+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "BM@N"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "743bd8cc-3bd0-4f9b-b923-57dca486d601",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/743bd8cc-3bd0-4f9b-b923-57dca486d601"
+      },
+      "externalId" : "27556",
+      "externalIdSource" : "importedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Joint Institute for Nuclear Research"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Объединенный институт ядерных исследований"
+        } ]
+      },
+      "type" : {
+        "pureId" : 13731213,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/researchinstitute/nonacademicinstitute",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Non-Academic Institute"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "неакадемический институт"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 114106130,
+    "uuid" : "6f695521-a64f-4dd4-ac33-0b3fef764e0c",
+    "info" : {
+      "createdBy" : "st004371",
+      "createdDate" : "2023-11-17T20:38:49.241+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2023-11-18T17:32:22.951+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Cern-Iso"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 114562539,
+    "uuid" : "7ab4d0ec-1e34-4a9c-8934-0fc6b7ad2063",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2023-12-04T12:14:43.147+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2023-12-05T11:34:57.492+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "ESCP EAGLE Safe Anastomosis Collaborative NIHR Global Health Research Unit in Surgery"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 116237934,
+    "uuid" : "ea85062f-31a3-4ee2-9b9d-78df142a2472",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2024-01-24T17:42:41.814+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-01-25T22:29:10.002+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "VEGA Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 116272631,
+    "uuid" : "ed1249e9-8839-4a45-b880-4a38a5d40d76",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2024-01-25T16:57:03.541+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-01-25T22:29:10.072+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "TOWER Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 116437884,
+    "uuid" : "b57b9002-f848-4045-aa8a-9b476a8617fa",
+    "info" : {
+      "createdBy" : "st805030",
+      "createdDate" : "2024-01-31T12:32:36.999+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-01-31T12:45:37.228+0300",
+      "previousUuids" : [ "f25a7da5-26db-47ed-9afd-d7740accd3e3", "952fc893-5a94-4e02-a1dd-f549f7d229ce" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "POISE-3 Trial Investigators and Study Groups"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "POISE-3 Investigators", "POISE 3" ]
+  }, {
+    "pureId" : 117037545,
+    "uuid" : "6fbedff4-6929-4aa9-a3f6-dc9a9ec48a8e",
+    "info" : {
+      "createdBy" : "st001258",
+      "createdDate" : "2024-02-22T12:47:56.667+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-02-22T21:47:34.539+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Groundwater Resources Working Group of the Expert Group on Resource Management UNECE"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 121352908,
+    "uuid" : "97672896-7f72-4766-b3a3-30ede3e48a06",
+    "info" : {
+      "createdBy" : "st004391",
+      "createdDate" : "2024-06-29T23:56:52.731+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-06-30T20:45:53.140+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Bergen pCT"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 121576379,
+    "uuid" : "7ab864af-8ac0-4679-a13b-505f8a117994",
+    "info" : {
+      "createdBy" : "st044637",
+      "createdDate" : "2024-07-07T11:54:53.939+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-07-23T17:04:02.998+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "NIHR Global Health Research Unit on Global Surgery"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 127364441,
+    "uuid" : "3726074a-5316-4ce3-b850-e4a2feeca434",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2024-11-19T17:11:37.128+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-11-19T17:12:07.001+0300",
+      "previousUuids" : [ "80595d48-d076-4a41-8c15-c65778965fb9" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Научный совет по проблемам чтения РАО"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "nameVariants" : [ "В.Я.Аскарова, Н.А.Борисенко, В.А.Бородина, Т.Г.Галактионова, Н.Н.Сметанникова, Н.А.Стефановская, Т.В.Черниговская, М.А.Черняк и др." ]
+  }, {
+    "pureId" : 130955885,
+    "uuid" : "af8c890c-ce90-4839-8d74-d9772ad4a981",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2025-01-24T11:25:12.011+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-01-24T13:20:57.952+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Международный авторский коллектив"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 132269044,
+    "uuid" : "5a313c24-df54-4bf5-b126-e0488c3c3f06",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2025-02-17T11:02:06.576+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-02-17T12:14:26.230+0300",
+      "previousUuids" : [ "c7f2a4bf-7581-4167-9c32-d01b2d993be7" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The International Situations Project David Funder"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 135442779,
+    "uuid" : "30c03d99-8df8-494f-9c5e-84376fc974e4",
+    "info" : {
+      "createdBy" : "st041668",
+      "createdDate" : "2025-05-13T23:26:47.650+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-05-14T10:24:07.864+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "КЦ доменов .RU / .РФ"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    },
+    "externalOrganisations" : [ {
+      "uuid" : "32bee49b-b550-4324-b615-5b88fc088eb5",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/32bee49b-b550-4324-b615-5b88fc088eb5"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "АНО Координационный центр национального домена сети Интернет"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16819,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/privatenonprofit",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Private non-profit"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "некоммерческая организация"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 135623579,
+    "uuid" : "3ba3636f-e3f9-467f-969a-1a0969856cc4",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2025-05-19T13:14:43.484+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-05-19T14:31:49.159+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "FTIR observation Team"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 136510582,
+    "uuid" : "6ec5be2e-bd76-469f-855d-cd23f92f8206",
+    "info" : {
+      "createdBy" : "st035467",
+      "createdDate" : "2025-06-08T20:10:16.100+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-06-09T12:05:41.079+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "The GAMER Working Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 138066454,
+    "uuid" : "364055cb-2651-4b50-b3e2-0d9715cc2123",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2025-07-09T10:37:03.204+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-07-09T11:41:41.480+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "PRINCE Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 138066801,
+    "uuid" : "e9ec38e1-dbfd-41a8-a5e2-93e4e4b1a784",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2025-07-09T10:40:02.997+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-07-09T11:41:41.535+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "ANH Study Group"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 138419123,
+    "uuid" : "0ce5e23d-e279-4f6f-a47e-6e5f335b3d30",
+    "info" : {
+      "createdBy" : "st077086",
+      "createdDate" : "2025-07-18T17:43:32.892+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-07-18T22:03:45.008+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "GigaChat team"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 142723126,
+    "uuid" : "a0389fee-c565-44b5-99ea-578695c92333",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2025-10-21T21:05:12.497+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-10-22T11:19:05.540+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "APPEAL Trial Investigators"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  }, {
+    "pureId" : 143029708,
+    "uuid" : "70260c7d-2cea-4a7a-b629-f91d0c78334b",
+    "info" : {
+      "createdBy" : "st009313",
+      "createdDate" : "2025-10-29T23:16:23.266+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2025-10-29T23:42:46.880+0300"
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "cogPOISE-3 Trial Investigators and Study Groups"
+      } ]
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Принятые"
+        } ]
+      }
+    }
+  } ]
+}

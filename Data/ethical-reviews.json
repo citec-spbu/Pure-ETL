@@ -1,0 +1,3945 @@
+{
+  "count" : 9,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 1000
+  },
+  "items" : [ {
+    "pureId" : 36626514,
+    "uuid" : "f89fabd7-26f0-471e-b50c-8bdff7ed640b",
+    "managingOrganisationalUnit" : {
+      "uuid" : "47f6a381-755d-4eec-8c9d-b149b0a099d7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/47f6a381-755d-4eec-8c9d-b149b0a099d7"
+      },
+      "externalId" : "50000029",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Risk Management and Insurance"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра управления рисками и страхования"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st007431",
+      "createdDate" : "2018-12-14T09:28:20.678+0300",
+      "modifiedBy" : "st007431",
+      "modifiedDate" : "2018-12-14T09:28:20.678+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Этическая оценка: Развитие методологии зеленого и инфраструктурного инвестирования институциональными инвесторами в условиях пенсионных реформ"
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "relatedApplication" : {
+      "uuid" : "627b2ce1-0466-49ae-8a13-66515c9d66ef",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/627b2ce1-0466-49ae-8a13-66515c9d66ef"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Развитие методологии зеленого и инфраструктурного инвестирования институциональными инвесторами в условиях пенсионных реформ"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    },
+    "submissionDate" : "2018-12-14",
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 36626519,
+      "person" : {
+        "uuid" : "1e03c5b0-979a-40c2-a375-6c3119891a49",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/1e03c5b0-979a-40c2-a375-6c3119891a49"
+        },
+        "externalId" : "50007326",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Жанна Викторовна Писаренко"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Жанна Викторовна",
+        "lastName" : "Писаренко"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "47f6a381-755d-4eec-8c9d-b149b0a099d7",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/47f6a381-755d-4eec-8c9d-b149b0a099d7"
+        },
+        "externalId" : "50000029",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Risk Management and Insurance"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра управления рисками и страхования"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 36626521,
+      "person" : {
+        "uuid" : "05c47d3a-6e74-48b4-ae21-6308556b2083",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/05c47d3a-6e74-48b4-ae21-6308556b2083"
+        },
+        "externalId" : "50006350",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Наталия Петровна Кузнецова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Наталия Петровна",
+        "lastName" : "Кузнецова"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "47f6a381-755d-4eec-8c9d-b149b0a099d7",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/47f6a381-755d-4eec-8c9d-b149b0a099d7"
+        },
+        "externalId" : "50000029",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Risk Management and Insurance"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра управления рисками и страхования"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "47f6a381-755d-4eec-8c9d-b149b0a099d7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/47f6a381-755d-4eec-8c9d-b149b0a099d7"
+      },
+      "externalId" : "50000029",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Risk Management and Insurance"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра управления рисками и страхования"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 43668799,
+    "uuid" : "8248f0c1-ee15-403b-b8b9-a3813e318291",
+    "managingOrganisationalUnit" : {
+      "uuid" : "433a0b39-0e8c-43ab-af3f-b820883dbdd1",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/433a0b39-0e8c-43ab-af3f-b820883dbdd1"
+      },
+      "externalId" : "50136645",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "English organisational unit name temporarily not avaliable"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Блок кардиореанимации отделение анестезиологии-реанимации"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17287,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_4",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 4"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "4 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st805030",
+      "createdDate" : "2019-07-16T13:25:25.229+0300",
+      "modifiedBy" : "st805030",
+      "modifiedDate" : "2019-07-16T13:25:25.229+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Этическая оценка: Введение кальция у пациентов, после операции на сердце в условиях искусственного кровообращения  (исследование ICARUS)"
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "reply" : {
+      "key" : "APPROVED",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Утверждено"
+        } ]
+      }
+    },
+    "relatedApplication" : {
+      "uuid" : "f9a10bbf-d14a-4177-ad37-7e57d25f6b3a",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/f9a10bbf-d14a-4177-ad37-7e57d25f6b3a"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Введение кальция у пациентов, после операции на сердце в условиях искусственного кровообращения  (исследование ICARUS)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180083,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/federalregionalauthorities/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    },
+    "approvedDate" : "2019-06-14",
+    "submissionDate" : "2019-06-07",
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 43668805,
+      "person" : {
+        "uuid" : "c4f55671-9670-4ffa-a401-4990d77b5f66",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/c4f55671-9670-4ffa-a401-4990d77b5f66"
+        },
+        "externalId" : "3567",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Сергей Михайлович Ефремов"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Сергей Михайлович",
+        "lastName" : "Ефремов"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "433a0b39-0e8c-43ab-af3f-b820883dbdd1",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/433a0b39-0e8c-43ab-af3f-b820883dbdd1"
+        },
+        "externalId" : "50136645",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "English organisational unit name temporarily not avaliable"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Блок кардиореанимации отделение анестезиологии-реанимации"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17287,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_4",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 4"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "4 уровень"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "ab8fe845-b276-4a5e-8770-d0d4eb623eb6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/ab8fe845-b276-4a5e-8770-d0d4eb623eb6"
+        },
+        "externalId" : "50141592",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "English organisational unit name temporarily not avaliable"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научно-исследовательский отдел"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "433a0b39-0e8c-43ab-af3f-b820883dbdd1",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/433a0b39-0e8c-43ab-af3f-b820883dbdd1"
+      },
+      "externalId" : "50136645",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "English organisational unit name temporarily not avaliable"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Блок кардиореанимации отделение анестезиологии-реанимации"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17287,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_4",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 4"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "4 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "ab8fe845-b276-4a5e-8770-d0d4eb623eb6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/ab8fe845-b276-4a5e-8770-d0d4eb623eb6"
+      },
+      "externalId" : "50141592",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "English organisational unit name temporarily not avaliable"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Научно-исследовательский отдел"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 43691428,
+    "uuid" : "99877b2b-df06-46fe-a666-0b8cfb5d66f1",
+    "managingOrganisationalUnit" : {
+      "uuid" : "433a0b39-0e8c-43ab-af3f-b820883dbdd1",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/433a0b39-0e8c-43ab-af3f-b820883dbdd1"
+      },
+      "externalId" : "50136645",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "English organisational unit name temporarily not avaliable"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Блок кардиореанимации отделение анестезиологии-реанимации"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17287,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_4",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 4"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "4 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st805030",
+      "createdDate" : "2019-07-17T15:38:33.369+0300",
+      "modifiedBy" : "st805030",
+      "modifiedDate" : "2019-07-17T15:38:33.369+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Этическая оценка: PeriOperative ISchemic Evaluation-3 (POISE-3) Trial "
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "reply" : {
+      "key" : "APPROVED",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Утверждено"
+        } ]
+      }
+    },
+    "relatedApplication" : {
+      "uuid" : "7f47cb91-4c6e-4ad6-b326-e967ae1e04d5",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/7f47cb91-4c6e-4ad6-b326-e967ae1e04d5"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "PeriOperative ISchemic Evaluation-3 (POISE-3) Trial "
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180083,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/federalregionalauthorities/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    },
+    "approvedDate" : "2019-03-27",
+    "submissionDate" : "2019-03-20",
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 43691431,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Этический комитет Клиники высоких медицинских технологий СПБГУ 27 Марта 2019 №03/2019"
+        } ]
+      },
+      "type" : {
+        "pureId" : 11399,
+        "uri" : "/dk/atira/pure/ethicalreview/descriptions/ethicalreviewdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 43691434,
+      "person" : {
+        "uuid" : "c4f55671-9670-4ffa-a401-4990d77b5f66",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/c4f55671-9670-4ffa-a401-4990d77b5f66"
+        },
+        "externalId" : "3567",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Сергей Михайлович Ефремов"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Сергей Михайлович",
+        "lastName" : "Ефремов"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "433a0b39-0e8c-43ab-af3f-b820883dbdd1",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/433a0b39-0e8c-43ab-af3f-b820883dbdd1"
+        },
+        "externalId" : "50136645",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "English organisational unit name temporarily not avaliable"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Блок кардиореанимации отделение анестезиологии-реанимации"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17287,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_4",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 4"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "4 уровень"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "ab8fe845-b276-4a5e-8770-d0d4eb623eb6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/ab8fe845-b276-4a5e-8770-d0d4eb623eb6"
+        },
+        "externalId" : "50141592",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "English organisational unit name temporarily not avaliable"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Научно-исследовательский отдел"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "433a0b39-0e8c-43ab-af3f-b820883dbdd1",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/433a0b39-0e8c-43ab-af3f-b820883dbdd1"
+      },
+      "externalId" : "50136645",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "English organisational unit name temporarily not avaliable"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Блок кардиореанимации отделение анестезиологии-реанимации"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17287,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_4",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 4"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "4 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "ab8fe845-b276-4a5e-8770-d0d4eb623eb6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/ab8fe845-b276-4a5e-8770-d0d4eb623eb6"
+      },
+      "externalId" : "50141592",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "English organisational unit name temporarily not avaliable"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Научно-исследовательский отдел"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 99963932,
+    "uuid" : "5c9d7fa5-5c63-4ac9-b310-f9ac575487d7",
+    "managingOrganisationalUnit" : {
+      "uuid" : "ba3b143a-a7c7-4114-a1f3-6799d3fa7d64",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/ba3b143a-a7c7-4114-a1f3-6799d3fa7d64"
+      },
+      "externalId" : "50017355",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Medical Psychology and Psychophysiology"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра медицинской психологии и психофизиологии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st001774",
+      "createdDate" : "2022-11-07T15:12:17.511+0300",
+      "modifiedBy" : "st001774",
+      "modifiedDate" : "2022-11-07T15:12:17.511+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Исследование особенностей научения с подкреплением у больных шизофренией"
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "relatedApplication" : {
+      "uuid" : "79e2b74e-a19b-4caa-b634-48cbd8d55cea",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/79e2b74e-a19b-4caa-b634-48cbd8d55cea"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Моделирование экспериментально наблюдаемой когнитивной симптоматики при шизофрении на базе оригинального нейросетевого алгоритма"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    },
+    "submissionDate" : "2022-04-21",
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 99963935,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : " Экспериментальный материал будет содержать группу предъявляемых в разных случайных сочетаниях визуальных стимулов, подразумевающих определенное прямое или косвенное влияние на успешность ответных действий, а также нерелевантных (не влияющих на результат) стимулов. \r\nВ качестве пилотажного эксперимента мы возьмем стимульный материал в виде иероглифических знаков предложенных в статье (Maia T. V., Frank M. J. 2011, Gu X., FitzGerald T. H. B., Friston K. J. 2019) и предоставленных нам авторами в качестве программного обеспечения на базе пакета PsychPy. Эксперимент состоит из обучающего и проверочного этапов. Существует 3 пары иероглифических знаков (условно AB BC CD). В каждой паре существует соотношение вероятностей положительного подкрепления выбора одного из знаков из пары. В паре AB 80% на 20%, в паре BC 70% на 30%, в паре CD 60% на 40%.  На этапе обучения после предъявления пары знаков испытуемому будет необходимо совершить действие, которое будет оцениваться по его успешности (выбор одного из пары знаков, клавишами «Left» или «Right»). Ответ будет подкрепляться обратной связью в соответствующем проценте случаев. На обучающем этапе предъявление каждой пары стимулов необходимо повторять несколько (от 5 до 15) раз. Исходя из модели обучения с подкреплением предложенной в (Maia T. V., Frank M. J. 2011, Gu X., FitzGerald T. H. B., Friston K. J. 2019) выбор ответа A с положительным подкреплением в начале обучения будет вызывать самую частую, относительно всех остальных исходов, модификацию синапсов под воздействием сигналов об ошибке второго рода (за сигналы о которой отвечают D1 рецепторы). Наоборот, выбор стимула B с отрицательным подкреплением будет вызывать обучение с модификацией синапсов исходя из ошибки первого рода (за сигналы о которой отвечают D2 рецепторы).\r\nНа проверочном этапе стимулы в парах перемешиваются и обратная связь не выдается. Конечный результат оценки соотношения реакций на ошибки первого и второго родов зависит от вероятности правильных ответов в парах со стимулом A (выбор ответа A), имевшим на этапе обучения максимальную вероятность правильного выбора, и со стимулом B (не выбор стимула B) имевшим минимальную вероятность. Например, в паре АС испытуемый должен выбрать вариант А (задействование результата обучения на ошибке второго рода, зависимого от рецепторов D1 дофамина), в паре DВ выбор варианта D, т.е. отвержение В (задействование результата обучения на ошибке первого рода, зависимого от рецепторов D2). Для оценки особенностей имплицитного научения перед предъявлением инструкции в одной из серий эксперимента происходит предъявление тех же знаков, но разными цветами, отражающими вероятность правильного подкрепления. То есть производится предобучение и знакомство со стимулами. На каждое предъявление также фиксируется вызванный потенциал. \r\n Последовательность пар стимулов на этапе научения и проверки испытуемых будет подбираться исходя из максимальной (один этап) и, наоборот, минимальной (другой этап) вероятности ошибок, полученных при предварительном обучении множества нейросетей той же задаче, с последующим отбором наиболее быстрых и медленных вариантов научения. На втором этапе эксперимента с подобранными параметрами, сами иероглифические стимулы можно «зашумлять» добавочными знаками, не связанными с правильностью решения и активирующими имплицитную систему научения.  \r\nВ поведенческом эксперименте с участием экспериментальной и контрольной групп будут фиксироваться: параметры научения, наличие и выраженность ошибок и сопровождающие это психические явления, например повышение тревоги (КГР), изменение времени реакции, скорости научения и т.п. Во время эксперимента будут регистрироваться вызванные потенциалы на поступающие релевантные и нерелевантные стимулы, а также сигналы, соответствующие положительной и отрицательной обратной связи. Так как последовательности будут соответствовать этапам обучения нейросети, можно классифицировать стимулы соответственно этих этапов, например, более быстрое научение или более замедленное (попадание в локальный минимум). Для оценки субъективной реакции испытуемых на повторяющиеся ошибки после эксперимента будет проведено интервью.  "
+        } ]
+      },
+      "type" : {
+        "pureId" : 11399,
+        "uri" : "/dk/atira/pure/ethicalreview/descriptions/ethicalreviewdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 99963937,
+      "person" : {
+        "uuid" : "dfd6491f-6602-451c-a249-183fd0d5cd86",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/dfd6491f-6602-451c-a249-183fd0d5cd86"
+        },
+        "externalId" : "50031454",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Иван Анатольевич Горбунов"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Иван Анатольевич",
+        "lastName" : "Горбунов"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "ba3b143a-a7c7-4114-a1f3-6799d3fa7d64",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/ba3b143a-a7c7-4114-a1f3-6799d3fa7d64"
+        },
+        "externalId" : "50017355",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Medical Psychology and Psychophysiology"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра медицинской психологии и психофизиологии"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 99963939,
+      "externalPerson" : {
+        "uuid" : "3a50b903-5fdf-49da-af0d-60fef12573d6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/external-persons/3a50b903-5fdf-49da-af0d-60fef12573d6"
+        },
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Даниил Вахрушев"
+          } ]
+        },
+        "type" : {
+          "pureId" : 16827,
+          "uri" : "/dk/atira/pure/externalperson/externalpersontypes/externalperson/externalperson",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "External person"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Внешнее лицо"
+            } ]
+          }
+        }
+      },
+      "name" : {
+        "firstName" : "Даниил",
+        "lastName" : "Вахрушев"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      }
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "ba3b143a-a7c7-4114-a1f3-6799d3fa7d64",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/ba3b143a-a7c7-4114-a1f3-6799d3fa7d64"
+      },
+      "externalId" : "50017355",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Medical Psychology and Psychophysiology"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра медицинской психологии и психофизиологии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 103040358,
+    "uuid" : "198759ec-d4f9-4367-8d71-1b693915e803",
+    "managingOrganisationalUnit" : {
+      "uuid" : "bd334436-4404-4e29-863c-6779e4a79f61",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/bd334436-4404-4e29-863c-6779e4a79f61"
+      },
+      "externalId" : "50111522",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Modern and Contemporary History"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра истории нового и новейшего времени"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st036384",
+      "createdDate" : "2023-02-20T14:25:02.024+0300",
+      "modifiedBy" : "st036384",
+      "modifiedDate" : "2023-02-20T14:25:02.024+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "тест"
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 103040362,
+      "person" : {
+        "uuid" : "b3b66cda-cc2e-4aca-8b41-54a76a32b675",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/b3b66cda-cc2e-4aca-8b41-54a76a32b675"
+        },
+        "externalId" : "2979",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Виктор Николаевич Чепик"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Виктор Николаевич",
+        "lastName" : "Чепик"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "bd334436-4404-4e29-863c-6779e4a79f61",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/bd334436-4404-4e29-863c-6779e4a79f61"
+        },
+        "externalId" : "50111522",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Modern and Contemporary History"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра истории нового и новейшего времени"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "bd334436-4404-4e29-863c-6779e4a79f61",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/bd334436-4404-4e29-863c-6779e4a79f61"
+      },
+      "externalId" : "50111522",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Modern and Contemporary History"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра истории нового и новейшего времени"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 114275511,
+    "uuid" : "607ec72e-9b8e-42f1-82ce-c68d55a7b070",
+    "managingOrganisationalUnit" : {
+      "uuid" : "29096288-fa36-4e00-a93e-38e2671fa415",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/29096288-fa36-4e00-a93e-38e2671fa415"
+      },
+      "externalId" : "50024503",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ludmila Verbitskaya Department of General Linguistics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра общего языкознания имени Л.А. Вербицкой"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st005693",
+      "createdDate" : "2023-11-23T15:42:07.726+0300",
+      "modifiedBy" : "st009313",
+      "modifiedDate" : "2024-01-19T13:11:40.117+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Роль лингвистических характеристик речи в результативных учительских практиках: корпусные и психолингвистические данные: 2023 г. этап 1"
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "reply" : {
+      "key" : "APPROVED",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Approved"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Утверждено"
+        } ]
+      }
+    },
+    "relatedApplication" : {
+      "uuid" : "f71856c4-f200-49a6-bb36-c39c881f2041",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/f71856c4-f200-49a6-bb36-c39c881f2041"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Роль лингвистических характеристик речи в результативных учительских практиках: корпусные и психолингвистические данные"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180124,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/spburesearchsponsorship/proposalforspbufundedresearchinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for SPbU-funded research (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на НИР за счёт средств СПбГУ"
+          } ]
+        }
+      }
+    },
+    "relatedAward" : {
+      "uuid" : "433597c3-0af3-48dc-8183-23db5d4a1017",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/awards/433597c3-0af3-48dc-8183-23db5d4a1017"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Роль лингвистических характеристик речи в результативных учительских практиках: корпусные и психолингвистические данные: 2023 г. этап 1"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180254,
+        "uri" : "/dk/atira/pure/award/awardtypes/award/spburesearchsponsorship/grantforspbufundedresearchinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Grant for SPbU-funded research (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Грант на НИР за счёт средств СПбГУ"
+          } ]
+        }
+      }
+    },
+    "approvedDate" : "2023-03-22",
+    "submissionDate" : "2023-03-17",
+    "validFromDate" : "2023-03-22",
+    "validToDate" : "2024-03-21",
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 114275515,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Проект направлен на решение фундаментальной научной проблемы, связанной с описанием того, как происходит восприятие речи и какие факторы влияют на эффективность восприятия. Планируется рассмотреть конкретный вид коммуникации – взаимодействие учителя и ученика в рамках уроков в средней школе, выявить характеристики результативных учительских практик и разработать рекомендации по модификации системы обратной связи для учителей с учетом выявленных характеристик."
+        } ]
+      },
+      "type" : {
+        "pureId" : 11399,
+        "uri" : "/dk/atira/pure/ethicalreview/descriptions/ethicalreviewdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 114275524,
+      "person" : {
+        "uuid" : "2b489c79-27ad-4f50-a99a-61e36f6919dd",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/2b489c79-27ad-4f50-a99a-61e36f6919dd"
+        },
+        "externalId" : "50084755",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Елена Игоревна Риехакайнен"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Елена Игоревна",
+        "lastName" : "Риехакайнен"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "29096288-fa36-4e00-a93e-38e2671fa415",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/29096288-fa36-4e00-a93e-38e2671fa415"
+        },
+        "externalId" : "50024503",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Ludmila Verbitskaya Department of General Linguistics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра общего языкознания имени Л.А. Вербицкой"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275526,
+      "person" : {
+        "uuid" : "07793dc0-a89c-46a0-b009-5235b711c5b9",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/07793dc0-a89c-46a0-b009-5235b711c5b9"
+        },
+        "externalId" : "50042258",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Мария Владимировна Хохлова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Мария Владимировна",
+        "lastName" : "Хохлова"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "8c903610-3e5f-4fb3-817a-5ac0fe867afb",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/8c903610-3e5f-4fb3-817a-5ac0fe867afb"
+        },
+        "externalId" : "50024501",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Mathematical Linguistics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра математической лингвистики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275528,
+      "person" : {
+        "uuid" : "0b39ba64-2a77-4618-b799-cc55c6973a28",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/0b39ba64-2a77-4618-b799-cc55c6973a28"
+        },
+        "externalId" : "S-731B48FF-FFEF-40A9-8AB7-63FFD812BEC8",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Владислав Иванович Зубов"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Владислав Иванович",
+        "lastName" : "Зубов"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "29096288-fa36-4e00-a93e-38e2671fa415",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/29096288-fa36-4e00-a93e-38e2671fa415"
+        },
+        "externalId" : "50024503",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Ludmila Verbitskaya Department of General Linguistics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра общего языкознания имени Л.А. Вербицкой"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275530,
+      "person" : {
+        "uuid" : "914e147c-7c07-4603-ad91-5f233db8d48c",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/914e147c-7c07-4603-ad91-5f233db8d48c"
+        },
+        "externalId" : "S-FC9A48B5-6A83-48C7-810E-4254DDD214E0",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Ольга Васильевна Раева"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Ольга Васильевна",
+        "lastName" : "Раева"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "314b5b67-0413-458a-a043-cc145d4403f7",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/314b5b67-0413-458a-a043-cc145d4403f7"
+        },
+        "externalId" : "MK30622020",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "MK.3062.2020 Linguistics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "MK.3062.2020 Лингвистика"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275532,
+      "person" : {
+        "uuid" : "3dd66c14-541a-4457-a3d2-e49e53115ebc",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/3dd66c14-541a-4457-a3d2-e49e53115ebc"
+        },
+        "externalId" : "S-CFCC7EC7-373F-4798-BF2E-9A91AB2F9C0D",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Юлия Сергеевна Виноградова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Юлия Сергеевна",
+        "lastName" : "Виноградова"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "26619258-c0ee-48ed-a39e-bed170df5579",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/26619258-c0ee-48ed-a39e-bed170df5579"
+        },
+        "externalId" : "50024483",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Faculty of Philology"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Филологический факультет"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17278,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 1"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "1 уровень"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "af6b48d9-5bb8-4c81-aa84-4dd4440944a5",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/af6b48d9-5bb8-4c81-aa84-4dd4440944a5"
+        },
+        "externalId" : "CB50512019",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "CB.5051.2019 Theory and Practice of Intercultural Communication (English)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "CB.5051.2019 Теория и практика межкультурной коммуникации (английский язык)"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275535,
+      "person" : {
+        "uuid" : "bfb38963-085a-45fc-8e00-b4ffc29f7946",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/bfb38963-085a-45fc-8e00-b4ffc29f7946"
+        },
+        "externalId" : "S-088DF200-72A5-4A99-A280-688DC5B6981F",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Мария Владимировна Дайтер"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Мария Владимировна",
+        "lastName" : "Дайтер"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "26619258-c0ee-48ed-a39e-bed170df5579",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/26619258-c0ee-48ed-a39e-bed170df5579"
+        },
+        "externalId" : "50024483",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Faculty of Philology"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Филологический факультет"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17278,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 1"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "1 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275536,
+      "person" : {
+        "uuid" : "13196f02-73b0-4cb4-abc6-f7f9d34520ae",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/13196f02-73b0-4cb4-abc6-f7f9d34520ae"
+        },
+        "externalId" : "S-55B1E72C-D29D-4FE9-ACBD-E01EBDA0A181",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Иван Дмитриевич Мамаев"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Иван Дмитриевич",
+        "lastName" : "Мамаев"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "8c903610-3e5f-4fb3-817a-5ac0fe867afb",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/8c903610-3e5f-4fb3-817a-5ac0fe867afb"
+        },
+        "externalId" : "50024501",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Mathematical Linguistics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра математической лингвистики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "00669e52-ee84-439e-a7bc-74a95139408f",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/00669e52-ee84-439e-a7bc-74a95139408f"
+        },
+        "externalId" : "MK30622021",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "MK.3062.2021 Linguistics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "MK.3062.2021 Лингвистика"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275539,
+      "person" : {
+        "uuid" : "3c20142a-e983-410d-8b01-93fbf2474dfb",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/3c20142a-e983-410d-8b01-93fbf2474dfb"
+        },
+        "externalId" : "A01003466",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Валентина Сергеевна Браташ"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Валентина Сергеевна",
+        "lastName" : "Браташ"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "33563ab6-f83f-49e2-8200-f0526171a2b4",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/33563ab6-f83f-49e2-8200-f0526171a2b4"
+        },
+        "externalId" : "50146782",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Institute of Cognitive Studies"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Институт когнитивных исследований"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17278,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 1"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "1 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275541,
+      "person" : {
+        "uuid" : "37c524a1-2704-4b8c-b415-c07a6b16390d",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/37c524a1-2704-4b8c-b415-c07a6b16390d"
+        },
+        "externalId" : "S-96784C28-E03F-4D25-9245-F04F78E6D577",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Валерия Олеговна Прокаева"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Валерия Олеговна",
+        "lastName" : "Прокаева"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "26619258-c0ee-48ed-a39e-bed170df5579",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/26619258-c0ee-48ed-a39e-bed170df5579"
+        },
+        "externalId" : "50024483",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Faculty of Philology"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Филологический факультет"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17278,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 1"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "1 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 114275543,
+      "person" : {
+        "uuid" : "ff97d53d-a4a8-4d99-b0e3-ddce2325982c",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/ff97d53d-a4a8-4d99-b0e3-ddce2325982c"
+        },
+        "externalId" : "S-271DCAB9-4CEC-4FA8-A6FD-434C0F0EDA4B",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Ульяна Андреевна Судакова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Ульяна Андреевна",
+        "lastName" : "Судакова"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "26619258-c0ee-48ed-a39e-bed170df5579",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/26619258-c0ee-48ed-a39e-bed170df5579"
+        },
+        "externalId" : "50024483",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Faculty of Philology"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Филологический факультет"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17278,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 1"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "1 уровень"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "e44f05ea-39a4-4295-8a70-3ae77b0abb85",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/e44f05ea-39a4-4295-8a70-3ae77b0abb85"
+        },
+        "externalId" : "CB50482021",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "CB.5048.2021 Theoretical and Experimental Linguistics (English)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "CB.5048.2021 Теоретическое и экспериментальное языкознание (английский язык)"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17284,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 3"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "3 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "29096288-fa36-4e00-a93e-38e2671fa415",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/29096288-fa36-4e00-a93e-38e2671fa415"
+      },
+      "externalId" : "50024503",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ludmila Verbitskaya Department of General Linguistics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра общего языкознания имени Л.А. Вербицкой"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "8c903610-3e5f-4fb3-817a-5ac0fe867afb",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/8c903610-3e5f-4fb3-817a-5ac0fe867afb"
+      },
+      "externalId" : "50024501",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Mathematical Linguistics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра математической лингвистики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "314b5b67-0413-458a-a043-cc145d4403f7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/314b5b67-0413-458a-a043-cc145d4403f7"
+      },
+      "externalId" : "MK30622020",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "MK.3062.2020 Linguistics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "MK.3062.2020 Лингвистика"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "26619258-c0ee-48ed-a39e-bed170df5579",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/26619258-c0ee-48ed-a39e-bed170df5579"
+      },
+      "externalId" : "50024483",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Faculty of Philology"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Филологический факультет"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17278,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 1"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "1 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "af6b48d9-5bb8-4c81-aa84-4dd4440944a5",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/af6b48d9-5bb8-4c81-aa84-4dd4440944a5"
+      },
+      "externalId" : "CB50512019",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "CB.5051.2019 Theory and Practice of Intercultural Communication (English)"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "CB.5051.2019 Теория и практика межкультурной коммуникации (английский язык)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "00669e52-ee84-439e-a7bc-74a95139408f",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/00669e52-ee84-439e-a7bc-74a95139408f"
+      },
+      "externalId" : "MK30622021",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "MK.3062.2021 Linguistics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "MK.3062.2021 Лингвистика"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "33563ab6-f83f-49e2-8200-f0526171a2b4",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/33563ab6-f83f-49e2-8200-f0526171a2b4"
+      },
+      "externalId" : "50146782",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Institute of Cognitive Studies"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Институт когнитивных исследований"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17278,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 1"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "1 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "e44f05ea-39a4-4295-8a70-3ae77b0abb85",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/e44f05ea-39a4-4295-8a70-3ae77b0abb85"
+      },
+      "externalId" : "CB50482021",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "CB.5048.2021 Theoretical and Experimental Linguistics (English)"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "CB.5048.2021 Теоретическое и экспериментальное языкознание (английский язык)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17284,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_3",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 3"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "3 уровень"
+          } ]
+        }
+      }
+    } ],
+    "documents" : [ {
+      "pureId" : 114275754,
+      "title" : "Официальное уведомление об одобрении проекта (2023-2024)",
+      "url" : "https://pure.spbu.ru/ws/files/114275754/_.pdf",
+      "creator" : "st005693",
+      "created" : "2023-11-23T15:49:01.909+0300",
+      "documentType" : {
+        "pureId" : 11417,
+        "uri" : "/dk/atira/pure/ethicalreview/document/types/review",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Review"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Оценка"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      },
+      "documentVersionType" : {
+        "pureId" : 11423,
+        "uri" : "/dk/atira/pure/ethicalreview/document/versiontypes/currentversion",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Current version"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текущая версия"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 114275755,
+      "title" : "Согласие_запись_ребёнок",
+      "url" : "https://pure.spbu.ru/ws/files/114275755/_.pdf",
+      "creator" : "st005693",
+      "created" : "2023-11-23T15:49:01.909+0300",
+      "documentType" : {
+        "pureId" : 11417,
+        "uri" : "/dk/atira/pure/ethicalreview/document/types/review",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Review"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Оценка"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      },
+      "documentVersionType" : {
+        "pureId" : 11423,
+        "uri" : "/dk/atira/pure/ethicalreview/document/versiontypes/currentversion",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Current version"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текущая версия"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 114275756,
+      "title" : "Согласие_запись_родитель",
+      "url" : "https://pure.spbu.ru/ws/files/114275756/_.pdf",
+      "creator" : "st005693",
+      "created" : "2023-11-23T15:49:01.909+0300",
+      "documentType" : {
+        "pureId" : 11417,
+        "uri" : "/dk/atira/pure/ethicalreview/document/types/review",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Review"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Оценка"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      },
+      "documentVersionType" : {
+        "pureId" : 11423,
+        "uri" : "/dk/atira/pure/ethicalreview/document/versiontypes/currentversion",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Current version"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текущая версия"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 114275757,
+      "title" : "Согласие_запись_учитель",
+      "url" : "https://pure.spbu.ru/ws/files/114275757/_.pdf",
+      "creator" : "st005693",
+      "created" : "2023-11-23T15:49:01.909+0300",
+      "documentType" : {
+        "pureId" : 11417,
+        "uri" : "/dk/atira/pure/ethicalreview/document/types/review",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Review"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Оценка"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      },
+      "documentVersionType" : {
+        "pureId" : 11423,
+        "uri" : "/dk/atira/pure/ethicalreview/document/versiontypes/currentversion",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Current version"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текущая версия"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 114275758,
+      "title" : "Согласие_эксперимент_родитель",
+      "url" : "https://pure.spbu.ru/ws/files/114275758/_.pdf",
+      "creator" : "st005693",
+      "created" : "2023-11-23T15:49:01.909+0300",
+      "documentType" : {
+        "pureId" : 11417,
+        "uri" : "/dk/atira/pure/ethicalreview/document/types/review",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Review"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Оценка"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      },
+      "documentVersionType" : {
+        "pureId" : 11423,
+        "uri" : "/dk/atira/pure/ethicalreview/document/versiontypes/currentversion",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Current version"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текущая версия"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 114275759,
+      "title" : "Согласие_эксперимент_участник",
+      "url" : "https://pure.spbu.ru/ws/files/114275759/_.pdf",
+      "creator" : "st005693",
+      "created" : "2023-11-23T15:49:01.909+0300",
+      "documentType" : {
+        "pureId" : 11417,
+        "uri" : "/dk/atira/pure/ethicalreview/document/types/review",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Review"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Оценка"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      },
+      "documentVersionType" : {
+        "pureId" : 11423,
+        "uri" : "/dk/atira/pure/ethicalreview/document/versiontypes/currentversion",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Current version"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текущая версия"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 127369947,
+    "uuid" : "f2640c5d-9a0a-4791-9d74-6dfcc6750c38",
+    "managingOrganisationalUnit" : {
+      "uuid" : "23a8e52f-3f4c-4dc4-b290-f12e0bdebb5d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/23a8e52f-3f4c-4dc4-b290-f12e0bdebb5d"
+      },
+      "externalId" : "50000043",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Social Analysis and Mathematical Methods in Sociology"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра социального анализа и математических методов в социологии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st801923",
+      "createdDate" : "2024-11-19T21:51:57.254+0300",
+      "modifiedBy" : "st801923",
+      "modifiedDate" : "2024-11-19T21:51:57.254+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Одобрение Этического комитета СПбГУ инструментария для исследования идентичности молодежи"
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "relatedAward" : {
+      "uuid" : "b23b8eb7-ab10-4acb-8698-d5dbdde482d0",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/awards/b23b8eb7-ab10-4acb-8698-d5dbdde482d0"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Моделирование устойчивых конструктов гражданской идентичности российской молодёжи как механизма трансфера духовно-нравственных ценностей: 2024 г.  этап 1"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180254,
+        "uri" : "/dk/atira/pure/award/awardtypes/award/spburesearchsponsorship/grantforspbufundedresearchinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Grant for SPbU-funded research (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Грант на НИР за счёт средств СПбГУ"
+          } ]
+        }
+      }
+    },
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "personAssociations" : [ {
+      "pureId" : 127369956,
+      "person" : {
+        "uuid" : "cfb43724-d3af-497e-acbd-2f73f9f0590b",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/cfb43724-d3af-497e-acbd-2f73f9f0590b"
+        },
+        "externalId" : "50018665",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Светлана Дзахотовна Гуриева"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Светлана Дзахотовна",
+        "lastName" : "Гуриева"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "d64e3c06-0f37-451e-a504-64a994fbcb66",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/d64e3c06-0f37-451e-a504-64a994fbcb66"
+        },
+        "externalId" : "50017292",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Faculty of Psychology"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Факультет психологии"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17278,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 1"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "1 уровень"
+            } ]
+          }
+        }
+      }, {
+        "uuid" : "362590ae-0b9d-45cd-a300-c01f1debf5f6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/362590ae-0b9d-45cd-a300-c01f1debf5f6"
+        },
+        "externalId" : "50017351",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Social Psychology"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра социальной психологии"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 127369959,
+      "person" : {
+        "uuid" : "566bcaf3-f268-4f17-b76c-55b1c8520527",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/566bcaf3-f268-4f17-b76c-55b1c8520527"
+        },
+        "externalId" : "946",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Наталья Егоровна Шилкина"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Наталья Егоровна",
+        "lastName" : "Шилкина"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "12eb21c0-b8af-4ce7-8ea2-4d5c1d4bfea0",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/12eb21c0-b8af-4ce7-8ea2-4d5c1d4bfea0"
+        },
+        "externalId" : "50000056",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Sociology of Youth and Youth Policy"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра социологии молодежи и молодежной политики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 127369961,
+      "person" : {
+        "uuid" : "14641a19-0dea-49bb-bdf9-d87d1482c772",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/14641a19-0dea-49bb-bdf9-d87d1482c772"
+        },
+        "externalId" : "50116195",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Анна Васильевна Мальцева"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Анна Васильевна",
+        "lastName" : "Мальцева"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "23a8e52f-3f4c-4dc4-b290-f12e0bdebb5d",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/23a8e52f-3f4c-4dc4-b290-f12e0bdebb5d"
+        },
+        "externalId" : "50000043",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Social Analysis and Mathematical Methods in Sociology"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра социального анализа и математических методов в социологии"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "d64e3c06-0f37-451e-a504-64a994fbcb66",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/d64e3c06-0f37-451e-a504-64a994fbcb66"
+      },
+      "externalId" : "50017292",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Faculty of Psychology"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Факультет психологии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17278,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 1"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "1 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "362590ae-0b9d-45cd-a300-c01f1debf5f6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/362590ae-0b9d-45cd-a300-c01f1debf5f6"
+      },
+      "externalId" : "50017351",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Social Psychology"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра социальной психологии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "23a8e52f-3f4c-4dc4-b290-f12e0bdebb5d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/23a8e52f-3f4c-4dc4-b290-f12e0bdebb5d"
+      },
+      "externalId" : "50000043",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Social Analysis and Mathematical Methods in Sociology"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра социального анализа и математических методов в социологии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "12eb21c0-b8af-4ce7-8ea2-4d5c1d4bfea0",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/12eb21c0-b8af-4ce7-8ea2-4d5c1d4bfea0"
+      },
+      "externalId" : "50000056",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Sociology of Youth and Youth Policy"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра социологии молодежи и молодежной политики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "documents" : [ {
+      "pureId" : 127369951,
+      "title" : "Скан_20241024 (4)",
+      "url" : "https://pure.spbu.ru/ws/files/127369951/_20241024_4_.pdf",
+      "creator" : "st801923",
+      "created" : "2024-11-19T21:51:57.251+0300",
+      "documentType" : {
+        "pureId" : 11417,
+        "uri" : "/dk/atira/pure/ethicalreview/document/types/review",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Review"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Оценка"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      },
+      "documentVersionType" : {
+        "pureId" : 11423,
+        "uri" : "/dk/atira/pure/ethicalreview/document/versiontypes/currentversion",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Current version"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текущая версия"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 133432021,
+    "uuid" : "78891f3f-5154-4a89-9bd2-61fa5e6dec5f",
+    "managingOrganisationalUnit" : {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : true,
+    "info" : {
+      "createdBy" : "st001302",
+      "createdDate" : "2025-03-27T16:52:36.634+0300",
+      "modifiedBy" : "st001302",
+      "modifiedDate" : "2025-03-27T16:52:36.634+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Благодарственное письмо Ректора СПбГУ"
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 133432023,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "За многолетний и добросовестный труд по подготовке высококвалифицированных специалистов, разработке учебно-методических материалов и выполнению научно-исследовательских работ в области наук о Земле"
+        } ]
+      },
+      "type" : {
+        "pureId" : 11399,
+        "uri" : "/dk/atira/pure/ethicalreview/descriptions/ethicalreviewdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 133432025,
+      "person" : {
+        "uuid" : "84e0b1f4-778a-4e23-9721-1696309c91d5",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/84e0b1f4-778a-4e23-9721-1696309c91d5"
+        },
+        "externalId" : "50021171",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Константин Владиславович Титов"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Константин Владиславович",
+        "lastName" : "Титов"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+        },
+        "externalId" : "50107800",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Geophysics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра геофизики"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "841bc901-edad-46b5-a95d-09dbe33332e6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/841bc901-edad-46b5-a95d-09dbe33332e6"
+      },
+      "externalId" : "50107800",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Geophysics"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра геофизики"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 138862451,
+    "uuid" : "2e3bd0cc-37e5-45c3-8c6d-551844aa24f2",
+    "managingOrganisationalUnit" : {
+      "uuid" : "f6b58bb8-7deb-432d-bab2-e2835f5bba0d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/f6b58bb8-7deb-432d-bab2-e2835f5bba0d"
+      },
+      "externalId" : "1",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "External users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Внешние пользователи"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17276,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_0",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 0"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Уровень организации"
+          } ]
+        }
+      }
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "stt29490",
+      "createdDate" : "2025-07-31T17:15:10.761+0300",
+      "modifiedBy" : "stt29490",
+      "modifiedDate" : "2025-07-31T17:15:10.761+0300"
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Процессуальная эстетика. Систематическая экспозиция идей парадигмальной платформы для применения в эстетическом поле. Методологическая монография"
+      } ]
+    },
+    "type" : {
+      "pureId" : 11393,
+      "uri" : "/dk/atira/pure/ethicalreview/ethicalreviewtypes/ethicalreview/ethicalreview",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Ethical Review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Этическая оценка"
+        } ]
+      }
+    },
+    "relatedApplication" : {
+      "uuid" : "3d3a6f33-6c9a-4fd8-98d6-971af832e2d5",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/3d3a6f33-6c9a-4fd8-98d6-971af832e2d5"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Процессуальная эстетика. Систематическая экспозиция идей парадигмальной платформы для применения в эстетическом поле. Методологическая монография"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180165,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/proposalforpublicationinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for publication (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на опубликование в СПбГУ"
+          } ]
+        }
+      }
+    },
+    "submissionDate" : "2025-07-31",
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "descriptions" : [ {
+      "pureId" : 138862454,
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Публикация текста монографии позволит пересмотреть вопрос о методологические основах преподавания эстетики как философской дисциплины прежде всего в крупнейших классических университетах России, а также во всехдругих  высших учебных заведениях, где теоретико-эстетические компетенции необходимы. <br/>"
+        } ]
+      },
+      "type" : {
+        "pureId" : 11399,
+        "uri" : "/dk/atira/pure/ethicalreview/descriptions/ethicalreviewdescription",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Description"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Описание"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 138862458,
+      "person" : {
+        "uuid" : "5272c3aa-e54c-402e-a470-736e43a38bc1",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/5272c3aa-e54c-402e-a470-736e43a38bc1"
+        },
+        "externalId" : "ADt29490",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Сергей Анатольевич Дзикевич"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "Сергей Анатольевич",
+        "lastName" : "Дзикевич"
+      },
+      "personRole" : {
+        "pureId" : 11409,
+        "uri" : "/dk/atira/pure/ethicalreview/roles/ethicalreview/creator",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Creator"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "f6b58bb8-7deb-432d-bab2-e2835f5bba0d",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/f6b58bb8-7deb-432d-bab2-e2835f5bba0d"
+        },
+        "externalId" : "1",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "External users"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Внешние пользователи"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17276,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_0",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 0"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Уровень организации"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "f6b58bb8-7deb-432d-bab2-e2835f5bba0d",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/f6b58bb8-7deb-432d-bab2-e2835f5bba0d"
+      },
+      "externalId" : "1",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "External users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Внешние пользователи"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17276,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_0",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 0"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Уровень организации"
+          } ]
+        }
+      }
+    } ],
+    "externalOrganisations" : [ {
+      "uuid" : "0160d7b0-e758-43bd-9cc5-308ab4a5a6d7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/0160d7b0-e758-43bd-9cc5-308ab4a5a6d7"
+      },
+      "externalId" : "227310",
+      "externalIdSource" : "importedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Moscow State University"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Московский государственный университет  им. М. В. Ломоносова"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16804,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/university",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "University"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "университет"
+          } ]
+        }
+      }
+    } ],
+    "documents" : [ {
+      "pureId" : 138862455,
+      "title" : "Процессуальная эстетика",
+      "url" : "https://pure.spbu.ru/ws/files/138862455/_.doc",
+      "creator" : "stt29490",
+      "created" : "2025-07-31T17:15:10.758+0300",
+      "documentType" : {
+        "pureId" : 11417,
+        "uri" : "/dk/atira/pure/ethicalreview/document/types/review",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Review"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Оценка"
+          } ]
+        }
+      },
+      "visibility" : {
+        "key" : "FREE",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Public - No restriction"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Публичная - без ограничений"
+          } ]
+        }
+      },
+      "documentVersionType" : {
+        "pureId" : 11423,
+        "uri" : "/dk/atira/pure/ethicalreview/document/versiontypes/currentversion",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Current version"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Текущая версия"
+          } ]
+        }
+      }
+    } ],
+    "links" : [ {
+      "pureId" : 138862456,
+      "url" : "https://istina.msu.ru/home/",
+      "description" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Личная страница автора монографии в системе ИСТИНА МГУ "
+        } ]
+      }
+    } ]
+  } ]
+}

@@ -1,0 +1,2950 @@
+{
+  "count" : 7,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 1000
+  },
+  "items" : [ {
+    "pureId" : 8253003,
+    "uuid" : "50f5f71b-f1fc-4e88-982f-7f0ff2273a2c",
+    "announcementUrl" : "http://nauka.spbu.ru/nauchnye-granty-i-konkursy/item/1147-sovmestnyj-konkurs-rossijskogo-nauchnogo-fonda-s-ob-edineniem-im-gelmgoltsa",
+    "openingDate" : "2017-09-01T12:00:00.000+03:00",
+    "letterOfIntentDate" : "2017-11-27T12:00:00.000+03:00",
+    "deadline" : "2017-11-27T12:00:00.000+03:00",
+    "active" : true,
+    "awardCeiling" : 1.8E7,
+    "estimatedFunding" : 1.7E7,
+    "limitedSubmission" : false,
+    "openAccessRequirements" : true,
+    "associatedApplicationCount" : 2,
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st004077",
+      "createdDate" : "2017-09-21T10:45:17.213+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2022-02-16T13:50:30.297+0300"
+    },
+    "type" : {
+      "pureId" : 5025,
+      "uri" : "/dk/atira/pure/fundingopportunity/fundingopportunitytypes/fundingopportunity/research",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Research Grants"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Исследовательские гранты"
+        } ]
+      }
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Совместный конкурс Российского научного фонда с Объединением им. Гельмгольца"
+      } ]
+    },
+    "description" : {
+      "formatted" : true,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Российский научный фонд объявил о начале приема заявок на конкурс по поддержке международных научных коллективов. Конкурс проводится совместно с Объединением им. Гельмгольца (Die Helmholtz-Gemeinschaft) (далее – Конкурс)<br/><br/>В рамках Конкурса гранты выделяются на проведение фундаментальных и поисковых научных исследований в 2018 – 2020 гг."
+      } ]
+    },
+    "awardCeilingCurrency" : {
+      "pureId" : 781,
+      "uri" : "/dk/atira/pure/core/isocurrencies/RUB",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Ruble"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский рубль"
+        } ]
+      }
+    },
+    "estimatedFundingCurrency" : {
+      "pureId" : 781,
+      "uri" : "/dk/atira/pure/core/isocurrencies/RUB",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Ruble"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский рубль"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "fundingOrganisations" : [ {
+      "uuid" : "8264ed12-047a-4965-8d6c-302aa9bfbb31",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/8264ed12-047a-4965-8d6c-302aa9bfbb31"
+      },
+      "externalId" : "242073",
+      "externalIdSource" : "importedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Science Foundation"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский научный фонд"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16816,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/government",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Government"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "государственный орган"
+          } ]
+        }
+      }
+    } ],
+    "academicDegreeEligibilities" : [ {
+      "eligibilityType" : {
+        "pureId" : 6773,
+        "uri" : "/dk/atira/pure/fundingopportunity/academic_degree_eligibility/minimum_doctor_degree",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Minimum doctor's degree"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Минимум: кандидат наук"
+          } ]
+        }
+      },
+      "eligibilityFulfillmentType" : {
+        "key" : "RECOMMENDATION",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Recommendation"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Рекомендация"
+          } ]
+        }
+      }
+    } ],
+    "applications" : [ {
+      "uuid" : "2a085d72-dff4-4273-a563-06a13f9d2153",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/2a085d72-dff4-4273-a563-06a13f9d2153"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Исследование топологических магнитных текстур как основы для искусственных нейронных сетей"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "dfb607e3-5438-4a79-bf3a-66072612fc41",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/dfb607e3-5438-4a79-bf3a-66072612fc41"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "тест 1"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180155,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/outlineforresearchinitiativeinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Outline for research initiative (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на инициативный проект в СПбГУ (без прямого финансирования)"
+          } ]
+        }
+      }
+    } ],
+    "keywordGroups" : [ {
+      "pureId" : 8253006,
+      "logicalName" : "/dk/atira/pure/keywords/researchexpertizefields",
+      "type" : {
+        "uri" : "/dk/atira/pure/keywords/researchexpertizefields",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Research expertize fields in SPbU"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Области научной экспертизы в СПбГУ"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 8253007,
+        "structuredKeyword" : {
+          "pureId" : 7730452,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/geos",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Geosciences and Ecology"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Науки о Земле и смежные экологические науки"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253008,
+        "structuredKeyword" : {
+          "pureId" : 7730448,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/phys",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Physics and Astronomy"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Физика и астрономия"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253009,
+        "structuredKeyword" : {
+          "pureId" : 7730418,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/appl",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Applied Mathematics"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Прикладная математика"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253010,
+        "structuredKeyword" : {
+          "pureId" : 7730446,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/math",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Mathematics"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Математика"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253011,
+        "structuredKeyword" : {
+          "pureId" : 7730458,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/inte",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Interdisciplinary Studies"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Междисциплинарные исследования в области естественных и гуманитарных наук"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253012,
+        "structuredKeyword" : {
+          "pureId" : 7730432,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/biol",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Biology"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Биологические науки"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253013,
+        "structuredKeyword" : {
+          "pureId" : 7730422,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/chem",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Chemistry"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Химические науки"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 8253014,
+      "logicalName" : "ASJCSubjectAreas",
+      "type" : {
+        "uri" : "/dk/atira/pure/subjectarea/asjc",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus subject areas"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Предметные области Scopus"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 8253015,
+        "structuredKeyword" : {
+          "pureId" : 5448,
+          "uri" : "/dk/atira/pure/subjectarea/asjc/2300/2306",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Global and Planetary Change"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Глобальные и планетарные изменения"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253016,
+        "structuredKeyword" : {
+          "pureId" : 5366,
+          "uri" : "/dk/atira/pure/subjectarea/asjc/2100/2102",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Energy Engineering and Power Technology"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Энергетическая технология"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253017,
+        "structuredKeyword" : {
+          "pureId" : 5322,
+          "uri" : "/dk/atira/pure/subjectarea/asjc/1900/1902",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Atmospheric Science"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Наука об атмосфере"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253018,
+        "structuredKeyword" : {
+          "pureId" : 5277,
+          "uri" : "/dk/atira/pure/subjectarea/asjc/1700/1706",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Computer Science Applications"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Прикладные компьютерные науки"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 8253019,
+      "logicalName" : "/dk/atira/pure/keywords/esi_plus",
+      "type" : {
+        "uri" : "/dk/atira/pure/keywords/esi_plus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Essential Science Indicators extended"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Область знаний WoS"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 8253020,
+        "structuredKeyword" : {
+          "pureId" : 513779,
+          "uri" : "/dk/atira/pure/keywords/esi_plus/6485",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "ENVIRONMENT/ECOLOGY"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Исследования окружающей среды и экология"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253021,
+        "structuredKeyword" : {
+          "pureId" : 513781,
+          "uri" : "/dk/atira/pure/keywords/esi_plus/6488",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "GEOSCIENCES"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Науки о Земле"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253022,
+        "structuredKeyword" : {
+          "pureId" : 513793,
+          "uri" : "/dk/atira/pure/keywords/esi_plus/6497",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "MULTIDISCIPLINARY"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Междисциплинарные науки"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253023,
+        "structuredKeyword" : {
+          "pureId" : 513773,
+          "uri" : "/dk/atira/pure/keywords/esi_plus/6495",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "COMPUTER SCIENCE"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Компьютерные науки"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253024,
+        "structuredKeyword" : {
+          "pureId" : 513787,
+          "uri" : "/dk/atira/pure/keywords/esi_plus/6496",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "MATHEMATICS"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Математика"
+            } ]
+          }
+        }
+      } ]
+    } ]
+  }, {
+    "pureId" : 8253103,
+    "uuid" : "393fefa9-92fa-4979-9bf5-229cfaba7a17",
+    "announcementUrl" : "http://nauka.spbu.ru/nauchnye-granty-i-konkursy/konkursy/item/1165-grantovyj-konkurs-rgo-2018",
+    "openingDate" : "2017-09-15T12:00:00.000+03:00",
+    "letterOfIntentDate" : "2017-10-23T12:00:00.000+03:00",
+    "deadline" : "2017-10-19T12:00:00.000+03:00",
+    "active" : true,
+    "associatedApplicationCount" : 6,
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st004077",
+      "createdDate" : "2017-09-21T11:50:43.014+0300",
+      "modifiedBy" : "st004164",
+      "modifiedDate" : "2020-10-29T14:39:34.249+0300"
+    },
+    "type" : {
+      "pureId" : 5021,
+      "uri" : "/dk/atira/pure/fundingopportunity/fundingopportunitytypes/fundingopportunity/project",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Program Project/Center Grants"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Финансирование в рамках проектов/центров"
+        } ]
+      }
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Грантовый конкурс РГО - 2018"
+      } ]
+    },
+    "description" : {
+      "formatted" : true,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Начался прием заявок на соискание целевых, инициативных и грантов региональных отделений Русского географического общества в 2018 году. Контактное лицо: Румянцев Игорь Александрович, +7 (812) 363-62-21, вн. 5638,  i.rumiancev@spbu.ru"
+      } ]
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "fundingOrganisations" : [ {
+      "uuid" : "30fc2cfb-9d5c-4d6e-954b-616125c142f4",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/30fc2cfb-9d5c-4d6e-954b-616125c142f4"
+      },
+      "externalId" : "166369",
+      "externalIdSource" : "importedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Geographical Society"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Русское географическое общество"
+        } ]
+      },
+      "type" : {
+        "pureId" : 122525436,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/scientific_society",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "scientific & professional society"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "научное и профессиональное общество"
+          } ]
+        }
+      }
+    } ],
+    "eligibilities" : [ {
+      "eligibilityType" : {
+        "pureId" : 6757,
+        "uri" : "/dk/atira/pure/fundingopportunity/eligibility/nation",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "National citizen/resident"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Гражданин/резидент РФ"
+          } ]
+        }
+      },
+      "eligibilityFulfillmentType" : {
+        "key" : "RECOMMENDATION",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Recommendation"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Рекомендация"
+          } ]
+        }
+      }
+    } ],
+    "academicDegreeEligibilities" : [ {
+      "eligibilityType" : {
+        "pureId" : 6773,
+        "uri" : "/dk/atira/pure/fundingopportunity/academic_degree_eligibility/minimum_doctor_degree",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Minimum doctor's degree"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Минимум: кандидат наук"
+          } ]
+        }
+      },
+      "eligibilityFulfillmentType" : {
+        "key" : "RECOMMENDATION",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Recommendation"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Рекомендация"
+          } ]
+        }
+      }
+    } ],
+    "applications" : [ {
+      "uuid" : "1430f426-bb2f-4a07-a24b-a8c1a7f733d9",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/1430f426-bb2f-4a07-a24b-a8c1a7f733d9"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Экспедиция в Малый Тибет России: тропой экообразования и паратуризма. К 155-летию С.П.Перетолчина"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "2e05d51e-9a46-4712-87d1-49bf3bd9bb2f",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/2e05d51e-9a46-4712-87d1-49bf3bd9bb2f"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Исследования труднодоступных ледниковых районов с помощью беспилотных летательных аппаратов"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "2e06a0d5-ad9e-4699-812f-a8c8e5b39dd7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/2e06a0d5-ad9e-4699-812f-a8c8e5b39dd7"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Исследования  труднодоступных  ледниковых районов с помощью  беспилотных  летательных  аппаратов"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "28ee9553-a3bb-4339-a194-b606a383af24",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/28ee9553-a3bb-4339-a194-b606a383af24"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Экопросветительский проект: \"Живая социальная сеть Приладожья: время через пространство\""
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "527e66b8-8b0e-46c6-a1cd-a51a73dea9e5",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/527e66b8-8b0e-46c6-a1cd-a51a73dea9e5"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Экспедиция: изучение динамики ареалов инвазионных патогенов и вредителей древесных растений как угрозы исчезновения лесов в условиях меняющегося климата"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "e6f258cd-1688-4b4c-8346-4e0e85e0fd04",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/e6f258cd-1688-4b4c-8346-4e0e85e0fd04"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Медико-географическая оценка влияния техногенных факторов на элементный статус и показатели здоровья городского населения (на примере  модельных территорий Северо-Запада РФ) "
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    } ],
+    "keywordGroups" : [ {
+      "pureId" : 8253107,
+      "logicalName" : "/dk/atira/pure/keywords/researchexpertizefields",
+      "type" : {
+        "uri" : "/dk/atira/pure/keywords/researchexpertizefields",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Research expertize fields in SPbU"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Области научной экспертизы в СПбГУ"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 8253108,
+        "structuredKeyword" : {
+          "pureId" : 7730452,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/geos",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Geosciences and Ecology"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Науки о Земле и смежные экологические науки"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253109,
+        "structuredKeyword" : {
+          "pureId" : 7730432,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/biol",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Biology"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Биологические науки"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253110,
+        "structuredKeyword" : {
+          "pureId" : 7730430,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/comm",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Communications"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "СМИ и массовые коммуникации"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253111,
+        "structuredKeyword" : {
+          "pureId" : 7730450,
+          "uri" : "/dk/atira/pure/keywords/researchexpertizefields/intr",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "International Relations"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Международные отношения"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 8253112,
+      "logicalName" : "ASJCSubjectAreas",
+      "type" : {
+        "uri" : "/dk/atira/pure/subjectarea/asjc",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus subject areas"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Предметные области Scopus"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 8253113,
+        "structuredKeyword" : {
+          "pureId" : 5902,
+          "uri" : "/dk/atira/pure/subjectarea/asjc/3300/3305",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Geography, Planning and Development"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "География, планирование и развитие"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253114,
+        "structuredKeyword" : {
+          "pureId" : 5454,
+          "uri" : "/dk/atira/pure/subjectarea/asjc/2300/2309",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Nature and Landscape Conservation"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Природа и охрана ландшафта"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253115,
+        "structuredKeyword" : {
+          "pureId" : 5326,
+          "uri" : "/dk/atira/pure/subjectarea/asjc/1900/1904",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Earth-Surface Processes"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Процессы поверхности земли"
+            } ]
+          }
+        }
+      }, {
+        "pureId" : 8253116,
+        "structuredKeyword" : {
+          "pureId" : 5936,
+          "uri" : "/dk/atira/pure/subjectarea/asjc/3300/3322",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Urban Studies"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Урбанистика"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 8253117,
+      "logicalName" : "/dk/atira/pure/keywords/esi_plus",
+      "type" : {
+        "uri" : "/dk/atira/pure/keywords/esi_plus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Essential Science Indicators extended"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Область знаний WoS"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 8253118,
+        "structuredKeyword" : {
+          "pureId" : 513779,
+          "uri" : "/dk/atira/pure/keywords/esi_plus/6485",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "ENVIRONMENT/ECOLOGY"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Исследования окружающей среды и экология"
+            } ]
+          }
+        }
+      } ]
+    } ]
+  }, {
+    "pureId" : 8811785,
+    "uuid" : "5e3edb00-8159-4daf-b380-630ca9c97259",
+    "active" : true,
+    "awardCeiling" : 1000.0,
+    "limitedSubmission" : false,
+    "associatedApplicationCount" : 6,
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st001010",
+      "createdDate" : "2017-10-05T00:32:10.747+0300",
+      "modifiedBy" : "st808638",
+      "modifiedDate" : "2022-11-29T15:53:20.123+0300"
+    },
+    "type" : {
+      "pureId" : 5011,
+      "uri" : "/dk/atira/pure/fundingopportunity/fundingopportunitytypes/fundingopportunity/conf",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Conference/Travel Grants"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Поддержка участия в научных мероприятиях"
+        } ]
+      }
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "DAAD 1 (фин DAAD)"
+      } ]
+    },
+    "description" : {
+      "formatted" : true,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Первый конкурс DAAD"
+      } ]
+    },
+    "awardCeilingCurrency" : {
+      "pureId" : 727,
+      "uri" : "/dk/atira/pure/core/isocurrencies/EUR",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Euro"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Евро"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "fundingOrganisations" : [ {
+      "uuid" : "e98a1172-ea74-4ecc-bf44-38c5ccb2630c",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/e98a1172-ea74-4ecc-bf44-38c5ccb2630c"
+      },
+      "externalId" : "17357",
+      "externalIdSource" : "importedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "German Academic Exchange Service"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Германская служба академических обменов (DAAD)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16819,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/privatenonprofit",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Private non-profit"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "некоммерческая организация"
+          } ]
+        }
+      }
+    } ],
+    "eligibilities" : [ {
+      "eligibilityType" : {
+        "pureId" : 6761,
+        "uri" : "/dk/atira/pure/fundingopportunity/eligibility/eumemb",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Age up to 35"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Возраст до 35 лет"
+          } ]
+        }
+      },
+      "eligibilityFulfillmentType" : {
+        "key" : "RECOMMENDATION",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Recommendation"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Рекомендация"
+          } ]
+        }
+      }
+    } ],
+    "applications" : [ {
+      "uuid" : "96c1af67-abf1-45b6-be61-97b8e1bf809a",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/96c1af67-abf1-45b6-be61-97b8e1bf809a"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Тема 1 Тестовая"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180157,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/proposalforoutcomingacademicmobility",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for outcoming academic mobility"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на исходящую академическую мобильность СПбГУ (визиты, стажировки)"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "23a92b67-fc2c-4ccb-9862-11869a704298",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/23a92b67-fc2c-4ccb-9862-11869a704298"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Командировка в Университете Трира за счет приглашающей стороны"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180110,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherexternalsponsors/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "221045f2-be22-4024-9a9e-6dfdf282c313",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/221045f2-be22-4024-9a9e-6dfdf282c313"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Стипендия для бывших годовых стипендиатов DAAD"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180157,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/proposalforoutcomingacademicmobility",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for outcoming academic mobility"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на исходящую академическую мобильность СПбГУ (визиты, стажировки)"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "160ffe6e-380b-42e8-b9ed-16ad93f8a1ea",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/160ffe6e-380b-42e8-b9ed-16ad93f8a1ea"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Digitalisierung im integrierten deutsch-russischen Double-Degree-Masterstudiengang „Sprache und Kommunikation\"/ Дигитализация в рамках преподавания на образовательной программе \"Язык и коммуникация\", реализуемой по модели двух дипломов,  "
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180110,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherexternalsponsors/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "990bafac-60b9-4369-adc6-660904194bbb",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/990bafac-60b9-4369-adc6-660904194bbb"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "DAAD Стипендия 1-3 месяца для бывших годовых стипендиатов"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180157,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/proposalforoutcomingacademicmobility",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for outcoming academic mobility"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на исходящую академическую мобильность СПбГУ (визиты, стажировки)"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "bc1c1eed-4be7-4aed-b67d-0e7f94f5a12a",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/bc1c1eed-4be7-4aed-b67d-0e7f94f5a12a"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Финансирование научных исследований DAAD "
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180110,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherexternalsponsors/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 9771603,
+    "uuid" : "0ddab4c2-3dd0-4730-8e3e-01bed565f5bc",
+    "announcementUrl" : "http://nauka.spbu.ru/nauchnye-granty-i-konkursy/item/1147-sovmestnyj-konkurs-rossijskogo-nauchnogo-fonda-s-ob-edineniem-im-gelmgoltsa",
+    "openingDate" : "2017-09-15T12:00:00.000+03:00",
+    "letterOfIntentDate" : "2017-12-06T12:00:00.000+03:00",
+    "deadline" : "2017-12-06T12:00:00.000+03:00",
+    "active" : true,
+    "awardCeiling" : 1.8E7,
+    "estimatedFunding" : 1.7E7,
+    "limitedSubmission" : false,
+    "openAccessRequirements" : true,
+    "associatedApplicationCount" : 3,
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st004077",
+      "createdDate" : "2017-11-24T16:08:57.124+0300",
+      "modifiedBy" : "st002177",
+      "modifiedDate" : "2021-12-13T01:18:23.032+0300"
+    },
+    "type" : {
+      "pureId" : 5025,
+      "uri" : "/dk/atira/pure/fundingopportunity/fundingopportunitytypes/fundingopportunity/research",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Research Grants"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Исследовательские гранты"
+        } ]
+      }
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Совместный конкурс Российского научного фонда с DFG"
+      } ]
+    },
+    "description" : {
+      "formatted" : true,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Объявлена третья волна совместного конкурса РНФ-DFG. Конкурс проводится РНФ совместно с Немецким научно-исследовательским сообществом (DFG) (далее – Конкурс)<br/><br/>В рамках Конкурса гранты выделяются на проведение фундаментальных и поисковых научных исследований в 2019 – 2021 гг."
+      } ]
+    },
+    "awardCeilingCurrency" : {
+      "pureId" : 781,
+      "uri" : "/dk/atira/pure/core/isocurrencies/RUB",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Ruble"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский рубль"
+        } ]
+      }
+    },
+    "estimatedFundingCurrency" : {
+      "pureId" : 781,
+      "uri" : "/dk/atira/pure/core/isocurrencies/RUB",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Ruble"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский рубль"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "fundingOrganisations" : [ {
+      "uuid" : "8264ed12-047a-4965-8d6c-302aa9bfbb31",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/8264ed12-047a-4965-8d6c-302aa9bfbb31"
+      },
+      "externalId" : "242073",
+      "externalIdSource" : "importedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Science Foundation"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский научный фонд"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16816,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/government",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Government"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "государственный орган"
+          } ]
+        }
+      }
+    } ],
+    "academicDegreeEligibilities" : [ {
+      "eligibilityType" : {
+        "pureId" : 6773,
+        "uri" : "/dk/atira/pure/fundingopportunity/academic_degree_eligibility/minimum_doctor_degree",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Minimum doctor's degree"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Минимум: кандидат наук"
+          } ]
+        }
+      },
+      "eligibilityFulfillmentType" : {
+        "key" : "RECOMMENDATION",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Recommendation"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Рекомендация"
+          } ]
+        }
+      }
+    } ],
+    "applications" : [ {
+      "uuid" : "c57abbb1-4a9d-47fc-b12f-d95f5c466653",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/c57abbb1-4a9d-47fc-b12f-d95f5c466653"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Абдукция в философии сознания"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "cff8dc43-7abb-4278-98c9-af55de0658c6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/cff8dc43-7abb-4278-98c9-af55de0658c6"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Новое издание, немецкий и английский перевод греческих, латинских, сирийских, арабских и армянских свидетельств о Диогене из Аполлонии (Diels-Kranz 64)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "361fd285-86d1-403d-9b95-961a0d35c63b",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/361fd285-86d1-403d-9b95-961a0d35c63b"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : " \"Curating, Media and Museum\" The Joint Seed Money Funding of the Free University of Berlin and the Saint Petersburg State University"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180157,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/proposalforoutcomingacademicmobility",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for outcoming academic mobility"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на исходящую академическую мобильность СПбГУ (визиты, стажировки)"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 9771653,
+    "uuid" : "bc18729b-b077-4a54-992c-2608b2d73cc0",
+    "announcementUrl" : "http://nauka.spbu.ru/nauchnye-granty-i-konkursy/konkursy/item/1224-rossijskij-nauchnyj-fond-nachinaet-priem-zayavok-na-konkurs-po-podderzhke-fundamentalnykh-i-poiskovykh-issledovanij-otdelnykh-nauchnykh-grupp-v-2018-2020-gg",
+    "openingDate" : "2017-09-15T12:00:00.000+03:00",
+    "letterOfIntentDate" : "2017-11-24T12:00:00.000+03:00",
+    "deadline" : "2017-11-24T12:00:00.000+03:00",
+    "active" : true,
+    "awardCeiling" : 1.8E7,
+    "estimatedFunding" : 1.7E7,
+    "limitedSubmission" : false,
+    "openAccessRequirements" : true,
+    "associatedApplicationCount" : 40,
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st004077",
+      "createdDate" : "2017-11-24T16:17:08.618+0300",
+      "modifiedBy" : "st004734",
+      "modifiedDate" : "2022-11-23T19:22:10.546+0300"
+    },
+    "type" : {
+      "pureId" : 5025,
+      "uri" : "/dk/atira/pure/fundingopportunity/fundingopportunitytypes/fundingopportunity/research",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Research Grants"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Исследовательские гранты"
+        } ]
+      }
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "РНФ на 2018-2020 гг."
+      } ]
+    },
+    "description" : {
+      "formatted" : true,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Российский научный фонд производит приём заявок на конкурс по поддержке фундаментальных и поисковых исследований отдельных научных групп в 2018-2020 гг."
+      } ]
+    },
+    "awardCeilingCurrency" : {
+      "pureId" : 781,
+      "uri" : "/dk/atira/pure/core/isocurrencies/RUB",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Ruble"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский рубль"
+        } ]
+      }
+    },
+    "estimatedFundingCurrency" : {
+      "pureId" : 781,
+      "uri" : "/dk/atira/pure/core/isocurrencies/RUB",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Ruble"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский рубль"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "fundingOrganisations" : [ {
+      "uuid" : "8264ed12-047a-4965-8d6c-302aa9bfbb31",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/external-organisations/8264ed12-047a-4965-8d6c-302aa9bfbb31"
+      },
+      "externalId" : "242073",
+      "externalIdSource" : "importedExternalOrganisation",
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Russian Science Foundation"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Российский научный фонд"
+        } ]
+      },
+      "type" : {
+        "pureId" : 16816,
+        "uri" : "/dk/atira/pure/ueoexternalorganisation/ueoexternalorganisationtypes/ueoexternalorganisation/government",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Government"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "государственный орган"
+          } ]
+        }
+      }
+    } ],
+    "academicDegreeEligibilities" : [ {
+      "eligibilityType" : {
+        "pureId" : 6773,
+        "uri" : "/dk/atira/pure/fundingopportunity/academic_degree_eligibility/minimum_doctor_degree",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Minimum doctor's degree"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Минимум: кандидат наук"
+          } ]
+        }
+      },
+      "eligibilityFulfillmentType" : {
+        "key" : "RECOMMENDATION",
+        "value" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Recommendation"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Рекомендация"
+          } ]
+        }
+      }
+    } ],
+    "applications" : [ {
+      "uuid" : "c23aecc4-7711-445a-8542-7b10d09393d6",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/c23aecc4-7711-445a-8542-7b10d09393d6"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Участие в конференции EGOV-CeDEM-ePart 2019"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180157,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/proposalforoutcomingacademicmobility",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for outcoming academic mobility"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на исходящую академическую мобильность СПбГУ (визиты, стажировки)"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "b132c62d-4ada-420b-8a84-9e5438c9d8d8",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/b132c62d-4ada-420b-8a84-9e5438c9d8d8"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Численные исследования наносекундных капиллярных разрядов для разработки портативных источников рентгеновского излучения и средств рентгеновской нанотомографии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "07605890-83d6-4871-9495-85b41403ebe5",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/07605890-83d6-4871-9495-85b41403ebe5"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Отражение лингвокультурного концепта «Китай и китайцы» в сознании русских через призму языка"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "551511cc-55b7-48af-b3c4-719c713fe2c3",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/551511cc-55b7-48af-b3c4-719c713fe2c3"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "«Thesaurus criticus» to Aristotle's «Poetics»: Creation of the full critical edition with a complete apparatus criticus including all Greek manuscripts, medieval translations, conjectures and parallels."
+        }, {
+          "locale" : "ru_RU",
+          "value" : "«Критический тезаурус» к «Поэтике» Аристотеля: Создание полного критического аппарата с учетом всех греческих рукописей, средневековых переводов, исправлений и параллельных мест."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "0853827e-eff7-4640-8442-d46effff86fb",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/0853827e-eff7-4640-8442-d46effff86fb"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Дискурс политической памяти в современных исследованиях символической политики: эпистемологические основания и практические экспликации"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "b03b34b7-ef9d-427b-b04f-4eb277e01c3a",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/b03b34b7-ef9d-427b-b04f-4eb277e01c3a"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Физико-химические основы получения регулярных мультимолекулярных наноструктур квантовых точек заданной толщины и плотностью распределения на поверхности твердой подложки"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "58f099d4-31e8-4dca-a703-77bb9b48a813",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/58f099d4-31e8-4dca-a703-77bb9b48a813"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Дизайн и синтез фосфоресцентных комплексов переходных металлов для применения в биоимиджинге"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "32ec0f51-e175-4a70-bd8e-17ceb6695c05",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/32ec0f51-e175-4a70-bd8e-17ceb6695c05"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Дизайн и синтез фосфоресцентных комплексов переходных металлов для применения в биоимиджинге"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "f2aaedf6-590a-477a-9619-766fa9a23ea2",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/f2aaedf6-590a-477a-9619-766fa9a23ea2"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Комический медиадискурс: смысловая структура, композиционная поликодовая организация и культурно-речевая квалификация"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "33d1b5d4-b74c-455c-abc0-486d1fc590f2",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/33d1b5d4-b74c-455c-abc0-486d1fc590f2"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Регулирование в Российской Федерации труда иностранных футболистов в части порядка получения визы, разрешения на осуществление трудовой деятельности, ограничений на участие  в официальных футбольных соревнованиях"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "30ba9041-202b-48a6-a6c2-86a441fcbd73",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/30ba9041-202b-48a6-a6c2-86a441fcbd73"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Технология быстрого создания предметно-ориентированных визуальных языков"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "cbc5fba7-646e-48a1-be51-481ea75b69a3",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/cbc5fba7-646e-48a1-be51-481ea75b69a3"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Разработка и изучение свойств новых 2D материалов на основе полидофамина."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "6e32b052-a0af-4bd9-a2f1-d3c5abd63017",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/6e32b052-a0af-4bd9-a2f1-d3c5abd63017"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Создание базы данных сочетаемости слов русского языка на основе большого корпуса"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "76d94a0f-7b00-4df1-a129-d9ffaeadd009",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/76d94a0f-7b00-4df1-a129-d9ffaeadd009"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Поиск эффектов локального несохранения пространственной четности в сильных взаимодействиях в эксперименте ALICE на LHC"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "44dc0f3e-f76b-46cc-b8cf-a4cad1ceb4bb",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/44dc0f3e-f76b-46cc-b8cf-a4cad1ceb4bb"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Получение и динамические поверхностные свойства биополимерных пленок на границе жидкость-газ."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "afa98af6-0cbe-47ad-893b-d8cc9c2b95db",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/afa98af6-0cbe-47ad-893b-d8cc9c2b95db"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Исследование семантико-структурных алгоритмов декодирования переносных значений искусственным интеллектом"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "80e58600-fa5a-48cb-9fc5-17bd8505bdec",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/80e58600-fa5a-48cb-9fc5-17bd8505bdec"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Дисперсионные среды и нелинейные уравнения"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "6345d5db-ca1e-4473-a59f-78d8c9ed0e70",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/6345d5db-ca1e-4473-a59f-78d8c9ed0e70"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Русская интонация в диахронии"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "6afa5476-5893-431e-8585-6170bcbc2a00",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/6afa5476-5893-431e-8585-6170bcbc2a00"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Когомологии и связанные с ними понятия"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "8e6a39f4-9e30-4503-bd63-7f23aea4cc6b",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/8e6a39f4-9e30-4503-bd63-7f23aea4cc6b"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Компьютерная онтология как средство моделирования языковой семантики (на примере тибетской языковой картины мира)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "772c0bf3-e287-4052-9dfd-a8c9665ccf18",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/772c0bf3-e287-4052-9dfd-a8c9665ccf18"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Адаптация семейства программ SPAdes для использования новейших технологий, применяемых в анализе и сборке геномных, метагеномных и транскриптомных данных"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "11a00452-0a98-4957-b33f-3077d171414f",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/11a00452-0a98-4957-b33f-3077d171414f"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Новые противомикробные препараты на основе азагетероциклов, получаемых в реакциях золото-катализируемого окисления ацетиленов"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "95e5fa05-64e4-4785-9fea-220a7d4d301e",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/95e5fa05-64e4-4785-9fea-220a7d4d301e"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Laser-induced processes on surfaces"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Лазерно-индуцированные процессы на поверхности"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "978234ac-8b04-4f3b-b03e-dab58960c65f",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/978234ac-8b04-4f3b-b03e-dab58960c65f"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Конвергенция социогуманитарного и естественнонаучного познания в технонауке"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180124,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/spburesearchsponsorship/proposalforspbufundedresearchinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for SPbU-funded research (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на НИР за счёт средств СПбГУ"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "d1d75027-b546-44b5-b1f3-94f222a079b3",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/d1d75027-b546-44b5-b1f3-94f222a079b3"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Славянские национальные меньшинства (словаки, чехи, русины) в Сербии (Воеводина): лингвистический, историко-этнографический и социокультурный аспекты."
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "45d42cb0-1119-4bdb-ab5d-47cf9e0742df",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/45d42cb0-1119-4bdb-ab5d-47cf9e0742df"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Участие в конференции International Conference on eDemocracy & eGovernment (ICEDEG 2020)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180157,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/proposalforoutcomingacademicmobility",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for outcoming academic mobility"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на исходящую академическую мобильность СПбГУ (визиты, стажировки)"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "bdd104b9-6644-4ebf-b00b-9923d64b02e2",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/bdd104b9-6644-4ebf-b00b-9923d64b02e2"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Разработка  основ лазерного синтеза  материалов с каталитическими свойствами"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "7774252d-b858-4e46-b9c8-33a1e571e8cd",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/7774252d-b858-4e46-b9c8-33a1e571e8cd"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Структура и свойства неассоциативных структур"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "c4fba7e7-2723-4fdd-af47-c61cabe911f7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/c4fba7e7-2723-4fdd-af47-c61cabe911f7"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Реконфигурируемые механические метаматериалы с мультистадийной потерей устойчивости и локальным разрушением для контроля над упругими волнами"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "e07f3786-f4ed-4635-b54e-ba70a1bbfe64",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/e07f3786-f4ed-4635-b54e-ba70a1bbfe64"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Генетическое и морфологическое разнообразие опистоспоридий и хитридиомицетов - ключ к предковой форме грибов: 2019 г"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180155,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/outlineforresearchinitiativeinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Outline for research initiative (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на инициативный проект в СПбГУ (без прямого финансирования)"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "b7a8edd2-688c-4888-8096-89f57df3b5ca",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/b7a8edd2-688c-4888-8096-89f57df3b5ca"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Русский язык как государственный и международный в условиях развития цифровых технологий (теория лингвополитического реализма)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180124,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/spburesearchsponsorship/proposalforspbufundedresearchinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for SPbU-funded research (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на НИР за счёт средств СПбГУ"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "3ae3ade0-0d01-47ed-8bfb-2019889de418",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/3ae3ade0-0d01-47ed-8bfb-2019889de418"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Динамические системы, деформации скобок Пуассона и криптографические алгоритмы"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "b55fd09b-6956-4513-961a-6297902c1376",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/b55fd09b-6956-4513-961a-6297902c1376"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Роль этиопатогенетических факторов вирусных инфекций в воспалительных заболеваниях полости рта и окружающих тканей "
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180124,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/spburesearchsponsorship/proposalforspbufundedresearchinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for SPbU-funded research (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на НИР за счёт средств СПбГУ"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "87cbb25e-6b24-41ab-b3b4-4c26dc6c94ee",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/87cbb25e-6b24-41ab-b3b4-4c26dc6c94ee"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Исследование функциональных свойств сплава TiNi после деформирования со сверхвысокими скоростями"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "eee94e90-e4a4-4019-8c5f-3f92ede569c5",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/eee94e90-e4a4-4019-8c5f-3f92ede569c5"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Энциклопедия календаря: календарный ритуал и роль темпоральных представлений в формировании традиционного сознания народов древнего мира"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "bc734855-9d51-46f5-85b1-823bcf77b529",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/bc734855-9d51-46f5-85b1-823bcf77b529"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Пространственная и временная дискретность как фундаментальная особенность процесса динамического разрушения твердых тел"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "ec5a7664-db4d-4744-bdd2-c09fb700737f",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/ec5a7664-db4d-4744-bdd2-c09fb700737f"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Комплексное исследование крупномасштабных волновых возмущений в средней и верхней атмосфере над территорией Российской Федерации"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "0e63bcdd-c0c7-41d0-8b61-9beccbd5716c",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/0e63bcdd-c0c7-41d0-8b61-9beccbd5716c"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Участие в международной конференции XII Winter Symposium on Chemometrics"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180157,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherspbusponsorship/proposalforoutcomingacademicmobility",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for outcoming academic mobility"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на исходящую академическую мобильность СПбГУ (визиты, стажировки)"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "4521d599-1a86-4363-a339-6d1e552377a8",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/4521d599-1a86-4363-a339-6d1e552377a8"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "СИСТЕМА ПРАГМАТИЧЕСКИХ МАРКЕРОВ РУССКОЙ ПОВСЕДНЕВНОЙ РЕЧИ"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "d9eb7fbf-546d-479e-bca0-03a6cf30b6bb",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/d9eb7fbf-546d-479e-bca0-03a6cf30b6bb"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Социальные медиа и политический дискурс современных мировых лидеров: новые вызовы и возможности для России"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180055,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/publicprivatefoundations/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 38685429,
+    "uuid" : "4beed741-3eea-4284-a537-f14dd2a6fbd5",
+    "associatedApplicationCount" : 1,
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st001010",
+      "createdDate" : "2019-02-18T14:51:19.458+0300",
+      "modifiedBy" : "st008571",
+      "modifiedDate" : "2024-07-26T19:15:37.385+0300"
+    },
+    "type" : {
+      "pureId" : 5017,
+      "uri" : "/dk/atira/pure/fundingopportunity/fundingopportunitytypes/fundingopportunity/coop",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Cooperative Agreements Contracts"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Договоры с организациями/физическими лицами"
+        } ]
+      }
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Объединенный институт ядерных исследований"
+      } ]
+    },
+    "description" : {
+      "formatted" : true,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Международная межправительственная организация <br/>Объединенный институт ядерных исследований"
+      } ]
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "applications" : [ {
+      "uuid" : "68d4ede6-1a4d-4c7e-bf08-ca3bdc5d708b",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/68d4ede6-1a4d-4c7e-bf08-ca3bdc5d708b"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "ru_RU",
+          "value" : "Глобальные наблюдаемые в эксперименте MPD (NICA)"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180110,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/otherexternalsponsors/proposal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 94386435,
+    "uuid" : "37dda337-c8f7-4c2a-b4fa-051825176d06",
+    "associatedApplicationCount" : 1,
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "st001010",
+      "createdDate" : "2022-04-19T14:10:45.312+0300",
+      "modifiedBy" : "st002409",
+      "modifiedDate" : "2023-10-07T18:39:18.334+0300"
+    },
+    "type" : {
+      "pureId" : 5025,
+      "uri" : "/dk/atira/pure/fundingopportunity/fundingopportunitytypes/fundingopportunity/research",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Research Grants"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Исследовательские гранты"
+        } ]
+      }
+    },
+    "title" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "ru_RU",
+        "value" : "Научный парк (финансирование)"
+      } ]
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "applications" : [ {
+      "uuid" : "c78ae2b4-435c-4429-9558-05202c20da30",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/applications/c78ae2b4-435c-4429-9558-05202c20da30"
+      },
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Квантовохимическое, молекулярно-механическое и молекулярно-динамическое исследование однопериодических наноструктур"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Квантовохимическое, молекулярно-механическое и молекулярно-динамическое исследование однопериодических наноструктур"
+        } ]
+      },
+      "type" : {
+        "pureId" : 6180124,
+        "uri" : "/dk/atira/pure/application/applicationtypes/application/spburesearchsponsorship/proposalforspbufundedresearchinternal",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Proposal for SPbU-funded research (internal)"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Заявка на НИР за счёт средств СПбГУ"
+          } ]
+        }
+      }
+    } ]
+  } ]
+}
