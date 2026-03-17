@@ -1,0 +1,50 @@
+export POSTGRES_DB := "pure_db"
+export POSTGRES_HOST := "localhost"
+export POSTGRES_PORT := "5432"
+export POSTGRES_USER := "pure_db_user"
+export PGPASSWORD := "password"
+
+set quiet := true
+
+# Lists available commands
+default:
+    just --list
+
+# Run tests
+test:
+    uv run pytest -v
+
+# Starts jupyter lab
+jupyter:
+    uv run jupyter lab --ip 0.0.0.0
+
+# Starts HTTP server
+serve:
+    uv run app
+
+# Starts development database in a podman container
+pg-up: pg-start
+
+# Starts development database in a podman container
+pg-start:
+    podman run \
+        --name pure-postgres \
+        -p $POSTGRES_PORT:5432 \
+        -e POSTGRES_DB=$POSTGRES_DB \
+        -e POSTGRES_USER=$POSTGRES_USER \
+        -e POSTGRES_PASSWORD=$PGPASSWORD \
+        -d \
+        docker.io/postgres:18
+
+# Stops database and removes container (erases all data)
+pg-down:
+    -podman stop pure-postgres
+    -podman rm pure-postgres
+
+# Connect to postgres database with psql
+pg-connect:
+    psql -w -h $POSTGRES_HOST -p $POSTGRES_PORT $POSTGRES_DB $POSTGRES_USER
+
+pg-pull:
+    podman search docker.io/postgres:18
+    podman pull docker.io/postgres:18

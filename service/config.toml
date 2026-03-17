@@ -1,0 +1,6 @@
+[postgres]
+host = "localhost"
+port = 5432
+user= "pure_db_user"
+password = "password"
+database_name = "pure_db"
