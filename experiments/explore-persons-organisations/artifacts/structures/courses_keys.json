@@ -1,0 +1,21 @@
+{
+  "pureId": "int",
+  "externalId": "str",
+  "externalIdSource": "str",
+  "externallyManaged": "bool",
+  "uuid": "str",
+  "period": "dict",
+  "managingOrganisationalUnit": "dict",
+  "info": "dict",
+  "title": "dict",
+  "type": "dict",
+  "level": "dict",
+  "format": "dict",
+  "visibility": "dict",
+  "workflow": "dict",
+  "descriptions": "list",
+  "ids": "list",
+  "creators": "list",
+  "organisationalUnits": "list",
+  "keywordgroups": "list"
+}

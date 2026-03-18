@@ -1,0 +1,12 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "title": "str",
+  "person": "dict",
+  "confidential": "bool",
+  "info": "dict",
+  "type": "dict",
+  "visibility": "dict",
+  "blocks": "list",
+  "pdfURLs": "list"
+}

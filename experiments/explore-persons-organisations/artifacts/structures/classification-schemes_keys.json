@@ -1,0 +1,10 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "baseUri": "str",
+  "info": "dict",
+  "typeClassification": "dict",
+  "description": "dict",
+  "containedClassifications": "list",
+  "associatedSchemes": "list"
+}

@@ -1,0 +1,23 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "managingOrganisationalUnit": "dict",
+  "confidential": "bool",
+  "info": "dict",
+  "title": "dict",
+  "type": "dict",
+  "relatedApplication": "dict",
+  "submissionDate": "str",
+  "visibility": "dict",
+  "personAssociations": "list",
+  "organisationalUnits": "list",
+  "reply": "dict",
+  "approvedDate": "str",
+  "descriptions": "list",
+  "relatedAward": "dict",
+  "validFromDate": "str",
+  "validToDate": "str",
+  "documents": "list",
+  "externalOrganisations": "list",
+  "links": "list"
+}

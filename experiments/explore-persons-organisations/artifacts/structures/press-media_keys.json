@@ -1,0 +1,23 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "managingOrganisationalUnit": "dict",
+  "period": "dict",
+  "info": "dict",
+  "title": "dict",
+  "type": "dict",
+  "visibility": "dict",
+  "references": "list",
+  "personAssociations": "list",
+  "organisationalUnits": "list",
+  "externalOrganisations": "list",
+  "descriptions": "list",
+  "keywordGroups": "list",
+  "relatedProjects": "list",
+  "relatedResearchOutputs": "list",
+  "event": "dict",
+  "relatedPressMedia": "list",
+  "relatedPrizes": "list",
+  "relatedActivities": "list",
+  "relatedEquipment": "list"
+}

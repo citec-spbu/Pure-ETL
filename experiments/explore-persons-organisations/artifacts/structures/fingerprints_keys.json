@@ -1,0 +1,10 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "contentId": "int",
+  "contentUuid": "str",
+  "contentFamily": "str",
+  "contentVersion": "int",
+  "info": "dict",
+  "concepts": "list"
+}
