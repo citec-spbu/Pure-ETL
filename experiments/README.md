@@ -74,7 +74,6 @@ uv add <package_name>
 ### Запуск
 
 Запускаться можно разными способами.
-Один из них - запуск Jupyter Lab (т.е. самой папки experiments).
 Для этого перейдите в модуль Вашего исследования и выполните команду:
 
 ```shell
@@ -82,10 +81,14 @@ uv run jupyter lab
 ```
 
 Если запуск прошел успешно, то в браузере должна открыться страница с Jupyter Lab.
-Если же автоматического перенаправления не произошло, ищите в консоли сообщение со ссылкой на файл:
+Если же автоматического перенаправления не произошло, ищите в консоли сообщения с url jupyter server:
 
 ```shell
-file:/home/forg/.local/share/jupyter/runtime/jpserver-149244-open.html
+To access the server, open this file in a browser:
+        file:/home/forg/.local/share/jupyter/runtime/jpserver-701863-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=8c9b09717fb08f597f3611bbbde0729831f84064e64adb12
+        http://127.0.0.1:8888/lab?token=8c9b09717fb08f597f3611bbbde0729831f84064e64adb12
 ```
 
 и откройте его в браузере самостоятельно.
@@ -93,3 +96,6 @@ file:/home/forg/.local/share/jupyter/runtime/jpserver-149244-open.html
 > [!NOTE]
 >
 > Сверху указан лишь пример такой ссылки.
+
+Если хочется работать через VSCode, то потребуется установить расширение Jupyter.
+В `.ipynb` файле нажать на `Select kernel -> Existing Jupyter Server` и ввести url сервера.
