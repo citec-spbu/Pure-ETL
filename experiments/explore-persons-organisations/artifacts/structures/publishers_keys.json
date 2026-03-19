@@ -1,0 +1,12 @@
+{
+  "pureId": "int",
+  "externalId": "str",
+  "externalIdSource": "str",
+  "uuid": "str",
+  "name": "str",
+  "type": "dict",
+  "workflow": "dict",
+  "info": "dict",
+  "alternativeNames": "list",
+  "countries": "list"
+}

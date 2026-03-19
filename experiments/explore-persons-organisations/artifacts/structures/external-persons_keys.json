@@ -1,0 +1,14 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "name": "dict",
+  "info": "dict",
+  "type": "dict",
+  "workflow": "dict",
+  "externalOrganisations": "list",
+  "externalId": "str",
+  "externalIdSource": "str",
+  "country": "dict",
+  "title": "dict",
+  "ids": "list"
+}

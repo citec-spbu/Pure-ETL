@@ -1,0 +1,23 @@
+{
+  "pureId": "int",
+  "externalId": "str",
+  "externalIdSource": "str",
+  "uuid": "str",
+  "info": "dict",
+  "name": "dict",
+  "type": "dict",
+  "visibility": "dict",
+  "workflow": "dict",
+  "alternativeNames": "list",
+  "address": "dict",
+  "ids": "list",
+  "keywordGroups": "list",
+  "acronym": "str",
+  "vatNumber": "str",
+  "natureTypes": "list",
+  "phoneNumber": "str",
+  "links": "list",
+  "parent": "dict",
+  "fax": "str",
+  "email": "str"
+}

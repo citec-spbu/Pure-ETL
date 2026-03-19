@@ -1,0 +1,10 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "thesauri": "dict",
+  "conceptId": "str",
+  "idf": "float",
+  "info": "dict",
+  "name": "dict",
+  "terms": "list"
+}

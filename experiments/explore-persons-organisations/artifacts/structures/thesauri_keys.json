@@ -1,0 +1,10 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "acronym": "str",
+  "workflow": "str",
+  "thesaurusVersion": "str",
+  "info": "dict",
+  "name": "dict",
+  "description": "dict"
+}

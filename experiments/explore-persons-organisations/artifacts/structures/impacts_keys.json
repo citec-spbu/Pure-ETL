@@ -1,0 +1,22 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "managingOrganisationalUnit": "dict",
+  "confidential": "bool",
+  "info": "dict",
+  "title": "dict",
+  "type": "dict",
+  "status": "dict",
+  "visibility": "dict",
+  "descriptions": "list",
+  "categories": "list",
+  "participants": "list",
+  "organisationalUnits": "list",
+  "links": "list",
+  "relatedProjects": "list",
+  "relatedImpacts": "list",
+  "relatedResearchOutputs": "list",
+  "associatedIds": "list",
+  "documents": "list",
+  "externalOrganisations": "list"
+}

@@ -1,0 +1,15 @@
+{
+  "pureId": "int",
+  "externalId": "str",
+  "externalIdSource": "str",
+  "externallyManaged": "bool",
+  "uuid": "str",
+  "period": "dict",
+  "info": "dict",
+  "name": "dict",
+  "type": "dict",
+  "visibility": "dict",
+  "ids": "list",
+  "parents": "list",
+  "webAddresses": "list"
+}

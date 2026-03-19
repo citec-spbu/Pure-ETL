@@ -1,0 +1,21 @@
+{
+  "pureId": "int",
+  "externalId": "str",
+  "externalIdSource": "str",
+  "uuid": "str",
+  "info": "dict",
+  "type": "dict",
+  "publisher": "dict",
+  "country": "dict",
+  "workflow": "dict",
+  "titles": "list",
+  "issns": "list",
+  "electronicISSNs": "list",
+  "externallyManaged": "bool",
+  "alternativeTitles": "list",
+  "ids": "list",
+  "keywordGroups": "list",
+  "scopusMetrics": "list",
+  "links": "list",
+  "alternativeISSNs": "list"
+}

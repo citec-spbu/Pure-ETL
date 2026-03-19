@@ -1,0 +1,16 @@
+{
+  "pureId": "int",
+  "uuid": "str",
+  "milestoneDeadline": "str",
+  "completed": "bool",
+  "award": "dict",
+  "info": "dict",
+  "milestoneState": "dict",
+  "title": "dict",
+  "administrativeRole": "str",
+  "milestoneType": "str",
+  "reminders": "list",
+  "completedDate": "str",
+  "description": "dict",
+  "academicRole": "dict"
+}
