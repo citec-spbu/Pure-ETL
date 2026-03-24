@@ -28,9 +28,8 @@ project/
 
 ## Зависимости
 
-```bash
-pip install litstudy pyvis pandas matplotlib numpy
-```
+    pip install litstudy pyvis pandas matplotlib numpy
+
 
 | Библиотека | Назначение                                 |
 |---|--------------------------------------------|
@@ -53,15 +52,15 @@ pip install litstudy pyvis pandas matplotlib numpy
 
 Затем каждый файл загружается через `litstudy.load_csv()` с явным указанием полей:
 
-```python
-litstudy.load_csv(f,
-    title_field='display_name',
-    authors_field='authorships.author.display_name',
-    citation_field='cited_by_count',
-    date_field='publication_date',
-    source_field='primary_location.source.display_name'
-)
-```
+
+    litstudy.load_csv(f,
+        title_field='display_name',
+        authors_field='authorships.author.display_name',
+        citation_field='cited_by_count',
+        date_field='publication_date',
+        source_field='primary_location.source.display_name'
+    )
+
 
 Все `DocumentSet`-ы объединяются оператором `|` в один `combined`.
 
