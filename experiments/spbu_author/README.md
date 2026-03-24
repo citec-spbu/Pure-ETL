@@ -6,7 +6,7 @@ Jupyter-ноутбук для библиометрического анализ�
 
 ## Структура проекта
 
-+```text
+```text
 project/
 └── experiments/
     └── spbu_author/
