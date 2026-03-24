@@ -121,5 +121,5 @@ Zakharov - Krylatov  20 совм. публ.
 | E. A. Lejnina |
 | Alexander Krylatov |
 | Natalia Kizhaeva |
-+
+
 **Источник данных:** [OpenAlex.org](https://openalex.org) — открытая база научных публикаций.
