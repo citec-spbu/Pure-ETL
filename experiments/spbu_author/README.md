@@ -7,20 +7,20 @@ Jupyter-ноутбук для библиометрического анализ�
 ## Структура проекта
 
 +```text
-+project/
-+└── experiments/
-+    └── spbu_author/
-+        ├── spbu_author.ipynb
-+        └── data/            
-+           ├── works-csv-Drivotin.csv  
-+           ├── works-csv-Blekanov.csv
-+           ├── works-csv-Vakaeva.csv  
-+           ├── works-csv-Kostyrko.csv   
-+           ├── works-csv-Grekov.csv  
-+           ├── works-csv-Lejnina.csv   
-+           ├── works-csv-Krylatov.csv  
-+           └── works-csv-Kizhaeva.csv  
-+```
+project/
+└── experiments/
+    └── spbu_author/
+        ├── spbu_author.ipynb
+        └── data/            
+           ├── works-csv-Drivotin.csv  
+           ├── works-csv-Blekanov.csv
+           ├── works-csv-Vakaeva.csv  
+           ├── works-csv-Kostyrko.csv   
+           ├── works-csv-Grekov.csv  
+           ├── works-csv-Lejnina.csv   
+           ├── works-csv-Krylatov.csv  
+           └── works-csv-Kizhaeva.csv  
+```
 
 Все CSV-файлы должны лежать **в папке data**.
 
@@ -69,11 +69,11 @@ litstudy.load_csv(f,
 
 Строит граф через `litstudy.build_coauthor_network(combined)` и выводит топ-15 пар авторов по числу совместных публикаций:
 
-+```text
+```text
 Blekanov - Bodrunova  24 совм. публ.
 Zakharov - Krylatov  20 совм. публ.
 ...
-+```
+```
 
 ### Ячейка 4 — Граф соавторства (визуализация)
 
