@@ -22,6 +22,16 @@ jupyter:
 serve:
     uv run app
 
+# Run dash app (UI)
+dash:
+    uv run src/app/client.py
+
+# Migrate postgres database using alembic
+pg-migrate:
+    uv run alembic upgrade head
+
+migrate: pg-migrate
+
 # Starts development database in a podman container
 pg-up: pg-start
 
@@ -41,10 +51,29 @@ pg-down:
     -podman stop pure-postgres
     -podman rm pure-postgres
 
+# Wait for postgres to start
+pg-wait:
+    #!/usr/bin/env sh
+    until psql -w -h $POSTGRES_HOST -p $POSTGRES_PORT $POSTGRES_DB $POSTGRES_USER -c 'SELECT 1;'
+    do
+        echo "Waiting for postgres"
+        sleep 1
+    done
+    echo "Postgres is up"
+
 # Connect to postgres database with psql
 pg-connect:
     psql -w -h $POSTGRES_HOST -p $POSTGRES_PORT $POSTGRES_DB $POSTGRES_USER
 
+# Pull postgres image
 pg-pull:
-    podman search docker.io/postgres:18
     podman pull docker.io/postgres:18
+
+format: fmt
+
+# Format code
+fmt:
+    uv run isort .
+
+load-all-persons:
+    curl -X 'POST' 'http://localhost:8000/load/persons' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/persons.json

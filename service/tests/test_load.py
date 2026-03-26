@@ -1,11 +1,12 @@
 import json
-import uuid
-import app.database
-from app.models import Person
-import app.config
-import app.load.pure.persons
-from sqlalchemy.orm import Session
+
 from sqlalchemy import select
+from sqlalchemy.orm import Session
+
+import app.config
+import app.database
+import app.load.pure.persons
+from app.models import Person
 
 
 def test_persons_load():
@@ -18,7 +19,7 @@ def test_persons_load():
 
     print("Created session")
 
-    with open("data/persons.json") as f:
+    with open("tests/data/persons.json") as f:
         persons = json.load(f)["items"]
 
     print("Read json")
@@ -30,12 +31,12 @@ def test_persons_load():
     assert session.execute(statement).first() is None
 
     lf = app.load.pure.persons.transform_persons(persons)
-    df = lf.collect_batches(chunk_size=1)
+    df_iter = lf.collect_batches(chunk_size=1)
 
     print("Created persons iterator")
 
-    for df in df:
-        app.load.pure.persons.load_persons(df, conn)
+    for df_iter in df_iter:
+        app.load.pure.persons.load_persons(df_iter, conn)
 
     print("Loaded persons to the database")
 

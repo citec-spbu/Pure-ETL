@@ -1,5 +1,5 @@
-import app.main as app
+import app.server
 
 
 def main() -> None:
-    app.run()
+    app.server.run()

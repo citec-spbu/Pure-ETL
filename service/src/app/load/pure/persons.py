@@ -1,8 +1,10 @@
 import uuid
-from app.models import Person
+
+import polars as pl
 from sqlalchemy import Connection
 from sqlalchemy.orm import Session
-import polars as pl
+
+from app.models import Person
 
 
 def transform_persons(persons: list) -> pl.LazyFrame:
@@ -12,6 +14,7 @@ def transform_persons(persons: list) -> pl.LazyFrame:
         pl.col("name").map_elements(
             lambda s: f"{s["firstName"]} {s["lastName"]}", return_dtype=pl.String
         ),
+        pl.struct(pl.all()).alias("raw"),
     )
     return lf
 
@@ -23,6 +26,10 @@ def load_persons(df: pl.DataFrame, conn: Connection):
     """
     with Session(conn) as session:
         for person in df.rows(named=True):
-            person = Person(id=uuid.UUID(person["person_id"]), name=person["name"])
+            person = Person(
+                id=uuid.UUID(person["person_id"]),
+                name=person["name"],
+                raw=person["raw"],
+            )
             session.merge(person)
         session.commit()

@@ -1,13 +1,8 @@
 import tomllib
 from pathlib import Path
-from typing import Any, Annotated, Literal
+from typing import Annotated, Any, Literal
 
-from pydantic import (
-    BaseModel,
-    Field,
-    PostgresDsn,
-    computed_field,
-)
+from pydantic import BaseModel, Field, PostgresDsn, computed_field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
