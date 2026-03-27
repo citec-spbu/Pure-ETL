@@ -1,0 +1,384 @@
+{
+  "count" : 119710,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 1000
+  },
+  "items" : [ {
+    "pureId" : 143835,
+    "externalId" : "50063896",
+    "externalIdSource" : "synchronisedUnifiedPerson",
+    "uuid" : "2b5c936a-4af4-44f9-9cc3-4e47a2cf4ba2",
+    "name" : {
+      "firstName" : "Евгений Александрович",
+      "lastName" : "Поляков"
+    },
+    "orcid" : "0000-0001-9850-5370",
+    "fte" : 0.0,
+    "isExpert" : false,
+    "info" : {
+      "createdBy" : "sync_user",
+      "createdDate" : "2017-05-11T19:40:46.645+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-06-09T04:50:41.314+0300",
+      "portalUrl" : "https://pureportal.spbu.ru/en/persons/--(2b5c936a-4af4-44f9-9cc3-4e47a2cf4ba2).html",
+      "prettyURLIdentifiers" : [ "евгений-александрович-поляков" ]
+    },
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "nameVariants" : [ {
+      "pureId" : 11328091,
+      "externalId" : "50063896",
+      "externalIdSource" : "synchronisedUnifiedPerson",
+      "name" : {
+        "firstName" : "Evgenii",
+        "lastName" : "Poliakov"
+      },
+      "type" : {
+        "pureId" : 16224,
+        "uri" : "/dk/atira/pure/person/names/translated",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Transcribed name"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "переведённое имя"
+          } ]
+        }
+      }
+    } ],
+    "ids" : [ {
+      "pureId" : 9521366,
+      "externalId" : "5006389603",
+      "externalIdSource" : "synchronisedUnifiedPerson",
+      "value" : {
+        "formatted" : false,
+        "value" : "M-9021-2013"
+      },
+      "type" : {
+        "pureId" : 16252,
+        "uri" : "/dk/atira/pure/person/personsources/researcher",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Researcher ID"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "авторский идентификатор Web of Science"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 28171907,
+      "externalId" : "36673543300",
+      "externalIdSource" : "Scopus",
+      "value" : {
+        "formatted" : false,
+        "value" : "36673543300"
+      },
+      "type" : {
+        "pureId" : 6536,
+        "uri" : "/dk/atira/pure/person/personsources/scopusauthor",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus Author ID"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "ID автора в Scopus"
+          } ]
+        }
+      }
+    } ],
+    "staffOrganisationAssociations" : [ {
+      "pureId" : 143840,
+      "externalId" : "107879",
+      "externalIdSource" : "synchronisedUnifiedPerson",
+      "person" : {
+        "uuid" : "2b5c936a-4af4-44f9-9cc3-4e47a2cf4ba2",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/2b5c936a-4af4-44f9-9cc3-4e47a2cf4ba2"
+        },
+        "externalId" : "50063896",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Евгений Александрович Поляков"
+          } ]
+        }
+      },
+      "affiliationId" : "107879",
+      "period" : {
+        "startDate" : "2017-03-15T12:00:00.000+03:00",
+        "endDate" : "2017-12-28T12:00:00.000+03:00"
+      },
+      "isPrimaryAssociation" : false,
+      "fte" : 0.0,
+      "employmentType" : {
+        "pureId" : 16544,
+        "uri" : "/dk/atira/pure/person/employmenttypes/researchsupport",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Research Support"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "научно-технический персонал"
+          } ]
+        }
+      },
+      "organisationalUnit" : {
+        "uuid" : "3c70bc8d-1758-41dd-b716-5c21d94bd23f",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/3c70bc8d-1758-41dd-b716-5c21d94bd23f"
+        },
+        "externalId" : "50116349",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Molecular Biophysics and Polymer Physics"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра молекулярной биофизики и физики полимеров"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      },
+      "staffType" : {
+        "pureId" : 6614,
+        "uri" : "/dk/atira/pure/person/personstafftype/nonacademic",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Non-academic"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Не научные"
+          } ]
+        }
+      },
+      "jobTitle" : {
+        "pureId" : 16380,
+        "uri" : "/dk/atira/pure/person/jobtitles/50000843",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Research Engineer"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "инженер-исследователь"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 143837,
+    "externalId" : "50053836",
+    "externalIdSource" : "synchronisedUnifiedPerson",
+    "uuid" : "382d6400-1743-4b2e-9865-06111d725874",
+    "name" : {
+      "firstName" : "Нина Викторовна",
+      "lastName" : "Христофорова"
+    },
+    "fte" : 0.0,
+    "isExpert" : false,
+    "info" : {
+      "createdBy" : "sync_user",
+      "createdDate" : "2017-05-11T19:40:46.635+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2024-02-01T08:37:49.660+0300",
+      "portalUrl" : "https://pureportal.spbu.ru/en/persons/--(382d6400-1743-4b2e-9865-06111d725874).html",
+      "prettyURLIdentifiers" : [ "нина-викторовна-христофорова" ]
+    },
+    "visibility" : {
+      "key" : "BACKEND",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Backend - Restricted to Pure users"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Сервер - доступно только пользователям Pure"
+        } ]
+      }
+    },
+    "nameVariants" : [ {
+      "pureId" : 112967084,
+      "externalId" : "50053836",
+      "externalIdSource" : "synchronisedUnifiedPerson",
+      "name" : {
+        "firstName" : "Nina",
+        "lastName" : "Khristoforova"
+      },
+      "type" : {
+        "pureId" : 16224,
+        "uri" : "/dk/atira/pure/person/names/translated",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Transcribed name"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "переведённое имя"
+          } ]
+        }
+      }
+    } ],
+    "staffOrganisationAssociations" : [ {
+      "pureId" : 143846,
+      "externalId" : "104341",
+      "externalIdSource" : "synchronisedUnifiedPerson",
+      "person" : {
+        "uuid" : "382d6400-1743-4b2e-9865-06111d725874",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/382d6400-1743-4b2e-9865-06111d725874"
+        },
+        "externalId" : "50053836",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Нина Викторовна Христофорова"
+          } ]
+        }
+      },
+      "affiliationId" : "104341",
+      "period" : {
+        "startDate" : "2024-01-01T12:00:00.000+03:00",
+        "endDate" : "2024-01-31T12:00:00.000+03:00"
+      },
+      "isPrimaryAssociation" : false,
+      "fte" : 1.0,
+      "employmentType" : {
+        "pureId" : 16546,
+        "uri" : "/dk/atira/pure/person/employmenttypes/technical",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Technical"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "технический персонал"
+          } ]
+        }
+      },
+      "organisationalUnit" : {
+        "uuid" : "45458160-e11b-4ff6-b776-a0c7f7898d0c",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/45458160-e11b-4ff6-b776-a0c7f7898d0c"
+        },
+        "externalId" : "50009486",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "English organisational unit name temporarily not avaliable"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Учебно-научная база \"Дубрава\""
+          } ]
+        },
+        "type" : {
+          "pureId" : 17290,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_5",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 5"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "5 уровень"
+            } ]
+          }
+        }
+      },
+      "contractType" : {
+        "pureId" : 33287867,
+        "uri" : "/dk/atira/pure/person/personcontracttype/1",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "term-unlimited"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "неограниченный"
+          } ]
+        }
+      },
+      "staffType" : {
+        "pureId" : 6614,
+        "uri" : "/dk/atira/pure/person/personstafftype/nonacademic",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Non-academic"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Не научные"
+          } ]
+        }
+      },
+      "jobDescription" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "эколог"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "эколог"
+        } ]
+      }
+    } ]
+  } ],
+  "navigationLinks" : [ {
+    "ref" : "next",
+    "href" : "http://localhost:8080/ws/api/522/persons?pageSize=1000&offset=1000"
+  } ]
+}
