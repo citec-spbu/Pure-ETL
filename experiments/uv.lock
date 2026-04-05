@@ -11,6 +11,7 @@ resolution-markers = [
 members = [
     "experiments",
     "explore-persons-organisations",
+    "explore-research-outputs",
 ]
 
 [[package]]
@@ -320,6 +321,11 @@ requires-dist = [
 name = "explore-persons-organisations"
 version = "0.1.0"
 source = { virtual = "explore-persons-organisations" }
+
+[[package]]
+name = "explore-research-outputs"
+version = "0.1.0"
+source = { virtual = "explore-research-outputs" }
 
 [[package]]
 name = "fastjsonschema"
