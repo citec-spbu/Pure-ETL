@@ -1,5 +1,30 @@
 import json
 import pandas as pd
+import requests
+
+def fetch_api_swagger_json(url, save_to_filepath=None) -> object:
+    """
+    Attempts to fetch json from the provided endpoint.
+
+    Arguments:
+    url: url to the remote swagger.json file
+    save_to_filepath (optional): Relative path (where to save json file)
+
+    Returns: Response object (if successful)
+    """
+
+    response = requests.get(url)
+
+    data = response.json()
+
+    if (save_to_filepath):
+        with open(save_to_filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        print("JSON saved successfully")
+        
+    print("Fetched successfully!")
+    return data
 
 def load_from_json(path_to_pec) -> object:
     with open(path_to_pec, 'r') as f:
