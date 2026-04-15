@@ -13,18 +13,27 @@ def fetch_api_swagger_json(url, save_to_filepath=None) -> object:
     Returns: Response object (if successful)
     """
 
-    response = requests.get(url)
+    try:
+        response = requests.get(url, timeout=60)
+        response.raise_for_status()
 
-    data = response.json()
+        data = response.json()
 
-    if (save_to_filepath):
-        with open(save_to_filepath, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+        if (save_to_filepath):
+            with open(save_to_filepath, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
 
-        print("JSON saved successfully")
-        
-    print("Fetched successfully!")
-    return data
+            print("JSON saved successfully")
+            
+        print("Fetched successfully!")
+        return data
+    except requests.exceptions.HTTPError as http_error:
+        print(f"HTTP error occurred: {http_error}")
+        return None
+    except Exception as error:
+        print(f"Error while fetching swagger.json: {error}")
+        return None
+
 
 def load_from_json(path_to_pec) -> object:
     with open(path_to_pec, 'r') as f:
