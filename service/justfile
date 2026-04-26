@@ -10,6 +10,18 @@ set quiet := true
 default:
     just --list
 
+format: fmt
+
+# Format code
+fmt:
+    uv run isort -m 3 --tc .
+
+lint:
+    ruff check
+
+lint-fix:
+    ruff check --fix
+
 # Run tests
 test:
     uv run pytest -v
@@ -68,12 +80,6 @@ pg-connect:
 # Pull postgres image
 pg-pull:
     podman pull docker.io/postgres:18
-
-format: fmt
-
-# Format code
-fmt:
-    uv run isort -m 3 --tc .
 
 load-all-persons:
     curl -X 'POST' 'http://localhost:8000/load/persons' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/persons.json && echo
