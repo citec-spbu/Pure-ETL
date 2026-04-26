@@ -31,7 +31,7 @@ transform_schema = pl.Schema(
 
 
 def transform(classification_schemes: list) -> pl.LazyFrame:
-    """Transforms organisational units dictionary to a format ready to be loaded to the database"""
+    """Transforms classification schemes dictionary to a format ready to be loaded to the database"""
     lf = (
         pl.LazyFrame(classification_schemes)
         .select(pl.all(), pl.struct(pl.all()).struct.json_encode().alias("raw"))
@@ -74,7 +74,7 @@ def load(
 ):
     """
     Loads classification schemes from prepared dataframe into the database
-    See `transform_classificatoin_schemes`
+    See `transform`
     """
     for classification_scheme_row in df.rows(named=True):
         classification_scheme = session.scalars(
@@ -97,9 +97,7 @@ def load(
             "description_en"
         ]
 
-        if update_raw:
-            classification_scheme.raw = json.loads(classification_scheme_row["raw"])
-        elif classification_scheme.raw is None:
+        if update_raw or classification_scheme.raw is None:
             classification_scheme.raw = json.loads(classification_scheme_row["raw"])
 
         session.merge(classification_scheme)

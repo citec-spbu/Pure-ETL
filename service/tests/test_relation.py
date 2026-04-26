@@ -61,7 +61,7 @@ def test_organisational_units_relation(session: Session):
     units_selected = session.scalars(select_units_statement).all()
     assert len(units_selected) == 3
 
-    # sqlalchemy would not not override links on its own so we have to
+    # sqlalchemy would not override links on its own so we have to
     # modify the person from session
 
     person_selected.staff_organisation_associations.clear()

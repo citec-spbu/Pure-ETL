@@ -57,8 +57,8 @@ class Person(Base):
     pure_id: Mapped[int] = mapped_column(BIGINT, unique=True)
     first_name: Mapped[Optional[str]]
     last_name: Mapped[Optional[str]]
-    titles: Mapped[Optional[dict]] = mapped_column(JSONB)
-    ids: Mapped[Optional[dict]] = mapped_column(JSONB)
+    titles: Mapped[Optional[list]] = mapped_column(JSONB)
+    ids: Mapped[Optional[list]] = mapped_column(JSONB)
     orcid: Mapped[Optional[str]] = mapped_column()
     raw: Mapped[Optional[dict]] = mapped_column(JSONB)
     staff_organisation_associations: Mapped[
@@ -82,8 +82,8 @@ class OrganisationalUnit(Base):
     type_id: Mapped[Optional[int]] = mapped_column(BIGINT)
     name_ru: Mapped[Optional[str]] = mapped_column()
     name_en: Mapped[Optional[str]] = mapped_column()
-    parents: Mapped[list[UUID]] = mapped_column(JSONB, default=[])
-    ids: Mapped[Optional[dict]] = mapped_column(JSONB)
+    parents: Mapped[list[UUID]] = mapped_column(JSONB, default=list)
+    ids: Mapped[Optional[list]] = mapped_column(JSONB)
     raw: Mapped[Optional[dict]] = mapped_column(JSONB)
     persons_staff: Mapped[List[PersonOrganisationalUnitStaffAssociation]] = (
         relationship(

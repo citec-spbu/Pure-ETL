@@ -111,7 +111,7 @@ def load(
 ):
     """
     Loads persons from prepared dataframe into the database
-    See `transform_persons`
+    See `transform`
     """
     for person_row in df.rows(named=True):
         person = session.scalars(
@@ -129,9 +129,7 @@ def load(
         person.ids = person_row["ids"]
         person.titles = person_row["titles"]
 
-        if update_raw:
-            person.raw = json.loads(person_row["raw"])
-        elif person.raw is None:
+        if update_raw or person.raw is None:
             person.raw = json.loads(person_row["raw"])
 
         requested_staff_associations = (

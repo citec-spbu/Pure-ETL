@@ -61,7 +61,7 @@ def load(
 ):
     """
     Loads research outputs from prepared dataframe into the database
-    See `transform_research_outputs`
+    See `transform`
     """
     for research_output_row in df.rows(named=True):
         research_output = session.scalars(
@@ -80,9 +80,7 @@ def load(
         research_output.language_type_id = research_output_row["language_type_id"]
         research_output.title = research_output_row["title"]
 
-        if update_raw:
-            research_output.raw = json.loads(research_output_row["raw"])
-        elif research_output.raw is None:
+        if update_raw or research_output.raw is None:
             research_output.raw = json.loads(research_output_row["raw"])
 
         session.merge(research_output)

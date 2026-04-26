@@ -61,7 +61,7 @@ def load(
 ):
     """
     Loads organisational units from prepared dataframe into the database
-    See `transform_organisational_units`
+    See `transform`
     """
     for organisational_unit_row in df.rows(named=True):
         organisational_unit = session.scalars(
@@ -82,9 +82,7 @@ def load(
         organisational_unit.parents = organisational_unit_row["parents"]
         organisational_unit.ids = organisational_unit_row["ids"]
 
-        if update_raw:
-            organisational_unit.raw = json.loads(organisational_unit_row["raw"])
-        elif organisational_unit.raw is None:
+        if update_raw or organisational_unit.raw is None:
             organisational_unit.raw = json.loads(organisational_unit_row["raw"])
 
         session.merge(organisational_unit)
