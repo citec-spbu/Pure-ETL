@@ -1,14 +1,13 @@
 from typing import Any, Callable
-from uuid import UUID
 
 import uvicorn
-from litestar import Litestar, get, post
+from litestar import Litestar, post
 from litestar.di import Provide
 from litestar.exceptions import ClientException
 from litestar.logging import LoggingConfig
 from litestar.openapi import OpenAPIConfig
 from litestar.openapi.plugins import SwaggerRenderPlugin
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel
 from sqlalchemy import Engine, select
 from sqlalchemy.orm import Session
 
