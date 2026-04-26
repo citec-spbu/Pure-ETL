@@ -164,17 +164,17 @@ def load(
         )
 
         if logger is not None:
-            for id in requested_staff_unit_ids.difference(
+            for unit_id in requested_staff_unit_ids.difference(
                 found_requested_staff_unit_ids
             ):
                 logger.warning(
-                    f"Could not assign person {person_row["person_id"]} to unit {id} as staff, unit does not exist"
+                    f"Could not assign person {person_row["person_id"]} to unit {unit_id} as staff, unit does not exist"
                 )
-            for id in requested_student_unit_ids.difference(
+            for unit_id in requested_student_unit_ids.difference(
                 found_requested_student_unit_ids
             ):
                 logger.warning(
-                    f"Could not assign person {person_row["person_id"]} to unit {id} as student, unit does not exist"
+                    f"Could not assign person {person_row["person_id"]} to unit {unit_id} as student, unit does not exist"
                 )
 
         person_staff_associations_to_remove = []

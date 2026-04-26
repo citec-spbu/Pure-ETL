@@ -147,8 +147,8 @@ def test_research_outputs_load(session):
 
     print("Created research outputs iterator")
 
-    for df_iter in df_iter:
-        app.load.pure.research_outputs.load(df_iter, session)
+    for df in df_iter:
+        app.load.pure.research_outputs.load(df, session)
 
     print("Loaded research_outputs to the database")
 
@@ -184,8 +184,8 @@ def test_organisational_units_load(session):
 
     print("Created organisational units iterator")
 
-    for df_iter in df_iter:
-        app.load.pure.organisational_units.load(df_iter, session)
+    for df in df_iter:
+        app.load.pure.organisational_units.load(df, session)
 
     print("Loaded organisational units to the database")
 
@@ -221,8 +221,8 @@ def test_classification_schemes_load(session: Session):
 
     print("Created classification schemes iterator")
 
-    for df_iter in df_iter:
-        app.load.pure.classification_schemes.load(df_iter, session)
+    for df in df_iter:
+        app.load.pure.classification_schemes.load(df, session)
 
     print("Loaded classification schemes to the database")
 

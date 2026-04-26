@@ -65,8 +65,8 @@ def load_raw(app_state: AppState, object_type: str, data: Any) -> LoadResponse:
 def get_load_handler(object_type: str) -> Callable[[AppState, list[Any]], LoadResponse]:
     try:
         return load_handlers[object_type]
-    except KeyError:
-        raise ClientException(detail="Unsupported data type")
+    except KeyError as err:
+        raise ClientException(detail="Unsupported data type") from err
 
 
 def load_persons(app_state: AppState, items: list[Any]) -> LoadResponse:

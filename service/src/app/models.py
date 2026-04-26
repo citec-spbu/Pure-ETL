@@ -26,10 +26,10 @@ class PersonOrganisationalUnitStaffAssociation(Base):
         ForeignKey("organisational_units.organisational_unit_id"), primary_key=True
     )
     period: Mapped[Optional[DateTimeTZRange]] = mapped_column(TSTZRANGE)
-    person: Mapped[List[Person]] = relationship(
+    person: Mapped["Person"] = relationship(
         back_populates="staff_organisation_associations",
     )
-    organisational_unit: Mapped[List[OrganisationalUnit]] = relationship(
+    organisational_unit: Mapped["OrganisationalUnit"] = relationship(
         back_populates="persons_staff",
     )
 
@@ -43,10 +43,10 @@ class PersonOrganisationalUnitStudentAssociation(Base):
         ForeignKey("organisational_units.organisational_unit_id"), primary_key=True
     )
     period: Mapped[Optional[DateTimeTZRange]] = mapped_column(TSTZRANGE)
-    person: Mapped[List[Person]] = relationship(
+    person: Mapped["Person"] = relationship(
         back_populates="student_organisation_associations",
     )
-    organisational_unit: Mapped[List[OrganisationalUnit]] = relationship(
+    organisational_unit: Mapped["OrganisationalUnit"] = relationship(
         back_populates="persons_students",
     )
 
@@ -117,7 +117,7 @@ class ClassificationScheme(Base):
     base_uri: Mapped[str] = mapped_column()
     description_ru: Mapped[Optional[str]] = mapped_column()
     description_en: Mapped[Optional[str]] = mapped_column()
-    classifications: Mapped[List[Classification]] = relationship(
+    classifications: Mapped[List["Classification"]] = relationship(
         back_populates="classification_scheme", cascade="all, delete"
     )
     raw: Mapped[Optional[dict]] = mapped_column(JSONB)
