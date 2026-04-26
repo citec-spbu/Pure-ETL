@@ -1,13 +1,14 @@
 import dash
+import dash_ag_grid as dag
+import plotly.express as px
+import polars as pl
+import sqlalchemy
+from dash import Dash, Input, Output, State, callback, dcc, html
+from sqlalchemy import Engine
+
 from app.config import Config
 from app.database import init_db
 from app.models import Person
-import sqlalchemy
-import dash_ag_grid as dag
-from dash import Dash, html, dcc, callback, Output, Input, State
-import polars as pl
-import plotly.express as px
-from sqlalchemy import Engine
 
 
 def new_app_state() -> AppState:
@@ -32,7 +33,8 @@ def collect(state: AppState) -> pl.DataFrame:
         pl.read_database(
             sqlalchemy.select(
                 sqlalchemy.cast(Person.id, sqlalchemy.String),
-                Person.name,
+                Person.first_name,
+                Person.last_name,
                 Person.raw,
                 Person.raw["staffOrganisationAssociations"].label("associations"),
             ),

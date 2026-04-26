@@ -1,0 +1,217 @@
+{
+  "count" : 9450,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 2
+  },
+  "items" : [ {
+    "pureId" : 19926,
+    "externalId" : "50000001",
+    "externalIdSource" : "synchronisedUnifiedOrganisation",
+    "externallyManaged" : true,
+    "uuid" : "abf8fae5-478f-4b63-8a8c-944750655c44",
+    "period" : {
+      "startDate" : "1900-01-01T12:00:00.000+02:30"
+    },
+    "info" : {
+      "createdBy" : "sync_user",
+      "createdDate" : "2017-05-11T15:49:21.344+0300",
+      "modifiedBy" : "sync_user",
+      "modifiedDate" : "2025-03-01T11:28:34.778+0300",
+      "portalUrl" : "https://pureportal.spbu.ru/en/organisations/federal-state-budgetary-educational-institution-of-higher-educationsaint-petersburg-state-university(abf8fae5-478f-4b63-8a8c-944750655c44).html",
+      "prettyURLIdentifiers" : [ "федеральное-государственное-бюджетное-образовательное-учреждение-", "federal-state-budgetary-educational-institution-of-higher-educati" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Federal State Budgetary Educational Institution of Higher Education\"Saint Petersburg State University\""
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Федеральное государственное бюджетное образовательное учреждение высшего образования \"Санкт-Петербургский государственный университет\""
+      } ]
+    },
+    "type" : {
+      "pureId" : 17276,
+      "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_0",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Level 0"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Уровень организации"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "ids" : [ {
+      "pureId" : 28145406,
+      "value" : {
+        "formatted" : false,
+        "value" : "60031888"
+      },
+      "type" : {
+        "pureId" : 28135348,
+        "uri" : "/dk/atira/pure/organisation/organisationsources/scopus_affiliation_id",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus affiliation ID"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "ID аффилиации в Scopus"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 28145408,
+      "value" : {
+        "formatted" : false,
+        "value" : "115124736"
+      },
+      "type" : {
+        "pureId" : 28135348,
+        "uri" : "/dk/atira/pure/organisation/organisationsources/scopus_affiliation_id",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus affiliation ID"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "ID аффилиации в Scopus"
+          } ]
+        }
+      }
+    }, {
+      "pureId" : 35693622,
+      "externalId" : "108181118",
+      "externalIdSource" : "Scopus",
+      "value" : {
+        "formatted" : false,
+        "value" : "108181118"
+      },
+      "type" : {
+        "pureId" : 28135348,
+        "uri" : "/dk/atira/pure/organisation/organisationsources/scopus_affiliation_id",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Scopus affiliation ID"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "ID аффилиации в Scopus"
+          } ]
+        }
+      }
+    } ]
+  }, {
+    "pureId" : 19939,
+    "externalId" : "MK00000000",
+    "externalIdSource" : "synchronisedUnifiedOrganisation",
+    "externallyManaged" : true,
+    "uuid" : "48d3663f-c069-4000-bb53-efeec4d313b2",
+    "period" : {
+      "startDate" : "2008-09-01T12:00:00.000+04:00"
+    },
+    "info" : {
+      "createdBy" : "sync_user",
+      "createdDate" : "2017-05-11T15:49:21.377+0300",
+      "modifiedBy" : "sync_user",
+      "modifiedDate" : "2023-10-26T14:56:12.273+0300",
+      "portalUrl" : "https://pureportal.spbu.ru/en/organisations/doctoral-aspirantura-programs(48d3663f-c069-4000-bb53-efeec4d313b2).html",
+      "prettyURLIdentifiers" : [ "аспирантура", "doctoral-aspirantura-programs" ]
+    },
+    "name" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Doctoral (aspirantura) programs"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "аспирантура"
+      } ]
+    },
+    "type" : {
+      "pureId" : 17278,
+      "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_1",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Level 1"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "1 уровень"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "parents" : [ {
+      "uuid" : "abf8fae5-478f-4b63-8a8c-944750655c44",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/abf8fae5-478f-4b63-8a8c-944750655c44"
+      },
+      "externalId" : "50000001",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Federal State Budgetary Educational Institution of Higher Education\"Saint Petersburg State University\""
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Федеральное государственное бюджетное образовательное учреждение высшего образования \"Санкт-Петербургский государственный университет\""
+        } ]
+      },
+      "type" : {
+        "pureId" : 17276,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_0",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 0"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Уровень организации"
+          } ]
+        }
+      }
+    } ]
+  } ],
+  "navigationLinks" : [ {
+    "ref" : "next",
+    "href" : "http://localhost:8080/ws/api/522/organisational-units?pageSize=1000&offset=1000"
+  } ]
+}
