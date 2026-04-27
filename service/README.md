@@ -55,7 +55,7 @@ just serve
 
 ### Use the API
 
-Try API at [http://localhost:8000/schema]
+Try API at http://localhost:8000/schema
 
 ### Load data
 
@@ -96,7 +96,11 @@ To figure out what is happening, start with exploring `./justfile`
 - [ ] Add auth (Authelia?)
 - [ ] Add metrics
 - [ ] Add transform + load for all objects
-    - [x] persons example
-    - [ ] persons
+    - [x] persons
+    - [x] organisational-units
+    - [x] classification-schemes
+    - [x] research-outputs stub
+    - [ ] research-outputs
     - [ ] ...
+- [x] Reload loaded Pure data
 - [ ] Improve logging configuration

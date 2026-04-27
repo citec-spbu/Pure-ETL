@@ -1,0 +1,825 @@
+{
+  "count" : 251050,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 2
+  },
+  "items" : [ {
+    "pureId" : 3732230,
+    "externalId" : "177302",
+    "externalIdSource" : "researchoutputwizard",
+    "uuid" : "ad1188e7-9b4c-409f-8717-9be5eb1b9d41",
+    "title" : {
+      "formatted" : true,
+      "value" : "Новая форма приграничного сотрудничества"
+    },
+    "peerReview" : false,
+    "managingOrganisationalUnit" : {
+      "uuid" : "09971b19-384c-4b78-b17c-6ea2921a31a7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/09971b19-384c-4b78-b17c-6ea2921a31a7"
+      },
+      "externalId" : "50110267",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Directorate on Human Resources"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Главное управление по организации работы с персоналом"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2017-05-31T13:34:19.832+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T19:56:08.851+0300",
+      "portalUrl" : "https://pureportal.spbu.ru/en/publications/---(ad1188e7-9b4c-409f-8717-9be5eb1b9d41).html",
+      "prettyURLIdentifiers" : [ "новая-форма-приграничного-сотрудничества-2", "новая-форма-приграничного-сотрудничества-3" ],
+      "additionalExternalIds" : [ {
+        "value" : "192484",
+        "idSource" : "researchoutputwizard"
+      } ],
+      "previousUuids" : [ "16269867-e984-4119-8bd7-cce79456d6e8" ]
+    },
+    "pages" : "169-171",
+    "journalAssociation" : {
+      "pureId" : 3732231,
+      "title" : {
+        "value" : "БАЛТИЙСКИЙ РЕГИОН"
+      },
+      "issn" : {
+        "value" : "2074-9848"
+      },
+      "journal" : {
+        "uuid" : "1d37e287-501b-43ab-86e7-ff5af3514d4a",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/journals/1d37e287-501b-43ab-86e7-ff5af3514d4a"
+        },
+        "externalId" : "БАЛТИЙСКИЙ РЕГИОН",
+        "externalIdSource" : "researchoutputwizard",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "БАЛТИЙСКИЙ РЕГИОН"
+          } ]
+        },
+        "type" : {
+          "pureId" : 1077,
+          "uri" : "/dk/atira/pure/journal/journaltypes/journal/journal",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Journal"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Журнал"
+            } ]
+          }
+        }
+      }
+    },
+    "journalNumber" : "3(13)",
+    "type" : {
+      "pureId" : 3985,
+      "uri" : "/dk/atira/pure/researchoutput/researchoutputtypes/contributiontojournal/book",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Book/Film/Article review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "рецензия"
+        } ]
+      }
+    },
+    "category" : {
+      "pureId" : 3937,
+      "uri" : "/dk/atira/pure/researchoutput/category/research",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Research"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "научная"
+        } ]
+      }
+    },
+    "language" : {
+      "pureId" : 189,
+      "uri" : "/dk/atira/pure/core/languages/en_GB",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "English"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Английский"
+        } ]
+      }
+    },
+    "totalNumberOfAuthors" : 1,
+    "openAccessPermission" : {
+      "pureId" : 2706,
+      "uri" : "/dk/atira/pure/researchoutput/openaccesspermission/none",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "None"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Нет"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Validated"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Проверено"
+        } ]
+      }
+    },
+    "publicationStatuses" : [ {
+      "pureId" : 3732230,
+      "externalId" : "177302",
+      "externalIdSource" : "researchoutputwizard",
+      "current" : true,
+      "publicationDate" : {
+        "year" : 2012
+      },
+      "publicationStatus" : {
+        "pureId" : 957,
+        "uri" : "/dk/atira/pure/researchoutput/status/published",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Published"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Опубликовано"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 3732233,
+      "person" : {
+        "uuid" : "c9be961a-6b7e-4381-bdd2-efb2e7cf4864",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/c9be961a-6b7e-4381-bdd2-efb2e7cf4864"
+        },
+        "externalId" : "50017086",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Александр Иванович Кубышкин"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "А.И.",
+        "lastName" : "Кубышкин"
+      },
+      "personRole" : {
+        "pureId" : 16882,
+        "uri" : "/dk/atira/pure/researchoutput/roles/contributiontojournal/author",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Author"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "1e4b7829-b1ed-40be-b417-303f648cf826",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/1e4b7829-b1ed-40be-b417-303f648cf826"
+        },
+        "externalId" : "50069336",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Theory and Methodology for Teaching Arts andHumanities"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра теории и методики преподавания искусств и гуманитарных наук"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "1e4b7829-b1ed-40be-b417-303f648cf826",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/1e4b7829-b1ed-40be-b417-303f648cf826"
+      },
+      "externalId" : "50069336",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Theory and Methodology for Teaching Arts andHumanities"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра теории и методики преподавания искусств и гуманитарных наук"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "keywordGroups" : [ {
+      "pureId" : 3794845,
+      "logicalName" : "/dk/atira/pure/keywords/esi_plus",
+      "type" : {
+        "uri" : "/dk/atira/pure/keywords/esi_plus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "ESI extended"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Область знаний WoS"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 3794846,
+        "structuredKeyword" : {
+          "pureId" : 513805,
+          "uri" : "/dk/atira/pure/keywords/esi_plus/6491",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "SOCIAL SCIENCES, GENERAL"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Общественные науки"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 3794842,
+      "logicalName" : "keywordContainers",
+      "type" : {
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Keywords"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Ключевые слова"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 3794843,
+        "freeKeywords" : [ {
+          "pureId" : 3794844,
+          "locale" : "en_US",
+          "freeKeywords" : [ "Приграничное сотрудничество", "Северная Европа", "города -партнеры." ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "pureId" : 3733830,
+    "externalId" : "201953",
+    "externalIdSource" : "researchoutputwizard",
+    "uuid" : "cffb05ce-c824-4588-85f7-98660530c54a",
+    "title" : {
+      "formatted" : true,
+      "value" : "Рецензия на монографию А.В.Смолина \"Два адмирала: А.И.Непенин и А.В.Колчак в 1917 г.\""
+    },
+    "peerReview" : true,
+    "internationalPeerReview" : false,
+    "managingOrganisationalUnit" : {
+      "uuid" : "09971b19-384c-4b78-b17c-6ea2921a31a7",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/09971b19-384c-4b78-b17c-6ea2921a31a7"
+      },
+      "externalId" : "50110267",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Directorate on Human Resources"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Главное управление по организации работы с персоналом"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    },
+    "confidential" : false,
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2017-05-31T13:34:32.072+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2018-04-18T20:08:43.696+0300",
+      "portalUrl" : "https://pureportal.spbu.ru/en/publications/----------1917-(cffb05ce-c824-4588-85f7-98660530c54a).html",
+      "prettyURLIdentifiers" : [ "рецензия-на-монографию-авсмолина-два-адмирала-аинепенин-и-авколча", "рецензия-на-монографию-ав-смолина-два-адмирала-аи-непенин-и-ав-ко-2" ],
+      "additionalExternalIds" : [ {
+        "value" : "234775",
+        "idSource" : "researchoutputwizard"
+      } ],
+      "previousUuids" : [ "6d1cd439-2146-4a22-8fcb-8f6c5c8a19ba" ]
+    },
+    "pages" : "283-287",
+    "journalAssociation" : {
+      "pureId" : 3733831,
+      "title" : {
+        "value" : "Новейшая история России"
+      },
+      "issn" : {
+        "value" : "2219-9659"
+      },
+      "journal" : {
+        "uuid" : "f7e53c09-6d90-4056-8a1d-d694c24ee7f0",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/journals/f7e53c09-6d90-4056-8a1d-d694c24ee7f0"
+        },
+        "externalId" : "21100455533",
+        "externalIdSource" : "Scopus",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Modern History of Russia"
+          } ]
+        },
+        "type" : {
+          "pureId" : 1077,
+          "uri" : "/dk/atira/pure/journal/journaltypes/journal/journal",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Journal"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Журнал"
+            } ]
+          }
+        }
+      }
+    },
+    "journalNumber" : "2",
+    "type" : {
+      "pureId" : 3985,
+      "uri" : "/dk/atira/pure/researchoutput/researchoutputtypes/contributiontojournal/book",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Book/Film/Article review"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "рецензия"
+        } ]
+      }
+    },
+    "category" : {
+      "pureId" : 3937,
+      "uri" : "/dk/atira/pure/researchoutput/category/research",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Research"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "научная"
+        } ]
+      }
+    },
+    "language" : {
+      "pureId" : 189,
+      "uri" : "/dk/atira/pure/core/languages/en_GB",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "English"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Английский"
+        } ]
+      }
+    },
+    "totalNumberOfAuthors" : 2,
+    "openAccessPermission" : {
+      "pureId" : 2706,
+      "uri" : "/dk/atira/pure/researchoutput/openaccesspermission/none",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "None"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Нет"
+        } ]
+      }
+    },
+    "visibility" : {
+      "key" : "FREE",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Public - No restriction"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Публичная - без ограничений"
+        } ]
+      }
+    },
+    "workflow" : {
+      "workflowStep" : "approved",
+      "value" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Validated"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Проверено"
+        } ]
+      }
+    },
+    "publicationStatuses" : [ {
+      "pureId" : 3733830,
+      "externalId" : "201953",
+      "externalIdSource" : "researchoutputwizard",
+      "current" : true,
+      "publicationDate" : {
+        "year" : 2013
+      },
+      "publicationStatus" : {
+        "pureId" : 957,
+        "uri" : "/dk/atira/pure/researchoutput/status/published",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Published"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Опубликовано"
+          } ]
+        }
+      }
+    } ],
+    "personAssociations" : [ {
+      "pureId" : 3733834,
+      "person" : {
+        "uuid" : "31116667-6e6c-427e-b076-9ebc903465f6",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/31116667-6e6c-427e-b076-9ebc903465f6"
+        },
+        "externalId" : "50018484",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Ольга Александровна Гаврилова"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "О.А.",
+        "lastName" : "Гаврилова"
+      },
+      "personRole" : {
+        "pureId" : 16882,
+        "uri" : "/dk/atira/pure/researchoutput/roles/contributiontojournal/author",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Author"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "5d626afa-9023-45de-b4e4-94b52beb4c6f",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/5d626afa-9023-45de-b4e4-94b52beb4c6f"
+        },
+        "externalId" : "50111530",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of Contemporary History of Russia"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра новейшей истории России"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    }, {
+      "pureId" : 3733836,
+      "person" : {
+        "uuid" : "a080fc89-9d1d-4395-b0b3-01b633885d53",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/persons/a080fc89-9d1d-4395-b0b3-01b633885d53"
+        },
+        "externalId" : "50018967",
+        "externalIdSource" : "synchronisedUnifiedPerson",
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "value" : "Юрий Александрович Рачковский"
+          } ]
+        }
+      },
+      "name" : {
+        "firstName" : "В.А.",
+        "lastName" : "Рачковский"
+      },
+      "personRole" : {
+        "pureId" : 16882,
+        "uri" : "/dk/atira/pure/researchoutput/roles/contributiontojournal/author",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Author"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "автор"
+          } ]
+        }
+      },
+      "organisationalUnits" : [ {
+        "uuid" : "87da9089-c8ca-49a2-a65b-c378f5f6bd0b",
+        "link" : {
+          "ref" : "content",
+          "href" : "http://localhost:8080/ws/api/522/organisational-units/87da9089-c8ca-49a2-a65b-c378f5f6bd0b"
+        },
+        "externalId" : "50111517",
+        "externalIdSource" : "synchronisedUnifiedOrganisation",
+        "externallyManaged" : true,
+        "name" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Department of History Teaching for Students in Natural Sciences andHumanities"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Кафедра истории для преподавания на естественных и гуманитарных факультетах"
+          } ]
+        },
+        "type" : {
+          "pureId" : 17281,
+          "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "Level 2"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "2 уровень"
+            } ]
+          }
+        }
+      } ]
+    } ],
+    "organisationalUnits" : [ {
+      "uuid" : "5d626afa-9023-45de-b4e4-94b52beb4c6f",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/5d626afa-9023-45de-b4e4-94b52beb4c6f"
+      },
+      "externalId" : "50111530",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of Contemporary History of Russia"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра новейшей истории России"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    }, {
+      "uuid" : "87da9089-c8ca-49a2-a65b-c378f5f6bd0b",
+      "link" : {
+        "ref" : "content",
+        "href" : "http://localhost:8080/ws/api/522/organisational-units/87da9089-c8ca-49a2-a65b-c378f5f6bd0b"
+      },
+      "externalId" : "50111517",
+      "externalIdSource" : "synchronisedUnifiedOrganisation",
+      "externallyManaged" : true,
+      "name" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Department of History Teaching for Students in Natural Sciences andHumanities"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Кафедра истории для преподавания на естественных и гуманитарных факультетах"
+        } ]
+      },
+      "type" : {
+        "pureId" : 17281,
+        "uri" : "/dk/atira/pure/organisation/organisationtypes/organisation/level_2",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "Level 2"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "2 уровень"
+          } ]
+        }
+      }
+    } ],
+    "keywordGroups" : [ {
+      "pureId" : 3763521,
+      "logicalName" : "/dk/atira/pure/keywords/esi_plus",
+      "type" : {
+        "uri" : "/dk/atira/pure/keywords/esi_plus",
+        "term" : {
+          "formatted" : false,
+          "text" : [ {
+            "locale" : "en_US",
+            "value" : "ESI extended"
+          }, {
+            "locale" : "ru_RU",
+            "value" : "Область знаний WoS"
+          } ]
+        }
+      },
+      "keywordContainers" : [ {
+        "pureId" : 3763522,
+        "structuredKeyword" : {
+          "pureId" : 513765,
+          "uri" : "/dk/atira/pure/keywords/esi_plus/6499",
+          "term" : {
+            "formatted" : false,
+            "text" : [ {
+              "locale" : "en_US",
+              "value" : "ARTS & HUMANITIES"
+            }, {
+              "locale" : "ru_RU",
+              "value" : "Искусства и гуманитарные науки"
+            } ]
+          }
+        }
+      } ]
+    } ]
+  } ],
+  "navigationLinks" : [ {
+    "ref" : "next",
+    "href" : "http://localhost:8080/ws/api/522/research-outputs?pageSize=1000&offset=1000"
+  } ]
+}

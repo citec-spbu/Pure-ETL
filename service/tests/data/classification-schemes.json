@@ -1,0 +1,113 @@
+{
+  "count" : 315,
+  "pageInformation" : {
+    "offset" : 0,
+    "size" : 1
+  },
+  "items" : [ {
+    "pureId" : 103,
+    "uuid" : "0375dc3c-a4e9-4ed4-8f88-3793594e4543",
+    "baseUri" : "/dk/atira/pure/core/classificationschemes",
+    "info" : {
+      "createdBy" : "root",
+      "createdDate" : "2017-05-11T15:36:48.483+0300",
+      "modifiedBy" : "root",
+      "modifiedDate" : "2020-10-07T18:23:43.479+0300"
+    },
+    "typeClassification" : {
+      "pureId" : 113,
+      "uri" : "/dk/atira/pure/core/classificationschemes/system",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "System"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Система"
+        } ]
+      }
+    },
+    "description" : {
+      "formatted" : false,
+      "text" : [ {
+        "locale" : "en_US",
+        "value" : "Types for classification schemes"
+      }, {
+        "locale" : "ru_RU",
+        "value" : "Типы схем классификации..."
+      } ]
+    },
+    "containedClassifications" : [ {
+      "pureId" : 105,
+      "uri" : "/dk/atira/pure/core/classificationschemes/taxonomi",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Taxonomy"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Таксономия"
+        } ]
+      },
+      "disabled" : false
+    }, {
+      "pureId" : 107,
+      "uri" : "/dk/atira/pure/core/classificationschemes/misc",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Misc"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Разное"
+        } ]
+      },
+      "disabled" : false
+    }, {
+      "pureId" : 109,
+      "uri" : "/dk/atira/pure/core/classificationschemes/role",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Role"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Роль"
+        } ]
+      },
+      "disabled" : false
+    }, {
+      "pureId" : 111,
+      "uri" : "/dk/atira/pure/core/classificationschemes/contentType",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "Content type"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "тип контента"
+        } ]
+      },
+      "disabled" : false
+    }, {
+      "pureId" : 113,
+      "uri" : "/dk/atira/pure/core/classificationschemes/system",
+      "term" : {
+        "formatted" : false,
+        "text" : [ {
+          "locale" : "en_US",
+          "value" : "System"
+        }, {
+          "locale" : "ru_RU",
+          "value" : "Система"
+        } ]
+      },
+      "disabled" : false
+    } ]
+  } ]
+}

@@ -10,6 +10,18 @@ set quiet := true
 default:
     just --list
 
+format: fmt
+
+# Format code
+fmt:
+    uv run isort -m 3 --tc .
+
+lint:
+    ruff check
+
+lint-fix:
+    ruff check --fix
+
 # Run tests
 test:
     uv run pytest -v
@@ -69,11 +81,11 @@ pg-connect:
 pg-pull:
     podman pull docker.io/postgres:18
 
-format: fmt
-
-# Format code
-fmt:
-    uv run isort .
-
 load-all-persons:
-    curl -X 'POST' 'http://localhost:8000/load/persons' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/persons.json
+    curl -X 'POST' 'http://localhost:8000/load/persons' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/persons.json && echo
+load-all-research-outputs:
+    curl -X 'POST' 'http://localhost:8000/load/research-outputs' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/research-outputs.json && echo
+load-all-organisational-units:
+    curl -X 'POST' 'http://localhost:8000/load/organisational-units' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/organisational-units.json && echo
+load-all-classification-schemes:
+    curl -X 'POST' 'http://localhost:8000/load/classification-schemes' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/classification-schemes.json && echo
