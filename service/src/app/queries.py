@@ -1,13 +1,15 @@
-from sqlalchemy.orm import aliased
 from typing import Callable
 from uuid import UUID
-from sqlalchemy import func, CTE
+
+import sqlalchemy
+from sqlalchemy import CTE, func
+from sqlalchemy.orm import aliased
+
 from app.models import (
     OrganisationalUnit,
     Person,
     PersonOrganisationalUnitStaffAssociation,
 )
-import sqlalchemy
 
 pm_id = UUID("0435d70c-2eef-4944-90ed-649c9118ccac")
 mat_id = UUID("833d4dea-d7a1-44f3-8775-c71744aed7d5")

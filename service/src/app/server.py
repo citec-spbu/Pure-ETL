@@ -6,10 +6,7 @@ from litestar.di import Provide
 from litestar.exceptions import ClientException
 from litestar.logging import LoggingConfig
 from litestar.openapi import OpenAPIConfig
-from litestar.openapi.plugins import (
-    RapidocRenderPlugin,
-    SwaggerRenderPlugin,
-)
+from litestar.openapi.plugins import RapidocRenderPlugin, SwaggerRenderPlugin
 from pydantic import BaseModel, Json
 from sqlalchemy import Engine, select
 from sqlalchemy.orm import Session
@@ -73,7 +70,7 @@ Also stores in the database the raw unparsed data for each object.
 
 ## Load order
 
-It is advised to first load `classificatoin-schemes`, this makes `type_id` in the database useful.
+It is advised to first load `classification-schemes`, this makes `type_id` in the database useful.
 
 `persons` should be loaded after `organisational-units`, otherwise it is impossible to build links.
 Although `/reload` exists to solve this.

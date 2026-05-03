@@ -29,73 +29,67 @@ class AppState:
 
 
 def collect_units_with_parents(state: AppState) -> pl.DataFrame:
-    conn = state.engine.connect()
-
-    statement = app.queries.select_units_with_faculties_named().cte()
-
-    df = pl.read_database(
-        sqlalchemy.select(
-            sqlalchemy.cast(statement.c.organisational_unit_id, sqlalchemy.String),
-            statement.c.name_ru,
-            statement.c.type_id,
-            statement.c.level,
-            sqlalchemy.cast(
-                statement.c.highest_parent_organisational_unit_id, sqlalchemy.String
-            ),
-            statement.c.highest_parent_name_ru,
-            statement.c.highest_parent_type_id,
-        ).select_from(statement),
-        conn,
-    )
-    conn.close()
-    return df
+    with state.engine.connect() as conn:
+        statement = app.queries.select_units_with_faculties_named().cte()
+        df = pl.read_database(
+            sqlalchemy.select(
+                sqlalchemy.cast(statement.c.organisational_unit_id, sqlalchemy.String),
+                statement.c.name_ru,
+                statement.c.type_id,
+                statement.c.level,
+                sqlalchemy.cast(
+                    statement.c.highest_parent_organisational_unit_id, sqlalchemy.String
+                ),
+                statement.c.highest_parent_name_ru,
+                statement.c.highest_parent_type_id,
+            ).select_from(statement),
+            conn,
+        )
+        return df
 
 
 def collect_persons_with_units(state: AppState) -> pl.DataFrame:
-    conn = state.engine.connect()
-
-    statement = app.queries.select_persons_staff_with_units_and_faculties_named().cte()
-
-    df = pl.read_database(
-        sqlalchemy.select(
-            cast(statement.c.person_id, sqlalchemy.String),
-            statement.c.first_name,
-            statement.c.last_name,
-            sqlalchemy.cast(
-                statement.c.highest_parent_organisational_unit_id, sqlalchemy.String
-            ),
-            statement.c.highest_parent_name_ru,
-            statement.c.highest_parent_type_id,
-            sqlalchemy.cast(
-                statement.c.organisational_unit_id, sqlalchemy.String
-            ).label("linked_through_organisational_unit_id"),
-            statement.c.name_ru.label("linked_through_name_ru"),
-            statement.c.type_id.label("linked_through_type_id"),
-            statement.c.level.label("linked_through_level"),
-        ).select_from(statement),
-        conn,
-    )
-    conn.close()
-    return df
+    with state.engine.connect() as conn:
+        statement = (
+            app.queries.select_persons_staff_with_units_and_faculties_named().cte()
+        )
+        df = pl.read_database(
+            sqlalchemy.select(
+                cast(statement.c.person_id, sqlalchemy.String),
+                statement.c.first_name,
+                statement.c.last_name,
+                sqlalchemy.cast(
+                    statement.c.highest_parent_organisational_unit_id, sqlalchemy.String
+                ),
+                statement.c.highest_parent_name_ru,
+                statement.c.highest_parent_type_id,
+                sqlalchemy.cast(
+                    statement.c.organisational_unit_id, sqlalchemy.String
+                ).label("linked_through_organisational_unit_id"),
+                statement.c.name_ru.label("linked_through_name_ru"),
+                statement.c.type_id.label("linked_through_type_id"),
+                statement.c.level.label("linked_through_level"),
+            ).select_from(statement),
+            conn,
+        )
+        return df
 
 
 def collect_faculty_people(state: AppState) -> pl.DataFrame:
-    conn = state.engine.connect()
-
-    statement = app.queries.select_faculty_persons_count_named().cte()
-
-    df = pl.read_database(
-        sqlalchemy.select(
-            sqlalchemy.cast(
-                statement.c.highest_parent_organisational_unit_id, sqlalchemy.String
-            ),
-            statement.c.highest_parent_name_ru,
-            statement.c.persons_count,
-        ).select_from(statement),
-        conn,
-    )
-    conn.close()
-    return df
+    with state.engine.connect() as conn:
+        statement = app.queries.select_faculty_persons_count_named().cte()
+        df = pl.read_database(
+            sqlalchemy.select(
+                sqlalchemy.cast(
+                    statement.c.highest_parent_organisational_unit_id, sqlalchemy.String
+                ),
+                statement.c.highest_parent_name_ru,
+                statement.c.persons_count,
+            ).select_from(statement),
+            conn,
+        )
+        conn.close()
+        return df
 
 
 def main():
