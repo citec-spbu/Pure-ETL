@@ -81,11 +81,11 @@ pg-connect:
 pg-pull:
     podman pull docker.io/postgres:18
 
-load-all-persons:
-    curl -X 'POST' 'http://localhost:8000/load/persons' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/persons.json && echo
-load-all-research-outputs:
-    curl -X 'POST' 'http://localhost:8000/load/research-outputs' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/research-outputs.json && echo
-load-all-organisational-units:
-    curl -X 'POST' 'http://localhost:8000/load/organisational-units' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/organisational-units.json && echo
-load-all-classification-schemes:
-    curl -X 'POST' 'http://localhost:8000/load/classification-schemes' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/classification-schemes.json && echo
+# classification-schemes
+# organisational-units
+# persons
+# research-outputs
+load-all object:
+    curl -X 'POST' 'http://localhost:8000/load/{{object}}' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/{{object}}.json && echo
+
+load-all-suggested: (load-all "classification-schemes") (load-all "organisational-units") (load-all "persons") (load-all "research-outputs")

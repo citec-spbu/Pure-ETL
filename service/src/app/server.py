@@ -6,8 +6,11 @@ from litestar.di import Provide
 from litestar.exceptions import ClientException
 from litestar.logging import LoggingConfig
 from litestar.openapi import OpenAPIConfig
-from litestar.openapi.plugins import SwaggerRenderPlugin
-from pydantic import BaseModel
+from litestar.openapi.plugins import (
+    RapidocRenderPlugin,
+    SwaggerRenderPlugin,
+)
+from pydantic import BaseModel, Json
 from sqlalchemy import Engine, select
 from sqlalchemy.orm import Session
 
@@ -26,7 +29,14 @@ from app.models import (
 
 
 class AppState:
-    """Immutable application state"""
+    """
+    Immutable application state
+
+    Stores:
+    - config that was read from a file
+    - database engine for making connections
+    - reference to litestar instance
+    """
 
     config: Config
     engine: Engine
@@ -39,7 +49,7 @@ class AppState:
 
 
 class LoadData(BaseModel):
-    pure_data: Any
+    pure_data: Json[Any]
     object_type: str
 
 
@@ -47,21 +57,65 @@ class LoadResponse(BaseModel):
     number_loaded: int
 
 
-@post("/load", sync_to_thread=True)
-def load(app_state: AppState, data: LoadData) -> LoadResponse:
-    handler = get_load_handler(data.object_type)
-    items = data.pure_data["items"]
-    return handler(app_state, items)
+load_description = """
+# Transform and load Pure data
+
+Accepts raw Pure response body as a request body and loads contents into the database.
+
+Supported object types (it is advised to load in this order):
+
+- `classification-schemes`
+- `organisational-units`
+- `persons`
+- `research-outputs`
+
+Also stores in the database the raw unparsed data for each object.
+
+## Load order
+
+It is advised to first load `classificatoin-schemes`, this makes `type_id` in the database useful.
+
+`persons` should be loaded after `organisational-units`, otherwise it is impossible to build links.
+Although `/reload` exists to solve this.
+
+`research-outputs` is independent as of now.
+"""
+
+reload_description = """
+# Reload existing data
+
+Reloads objects that are already in the database from raw data stored alongside.
+
+Supported object types (it is advised to reload in this order):
+
+- `classification-schemes`
+- `organisational-units`
+- `persons`
+- `research-outputs`
+
+Useful for generating links after incorrect load order.
+Or for generating data after an update that extends or changes the database and if the update was made to support it.
+"""
 
 
-@post("/load/{object_type:str}", sync_to_thread=True)
-def load_raw(app_state: AppState, object_type: str, data: Any) -> LoadResponse:
+@post(
+    "/load/{object_type:str}",
+    sync_to_thread=True,
+    description=load_description,
+)
+def load(app_state: AppState, object_type: str, data: Json[Any]) -> LoadResponse:
     handler = get_load_handler(object_type)
     items = data["items"]
     return handler(app_state, items)
 
 
 def get_load_handler(object_type: str) -> Callable[[AppState, list[Any]], LoadResponse]:
+    load_handlers = {
+        "persons": load_persons,
+        "research-outputs": load_research_outputs,
+        "organisational-units": load_organisational_units,
+        "classification-schemes": load_classification_schemes,
+    }
     try:
         return load_handlers[object_type]
     except KeyError as err:
@@ -69,6 +123,7 @@ def get_load_handler(object_type: str) -> Callable[[AppState, list[Any]], LoadRe
 
 
 def load_persons(app_state: AppState, items: list[Any]) -> LoadResponse:
+    """Receives items from Pure json response and tries to transform and store them"""
     with Session(app_state.engine) as session:
         lf = app.load.pure.persons.transform(items)
         loaded = 0
@@ -80,6 +135,7 @@ def load_persons(app_state: AppState, items: list[Any]) -> LoadResponse:
 
 
 def load_organisational_units(app_state: AppState, items: list[Any]) -> LoadResponse:
+    """Receives items from Pure json response and tries to transform and store them"""
     with Session(app_state.engine) as session:
         lf = app.load.pure.organisational_units.transform(items)
         loaded = 0
@@ -91,6 +147,7 @@ def load_organisational_units(app_state: AppState, items: list[Any]) -> LoadResp
 
 
 def load_research_outputs(app_state: AppState, items: list[Any]) -> LoadResponse:
+    """Receives items from Pure json response and tries to transform and store them"""
     with Session(app_state.engine) as session:
         lf = app.load.pure.research_outputs.transform(items)
         loaded = 0
@@ -102,6 +159,7 @@ def load_research_outputs(app_state: AppState, items: list[Any]) -> LoadResponse
 
 
 def load_classification_schemes(app_state: AppState, items: list[Any]) -> LoadResponse:
+    """Receives items from Pure json response and tries to transform and store them"""
     with Session(app_state.engine) as session:
         lf = app.load.pure.classification_schemes.transform(items)
         loaded = 0
@@ -112,34 +170,36 @@ def load_classification_schemes(app_state: AppState, items: list[Any]) -> LoadRe
         return LoadResponse(number_loaded=loaded)
 
 
-load_handlers = {
-    "persons": load_persons,
-    "research-outputs": load_research_outputs,
-    "organisational-units": load_organisational_units,
-    "classification-schemes": load_classification_schemes,
-}
+@post(
+    "/reload/{object_type:str}",
+    sync_to_thread=True,
+    description=reload_description,
+)
+def reload(app_state: AppState, object_type: str) -> LoadResponse:
+    handler = get_reload_handler(object_type)
+    return handler(app_state)
 
 
-def reload(app_state, items, session, transform, load) -> LoadResponse:
-    if len(items) == 0:
-        return LoadResponse(number_loaded=0)
-    lf = transform(items)
-    loaded = 0
-    for df in lf.collect_batches(chunk_size=100):
-        loaded += len(df)
-        load(df, session, logger=app_state.app.get_logger(), update_raw=False)
-    session.commit()
-    return LoadResponse(number_loaded=loaded)
+def get_reload_handler(object_type: str) -> Callable[[AppState], LoadResponse]:
+    load_handlers = {
+        "persons": reload_persons,
+        "research-outputs": reload_research_outputs,
+        "organisational-units": reload_organisational_units,
+        "classification-schemes": reload_classification_schemes,
+    }
+    try:
+        return load_handlers[object_type]
+    except KeyError as err:
+        raise ClientException(detail="Unsupported data type") from err
 
 
-@post("/reload/persons", sync_to_thread=True)
 def reload_persons(app_state: AppState) -> LoadResponse:
     """Selects all persons raw data and tries to reload it"""
     with Session(app_state.engine) as session:
         items = list(
             session.scalars(select(Person.raw).where(Person.raw.is_not(None))).all()
         )
-        return reload(
+        return do_reload(
             app_state,
             items,
             session,
@@ -148,7 +208,6 @@ def reload_persons(app_state: AppState) -> LoadResponse:
         )
 
 
-@post("/reload/organisational-units", sync_to_thread=True)
 def reload_organisational_units(app_state: AppState) -> LoadResponse:
     """Selects all organisational units raw data and tries to reload it"""
     with Session(app_state.engine) as session:
@@ -159,7 +218,7 @@ def reload_organisational_units(app_state: AppState) -> LoadResponse:
                 )
             ).all()
         )
-        return reload(
+        return do_reload(
             app_state,
             items,
             session,
@@ -168,7 +227,6 @@ def reload_organisational_units(app_state: AppState) -> LoadResponse:
         )
 
 
-@post("/reload/research-outputs", sync_to_thread=True)
 def reload_research_outputs(app_state: AppState) -> LoadResponse:
     """Selects all research outputs raw data and tries to reload it"""
     with Session(app_state.engine) as session:
@@ -177,7 +235,7 @@ def reload_research_outputs(app_state: AppState) -> LoadResponse:
                 select(ResearchOutput.raw).where(ResearchOutput.raw.is_not(None))
             ).all()
         )
-        return reload(
+        return do_reload(
             app_state,
             items,
             session,
@@ -186,7 +244,6 @@ def reload_research_outputs(app_state: AppState) -> LoadResponse:
         )
 
 
-@post("/reload/classification-schemes", sync_to_thread=True)
 def reload_classification_schemes(app_state: AppState) -> LoadResponse:
     """Selects all classification schemes raw data and tries to reload it"""
     with Session(app_state.engine) as session:
@@ -197,13 +254,25 @@ def reload_classification_schemes(app_state: AppState) -> LoadResponse:
                 )
             ).all()
         )
-        return reload(
+        return do_reload(
             app_state,
             items,
             session,
             app.load.pure.classification_schemes.transform,
             app.load.pure.classification_schemes.load,
         )
+
+
+def do_reload(app_state, items, session, transform, load) -> LoadResponse:
+    if len(items) == 0:
+        return LoadResponse(number_loaded=0)
+    lf = transform(items)
+    loaded = 0
+    for df in lf.collect_batches(chunk_size=100):
+        loaded += len(df)
+        load(df, session, logger=app_state.app.get_logger(), update_raw=False)
+    session.commit()
+    return LoadResponse(number_loaded=loaded)
 
 
 def run():
@@ -217,11 +286,7 @@ def run():
     app = Litestar(
         route_handlers=[
             load,
-            load_raw,
-            reload_persons,
-            reload_organisational_units,
-            reload_research_outputs,
-            reload_classification_schemes,
+            reload,
         ],
         debug=True,
         request_max_body_size=50 * 1000 * 1000,
@@ -234,7 +299,10 @@ def run():
         openapi_config=OpenAPIConfig(
             title="ETL",
             version="0.0.0",
-            render_plugins=[SwaggerRenderPlugin()],
+            render_plugins=[
+                RapidocRenderPlugin(),
+                SwaggerRenderPlugin(),
+            ],
         ),
         logging_config=logging_config,
     )

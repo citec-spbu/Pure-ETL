@@ -18,7 +18,7 @@ class Base(DeclarativeBase):
 
 
 class PersonOrganisationalUnitStaffAssociation(Base):
-    __tablename__ = "persons_organisational_units_staff_association"
+    __tablename__ = "persons_organisational_units_staff_associations"
     person_id: Mapped[UUID] = mapped_column(
         ForeignKey("persons.person_id"), primary_key=True
     )
@@ -35,7 +35,7 @@ class PersonOrganisationalUnitStaffAssociation(Base):
 
 
 class PersonOrganisationalUnitStudentAssociation(Base):
-    __tablename__ = "persons_organisational_units_student_association"
+    __tablename__ = "persons_organisational_units_student_associations"
     person_id: Mapped[UUID] = mapped_column(
         ForeignKey("persons.person_id"), primary_key=True
     )
@@ -124,7 +124,7 @@ class ClassificationScheme(Base):
 
 
 class Classification(Base):
-    __tablename__ = "classification"
+    __tablename__ = "classifications"
     pure_id: Mapped[int] = mapped_column(
         BIGINT, name="classification_pure_id", primary_key=True
     )
