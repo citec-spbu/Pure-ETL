@@ -55,14 +55,16 @@ just serve
 
 ### Use the API
 
-Try API at http://localhost:8000/schema
+Try API at http://localhost:8000/schema (Rapidoc as default).
+
+Or go to http://localhost:8000/schema/swagger if you like Swagger more.
 
 ### Load data
 
-Load all available persons with
+Load all available data with
 
 ```sh
-just load-all-persons
+just load-all-suggested
 ```
 
 ## Dash app
