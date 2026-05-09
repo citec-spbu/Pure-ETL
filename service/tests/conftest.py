@@ -9,6 +9,5 @@ import app.database
 def session():
     config = app.config.Config.from_file("config.toml")
     engine = app.database.init_db(config)
-    with engine.connect() as conn:
-        with Session(conn) as session:
-            yield session
+    with engine.connect() as conn, Session(conn) as session:
+        yield session

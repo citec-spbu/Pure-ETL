@@ -36,9 +36,7 @@ transform_schema_association = pl.Struct(
 def parse_association(expr: pl.Expr) -> pl.Expr:
     return expr.list.eval(
         pl.struct(
-            unit_id=pl.element()
-            .struct.field("organisationalUnit")
-            .struct.field("uuid"),
+            unit_id=pl.element().struct.field("organisationalUnit").struct.field("uuid"),
             period=pl.element().struct.field("period"),
         )
     )
@@ -74,12 +72,8 @@ def transform(persons: list[Any]) -> pl.LazyFrame:
             extra_columns="ignore",
             extra_struct_fields="ignore",
             missing_columns={
-                "staffOrganisationAssociations": pl.lit(
-                    [], dtype=pl.List(transform_schema_association)
-                ),
-                "studentOrganisationAssociations": pl.lit(
-                    [], dtype=pl.List(transform_schema_association)
-                ),
+                "staffOrganisationAssociations": pl.lit([], dtype=pl.List(transform_schema_association)),
+                "studentOrganisationAssociations": pl.lit([], dtype=pl.List(transform_schema_association)),
                 "ids": pl.lit([], dtype=pure_types.ids),
                 "titles": pl.lit([], dtype=pure_types.titles),
                 "orcid": pl.lit(None, dtype=pl.String),
@@ -94,29 +88,24 @@ def transform(persons: list[Any]) -> pl.LazyFrame:
             pl.col("orcid"),
             pure_types.parse_ids(pl.col("ids")),
             pure_types.parse_titles(pl.col("titles")),
-            parse_association(pl.col("staffOrganisationAssociations")).alias(
-                "staff_unit"
-            ),
-            parse_association(pl.col("studentOrganisationAssociations")).alias(
-                "student_unit"
-            ),
+            parse_association(pl.col("staffOrganisationAssociations")).alias("staff_unit"),
+            parse_association(pl.col("studentOrganisationAssociations")).alias("student_unit"),
             pl.col("raw"),
         )
     )
     return lf
 
 
-def load(
-    df: pl.DataFrame, session: Session, logger: Logger | None = None, update_raw=True
-):
+def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, update_raw=True):
     """
     Loads persons from prepared dataframe into the database
     See `transform`
     """
     for person_row in df.rows(named=True):
-        person = session.scalars(
-            select(Person).where(Person.id == person_row["person_id"])
-        ).first()
+        if logger is not None:
+            logger.debug(f"Loading person {person_row['person_id']}")
+
+        person = session.scalars(select(Person).where(Person.id == person_row["person_id"])).first()
         if person is None:
             person = Person(
                 id=UUID(person_row["person_id"]),
@@ -131,6 +120,8 @@ def load(
 
         if update_raw or person.raw is None:
             person.raw = json.loads(person_row["raw"])
+
+        # Create links
 
         requested_staff_associations = (
             {}
@@ -148,83 +139,72 @@ def load(
 
         found_requested_staff_unit_ids = set(
             session.scalars(
-                select(OrganisationalUnit.id).where(
-                    OrganisationalUnit.id.in_(requested_staff_unit_ids)
-                )
+                select(OrganisationalUnit.id).where(OrganisationalUnit.id.in_(requested_staff_unit_ids))
             ).all()
         )
         found_requested_student_unit_ids = set(
             session.scalars(
-                select(OrganisationalUnit.id).where(
-                    OrganisationalUnit.id.in_(requested_student_unit_ids)
-                )
+                select(OrganisationalUnit.id).where(OrganisationalUnit.id.in_(requested_student_unit_ids))
             ).all()
         )
 
         if logger is not None:
-            for unit_id in requested_staff_unit_ids.difference(
-                found_requested_staff_unit_ids
-            ):
+            for unit_id in requested_staff_unit_ids.difference(found_requested_staff_unit_ids):
                 logger.warning(
-                    f"Could not assign person {person_row["person_id"]} to unit {unit_id} as staff, unit does not exist"
+                    f"Could not add person {person_row['person_id']} to unit {unit_id} as staff, unit does not exist"
                 )
-            for unit_id in requested_student_unit_ids.difference(
-                found_requested_student_unit_ids
-            ):
+            for unit_id in requested_student_unit_ids.difference(found_requested_student_unit_ids):
                 logger.warning(
-                    f"Could not assign person {person_row["person_id"]} to unit {unit_id} as student, unit does not exist"
+                    f"Could not add person {person_row['person_id']} to unit {unit_id} as student, unit does not exist"
                 )
 
-        person_staff_associations_to_remove = []
-        person_student_associations_to_remove = []
+        person_staff_associations_to_remove: list[PersonOrganisationalUnitStaffAssociation] = []
+        person_student_associations_to_remove: list[PersonOrganisationalUnitStudentAssociation] = []
 
         for association in person.staff_organisation_associations:
             if association.organisational_unit_id not in found_requested_staff_unit_ids:
                 person_staff_associations_to_remove.append(association)
         for association in person.student_organisation_associations:
-            if (
-                association.organisational_unit_id
-                not in found_requested_student_unit_ids
-            ):
+            if association.organisational_unit_id not in found_requested_student_unit_ids:
                 person_student_associations_to_remove.append(association)
 
         for association in person_staff_associations_to_remove:
+            if logger is not None:
+                logger.debug(f"Removing association as staff with unit {association.organisational_unit_id}")
             person.staff_organisation_associations.remove(association)
         for association in person_student_associations_to_remove:
+            if logger is not None:
+                logger.debug(f"Removing association as student with unit {association.organisational_unit_id}")
             person.student_organisation_associations.remove(association)
 
         person_staff_unit_ids = set(
-            association.organisational_unit_id
-            for association in person.staff_organisation_associations
+            association.organisational_unit_id for association in person.staff_organisation_associations
         )
         person_student_unit_ids = set(
-            association.organisational_unit_id
-            for association in person.student_organisation_associations
+            association.organisational_unit_id for association in person.student_organisation_associations
         )
 
         for unit_id in found_requested_staff_unit_ids.difference(person_staff_unit_ids):
+            if logger is not None:
+                logger.debug(f"Adding association as staff with unit {unit_id}")
             period = requested_staff_associations[unit_id]["period"]
             association = PersonOrganisationalUnitStaffAssociation(
                 person_id=person.id,
                 organisational_unit_id=unit_id,
             )
             if period is not None:
-                association.period = DateTimeTZRange(
-                    lower=period["startDate"], upper=period["endDate"]
-                )
+                association.period = DateTimeTZRange(lower=period["startDate"], upper=period["endDate"])
             person.staff_organisation_associations.append(association)
-        for unit_id in found_requested_student_unit_ids.difference(
-            person_student_unit_ids
-        ):
+        for unit_id in found_requested_student_unit_ids.difference(person_student_unit_ids):
+            if logger is not None:
+                logger.debug(f"Adding association as student with unit {unit_id}")
             period = requested_student_associations[unit_id]["period"]
             association = PersonOrganisationalUnitStudentAssociation(
                 person_id=person.id,
                 organisational_unit_id=unit_id,
             )
             if period is not None:
-                association.period = DateTimeTZRange(
-                    lower=period["startDate"], upper=period["endDate"]
-                )
+                association.period = DateTimeTZRange(lower=period["startDate"], upper=period["endDate"])
             person.student_organisation_associations.append(association)
 
         session.merge(person)

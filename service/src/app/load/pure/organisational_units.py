@@ -56,19 +56,14 @@ def transform(organisational_units: list) -> pl.LazyFrame:
     return lf
 
 
-def load(
-    df: pl.DataFrame, session: Session, logger: Logger | None = None, update_raw=True
-):
+def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, update_raw=True):
     """
     Loads organisational units from prepared dataframe into the database
     See `transform`
     """
     for organisational_unit_row in df.rows(named=True):
         organisational_unit = session.scalars(
-            select(OrganisationalUnit).where(
-                OrganisationalUnit.id
-                == organisational_unit_row["organisational_unit_id"]
-            )
+            select(OrganisationalUnit).where(OrganisationalUnit.id == organisational_unit_row["organisational_unit_id"])
         ).first()
         if organisational_unit is None:
             organisational_unit = OrganisationalUnit(

@@ -1,0 +1,267 @@
+/* This stylesheet uses BEM */
+
+/* Reset layer */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: unset;
+    padding: unset;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+img, picture, svg, canvas {
+    display: block;
+    max-inline-size: 100%;
+    height: auto;
+}
+
+/* Theme layer */
+
+:root {
+    --main-hue: 266;
+    --c-bg: hsl(var(--main-hue), 0%, 100%);
+    --c-bg-contrast: hsl(var(--main-hue), 0%, 95%);
+    --c-bg-contrast-hover: hsl(var(--main-hue), 0%, 97%);
+    --c-bg-contrast-pressed: hsl(var(--main-hue), 0%, 95%);
+    --c-font: hsl(var(--main-hue), 10%, 15%);
+    --c-border: hsl(var(--main-hue), 0%, 45%);
+    --c-hr: hsl(var(--main-hue), 10%, 40%);
+    --c-hr-faint: hsl(var(--main-hue), 10%, 80%);
+    --c-link: hsl(var(--main-hue), 40%, 30%);
+    --c-shadow: hsl(var(--main-hue), 0%, 20%, 35%);
+    --font-bold: 600;
+    --font-tiny: 0.75rem;
+    --font-small: 0.8rem;
+    --font-normal: 1rem;
+    --font-big: 1.5rem;
+    --row-gap-small: 0.3em;
+    --row-gap-normal: 0.65em;
+    --row-gap-big: 1.5em;
+    --font-family-sans: Arial, Helvetica, Verdana, Tahoma, sans-serif;
+    --font-family-monospace: "SF Mono", "Menlo", "Consolas", "Courier New", monospace;
+}
+
+.dark, :root[data-theme='dark'] {
+    --c-bg: hsl(var(--main-hue), 0%, 20%);
+    --c-bg-contrast: hsl(var(--main-hue), 0%, 25%);
+    --c-bg-contrast-hover: hsl(var(--main-hue), 0%, 30%);
+    --c-bg-contrast-pressed: hsl(var(--main-hue), 0%, 25%);
+    --c-font: hsl(var(--main-hue), 10%, 85%);
+    --c-border: hsl(var(--main-hue), 0%, 55%);
+    --c-hr: hsl(var(--main-hue), 10%, 70%);
+    --c-hr-faint: hsl(var(--main-hue), 10%, 30%);
+    --c-link: hsl(var(--main-hue), 60%, 70%);
+    --c-shadow: hsl(var(--main-hue), 0%, 10%, 65%);
+}
+
+/* Global layer */
+
+body {
+    background-color: var(--c-bg);
+    font-family: var(--font-family-sans);
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12pt;
+    font-weight: 400;
+    color: var(--c-font);
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0.25em 0;
+}
+
+p {
+    padding: 0.25em 0;
+}
+
+/* BEM layer */
+
+.padded-box {
+    padding: 0.5em;
+}
+
+.border {
+    border: solid 1px var(--c-border);
+}
+
+.shadow {
+    box-shadow: 0 0 0.5em var(--c-shadow);
+}
+
+.shadow_small {
+    box-shadow: 0 0 0.25em var(--c-shadow);
+}
+
+.shadow_large {
+    box-shadow: 0 0 1em var(--c-shadow);
+}
+
+.vertical-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.vertical-content_small-gap {
+    gap: 0.25em;
+}
+
+.vertical-content_medium-gap {
+    gap: 1em;
+}
+
+.vertical-content_large-gap {
+    gap: 1.5em;
+}
+
+.horizontal-content {
+    display: flex;
+    gap: 1em;
+    align-items: baseline;
+}
+
+.horizontal-content_small-gap {
+    gap: 0.5em;
+}
+
+.horizontal-content_large-gap {
+    gap: 2em;
+}
+
+.horizontal-content_spread {
+    justify-content: space-between;
+}
+
+.horizontal-content_center {
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--c-link);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+.list__item {
+    margin-left: 1.5em;
+}
+
+.dcc-checklist__label {
+    color: var(--c-font);
+}
+
+.dcc-input {
+    color: var(--c-font);
+    background-color: var(--c-bg);
+    border-color: var(--c-border);
+}
+
+.dcc-tab {
+    color: var(--c-font);
+    background-color: var(--c-bg);
+    border-color: var(--c-border);
+}
+
+.dcc-tab:hover {
+    background-color: var(--c-bg-contrast-hover);
+}
+
+.dcc-tab:active {
+    background-color: var(--c-bg-contrast);
+}
+
+.dcc-tab_selected {
+    color: var(--c-font);
+    background-color: var(--c-bg-contrast);
+    border-color: var(--c-border);
+}
+
+.button {
+    color: var(--c-font);
+    background-color: var(--c-bg-contrast);
+    border-color: var(--c-border);
+}
+
+.button:hover {
+    color: var(--c-font);
+    background-color: var(--c-bg-contrast-hover);
+}
+
+.button:active {
+    color: var(--c-font);
+    background-color: var(--c-bg-contrast-pressed);
+}
+
+.hr {
+    border: none;
+    border-top: solid 1px var(--c-hr);
+    width: 100%;
+}
+
+.hr_faint {
+    border: none;
+    border-top: solid 1px var(--c-hr-faint);
+}
+
+.help-icon {
+    background-color: var(--c-bg-contrast);
+    text-decoration: unset;
+    cursor: help;
+    font-weight: bold;
+    border: solid 2px var(--c-border);
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-icon:hover {
+    background-color: var(--c-bg-contrast-hover);
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Restylings (not BEM) */
+
+.dash-dropdown,
+.dash-dropdown-content,
+.dash-dropdown-clear,
+.dash-dropdown-value-count,
+.dash-dropdown-value,
+.dash-dropdown-trigger-icon,
+.dash-dropdown-actions,
+.dash-dropdown-action-button,
+.dash-dropdown-options,
+.dash-dropdown-option,
+.dash-dropdown-search-container,
+.dash-dropdown-search-icon,
+.dash-dropdown-search
+{
+    color: var(--c-font);
+    background: var(--c-bg);
+    border-color: var(--c-border);
+}

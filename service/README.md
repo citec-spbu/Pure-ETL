@@ -6,15 +6,19 @@ Tools used:
 - uv: [uv](https://docs.astral.sh/uv/)
 - podman: [podman](https://podman.io)
 
+Suggested also:
+
+- dbeaver: [dbeaver.io](https://dbeaver.io)
+
+## Почему podman а не docker
+
+Для него не нужен root - он работает полностью в user space.
+
 ## Postgres database
 
-Postgres database is used to store transformed data.
+Postgres бд используется для хранения трансформированных данных.
 
-If you don't have the postgres image, use `just pg-pull` to pull it.
-
-```sh
-just pg-up pg-wait pg-migrate
-```
+ETL сервис и Dash приложение независимо подключаются к postgres.
 
 ## Tests
 
@@ -44,7 +48,7 @@ Open `./experiment.ipynb`
 
 ## REST service
 
-REST service is used for ETL.
+REST сервис используется для ETL.
 
 To start the service (if you don't have the postgres image, use `just pg-pull` to pull it):
 
@@ -55,13 +59,14 @@ just serve
 
 ### Use the API
 
-Try API at http://localhost:8000/schema (Rapidoc as default).
+API можно попробовать на http://localhost:8000/schema (Rapidoc as default).
+Там же можно почитать и документацию на ручки.
 
 Or go to http://localhost:8000/schema/swagger if you like Swagger more.
 
 ### Load data
 
-Load all available data with
+Загрузить все доступные json данные можно следующей командой:
 
 ```sh
 just load-all-suggested
@@ -70,19 +75,20 @@ just load-all-suggested
 ## Dash app
 
 Dash app is used for analysis.
-
-> [!Note]
-> Dash app needs the database
+It is a multipage app - look for navigation at the top of the page.
 
 ```sh
 just dash
 ```
 
-As of now, dash app does not need the rest service.
+> [!Note]
+> Dash app needs the database
+
+As of now, dash app does not need the REST service.
 
 ## Documentation
 
-To figure out what is happening, start with exploring `./justfile`
+Чтобы понять что происходит, можно начать с внимательного изучения `./justfile`.
 
 ## To do:
 
@@ -102,6 +108,8 @@ To figure out what is happening, start with exploring `./justfile`
     - [x] organisational-units
     - [x] classification-schemes
     - [x] research-outputs stub
+    - [x] research-outputs links
+    - [ ] persons-units links data
     - [ ] research-outputs
     - [ ] ...
 - [x] Reload loaded Pure data
