@@ -25,7 +25,7 @@ def find_research_output_organisational_units_element(
                     html.H2(children="Найти organisational units, связанные с конкретным research output."),
                     html.Abbr(
                         "?",
-                        title="Результат не будет выведен пока не будет введен ситаксически корректный uuid.\n"
+                        title="Результат не будет выведен пока не будет введен синтаксически корректный uuid.\n"
                         "Выводит units с которыми есть прямые связи. Не учитывает связи между units.",
                         className="help-icon",
                     ),

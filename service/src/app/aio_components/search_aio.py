@@ -14,6 +14,8 @@ def aio_register_search(func):
     """
     Registered functions MUST have unique names.
     """
+    if func.__name__ in _AIO_SEARCH_REGISTRY:
+        raise RuntimeError(f"Duplicate search registration: {func.__name__}")
     _AIO_SEARCH_REGISTRY[func.__name__] = func
     return func
 

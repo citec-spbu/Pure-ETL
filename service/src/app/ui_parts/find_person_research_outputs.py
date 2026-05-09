@@ -23,7 +23,7 @@ def find_person_research_outputs_element(aio_id="find-person-research-outputs"):
                     html.H2(children="Найти research outputs, связанные с конкретным person."),
                     html.Abbr(
                         "?",
-                        title="Результат не будет выведен пока не будет введен ситаксически корректный uuid.",
+                        title="Результат не будет выведен пока не будет введен синтаксически корректный uuid.",
                         className="help-icon",
                     ),
                 ],

@@ -81,7 +81,7 @@ It is a multipage app - look for navigation at the top of the page.
 just dash
 ```
 
-> [!Note]
+> [!NOTE]
 > Dash app needs the database
 
 As of now, dash app does not need the REST service.
@@ -114,3 +114,4 @@ As of now, dash app does not need the REST service.
     - [ ] ...
 - [x] Reload loaded Pure data
 - [ ] Improve logging configuration
+- [ ] Test database performance on real-life size dataset and add indexes where appropriate

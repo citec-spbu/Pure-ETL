@@ -199,6 +199,20 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
             association.organisational_unit_id for association in research_output.organisational_unit_associations
         )
 
+        research_output_person_association_map = {
+            association.person_id: association for association in research_output.person_associations
+        }
+
+        for person_id in found_requested_person_ids.intersection(research_output_person_ids):
+            if logger is not None:
+                logger.debug(f"Updating association with person {person_id}")
+            pure_id = requested_person_associations[person_id]["pure_id"]
+            person_role_type_id = requested_person_associations[person_id]["person_role_type_id"]
+            association = research_output_person_association_map[person_id]
+            if association.pure_id != pure_id:
+                association.pure_id = pure_id
+            if association.person_role_type_id != person_role_type_id:
+                association.person_role_type_id = person_role_type_id
         for person_id in found_requested_person_ids.difference(research_output_person_ids):
             if logger is not None:
                 logger.debug(f"Adding association with person {person_id}")

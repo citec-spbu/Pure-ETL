@@ -23,7 +23,7 @@ def find_unit_parents_element(aio_id="find-unit-parents"):
                     html.H2(children="Найти parents organisational unit"),
                     html.Abbr(
                         "?",
-                        title="Результат не будет выведен пока не будет введен ситаксически корректный uuid.\n"
+                        title="Результат не будет выведен пока не будет введен синтаксически корректный uuid.\n"
                         "Собирает связи рекурсивно - будут выведены все organisational units, для которых заданный "
                         "organisational unit - подразделение.",
                         className="help-icon",

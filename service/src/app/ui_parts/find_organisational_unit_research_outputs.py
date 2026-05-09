@@ -27,7 +27,7 @@ def find_organisational_unit_research_outputs_element(
                     ),
                     html.Abbr(
                         "?",
-                        title="Результат не будет выведен пока не будет введен ситаксически корректный uuid.\n"
+                        title="Результат не будет выведен пока не будет введен синтаксически корректный uuid.\n"
                         "Смотрит связь рекурсивно - research output будет связан с organisational unit, если есть "
                         "связь с этим unit или с любым из его потомков.",
                         className="help-icon",

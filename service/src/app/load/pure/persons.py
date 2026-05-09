@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 from typing import Any
 from uuid import UUID
 
@@ -184,6 +185,33 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
             association.organisational_unit_id for association in person.student_organisation_associations
         )
 
+        person_staff_associations_map = {
+            association.organisational_unit_id: association for association in person.staff_organisation_associations
+        }
+        person_student_associations_map = {
+            association.organisational_unit_id: association for association in person.student_organisation_associations
+        }
+
+        def parse_period(period):
+            return DateTimeTZRange(
+                lower=datetime.fromisoformat(period["startDate"]) if period["startDate"] else None,
+                upper=datetime.fromisoformat(period["endDate"]) if period["endDate"] else None,
+            )
+
+        for unit_id in found_requested_staff_unit_ids.intersection(person_staff_unit_ids):
+            if logger is not None:
+                logger.debug(f"Updating association as staff with unit {unit_id}")
+            association = person_staff_associations_map[unit_id]
+            period = requested_staff_associations[unit_id]["period"]
+            if period is not None:
+                association.period = parse_period(period)
+        for unit_id in found_requested_student_unit_ids.intersection(person_student_unit_ids):
+            if logger is not None:
+                logger.debug(f"Updating association as student with unit {unit_id}")
+            association = person_student_associations_map[unit_id]
+            period = requested_student_associations[unit_id]["period"]
+            if period is not None:
+                association.period = parse_period(period)
         for unit_id in found_requested_staff_unit_ids.difference(person_staff_unit_ids):
             if logger is not None:
                 logger.debug(f"Adding association as staff with unit {unit_id}")
@@ -193,7 +221,7 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
                 organisational_unit_id=unit_id,
             )
             if period is not None:
-                association.period = DateTimeTZRange(lower=period["startDate"], upper=period["endDate"])
+                association.period = parse_period(period)
             person.staff_organisation_associations.append(association)
         for unit_id in found_requested_student_unit_ids.difference(person_student_unit_ids):
             if logger is not None:
@@ -204,7 +232,7 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
                 organisational_unit_id=unit_id,
             )
             if period is not None:
-                association.period = DateTimeTZRange(lower=period["startDate"], upper=period["endDate"])
+                association.period = parse_period(period)
             person.student_organisation_associations.append(association)
 
         session.merge(person)
