@@ -15,9 +15,7 @@ def parse_cors(v: Any) -> list[str] | str:
 
 
 class LoggingConfig(BaseModel):
-    level: Annotated[
-        Literal["DEBUG", "INFO", "WARNING", "ERROR"], Field(default="INFO")
-    ]
+    level: Annotated[Literal["DEBUG", "INFO", "WARNING", "ERROR"], Field(default="INFO")]
     format_str: str = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 
 
@@ -52,7 +50,7 @@ class Config(BaseSettings):
     postgres: PostgresConfig
 
     @classmethod
-    def from_file(cls, path: str) -> "Config":
+    def from_file(cls, path: str) -> Config:
         """Load configuration from a specified TOML file."""
         config_path = Path(path).resolve()
         if not config_path.exists():

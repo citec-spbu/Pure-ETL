@@ -1,3 +1,6 @@
+[logging]
+level = "DEBUG"
+
 [postgres]
 host = "localhost"
 port = 5432

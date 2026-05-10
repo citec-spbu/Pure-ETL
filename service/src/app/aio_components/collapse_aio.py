@@ -1,0 +1,86 @@
+import uuid
+from typing import Any
+
+import dash
+from dash import MATCH, Input, Output, State, callback, dcc, html
+
+
+class CollapseAIO(html.Div):
+    """
+    Collapse that always eagerly loads its content
+
+    Example usage:
+    ```
+    CollapseAIO(
+        "some-unique-id",
+        "Some label",
+        [html.Div("Some content")],
+    )
+    ```
+    """
+
+    class ids:
+        def button(aio_id: Any):
+            return {
+                "component": "CollapseAIO",
+                "subcomponent": "button",
+                "aio_id": aio_id,
+            }
+
+        def store(aio_id: Any):
+            return {
+                "component": "CollapseAIO",
+                "subcomponent": "store",
+                "aio_id": aio_id,
+            }
+
+        def content(aio_id: Any):
+            return {
+                "component": "CollapseAIO",
+                "subcomponent": "content",
+                "aio_id": aio_id,
+            }
+
+    ids = ids
+
+    def __init__(self, aio_id=None, label="Collapse", content=None):
+        if content is None:
+            content = []
+        if aio_id is None:
+            aio_id = str(uuid.uuid4())
+        super().__init__(
+            children=[
+                dcc.Store(id=self.ids.store(aio_id), storage_type="local", data={}),
+                dcc.Button(id=self.ids.button(aio_id), className="button", children=label),
+                html.Div(
+                    id=self.ids.content(aio_id),
+                    className="",
+                    children=content,
+                ),
+            ],
+        )
+
+    @callback(
+        dict(
+            class_name=Output(ids.content(MATCH), "className"),
+            store_data=Output(ids.store(MATCH), "data"),
+        ),
+        dict(
+            button=Input(ids.button(MATCH), "n_clicks"),
+        ),
+        dict(
+            store_data=State(ids.store(MATCH), "data"),
+            class_name=State(ids.content(MATCH), "className"),
+        ),
+    )
+    def switch_tab(inputs, state):
+        if dash.ctx.triggered_id is None:
+            return dict(
+                class_name=state["store_data"].get("class_name") or "",
+                store_data=dash.no_update,
+            )
+        class_name = "" if state["class_name"] == "hidden" else "hidden"
+        return dict(
+            class_name=class_name,
+            store_data={"class_name": class_name},
+        )

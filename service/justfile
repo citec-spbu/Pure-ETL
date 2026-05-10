@@ -14,13 +14,11 @@ format: fmt
 
 # Format code
 fmt:
-    uv run isort -m 3 --tc .
+    ruff format .
+    ruff check --fix
 
 lint:
     ruff check
-
-lint-fix:
-    ruff check --fix
 
 # Run tests
 test:

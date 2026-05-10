@@ -1,4 +1,5 @@
-from typing import Any, Callable
+from collections.abc import Callable
+from typing import Any
 
 import uvicorn
 from litestar import Litestar, post
@@ -75,7 +76,7 @@ It is advised to first load `classification-schemes`, this makes `type_id` in th
 `persons` should be loaded after `organisational-units`, otherwise it is impossible to build links.
 Although `/reload` exists to solve this.
 
-`research-outputs` is independent as of now.
+`research-outputs` should be loaded after both `persons` and `organisational-units`, also to build links.
 """
 
 reload_description = """
@@ -126,7 +127,7 @@ def load_persons(app_state: AppState, items: list[Any]) -> LoadResponse:
         loaded = 0
         for df in lf.collect_batches(chunk_size=100):
             loaded += len(df)
-            app.load.pure.persons.load(df, session, app_state.app.get_logger())
+            app.load.pure.persons.load(df, session, logger=app_state.app.get_logger())
         session.commit()
         return LoadResponse(number_loaded=loaded)
 
@@ -138,7 +139,7 @@ def load_organisational_units(app_state: AppState, items: list[Any]) -> LoadResp
         loaded = 0
         for df in lf.collect_batches(chunk_size=100):
             loaded += len(df)
-            app.load.pure.organisational_units.load(df, session)
+            app.load.pure.organisational_units.load(df, session, logger=app_state.app.get_logger())
         session.commit()
         return LoadResponse(number_loaded=loaded)
 
@@ -150,7 +151,7 @@ def load_research_outputs(app_state: AppState, items: list[Any]) -> LoadResponse
         loaded = 0
         for df in lf.collect_batches(chunk_size=100):
             loaded += len(df)
-            app.load.pure.research_outputs.load(df, session)
+            app.load.pure.research_outputs.load(df, session, logger=app_state.app.get_logger())
         session.commit()
         return LoadResponse(number_loaded=loaded)
 
@@ -162,7 +163,7 @@ def load_classification_schemes(app_state: AppState, items: list[Any]) -> LoadRe
         loaded = 0
         for df in lf.collect_batches(chunk_size=100):
             loaded += len(df)
-            app.load.pure.classification_schemes.load(df, session)
+            app.load.pure.classification_schemes.load(df, session, logger=app_state.app.get_logger())
         session.commit()
         return LoadResponse(number_loaded=loaded)
 
@@ -193,9 +194,7 @@ def get_reload_handler(object_type: str) -> Callable[[AppState], LoadResponse]:
 def reload_persons(app_state: AppState) -> LoadResponse:
     """Selects all persons raw data and tries to reload it"""
     with Session(app_state.engine) as session:
-        items = list(
-            session.scalars(select(Person.raw).where(Person.raw.is_not(None))).all()
-        )
+        items = list(session.scalars(select(Person.raw).where(Person.raw.is_not(None))).all())
         return do_reload(
             app_state,
             items,
@@ -208,13 +207,7 @@ def reload_persons(app_state: AppState) -> LoadResponse:
 def reload_organisational_units(app_state: AppState) -> LoadResponse:
     """Selects all organisational units raw data and tries to reload it"""
     with Session(app_state.engine) as session:
-        items = list(
-            session.scalars(
-                select(OrganisationalUnit.raw).where(
-                    OrganisationalUnit.raw.is_not(None)
-                )
-            ).all()
-        )
+        items = list(session.scalars(select(OrganisationalUnit.raw).where(OrganisationalUnit.raw.is_not(None))).all())
         return do_reload(
             app_state,
             items,
@@ -227,11 +220,7 @@ def reload_organisational_units(app_state: AppState) -> LoadResponse:
 def reload_research_outputs(app_state: AppState) -> LoadResponse:
     """Selects all research outputs raw data and tries to reload it"""
     with Session(app_state.engine) as session:
-        items = list(
-            session.scalars(
-                select(ResearchOutput.raw).where(ResearchOutput.raw.is_not(None))
-            ).all()
-        )
+        items = list(session.scalars(select(ResearchOutput.raw).where(ResearchOutput.raw.is_not(None))).all())
         return do_reload(
             app_state,
             items,
@@ -245,11 +234,7 @@ def reload_classification_schemes(app_state: AppState) -> LoadResponse:
     """Selects all classification schemes raw data and tries to reload it"""
     with Session(app_state.engine) as session:
         items = list(
-            session.scalars(
-                select(ClassificationScheme.raw).where(
-                    ClassificationScheme.raw.is_not(None)
-                )
-            ).all()
+            session.scalars(select(ClassificationScheme.raw).where(ClassificationScheme.raw.is_not(None))).all()
         )
         return do_reload(
             app_state,

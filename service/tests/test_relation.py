@@ -23,21 +23,13 @@ def test_organisational_units_relation(session: Session):
     person_id = uuid.uuid4()
 
     staff_associations = [
-        PersonOrganisationalUnitStaffAssociation(
-            person_id=person_id, organisational_unit=units[0]
-        ),
-        PersonOrganisationalUnitStaffAssociation(
-            person_id=person_id, organisational_unit=units[1]
-        ),
+        PersonOrganisationalUnitStaffAssociation(person_id=person_id, organisational_unit=units[0]),
+        PersonOrganisationalUnitStaffAssociation(person_id=person_id, organisational_unit=units[1]),
     ]
 
     student_associations = [
-        PersonOrganisationalUnitStudentAssociation(
-            person_id=person_id, organisational_unit=units[1]
-        ),
-        PersonOrganisationalUnitStudentAssociation(
-            person_id=person_id, organisational_unit=units[2]
-        ),
+        PersonOrganisationalUnitStudentAssociation(person_id=person_id, organisational_unit=units[1]),
+        PersonOrganisationalUnitStudentAssociation(person_id=person_id, organisational_unit=units[2]),
     ]
 
     person = Person(
@@ -54,9 +46,7 @@ def test_organisational_units_relation(session: Session):
     statement = select(Person).where(Person.id == person.id)
     person_selected = session.scalars(statement).one()
 
-    select_units_statement = select(OrganisationalUnit).where(
-        OrganisationalUnit.id.in_([unit.id for unit in units])
-    )
+    select_units_statement = select(OrganisationalUnit).where(OrganisationalUnit.id.in_([unit.id for unit in units]))
 
     units_selected = session.scalars(select_units_statement).all()
     assert len(units_selected) == 3

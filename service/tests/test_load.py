@@ -137,9 +137,7 @@ def test_research_outputs_load(session):
     research_output = research_outputs[0]
     research_outputs = [research_output]
 
-    statement = select(ResearchOutput).where(
-        ResearchOutput.id == research_output["uuid"]
-    )
+    statement = select(ResearchOutput).where(ResearchOutput.id == research_output["uuid"])
     assert session.execute(statement).first() is None
 
     lf = app.load.pure.research_outputs.transform(research_outputs)
@@ -174,9 +172,7 @@ def test_organisational_units_load(session):
     organisational_unit = organisational_units[0]
     organisational_units = [organisational_unit]
 
-    statement = select(OrganisationalUnit).where(
-        OrganisationalUnit.id == organisational_unit["uuid"]
-    )
+    statement = select(OrganisationalUnit).where(OrganisationalUnit.id == organisational_unit["uuid"])
     assert session.execute(statement).first() is None
 
     lf = app.load.pure.organisational_units.transform(organisational_units)
@@ -211,9 +207,7 @@ def test_classification_schemes_load(session: Session):
     classification_scheme = classification_schemes[0]
     classification_schemes = [classification_scheme]
 
-    statement = select(ClassificationScheme).where(
-        ClassificationScheme.id == classification_scheme["uuid"]
-    )
+    statement = select(ClassificationScheme).where(ClassificationScheme.id == classification_scheme["uuid"])
     assert session.execute(statement).first() is None
 
     lf = app.load.pure.classification_schemes.transform(classification_schemes)
