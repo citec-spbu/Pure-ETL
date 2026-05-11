@@ -4,6 +4,8 @@ from typing import Any
 import dash
 from dash import MATCH, Input, Output, State, callback, ctx, dcc, html
 
+from app.aio_components.collapse_aio import CollapseAIO
+
 
 class ArbitraryDropdownAIO(html.Div):
     """
@@ -76,6 +78,13 @@ class ArbitraryDropdownAIO(html.Div):
                 "aio_id": aio_id,
             }
 
+        def clear_options_button(aio_id: Any):
+            return {
+                "component": "ArbitraryDropdownAIO",
+                "subcomponent": "clear_options_button",
+                "aio_id": aio_id,
+            }
+
     ids = ids
 
     def __init__(self, aio_id=None, initial_options=None, placeholder="Select values"):
@@ -106,42 +115,65 @@ class ArbitraryDropdownAIO(html.Div):
                     debounce=True,
                     placeholder=placeholder,
                 ),
-                html.P(children="Selected:"),
-                html.Ul(className="list", id=self.ids.preview(aio_id)),
-                html.P(children="Add another item to options, or remove one:"),
-                dcc.Input(
-                    id=self.ids.label_input(aio_id),
-                    className="dcc-input",
-                    name="Label",
-                    placeholder="Label",
-                    persistence=True,
-                ),
-                dcc.Input(
-                    id=self.ids.value_input(aio_id),
-                    className="dcc-input",
-                    name="Value",
-                    placeholder="Value",
-                    persistence=True,
-                ),
                 html.Div(
-                    className="horizontal-content horizontal-content_small-gap",
-                    children=[
-                        dcc.Button(
-                            "Add",
-                            id=self.ids.add_button(aio_id),
-                            className="button",
-                        ),
-                        dcc.Button(
-                            "Remove",
-                            id=self.ids.remove_button(aio_id),
-                            className="button",
-                        ),
-                        dcc.Button(
-                            "Clear inputs",
-                            id=self.ids.clear_button(aio_id),
-                            className="button",
-                        ),
-                    ],
+                    dcc.Button(
+                        "Очистить добавленные опции",
+                        id=self.ids.clear_options_button(aio_id),
+                        className="button",
+                    ),
+                ),
+                CollapseAIO(
+                    aio_id=f"{aio_id}-collapse-selected",
+                    label="Показать/спрятать выбранное",
+                    content=html.Div(
+                        [
+                            html.P(children="Selected:"),
+                            html.Ul(className="list", id=self.ids.preview(aio_id)),
+                        ]
+                    ),
+                ),
+                CollapseAIO(
+                    aio_id=f"{aio_id}-collapse-add-item",
+                    label="Добавить/удалить опцию",
+                    content=html.Div(
+                        [
+                            html.P(children="Add another item to options, or remove one:"),
+                            dcc.Input(
+                                id=self.ids.label_input(aio_id),
+                                className="dcc-input",
+                                name="Label",
+                                placeholder="Label",
+                                persistence=True,
+                            ),
+                            dcc.Input(
+                                id=self.ids.value_input(aio_id),
+                                className="dcc-input",
+                                name="Value",
+                                placeholder="Value",
+                                persistence=True,
+                            ),
+                            html.Div(
+                                className="horizontal-content horizontal-content_small-gap",
+                                children=[
+                                    dcc.Button(
+                                        "Add",
+                                        id=self.ids.add_button(aio_id),
+                                        className="button",
+                                    ),
+                                    dcc.Button(
+                                        "Remove",
+                                        id=self.ids.remove_button(aio_id),
+                                        className="button",
+                                    ),
+                                    dcc.Button(
+                                        "Clear inputs",
+                                        id=self.ids.clear_button(aio_id),
+                                        className="button",
+                                    ),
+                                ],
+                            ),
+                        ]
+                    ),
                 ),
             ],
         )
@@ -159,6 +191,7 @@ class ArbitraryDropdownAIO(html.Div):
             add_button=Input(ids.add_button(MATCH), "n_clicks"),
             remove_button=Input(ids.remove_button(MATCH), "n_clicks"),
             clear_button=Input(ids.clear_button(MATCH), "n_clicks"),
+            clear_options_button=Input(ids.clear_options_button(MATCH), "n_clicks"),
             selected_values=Input(ids.dropdown(MATCH), "value"),
         ),
         dict(
@@ -235,6 +268,12 @@ class ArbitraryDropdownAIO(html.Div):
 
         if ctx.triggered_id and ctx.triggered_id.get("subcomponent") == "clear_button":
             changed["inputs"] = True
+
+        if ctx.triggered_id and ctx.triggered_id.get("subcomponent") == "clear_options_button":
+            options = initial_options
+            selected_values = []
+            changed["options"] = True
+            changed["selected_values"] = True
 
         new_store = {
             "options": [option for option in options],

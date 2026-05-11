@@ -202,6 +202,37 @@ p {
     background-color: var(--c-bg-contrast-pressed);
 }
 
+.collapse-button {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    color: var(--c-font);
+    background-color: var(--c-bg-contrast);
+    border: unset;
+    border-radius: 0;
+}
+
+.collapse-button:hover {
+    color: var(--c-font);
+    background-color: var(--c-bg-contrast-hover);
+}
+
+.collapse-button:active {
+    color: var(--c-font);
+    background-color: var(--c-bg-contrast-pressed);
+}
+
+.collapse-button__arrow-right {
+    border: 0.5em solid;
+    border-color: transparent transparent transparent var(--c-font);
+}
+
+.collapse-button__arrow-down {
+    border: 0.5em solid;
+    margin-top: 0.5em;
+    border-color: var(--c-font) transparent transparent;
+}
+
 .hr {
     border: none;
     border-top: solid 1px var(--c-hr);

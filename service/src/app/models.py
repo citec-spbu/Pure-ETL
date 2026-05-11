@@ -109,7 +109,7 @@ class OrganisationalUnit(Base):
     type_id: Mapped[int | None] = mapped_column(BIGINT)
     name_ru: Mapped[str | None] = mapped_column()
     name_en: Mapped[str | None] = mapped_column()
-    parents: Mapped[list[UUID]] = mapped_column(JSONB, default=list)
+    parents: Mapped[list[str]] = mapped_column(JSONB, default=list)
     ids: Mapped[list | None] = mapped_column(JSONB)
     raw: Mapped[dict | None] = mapped_column(JSONB)
     persons_staff: Mapped[list[PersonOrganisationalUnitStaffAssociation]] = relationship(

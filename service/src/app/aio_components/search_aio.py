@@ -88,13 +88,20 @@ class SearchAIO(html.Div):
     def __init__(
         self,
         aio_id=None,
+        search_function=None,
         placeholder="Search",
-        csv_filename: None | str = None,
+        csv_filename: str | None = None,
         column_defs=None,
         toggles=None,
         toggles_defaults=None,
-        search_function=None,
+        additional_controls: list | None = None,
     ):
+        """
+        Args:
+            `addidional_controls`: list of other elements that will be placed in the controls box
+        """
+        if search_function is None:
+            raise Exception("Search function cannot be None")
         if toggles_defaults is None:
             toggles_defaults = []
         if toggles is None:
@@ -103,6 +110,8 @@ class SearchAIO(html.Div):
             column_defs = []
         if aio_id is None:
             aio_id = str(uuid.uuid4())
+        if additional_controls is None:
+            additional_controls = []
 
         csv_filename = csv_filename or str(aio_id)
 
@@ -163,6 +172,7 @@ class SearchAIO(html.Div):
                             options=toggles,
                             inline=True,
                         ),
+                        *additional_controls,
                     ],
                 ),
                 TableAIO(
