@@ -98,7 +98,7 @@ class SearchAIO(html.Div):
     ):
         """
         Args:
-            `addidional_controls`: list of other elements that will be placed in the controls box
+            `additional_controls`: list of other elements that will be placed in the controls box
         """
         if search_function is None:
             raise Exception("Search function cannot be None")

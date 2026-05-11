@@ -28,8 +28,15 @@ class DryRun(Exception):
     pass
 
 
+_generated_pure_ids: set[int] = set()
+
+
 def random_pure_id() -> int:
-    return random.randint(0, 9999999999999)
+    while True:
+        value = random.randint(100_000_000_000, 999_999_999_999)
+        if value not in _generated_pure_ids:
+            _generated_pure_ids.add(value)
+            return value
 
 
 def generate_fake_orcid():
@@ -116,6 +123,9 @@ def generate_more_units(
 
     ids_pool = [unit.ids for unit in session.scalars(into_units(select_unit_ids_cte))]
 
+    if not ids_pool:
+        raise Exception("Not enough data")
+
     for level, generate_units in enumerate(generate_amount):
         logging.info(f"Will generate {generate_units} organisational units for level {level}")
 
@@ -130,6 +140,9 @@ def generate_more_units(
             raise Exception("Expected > 0 units in previous level")
 
         word_pool_ru, word_pool_en = word_pools_by_level[level]
+
+        if not word_pool_ru or not word_pool_en:
+            raise Exception("Not enough data")
 
         for i in range(generate_units):
             logging.debug(f"Generating unit {i + 1}/{generate_units} in level {level}")
@@ -244,6 +257,9 @@ def generate_persons(session: Session, amount: int, verbose: bool):
         ids_pool.append(person.ids)
         titles_pool.append(person.titles)
 
+    if not ids_pool or not titles_pool or not first_name_1_pool or not first_name_2_pool or not last_name_pool:
+        raise Exception("Not enough data")
+
     logging.info(f"Now generating {amount} persons")
     for i in range(amount):
         logging.debug(f"Generating person {i + 1}/{amount}")
@@ -341,6 +357,9 @@ def generate_research_outputs(session: Session, amount: int, verbose: bool):
         if research_output.title:
             title_pool.extend(research_output.title.split())
 
+    if not title_pool:
+        raise Exception("Not enough data")
+
     all_staff_person_associations = session.scalars(
         sqlalchemy.select(
             PersonOrganisationalUnitStaffAssociation,
@@ -354,6 +373,9 @@ def generate_research_outputs(session: Session, amount: int, verbose: bool):
         persons_units[association.person_id].append(association.organisational_unit_id)
 
     all_staff_person_ids = list(persons_units.keys())
+
+    if not all_staff_person_ids:
+        raise Exception("Not enough data")
 
     logging.info(f"Working with {len(all_staff_person_ids)} staff")
 
@@ -375,7 +397,7 @@ def generate_research_outputs(session: Session, amount: int, verbose: bool):
             [36, 16, 8, 4, 2],  # Distribution counted from sciscinet dataset
             k=1,
         )[0]
-        authors = random.sample(all_staff_person_ids, number_of_authors)
+        authors = random.sample(all_staff_person_ids, min(number_of_authors, len(all_staff_person_ids)))
         units = set(unit_id for author in authors for unit_id in persons_units[author])
         for author in authors:
             research_output.person_associations.append(

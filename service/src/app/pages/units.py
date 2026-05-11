@@ -418,8 +418,10 @@ def add_selected_units(inputs, state):
         table = []
 
     for row in table:
-        value = row["organisational_unit_id"]
-        label = row["name_ru"]
+        value = row.get("organisational_unit_id")
+        label = row.get("name_ru")
+        if not value or not label:
+            continue
         if value not in selection:
             options[value] = dict(value=value, label=label)
             selection.append(value)

@@ -126,7 +126,7 @@ As of now, dash app does not need the REST service.
 - [x] Reload loaded Pure data
 - [x] Add pure data generator
 - [ ] Improve logging configuration
-- [ ] Test database performance on real-life size dataset and add indexes where appropriate
+- [ ] Test database performance on real-life-size dataset and add indexes where appropriate
 - [ ] Regenerate and review alembic migrations (revisions)
 - [ ] Add extract to ETL
     - [ ] Connect to Pure API
