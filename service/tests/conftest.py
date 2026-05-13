@@ -5,9 +5,22 @@ import app.config
 import app.database
 
 
-@pytest.fixture()
-def session():
+@pytest.fixture(scope="session")
+def engine():
     config = app.config.Config.from_file("config.toml")
-    engine = app.database.init_db(config)
-    with engine.connect() as conn, Session(conn) as session:
-        yield session
+    return app.database.init_db(config)
+
+
+@pytest.fixture()
+def session(engine):
+    connection = engine.connect()
+    transaction = connection.begin()
+    session = Session(bind=connection)
+
+    session.begin_nested()
+
+    yield session
+
+    session.close()
+    transaction.rollback()
+    connection.close()

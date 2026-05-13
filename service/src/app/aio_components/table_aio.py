@@ -77,7 +77,7 @@ class TableAIO(html.Div):
                     persistence=True,
                     persistence_type="session",
                     defaultColDef={"filter": True, "cellDataType": False},
-                    persisted_props=["columnState", "rowSelection", "filterModel"],
+                    persisted_props=["columnState", "selectedRows", "filterModel"],
                     csvExportParams={
                         "fileName": f"{csv_filename}.csv",
                     },

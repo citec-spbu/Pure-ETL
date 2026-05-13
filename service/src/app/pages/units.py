@@ -49,7 +49,17 @@ def layout():
                     [
                         {
                             "label": "Поиск organisational units",
-                            "content": [search_units_element()],
+                            "content": [
+                                search_units_element(
+                                    additional_controls=[
+                                        dcc.Button(
+                                            "Add selected units",
+                                            id="add-search-units-to-selection-button",
+                                            className="button",
+                                        )
+                                    ],
+                                )
+                            ],
                         },
                         {
                             "label": "Найти parents organisational unit",
@@ -101,6 +111,11 @@ def table_tabs(initial_options):
                                 title="Выбранные organisational units (highest parent) и все их подразделения, "
                                 "собранные рекурсивно. Ограничено 100.",
                                 className="help-icon",
+                            ),
+                            dcc.Button(
+                                "Add selected units",
+                                id="add-child-units-to-selection-button",
+                                className="button",
                             ),
                         ],
                     ),
@@ -351,4 +366,67 @@ def update_tables(inputs, state):
         t2=persons_with_units.to_dicts(),
         t3=faculty_persons.to_dicts(),
         fig=fig,
+    )
+
+
+@callback(
+    dict(
+        selection=Output(
+            ArbitraryDropdownAIO.ids.dropdown("units-select-dropdown"),
+            "value",
+            allow_duplicate=True,
+        ),
+        options=Output(
+            ArbitraryDropdownAIO.ids.dropdown("units-select-dropdown"),
+            "options",
+            allow_duplicate=True,
+        ),
+    ),
+    dict(
+        add_button_search=Input("add-search-units-to-selection-button", "n_clicks"),
+        add_button_child=Input("add-child-units-to-selection-button", "n_clicks"),
+    ),
+    dict(
+        selection=State(
+            ArbitraryDropdownAIO.ids.dropdown("units-select-dropdown"),
+            "value",
+        ),
+        options=State(
+            ArbitraryDropdownAIO.ids.dropdown("units-select-dropdown"),
+            "options",
+        ),
+        search_table=State(
+            TableAIO.ids.ag_grid("search-units-field"),
+            "selectedRows",
+        ),
+        children_table=State(
+            TableAIO.ids.ag_grid("units_with_parents"),
+            "selectedRows",
+        ),
+    ),
+    prevent_initial_call=True,
+)
+def add_selected_units(inputs, state):
+    options = {option["value"]: option for option in (state["options"] or [])}
+    selection = state["selection"] or []
+
+    if dash.ctx.triggered_id == "add-search-units-to-selection-button":
+        table = state["search_table"]
+    elif dash.ctx.triggered_id == "add-child-units-to-selection-button":
+        table = state["children_table"]
+    else:
+        table = []
+
+    for row in table:
+        value = row.get("organisational_unit_id")
+        label = row.get("name_ru")
+        if not value or not label:
+            continue
+        if value not in selection:
+            options[value] = dict(value=value, label=label)
+            selection.append(value)
+
+    return dict(
+        options=[option for option in options.values()],
+        selection=selection,
     )

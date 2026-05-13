@@ -72,6 +72,18 @@ Or go to http://localhost:8000/schema/swagger if you like Swagger more.
 just load-all-suggested
 ```
 
+### Generate more data
+
+Есть скрипт для генерации записей из уже существующих в базе данных - после загрузки можно его выполнить чтобы вместо тысячи были сотни тысяч записей.
+Скрипт подключается к бд напрямую - ему не нужен REST API.
+
+> [!IMPORTANT]
+> Лучше иметь хотя бы 5гб RAM свободными для выполнения скрипта.
+
+```sh
+just generate-suggested
+```
+
 ## Dash app
 
 Dash app is used for analysis.
@@ -90,7 +102,7 @@ As of now, dash app does not need the REST service.
 
 Чтобы понять что происходит, можно начать с внимательного изучения `./justfile`.
 
-## To do:
+## To do
 
 - [x] Add configuration
 - [x] Add Postgres database
@@ -100,8 +112,7 @@ As of now, dash app does not need the REST service.
 - [x] Add logging
 - [x] Setup alembic migrations
 - [x] Add UI solution (Streamlit/Dash-Plotly/NiceGUI/Reflex/Shiny)
-- [ ]  Use async (maybe?)
-- [ ] Add auth (Authelia?)
+- [ ] Add auth (Authelia is simplest - just controls the reverse proxy)
 - [ ] Add metrics
 - [ ] Add transform + load for all objects
     - [x] persons
@@ -113,5 +124,18 @@ As of now, dash app does not need the REST service.
     - [ ] research-outputs
     - [ ] ...
 - [x] Reload loaded Pure data
+- [x] Add pure data generator
 - [ ] Improve logging configuration
-- [ ] Test database performance on real-life size dataset and add indexes where appropriate
+- [ ] Test database performance on real-life-size dataset and add indexes where appropriate
+- [ ] Regenerate and review alembic migrations (revisions)
+- [ ] Add extract to ETL
+    - [ ] Connect to Pure API
+    - [ ] Load Pure data in batches
+    - [ ] Scheduled loading
+- [ ] Don't use dev/debug features for prod
+- [ ] Containerize
+- [ ] Add example reverse proxy configuration
+
+## Was to do
+
+- Use async - not required

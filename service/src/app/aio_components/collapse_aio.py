@@ -27,6 +27,13 @@ class CollapseAIO(html.Div):
                 "aio_id": aio_id,
             }
 
+        def arrow(aio_id: Any):
+            return {
+                "component": "CollapseAIO",
+                "subcomponent": "arrow",
+                "aio_id": aio_id,
+            }
+
         def store(aio_id: Any):
             return {
                 "component": "CollapseAIO",
@@ -51,7 +58,11 @@ class CollapseAIO(html.Div):
         super().__init__(
             children=[
                 dcc.Store(id=self.ids.store(aio_id), storage_type="local", data={}),
-                dcc.Button(id=self.ids.button(aio_id), className="button", children=label),
+                dcc.Button(
+                    id=self.ids.button(aio_id),
+                    className="collapse-button",
+                    children=[html.Div(id=self.ids.arrow(aio_id), className="collapse-button__arrow-right"), label],
+                ),
                 html.Div(
                     id=self.ids.content(aio_id),
                     className="",
@@ -63,6 +74,7 @@ class CollapseAIO(html.Div):
     @callback(
         dict(
             class_name=Output(ids.content(MATCH), "className"),
+            arrow=Output(ids.arrow(MATCH), "className"),
             store_data=Output(ids.store(MATCH), "data"),
         ),
         dict(
@@ -74,13 +86,13 @@ class CollapseAIO(html.Div):
         ),
     )
     def switch_tab(inputs, state):
-        if dash.ctx.triggered_id is None:
-            return dict(
-                class_name=state["store_data"].get("class_name") or "",
-                store_data=dash.no_update,
-            )
-        class_name = "" if state["class_name"] == "hidden" else "hidden"
+        hidden = state["store_data"].get("hidden")
+        if dash.ctx.triggered_id is not None:
+            hidden = not hidden
+        arrow = "collapse-button__arrow-right" if hidden else "collapse-button__arrow-down"
+        class_name = "hidden" if hidden else ""
         return dict(
             class_name=class_name,
-            store_data={"class_name": class_name},
+            arrow=arrow,
+            store_data={"hidden": hidden},
         )

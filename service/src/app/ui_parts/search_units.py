@@ -7,7 +7,7 @@ from app.aio_components.search_aio import SearchAIO, aio_register_search
 from app.client_types import AppState
 
 
-def search_units_element(aio_id="search-units-field"):
+def search_units_element(aio_id="search-units-field", additional_controls=None):
     return html.Div(
         children=[
             html.Div(
@@ -51,6 +51,7 @@ def search_units_element(aio_id="search-units-field"):
                 ],
                 toggles_defaults=["substring", "case_insensitive"],
                 search_function="search_units_query",
+                additional_controls=additional_controls,
             ),
         ]
     )
