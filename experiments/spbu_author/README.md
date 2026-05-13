@@ -33,33 +33,24 @@ pip install litstudy pyvis pandas matplotlib numpy requests
 ## Структура ноутбука
 
 ### Ячейка 1 — Импорт библиотек
-Подключает `pandas`, `matplotlib`, `litstudy`, `Counter`, `numpy`.
+Подключает `pandas`, `matplotlib`, `litstudy`, `Counter`, `numpy`, `requests`.
 
 ### Ячейка 2 — Загрузка данных
+Автоматически выгружаются актуальные публикации для списка преподавателей, указанных в массиве `MAIN_AUTHORS`.
 
-Определяет список из 8 преподавателей и соответствующих CSV-файлов. Каждый CSV читается **отдельно** через `pd.read_csv()` в словарь `dfs_per_author` — это позволяет корректно считать число публикаций каждого автора без потерь.
+Для каждого преподавателя находится его ID OpenAlex(`get_author_id()`). Далее с помощью функции `get_author_works()` выгружаются публикации каждого преподавателя, также проводится дедупликация по ID публикации.
 
-Затем каждый файл загружается через `litstudy.load_csv()` с явным указанием полей:
+Поскольку данные из OpenAlex API приходят в формате JSON, а библиотека `litstudy` ожидает объекты собственного типа, в этой ячейке происходит трансформация данных. Функция `extract_work_info()` возвращает нужные поля, классы `OpenAlexAuthor`, `OpenAlexDocument` преобразуют данные из API в документы.
 
-```python
-litstudy.load_csv(f,
-    title_field='display_name',
-    authors_field='authorships.author.display_name',
-    citation_field='cited_by_count',
-    date_field='publication_date',
-    source_field='primary_location.source.display_name'
-)
-```
-
-Все `DocumentSet`-ы объединяются оператором `|` в один `combined`.
+После обработки всех данных создается объект `combined` (тип `DocunentSet`), с которым работает библиотека `litstudy`.
 
 ### Ячейка 3 — Граф соавторства (текстовый вывод)
 
 Строит граф через `litstudy.build_coauthor_network(combined)` и выводит топ-15 пар авторов по числу совместных публикаций:
 
 ```
-Blekanov - Bodrunova  24 совм. публ.
-Zakharov - Krylatov  20 совм. публ.
+Blekanov - Bodrunova  32 совм. публ.
+Zakharov - Krylatov  21 совм. публ.
 ...
 ```
 
@@ -81,7 +72,7 @@ Zakharov - Krylatov  20 совм. публ.
 
 ### Ячейка 5 — Тематический анализ
 
-Объединяет все CSV через `pd.concat` + `drop_duplicates` и считает частоту поля `primary_topic.display_name` — готовой темы, которую OpenAlex присвоил каждой статье. Выводит:
+Считает частоту поля `primary_topic.display_name` — готовой темы, которую OpenAlex присвоил каждой статье. Выводит:
 
 - топ-10 тем по всем 8 преподавателям
 - топ-3 темы отдельно для каждого автора
