@@ -6,20 +6,10 @@ Jupyter-ноутбук для библиометрического анализ�
 
 ## Структура проекта
 
-```text
+```
 project/
-└── experiments/
-    └── spbu_author/
-        ├── spbu_author.ipynb
-        └── data/            
-           ├── works-csv-Drivotin.csv  
-           ├── works-csv-Blekanov.csv
-           ├── works-csv-Vakaeva.csv  
-           ├── works-csv-Kostyrko.csv   
-           ├── works-csv-Grekov.csv  
-           ├── works-csv-Lejnina.csv   
-           ├── works-csv-Krylatov.csv  
-           └── works-csv-Kizhaeva.csv  
+└──  spbu_author.ipynb                      
+
 ```
 
 Все CSV-файлы должны лежать **в папке data**.
@@ -28,16 +18,18 @@ project/
 
 ## Зависимости
 
-    pip install litstudy pyvis pandas matplotlib numpy
+```bash
+pip install litstudy pyvis pandas matplotlib numpy
+```
 
-
-| Библиотека | Назначение                                 |
-|---|--------------------------------------------|
-| `litstudy` | загрузка CSV, построение графа соавторства |
-| `pyvis` | интерактивная визуализация графа в Jupyter |
-| `pandas` | чтение и объединение CSV-файлов            |
+| Библиотека   | Назначение                                 |
+|--------------|--------------------------------------------|
+| `litstudy`   | загрузка CSV, построение графа соавторства |
+| `pyvis`      | интерактивная визуализация графа в Jupyter |
+| `pandas`     | чтение и объединение CSV-файлов            |
 | `matplotlib` | построение графика тем                     |
-| `numpy` | генерация цветовой шкалы для графика тем   |
+| `numpy`      | генерация цветовой шкалы для графика тем   |
+| `requests`   | взаимодействие с OpenAlex API              |
 
 ---
 
@@ -52,15 +44,15 @@ project/
 
 Затем каждый файл загружается через `litstudy.load_csv()` с явным указанием полей:
 
-
-    litstudy.load_csv(f,
-        title_field='display_name',
-        authors_field='authorships.author.display_name',
-        citation_field='cited_by_count',
-        date_field='publication_date',
-        source_field='primary_location.source.display_name'
-    )
-
+```python
+litstudy.load_csv(f,
+    title_field='display_name',
+    authors_field='authorships.author.display_name',
+    citation_field='cited_by_count',
+    date_field='publication_date',
+    source_field='primary_location.source.display_name'
+)
+```
 
 Все `DocumentSet`-ы объединяются оператором `|` в один `combined`.
 
@@ -68,7 +60,7 @@ project/
 
 Строит граф через `litstudy.build_coauthor_network(combined)` и выводит топ-15 пар авторов по числу совместных публикаций:
 
-```text
+```
 Blekanov - Bodrunova  24 совм. публ.
 Zakharov - Krylatov  20 совм. публ.
 ...
@@ -120,5 +112,4 @@ Zakharov - Krylatov  20 совм. публ.
 | E. A. Lejnina |
 | Alexander Krylatov |
 | Natalia Kizhaeva |
-
 **Источник данных:** [OpenAlex.org](https://openalex.org) — открытая база научных публикаций.
