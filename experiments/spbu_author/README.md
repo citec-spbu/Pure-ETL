@@ -16,7 +16,7 @@ project/
 ## Зависимости
 
 ```bash
-pip install litstudy pyvis pandas matplotlib numpy
+pip install litstudy pyvis pandas matplotlib numpy requests
 ```
 
 | Библиотека   | Назначение                                 |
