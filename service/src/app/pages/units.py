@@ -6,7 +6,7 @@ import polars as pl
 import sqlalchemy
 from dash import Input, Output, State, callback, dcc, html
 from dash.exceptions import PreventUpdate
-from sqlalchemy import cast
+from sqlalchemy import cast, func
 
 from app import queries
 from app.aio_components.arbitrary_dropdown_aio import ArbitraryDropdownAIO
@@ -14,26 +14,27 @@ from app.aio_components.collapse_aio import CollapseAIO
 from app.aio_components.table_aio import TableAIO
 from app.aio_components.tabs_aio import TabsAIO
 from app.client_types import AppState
+from app.models import OrganisationalUnit
 from app.ui_parts.find_unit_parents import find_unit_parents_element
 from app.ui_parts.search_units import search_units_element
 
-dash.register_page(__name__)
+dash.register_page(__name__, name="Организационные единицы", order=2)
 
 
 def layout():
 
     initial_options = [
         {
-            "label": f"Факультет прикладной математики-процессов управления - {queries.pm_id}",
-            "value": str(queries.pm_id),
+            "label": f"Факультет прикладной математики-процессов управления - {queries.organisational_units.pm_id}",
+            "value": str(queries.organisational_units.pm_id),
         },
         {
-            "label": f"Факультет математико-механический - {queries.mat_id}",
-            "value": str(queries.mat_id),
+            "label": f"Факультет математико-механический - {queries.organisational_units.mat_id}",
+            "value": str(queries.organisational_units.mat_id),
         },
         {
-            "label": f"Факультет физический - {queries.phys_id}",
-            "value": str(queries.phys_id),
+            "label": f"Факультет физический - {queries.organisational_units.phys_id}",
+            "value": str(queries.organisational_units.phys_id),
         },
     ]
 
@@ -62,7 +63,7 @@ def layout():
                             ],
                         },
                         {
-                            "label": "Найти parents organisational unit",
+                            "label": "Поиск родителей организационной единицы",
                             "content": [find_unit_parents_element()],
                         },
                     ],
@@ -228,10 +229,10 @@ def person_count_tabs():
     )
 
 
-def collect_units_with_parents(state: AppState, unit_ids=queries.faculties) -> pl.DataFrame:
+def collect_units_with_parents(state: AppState, unit_ids=queries.organisational_units.faculties) -> pl.DataFrame:
     with state.engine.connect() as conn:
-        statement = queries.select_units_with_all_children_named(
-            units=queries.select_units_with_all_children(filter_units_by_id=unit_ids).cte()
+        statement = queries.organisational_units.select_units_with_all_children_named(
+            units=queries.organisational_units.select_units_with_all_children_filter(filter_units_by_id=unit_ids).cte()
         ).cte()
         df = pl.read_database(
             sqlalchemy.select(
@@ -250,13 +251,13 @@ def collect_units_with_parents(state: AppState, unit_ids=queries.faculties) -> p
         return df
 
 
-def collect_persons_with_units(state: AppState, unit_ids=None) -> pl.DataFrame:
-    if unit_ids is None:
-        unit_ids = [queries.pm_id]
+def collect_persons_with_units(state: AppState, unit_ids) -> pl.DataFrame:
     with state.engine.connect() as conn:
         statement = queries.select_persons_named_for_units(
-            units=queries.select_units_with_all_children_named(
-                units=queries.select_units_with_all_children(filter_units_by_id=unit_ids).cte()
+            units=queries.organisational_units.select_units_with_all_children_named(
+                units=queries.organisational_units.select_units_with_all_children_filter(
+                    filter_units_by_id=unit_ids
+                ).cte()
             ).cte(),
             # date=datetime.now(timezone.utc),
         ).cte()
@@ -284,15 +285,34 @@ def collect_persons_with_units(state: AppState, unit_ids=None) -> pl.DataFrame:
         return df
 
 
-def collect_faculty_people(state: AppState, unit_ids=queries.faculties) -> pl.DataFrame:
+def collect_faculty_people(state: AppState, unit_ids=queries.organisational_units.faculties) -> pl.DataFrame:
     with state.engine.connect() as conn:
-        statement = queries.select_highest_units_persons_count_named(
-            persons=queries.select_persons_named_for_units(
-                units=queries.select_units_with_all_children(
-                    filter_units_by_id=unit_ids,
-                ).cte(),
-                # date=datetime.now(timezone.utc),
-            ).cte()
+        persons = queries.select_persons_named_for_units(
+            units=queries.organisational_units.select_units_with_all_children_filter(
+                filter_units_by_id=unit_ids,
+            ).cte(),
+            # date=datetime.now(timezone.utc),
+        ).cte()
+        units = (
+            sqlalchemy.select(
+                persons.c.highest_parent_organisational_unit_id,
+                func.count(func.distinct(persons.c.person_id)).label("persons_count"),
+            )
+            .select_from(persons)
+            .group_by(persons.c.highest_parent_organisational_unit_id)
+            .where(persons.c.highest_parent_organisational_unit_id.is_not(None))
+            .cte()
+        )
+        statement = (
+            sqlalchemy.select(
+                units,
+                OrganisationalUnit.name_ru.label("highest_parent_name_ru"),
+            )
+            .select_from(units)
+            .join(
+                OrganisationalUnit,
+                units.c.highest_parent_organisational_unit_id == OrganisationalUnit.id,
+            )
         ).cte()
         df = pl.read_database(
             sqlalchemy.select(

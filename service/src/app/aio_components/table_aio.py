@@ -44,13 +44,15 @@ class TableAIO(html.Div):
 
     ids = ids
 
-    def __init__(self, aio_id=None, csv_filename=None, column_defs=None):
+    def __init__(self, aio_id=None, csv_filename=None, column_defs=None, row_data=None):
         if column_defs is None:
             column_defs = []
         if aio_id is None:
             aio_id = str(uuid.uuid4())
         if csv_filename is None:
             csv_filename = aio_id
+        if row_data is None:
+            row_data = []
 
         # todo: add props customization
 
@@ -59,7 +61,7 @@ class TableAIO(html.Div):
             children=[
                 dag.AgGrid(
                     id=self.ids.ag_grid(aio_id),
-                    rowData=[],
+                    rowData=row_data,
                     columnDefs=column_defs,
                     dashGridOptions={
                         "pagination": True,

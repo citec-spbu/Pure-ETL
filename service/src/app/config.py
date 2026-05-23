@@ -1,17 +1,9 @@
 import tomllib
 from pathlib import Path
-from typing import Annotated, Any, Literal
+from typing import Annotated, Literal
 
 from pydantic import BaseModel, Field, PostgresDsn, computed_field
-from pydantic_settings import BaseSettings, SettingsConfigDict
-
-
-def parse_cors(v: Any) -> list[str] | str:
-    if isinstance(v, str) and not v.startswith("["):
-        return [i.strip() for i in v.split(",") if i.strip()]
-    elif isinstance(v, list | str):
-        return v
-    raise ValueError(v)
+from pydantic_settings import BaseSettings
 
 
 class LoggingConfig(BaseModel):
@@ -40,12 +32,6 @@ class PostgresConfig(BaseModel):
 
 
 class Config(BaseSettings):
-    model_config = SettingsConfigDict(
-        env_file=".env",
-        env_nested_delimiter="_",
-        extra="forbid",
-    )
-
     logging: LoggingConfig = Field(default_factory=LoggingConfig)
     postgres: PostgresConfig
 

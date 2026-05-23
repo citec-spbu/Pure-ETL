@@ -34,6 +34,13 @@ class CollapseAIO(html.Div):
                 "aio_id": aio_id,
             }
 
+        def memory_store(aio_id: Any):
+            return {
+                "component": "CollapseAIO",
+                "subcomponent": "memory_store",
+                "aio_id": aio_id,
+            }
+
         def store(aio_id: Any):
             return {
                 "component": "CollapseAIO",
@@ -50,13 +57,18 @@ class CollapseAIO(html.Div):
 
     ids = ids
 
-    def __init__(self, aio_id=None, label="Collapse", content=None):
+    def __init__(self, aio_id=None, label="Collapse", content=None, default_hidden: bool = False):
         if content is None:
             content = []
         if aio_id is None:
             aio_id = str(uuid.uuid4())
         super().__init__(
             children=[
+                dcc.Store(
+                    id=self.ids.memory_store(aio_id),
+                    storage_type="memory",
+                    data={"default_hidden": default_hidden},
+                ),
                 dcc.Store(id=self.ids.store(aio_id), storage_type="local", data={}),
                 dcc.Button(
                     id=self.ids.button(aio_id),
@@ -82,11 +94,12 @@ class CollapseAIO(html.Div):
         ),
         dict(
             store_data=State(ids.store(MATCH), "data"),
+            memory_store_data=State(ids.memory_store(MATCH), "data"),
             class_name=State(ids.content(MATCH), "className"),
         ),
     )
     def switch_tab(inputs, state):
-        hidden = state["store_data"].get("hidden")
+        hidden = state["store_data"].get("hidden", state["memory_store_data"]["default_hidden"])
         if dash.ctx.triggered_id is not None:
             hidden = not hidden
         arrow = "collapse-button__arrow-right" if hidden else "collapse-button__arrow-down"

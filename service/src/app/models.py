@@ -18,9 +18,10 @@ class Base(DeclarativeBase):
 
 class PersonOrganisationalUnitStaffAssociation(Base):
     __tablename__ = "persons_organisational_units_staff_associations"
-    person_id: Mapped[UUID] = mapped_column(ForeignKey("persons.person_id"), primary_key=True)
+    pure_id: Mapped[int] = mapped_column(BIGINT, primary_key=True)
+    person_id: Mapped[UUID] = mapped_column(ForeignKey("persons.person_id"), index=True)
     organisational_unit_id: Mapped[UUID] = mapped_column(
-        ForeignKey("organisational_units.organisational_unit_id"), primary_key=True
+        ForeignKey("organisational_units.organisational_unit_id"), index=True
     )
     period: Mapped[DateTimeTZRange | None] = mapped_column(TSTZRANGE)
     person: Mapped[Person] = relationship(
@@ -33,9 +34,10 @@ class PersonOrganisationalUnitStaffAssociation(Base):
 
 class PersonOrganisationalUnitStudentAssociation(Base):
     __tablename__ = "persons_organisational_units_student_associations"
-    person_id: Mapped[UUID] = mapped_column(ForeignKey("persons.person_id"), primary_key=True)
+    pure_id: Mapped[int] = mapped_column(BIGINT, primary_key=True)
+    person_id: Mapped[UUID] = mapped_column(ForeignKey("persons.person_id"), index=True)
     organisational_unit_id: Mapped[UUID] = mapped_column(
-        ForeignKey("organisational_units.organisational_unit_id"), primary_key=True
+        ForeignKey("organisational_units.organisational_unit_id"), index=True
     )
     period: Mapped[DateTimeTZRange | None] = mapped_column(TSTZRANGE)
     person: Mapped[Person] = relationship(
@@ -49,9 +51,9 @@ class PersonOrganisationalUnitStudentAssociation(Base):
 class ResearchOutputPersonAssociation(Base):
     __tablename__ = "research_outputs_persons_associations"
     research_output_id: Mapped[UUID] = mapped_column(
-        ForeignKey("research_outputs.research_output_id"), primary_key=True
+        ForeignKey("research_outputs.research_output_id"), primary_key=True, index=True
     )
-    person_id: Mapped[UUID] = mapped_column(ForeignKey("persons.person_id"), primary_key=True)
+    person_id: Mapped[UUID] = mapped_column(ForeignKey("persons.person_id"), primary_key=True, index=True)
     pure_id: Mapped[int] = mapped_column(BIGINT, unique=True)
     person_role_type_id: Mapped[int | None] = mapped_column(BIGINT)
     research_output: Mapped[ResearchOutput] = relationship(
@@ -65,10 +67,10 @@ class ResearchOutputPersonAssociation(Base):
 class ResearchOutputOrganisationalUnitAssociation(Base):
     __tablename__ = "research_outputs_organisational_units_associations"
     research_output_id: Mapped[UUID] = mapped_column(
-        ForeignKey("research_outputs.research_output_id"), primary_key=True
+        ForeignKey("research_outputs.research_output_id"), primary_key=True, index=True
     )
     organisational_unit_id: Mapped[UUID] = mapped_column(
-        ForeignKey("organisational_units.organisational_unit_id"), primary_key=True
+        ForeignKey("organisational_units.organisational_unit_id"), primary_key=True, index=True
     )
     research_output: Mapped[ResearchOutput] = relationship(
         back_populates="organisational_unit_associations",
@@ -134,6 +136,7 @@ class ResearchOutput(Base):
     category_type_id: Mapped[int | None] = mapped_column(BIGINT)
     language_type_id: Mapped[int | None] = mapped_column(BIGINT)
     title: Mapped[str | None] = mapped_column()
+    publication_statuses: Mapped[list | None] = mapped_column(JSONB)
     raw: Mapped[dict | None] = mapped_column(JSONB)
     person_associations: Mapped[list[ResearchOutputPersonAssociation]] = relationship(
         back_populates="research_output",
@@ -170,6 +173,7 @@ class Classification(Base):
             "classification_schemes.classification_scheme_id",
             ondelete="CASCADE",
             onupdate="CASCADE",
-        )
+        ),
+        index=True,
     )
     classification_scheme: Mapped[ClassificationScheme] = relationship(back_populates="classifications")

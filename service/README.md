@@ -113,26 +113,34 @@ As of now, dash app does not need the REST service.
 - [x] Setup alembic migrations
 - [x] Add UI solution (Streamlit/Dash-Plotly/NiceGUI/Reflex/Shiny)
 - [ ] Add auth (Authelia is simplest - just controls the reverse proxy)
-- [ ] Add metrics
+- [ ] Add metrics, maybe
 - [ ] Add transform + load for all objects
     - [x] persons
     - [x] organisational-units
     - [x] classification-schemes
     - [x] research-outputs stub
     - [x] research-outputs links
+    - [x] research-outputs publication statuses
     - [ ] persons-units links data
     - [ ] research-outputs
+    - [x] correctly parse multiple association person-organisational-unit
     - [ ] ...
 - [x] Reload loaded Pure data
 - [x] Add pure data generator
-- [ ] Improve logging configuration
+- [ ] Add production server for Dash
+- [ ] Add Client class into Config - for configuring the web-server for Dash
+- [ ] Try dash bootstrap components
+- [ ] Improve and audit configuration (`config.py`)
 - [ ] Test database performance on real-life-size dataset and add indexes where appropriate
+    - [ ] Possibly slow `organisational_units.parents`
 - [ ] Regenerate and review alembic migrations (revisions)
 - [ ] Add extract to ETL
     - [ ] Connect to Pure API
     - [ ] Load Pure data in batches
     - [ ] Scheduled loading
 - [ ] Don't use dev/debug features for prod
+- [ ] Improve automatic tests
+- [ ] Test on real dataset
 - [ ] Containerize
 - [ ] Add example reverse proxy configuration
 

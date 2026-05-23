@@ -55,7 +55,13 @@ def find_research_output_persons_element(aio_id="find-research-output-persons"):
 
 
 @aio_register_search
-def find_research_output_persons_query(state: AppState, pattern: str, toggles: dict[str, bool]) -> pl.DataFrame:
+def find_research_output_persons_query(
+    state: AppState,
+    pattern: str,
+    page_number: int,
+    page_size: int,
+    toggles: dict[str, bool],
+) -> pl.DataFrame:
     with state.engine.connect() as conn:
         try:
             statement = queries.select_persons_with_research_outputs().where(ResearchOutput.id == UUID(pattern)).cte()
@@ -73,7 +79,11 @@ def find_research_output_persons_query(state: AppState, pattern: str, toggles: d
                 statement.c.type_id,
                 statement.c.language_type_id,
                 statement.c.category_type_id,
-            ).select_from(statement),
+            )
+            .select_from(statement)
+            .order_by(statement.c.person_id)
+            .offset((page_number - 1) * page_size)
+            .limit(page_size),
             conn,
         )
         return df

@@ -125,6 +125,7 @@ class ArbitraryDropdownAIO(html.Div):
                 CollapseAIO(
                     aio_id=f"{aio_id}-collapse-selected",
                     label="Показать/спрятать выбранное",
+                    default_hidden=True,
                     content=html.Div(
                         [
                             html.P(children="Selected:"),
@@ -135,6 +136,7 @@ class ArbitraryDropdownAIO(html.Div):
                 CollapseAIO(
                     aio_id=f"{aio_id}-collapse-add-item",
                     label="Добавить/удалить опцию",
+                    default_hidden=True,
                     content=html.Div(
                         [
                             html.P(children="Add another item to options, or remove one:"),
@@ -280,16 +282,18 @@ class ArbitraryDropdownAIO(html.Div):
             "values": [value for value in selected_values],
         }
 
+        options_dict = {option["value"]: option for option in options}
+
         return {
             "preview": list(
                 map(
                     lambda x: html.Li(className="list__item", children=html.Pre(x)),
-                    selected_values,
+                    [f"{value}: {options_dict.get(value, {'label': 'No name'})['label']}" for value in selected_values],
                 )
             )
             or html.Li(className="list__item", children="Empty"),
             "options": options if changed["options"] else dash.no_update,
-            "selected_values": (selected_values if changed["selected_values"] else dash.no_update),
+            "selected_values": selected_values if changed["selected_values"] else dash.no_update,
             "store_data": new_store,
             "clear_label": "" if changed["inputs"] else dash.no_update,
             "clear_value": "" if changed["inputs"] else dash.no_update,

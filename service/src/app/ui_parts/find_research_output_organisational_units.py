@@ -11,7 +11,7 @@ from app.aio_components.search_aio import (
     aio_register_search,
 )
 from app.client_types import AppState
-from app.models import OrganisationalUnit, ResearchOutput
+from app.models import OrganisationalUnit
 
 
 def find_research_output_organisational_units_element(
@@ -58,23 +58,23 @@ def find_research_output_organisational_units_element(
 
 @aio_register_search
 def find_research_output_organisational_units_query(
-    state: AppState, pattern: str, toggles: dict[str, bool]
+    state: AppState,
+    pattern: str,
+    page_number: int,
+    page_size: int,
+    toggles: dict[str, bool],
 ) -> pl.DataFrame:
     with state.engine.connect() as conn:
         try:
-            statement = (
-                queries.select_research_outputs_for_units(
-                    units=sqlalchemy.select(
-                        OrganisationalUnit.id.label("organisational_unit_id"),
-                        OrganisationalUnit.name_ru.label("organisational_unit_name_ru"),
-                        OrganisationalUnit.type_id.label("organisational_unit_type_id"),
-                    )
-                    .select_from(OrganisationalUnit)
-                    .cte()
+            statement = queries.select_research_outputs_for_units(
+                units=sqlalchemy.select(
+                    OrganisationalUnit.id.label("organisational_unit_id"),
+                    OrganisationalUnit.name_ru.label("organisational_unit_name_ru"),
+                    OrganisationalUnit.type_id.label("organisational_unit_type_id"),
                 )
-                .where(ResearchOutput.id == UUID(pattern))
+                .select_from(OrganisationalUnit)
                 .cte()
-            )
+            ).cte()
         except ValueError:
             raise SearchException() from None
         df = pl.read_database(
@@ -88,7 +88,12 @@ def find_research_output_organisational_units_query(
                 sqlalchemy.cast(statement.c.organisational_unit_id, sqlalchemy.String),
                 statement.c.organisational_unit_name_ru,
                 statement.c.organisational_unit_type_id,
-            ).select_from(statement),
+            )
+            .select_from(statement)
+            .where(statement.c.research_output_id == UUID(pattern))
+            .order_by(statement.c.organisational_unit_id)
+            .offset((page_number - 1) * page_size)
+            .limit(page_size),
             conn,
         )
         return df

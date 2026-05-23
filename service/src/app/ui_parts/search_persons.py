@@ -2,6 +2,7 @@ import polars as pl
 import sqlalchemy
 from dash import html
 
+import app.ui_parts
 from app import queries
 from app.aio_components.search_aio import SearchAIO, aio_register_search
 from app.client_types import AppState
@@ -13,15 +14,10 @@ def search_persons_element(aio_id="search-persons-field"):
             html.Div(
                 className="horizontal-content horizontal-content_center",
                 children=[
-                    html.H2(children="Поиск по persons"),
+                    html.H3(children="Поиск по персонам"),
                     html.Abbr(
                         "?",
-                        title="Количество результатов ограничено 100.\n"
-                        "Для поиска используется PostgreSQL pattern matching. Таким образом substring просто добавляет "
-                        "% в начало и в конец паттерна.\n"
-                        "Можно выбрать разные колонки по которым будет производиться поиск. По умолчанию никакая из "
-                        "колонок не выбрана, поэтому результат пустой. При выборе нескольких колонок используется "
-                        "операция ИЛИ между ними - match должен произойти в любой из них.",
+                        title=app.ui_parts.search_help,
                         className="help-icon",
                     ),
                 ],
@@ -57,9 +53,15 @@ def search_persons_element(aio_id="search-persons-field"):
 
 
 @aio_register_search
-def search_persons_query(state: AppState, pattern: str, toggles: dict[str, bool]) -> pl.DataFrame:
+def search_persons_query(
+    state: AppState,
+    pattern: str,
+    page_number: int,
+    page_size: int,
+    toggles: dict[str, bool],
+) -> pl.DataFrame:
     with state.engine.connect() as conn:
-        statement = queries.query_persons(
+        statement = queries.search.search_persons(
             f"%{pattern}%" if toggles.get("substring") else str(pattern),
             case_insensitive=toggles.get("case_insensitive") or False,
             person_id=toggles.get("id") or False,
@@ -77,7 +79,9 @@ def search_persons_query(state: AppState, pattern: str, toggles: dict[str, bool]
                 statement.c.orcid,
             )
             .select_from(statement)
-            .limit(100),
+            .order_by(statement.c.person_id)
+            .offset((page_number - 1) * page_size)
+            .limit(page_size),
             conn,
         )
         return df
