@@ -1,5 +1,5 @@
 import json
-import uuid
+from uuid import UUID
 
 import polars as pl
 from litestar.types import Logger
@@ -68,17 +68,8 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
     Loads classification schemes from prepared dataframe into the database
     See `transform`
     """
-    for classification_scheme_row in df.rows(named=True):
-        classification_scheme = session.scalars(
-            select(ClassificationScheme).where(
-                ClassificationScheme.id == classification_scheme_row["classification_scheme_id"]
-            )
-        ).first()
-        if classification_scheme is None:
-            classification_scheme = ClassificationScheme(
-                id=uuid.UUID(classification_scheme_row["classification_scheme_id"]),
-            )
 
+    def update_classification_scheme(classification_scheme, classification_scheme_row):
         classification_scheme.pure_id = classification_scheme_row["pure_id"]
         classification_scheme.base_uri = classification_scheme_row["base_uri"]
         classification_scheme.description_ru = classification_scheme_row["description_ru"]
@@ -87,19 +78,48 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
         if update_raw or classification_scheme.raw is None:
             classification_scheme.raw = json.loads(classification_scheme_row["raw"])
 
-        session.merge(classification_scheme)
+    def update_classification(classification, classification_scheme, classification_row):
+        classification.uri = classification_row["uri"]
+        classification.term_ru = classification_row["term_ru"]
+        classification.term_en = classification_row["term_en"]
+        classification.disabled = classification_row["disabled"]
+        classification.classification_scheme_id = classification_scheme.id
+
+    for classification_scheme_row in df.rows(named=True):
+        if logger is not None:
+            logger.debug(f"Loading classification_scheme {classification_scheme_row['classification_scheme_id']}")
+
+        classification_scheme = session.scalars(
+            select(ClassificationScheme).where(
+                ClassificationScheme.id == classification_scheme_row["classification_scheme_id"]
+            )
+        ).first()
+        if classification_scheme is None:
+            classification_scheme = ClassificationScheme(
+                id=UUID(classification_scheme_row["classification_scheme_id"]),
+            )
+            update_classification_scheme(classification_scheme, classification_scheme_row)
+            session.add(classification_scheme)
+        else:
+            update_classification_scheme(classification_scheme, classification_scheme_row)
 
         classifications = classification_scheme_row["classifications"]
         if classifications is not None:
+            found_classifications = {
+                classification.pure_id: classification
+                for classification in session.scalars(
+                    select(Classification).where(
+                        Classification.pure_id.in_([classification["pure_id"] for classification in classifications])
+                    )
+                ).all()
+            }
             for classification_row in classifications:
-                classification = session.scalars(
-                    select(Classification).where(Classification.pure_id == classification_row["pure_id"])
-                ).first()
+                if logger is not None:
+                    logger.debug(f"Loading classification {classification_row['pure_id']}")
+                classification = found_classifications.get(classification_row["pure_id"])
                 if classification is None:
                     classification = Classification(pure_id=classification_row["pure_id"])
-                classification.uri = classification_row["uri"]
-                classification.term_ru = classification_row["term_ru"]
-                classification.term_en = classification_row["term_en"]
-                classification.disabled = classification_row["disabled"]
-                classification.classification_scheme_id = classification_scheme.id
-                session.merge(classification)
+                    update_classification(classification, classification_scheme, classification_row)
+                    session.add(classification)
+                else:
+                    update_classification(classification, classification_scheme, classification_row)

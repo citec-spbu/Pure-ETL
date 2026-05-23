@@ -47,17 +47,19 @@ def generate_fake_orcid():
 
 
 def unit_id_groups() -> dict[str, sqlalchemy.CTE]:
-    units_ord = queries.select_units_with_all_children(
+    units_ord = queries.organisational_units.select_units_with_all_children_filter(
         filter_units_by_id=[UUID("65666392-9044-41de-aebd-3f58d14f5679")]
     ).cte()
     units_ord_ids = sqlalchemy.select(units_ord.c.organisational_unit_id).select_from(units_ord)
 
-    units_asp = queries.select_units_with_all_children(
+    units_asp = queries.organisational_units.select_units_with_all_children_filter(
         filter_units_by_id=[UUID("48d3663f-c069-4000-bb53-efeec4d313b2")]
     ).cte()
     units_asp_ids = sqlalchemy.select(units_asp.c.organisational_unit_id).select_from(units_asp)
 
-    units_all_tree = queries.select_units_with_all_children(filter_units_by_id=[queries.spbu]).cte()
+    units_all_tree = queries.organisational_units.select_units_with_all_children_filter(
+        filter_units_by_id=[queries.organisational_units.spbu]
+    ).cte()
     units_other_ids = (
         sqlalchemy.select(units_all_tree.c.organisational_unit_id)
         .select_from(units_all_tree)
@@ -233,7 +235,7 @@ def generate_persons(session: Session, amount: int, verbose: bool):
         session.scalars(
             sqlalchemy.select(unit_ids_other.c.organisational_unit_id)
             .select_from(unit_ids_other)
-            .where(unit_ids_other.c.organisational_unit_id != queries.spbu)
+            .where(unit_ids_other.c.organisational_unit_id != queries.organisational_units.spbu)
         ).all()
     )
 
@@ -278,6 +280,7 @@ def generate_persons(session: Session, amount: int, verbose: bool):
         if random.random() < 0.8:
             person.student_organisation_associations.append(
                 PersonOrganisationalUnitStudentAssociation(
+                    pure_id=random_pure_id(),
                     person_id=person.id,
                     organisational_unit_id=random.choice(unit_ids_student),
                     period=period,
@@ -286,6 +289,7 @@ def generate_persons(session: Session, amount: int, verbose: bool):
         else:
             person.staff_organisation_associations.append(
                 PersonOrganisationalUnitStaffAssociation(
+                    pure_id=random_pure_id(),
                     person_id=person.id,
                     organisational_unit_id=random.choice(unit_ids_staff),
                     period=period,
@@ -318,6 +322,7 @@ def generate_persons(session: Session, amount: int, verbose: bool):
 
 
 def generate_research_outputs(session: Session, amount: int, verbose: bool):
+    logging.info("Collecting research outputs")
     initial_research_outputs_all = session.scalars(sqlalchemy.select(ResearchOutput)).all()
     logging.info(f"Working with {len(initial_research_outputs_all)} initial research outputs")
 
@@ -352,10 +357,12 @@ def generate_research_outputs(session: Session, amount: int, verbose: bool):
     logging.info(f"Working with the the following category types: {category_types}")
 
     title_pool: list[str] = []
+    publication_statuses_pool = []
 
     for research_output in initial_research_outputs_all:
         if research_output.title:
             title_pool.extend(research_output.title.split())
+        publication_statuses_pool.append(research_output.publication_statuses)
 
     if not title_pool:
         raise Exception("Not enough data")
@@ -391,6 +398,7 @@ def generate_research_outputs(session: Session, amount: int, verbose: bool):
             category_type_id=random.choice(category_types),
             language_type_id=random.choice(language_types),
             title=" ".join(random.choices(title_pool, k=random.randint(5, 15))).capitalize(),
+            publication_statuses=random.choice(publication_statuses_pool),
         )
         number_of_authors = random.choices(
             [1, 2, 3, 4, 5],
@@ -427,6 +435,7 @@ def generate_research_outputs(session: Session, amount: int, verbose: bool):
                 f"  category_type_id={research_output.category_type_id}\n"
                 f"  language_type_id={research_output.language_type_id}\n"
                 f"  title={research_output.title}\n"
+                f"  publication_statuses={research_output.publication_statuses}\n"
                 f"  raw={research_output.raw}\n"
                 f"  person_associations={person_associations}\n"
                 f"  organisational_unit_associations={organisational_unit_associations}\n"

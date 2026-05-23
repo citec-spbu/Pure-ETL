@@ -1,3 +1,5 @@
+import argparse
+
 import dash
 import plotly.io as pio
 from dash import (
@@ -62,7 +64,9 @@ def main():
                     dcc.Button(
                         "Toggle Dark Mode",
                         id="theme-toggle",
-                        className="button",
+                        # todo: hidden because dark mode is hard. Perhaps dash bootstrap components is a good idea
+                        disabled=True,
+                        className="button hidden",
                         n_clicks=0,
                     ),
                 ],
@@ -71,7 +75,19 @@ def main():
         ],
     )
 
-    app.run(debug=True)
+    parser = argparse.ArgumentParser(description="Start Dash App")
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Start Dash in debug mode",
+    )
+    args = parser.parse_args()
+
+    if args.debug:
+        app.run(debug=True)
+    else:
+        # todo: use gunicorn or wsgi
+        raise Exception("Production server is not yet implemented")
 
 
 clientside_callback(

@@ -20,7 +20,7 @@ def find_unit_parents_element(aio_id="find-unit-parents"):
             html.Div(
                 className="horizontal-content horizontal-content_center",
                 children=[
-                    html.H2(children="Найти parents organisational unit"),
+                    html.H2(children="Поиск родителей организационной единицы"),
                     html.Abbr(
                         "?",
                         title="Результат не будет выведен пока не будет введен синтаксически корректный uuid.\n"
@@ -30,7 +30,7 @@ def find_unit_parents_element(aio_id="find-unit-parents"):
                     ),
                 ],
             ),
-            html.P("Введите uuid organisational unit:"),
+            html.P("Введите uuid организационной единицы:"),
             SearchAIO(
                 aio_id=aio_id,
                 placeholder="Unit uuid...",
@@ -51,10 +51,16 @@ def find_unit_parents_element(aio_id="find-unit-parents"):
 
 
 @aio_register_search
-def search_unit_parents_query(state: AppState, pattern: str, toggles: dict[str, bool]) -> pl.DataFrame:
+def search_unit_parents_query(
+    state: AppState,
+    pattern: str,
+    page_number: int,
+    page_size: int,
+    toggles: dict[str, bool],
+) -> pl.DataFrame:
     with state.engine.connect() as conn:
         try:
-            statement = queries.find_unit_parents(UUID(pattern)).cte()
+            statement = queries.organisational_units.find_unit_parents(UUID(pattern)).cte()
         except ValueError:
             raise SearchException() from None
         df = pl.read_database(
@@ -68,7 +74,10 @@ def search_unit_parents_query(state: AppState, pattern: str, toggles: dict[str, 
             .join(
                 OrganisationalUnit,
                 statement.c.organisational_unit_id == OrganisationalUnit.id,
-            ),
+            )
+            .order_by(statement.c.organisational_unit_id)
+            .offset((page_number - 1) * page_size)
+            .limit(page_size),
             conn,
         )
         return df

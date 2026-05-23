@@ -4,7 +4,7 @@ from uuid import UUID
 import polars as pl
 from litestar.types import Logger
 from sqlalchemy import select
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, selectinload
 
 from app.load.pure import pure_types
 from app.models import (
@@ -61,6 +61,31 @@ transform_schema_organisational_unit_association = pl.Struct(
     }
 )
 
+transform_schema_publication_status = pl.Struct(
+    {
+        "current": pl.Boolean,
+        "publicationDate": pl.Struct(
+            {
+                "year": pl.Int64,
+            }
+        ),
+        "publicationStatus": pure_types.classification_type,
+    },
+)
+
+
+def parse_publication_statuses(expr: pl.Expr) -> pl.Expr:
+    return expr.list.eval(
+        pl.struct(
+            current=pl.element().struct.field("current"),
+            publication_year=pl.element().struct.field("publicationDate").struct.field("year"),
+            publication_status_type_id=pure_types.parse_classification_type(
+                pl.element().struct.field("publicationStatus")
+            ),
+        )
+    )
+
+
 transform_schema = pl.Schema(
     {
         "uuid": pl.String,
@@ -76,6 +101,7 @@ transform_schema = pl.Schema(
         ),
         "personAssociations": pl.List(transform_schema_person_association),
         "organisationalUnits": pl.List(transform_schema_organisational_unit_association),
+        "publicationStatuses": pl.List(transform_schema_publication_status),
         "raw": pl.String,
     }
 )
@@ -93,6 +119,7 @@ def transform(research_outputs: list) -> pl.LazyFrame:
             missing_columns={
                 "personAssociations": pl.lit([], dtype=pl.List(transform_schema_person_association)),
                 "organisationalUnits": pl.lit([], dtype=pl.List(transform_schema_organisational_unit_association)),
+                "publicationStatuses": pl.lit([], dtype=pl.List(transform_schema_publication_status)),
             },
             missing_struct_fields="insert",
         )
@@ -102,6 +129,7 @@ def transform(research_outputs: list) -> pl.LazyFrame:
             pure_types.parse_classification_type(pl.col("type")),
             pure_types.parse_classification_type(pl.col("category")).alias("category_type_id"),
             pure_types.parse_classification_type(pl.col("language")).alias("language_type_id"),
+            parse_publication_statuses(pl.col("publicationStatuses")).alias("publication_statuses"),
             parse_person_association(pl.col("personAssociations")).alias("person_associations"),
             parse_external_person_association(pl.col("personAssociations")).alias("external_person_associations"),
             pl.col("organisationalUnits")
@@ -119,26 +147,45 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
     Loads research outputs from prepared dataframe into the database
     See `transform`
     """
-    for research_output_row in df.rows(named=True):
-        if logger is not None:
-            logger.debug(f"Loading research output {research_output_row['research_output_id']}")
+    rows = df.rows(named=True)
 
-        research_output = session.scalars(
-            select(ResearchOutput).where(ResearchOutput.id == research_output_row["research_output_id"])
-        ).first()
-        if research_output is None:
-            research_output = ResearchOutput(
-                id=UUID(research_output_row["research_output_id"]),
-            )
-
+    def update_research_output(research_output, research_output_row):
         research_output.pure_id = research_output_row["pure_id"]
         research_output.type_id = research_output_row["type_id"]
         research_output.category_type_id = research_output_row["category_type_id"]
         research_output.language_type_id = research_output_row["language_type_id"]
+        research_output.publication_statuses = research_output_row["publication_statuses"]
         research_output.title = research_output_row["title"]
 
         if update_raw or research_output.raw is None:
             research_output.raw = json.loads(research_output_row["raw"])
+
+    research_output_ids = [research_output_row["research_output_id"] for research_output_row in rows]
+
+    found_research_outputs = {
+        research_output.id: research_output
+        for research_output in session.scalars(
+            select(ResearchOutput)
+            .where(ResearchOutput.id.in_(research_output_ids))
+            .options(
+                selectinload(ResearchOutput.person_associations),
+                selectinload(ResearchOutput.organisational_unit_associations),
+            )
+        ).all()
+    }
+    for research_output_row in rows:
+        if logger is not None:
+            logger.debug(f"Loading research output {research_output_row['research_output_id']}")
+
+        research_output = found_research_outputs.get(UUID(research_output_row["research_output_id"]))
+        if research_output is None:
+            research_output = ResearchOutput(
+                id=UUID(research_output_row["research_output_id"]),
+            )
+            update_research_output(research_output, research_output_row)
+            session.add(research_output)
+        else:
+            update_research_output(research_output, research_output_row)
 
         # Create links
 
@@ -151,7 +198,7 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
         requested_organisational_unit_associations = (
             set()
             if research_output_row["organisational_unit_associations"] is None
-            else set(research_output_row["organisational_unit_associations"])
+            else set(UUID(unit_id) for unit_id in research_output_row["organisational_unit_associations"])
         )
 
         requested_person_ids = set(requested_person_associations.keys())
@@ -179,10 +226,10 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
         organisational_unit_associations_to_remove: list[ResearchOutputOrganisationalUnitAssociation] = []
 
         for association in research_output.person_associations:
-            if association.person_id not in found_requested_person_ids:
+            if association.person_id not in requested_person_ids:
                 person_associations_to_remove.append(association)
         for association in research_output.organisational_unit_associations:
-            if association.organisational_unit_id not in found_requested_organisational_unit_ids:
+            if association.organisational_unit_id not in requested_organisational_unit_ids:
                 organisational_unit_associations_to_remove.append(association)
 
         for association in person_associations_to_remove:
@@ -233,5 +280,3 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
                 organisational_unit_id=unit_id,
             )
             research_output.organisational_unit_associations.append(association)
-
-        session.merge(research_output)

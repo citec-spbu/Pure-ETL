@@ -61,15 +61,8 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
     Loads organisational units from prepared dataframe into the database
     See `transform`
     """
-    for organisational_unit_row in df.rows(named=True):
-        organisational_unit = session.scalars(
-            select(OrganisationalUnit).where(OrganisationalUnit.id == organisational_unit_row["organisational_unit_id"])
-        ).first()
-        if organisational_unit is None:
-            organisational_unit = OrganisationalUnit(
-                id=uuid.UUID(organisational_unit_row["organisational_unit_id"]),
-            )
 
+    def update_organisational_unit(organisational_unit, organisational_unit_row):
         organisational_unit.pure_id = organisational_unit_row["pure_id"]
         organisational_unit.type_id = organisational_unit_row["type_id"]
         organisational_unit.name_ru = organisational_unit_row["name_ru"]
@@ -80,4 +73,28 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
         if update_raw or organisational_unit.raw is None:
             organisational_unit.raw = json.loads(organisational_unit_row["raw"])
 
-        session.merge(organisational_unit)
+    rows = df.rows(named=True)
+
+    found_organisational_units = {
+        organisational_unit.id: organisational_unit
+        for organisational_unit in session.scalars(
+            select(OrganisationalUnit).where(
+                OrganisationalUnit.id.in_(
+                    [organisational_unit_row["organisational_unit_id"] for organisational_unit_row in rows]
+                )
+            )
+        ).all()
+    }
+
+    for organisational_unit_row in rows:
+        organisational_unit = found_organisational_units.get(
+            uuid.UUID(organisational_unit_row["organisational_unit_id"])
+        )
+        if organisational_unit is None:
+            organisational_unit = OrganisationalUnit(
+                id=uuid.UUID(organisational_unit_row["organisational_unit_id"]),
+            )
+            update_organisational_unit(organisational_unit, organisational_unit_row)
+            session.add(organisational_unit)
+        else:
+            update_organisational_unit(organisational_unit, organisational_unit_row)

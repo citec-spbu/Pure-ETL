@@ -22,7 +22,7 @@ from app.ui_parts.search_research_outputs import (
 )
 from app.ui_parts.search_units import search_units_element
 
-dash.register_page(__name__, path="/research-outputs")
+dash.register_page(__name__, path="/research-outputs", name="Результаты исследований", order=3)
 
 
 def layout():

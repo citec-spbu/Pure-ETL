@@ -83,6 +83,20 @@ class SearchAIO(html.Div):
                 "aio_id": aio_id,
             }
 
+        def page_number(aio_id: Any):
+            return {
+                "component": "SearchAIO",
+                "subcomponent": "page_number",
+                "aio_id": aio_id,
+            }
+
+        def page_size(aio_id: Any):
+            return {
+                "component": "SearchAIO",
+                "subcomponent": "page_size",
+                "aio_id": aio_id,
+            }
+
     ids = ids
 
     def __init__(
@@ -133,7 +147,9 @@ class SearchAIO(html.Div):
                         "toggles": toggles,
                         "toggles_defaults": toggles_defaults,
                         "internal_toggles": ["live_search"],
-                        "internal_toggles_defaults": ["live_search"],
+                        "internal_toggles_defaults": [],
+                        "page_number_default": 1,
+                        "page_size_default": 100,
                     },
                 ),
                 dcc.Input(
@@ -156,6 +172,32 @@ class SearchAIO(html.Div):
                             id=self.ids.clear_button(aio_id),
                             className="button",
                         ),
+                        html.Div(
+                            className="horizontal-content horizontal-content_small-gap",
+                            children=[
+                                html.Label("Page:"),
+                                dcc.Input(
+                                    id=self.ids.page_number(aio_id),
+                                    type="number",
+                                    debounce=True,
+                                    className="dcc-input",
+                                    style={"width": "8em"},
+                                ),
+                            ],
+                        ),
+                        html.Div(
+                            className="horizontal-content horizontal-content_small-gap",
+                            children=[
+                                html.Label("Page size:"),
+                                dcc.Input(
+                                    id=self.ids.page_size(aio_id),
+                                    type="number",
+                                    debounce=True,
+                                    className="dcc-input",
+                                    style={"width": "8em"},
+                                ),
+                            ],
+                        ),
                         dcc.Checklist(
                             className="padded-box dcc-checklist",
                             labelClassName="dcc-checklist__label",
@@ -164,6 +206,12 @@ class SearchAIO(html.Div):
                             options=["live_search"],
                             inline=True,
                         ),
+                        *additional_controls,
+                    ],
+                ),
+                html.Div(
+                    className="horizontal-content horizontal-content_small-gap",
+                    children=[
                         dcc.Checklist(
                             className="padded-box dcc-checklist",
                             labelClassName="dcc-checklist__label",
@@ -172,7 +220,6 @@ class SearchAIO(html.Div):
                             options=toggles,
                             inline=True,
                         ),
-                        *additional_controls,
                     ],
                 ),
                 TableAIO(
@@ -190,6 +237,8 @@ class SearchAIO(html.Div):
             store_data=Output(ids.store(MATCH), "data"),
             toggles_selected=Output(ids.toggles(MATCH), "value"),
             internal_toggles_selected=Output(ids.internal_toggles(MATCH), "value"),
+            page_number=Output(ids.page_number(MATCH), "value"),
+            page_size=Output(ids.page_size(MATCH), "value"),
         ),
         dict(
             search_button=Input(ids.search_button(MATCH), "n_clicks"),
@@ -198,6 +247,8 @@ class SearchAIO(html.Div):
             internal_toggles_selected=Input(ids.internal_toggles(MATCH), "value"),
             search_bar=Input(ids.search_bar(MATCH), "value"),
             search_bar_submit=Input(ids.search_bar(MATCH), "n_submit"),
+            page_number=Input(ids.page_number(MATCH), "value"),
+            page_size=Input(ids.page_size(MATCH), "value"),
         ),
         dict(
             store_data=State(ids.store(MATCH), "data"),
@@ -213,7 +264,11 @@ class SearchAIO(html.Div):
             "toggles_selected": False,
             "internal_toggles_selected": False,
             "search_results": False,
+            "page_number": False,
+            "page_size": False,
         }
+
+        # todo: implement pagination and store page inputs in storage
 
         store_data = state["store_data"] if type(state["store_data"]) is dict else {}
 
@@ -246,10 +301,30 @@ class SearchAIO(html.Div):
                 if option in state["memory_store_data"]["internal_toggles"]
             ]
             update["internal_toggles_selected"] = True
+
+            page_number = store_data.get("page_number", state["memory_store_data"]["page_number_default"])
+            page_size = store_data.get("page_size", state["memory_store_data"]["page_size_default"])
+            update["page_number"] = True
+            update["page_size"] = True
         else:
             search_bar = inputs["search_bar"] or ""
             toggles_selected = inputs["toggles_selected"] or []
             internal_toggles_selected = inputs["internal_toggles_selected"] or []
+            page_number = inputs["page_number"]
+            page_size = inputs["page_size"]
+
+        if page_number is None:
+            page_number = state["memory_store_data"]["page_number_default"]
+            update["page_number"] = True
+        if page_size is None:
+            page_size = state["memory_store_data"]["page_size_default"]
+            update["page_size"] = True
+        if page_number < 1:
+            page_number = 1
+            update["page_number"] = True
+        if page_size < 1:
+            page_size = 1
+            update["page_size"] = True
 
         if ctx.triggered_id and ctx.triggered_id["subcomponent"] == "clear_button":
             update["search_bar"] = True
@@ -260,10 +335,14 @@ class SearchAIO(html.Div):
         store_data["toggles_selected"] = toggles_selected
         store_data["search_bar"] = search_bar
         store_data["internal_toggles_selected"] = internal_toggles_selected
+        store_data["page_number"] = page_number
+        store_data["page_size"] = page_size
 
         if (
             "live_search" in internal_toggles_selected
             or (ctx.triggered_id and ctx.triggered_id["subcomponent"] == "search_button")
+            or (ctx.triggered_id and ctx.triggered_id["subcomponent"] == "page_number")
+            or (ctx.triggered_id and ctx.triggered_id["subcomponent"] == "page_size")
             or ctx.triggered_id is None
             or (
                 ctx.triggered_id
@@ -277,7 +356,13 @@ class SearchAIO(html.Div):
             app_state = dash.get_app().server.config["APP_STATE"]
             toggles_state = {toggle: (toggle in toggles_selected) for toggle in state["toggles_options"]}
             try:
-                search_results = search(state=app_state, pattern=search_bar, toggles=toggles_state).to_dicts()
+                search_results = search(
+                    state=app_state,
+                    pattern=search_bar,
+                    page_number=page_number,
+                    page_size=page_size,
+                    toggles=toggles_state,
+                ).to_dicts()
             except SearchException:
                 # todo: communicate error to user
                 raise PreventUpdate() from None
@@ -291,4 +376,6 @@ class SearchAIO(html.Div):
             "internal_toggles_selected": (
                 internal_toggles_selected if update["internal_toggles_selected"] else dash.no_update
             ),
+            "page_number": (page_number if update["page_number"] else dash.no_update),
+            "page_size": (page_size if update["page_size"] else dash.no_update),
         }

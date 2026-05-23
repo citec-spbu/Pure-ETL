@@ -23,13 +23,21 @@ def test_organisational_units_relation(session: Session):
     person_id = uuid.uuid4()
 
     staff_associations = [
-        PersonOrganisationalUnitStaffAssociation(person_id=person_id, organisational_unit=units[0]),
-        PersonOrganisationalUnitStaffAssociation(person_id=person_id, organisational_unit=units[1]),
+        PersonOrganisationalUnitStaffAssociation(
+            pure_id=random.randint(0, 9999999999999), person_id=person_id, organisational_unit=units[0]
+        ),
+        PersonOrganisationalUnitStaffAssociation(
+            pure_id=random.randint(0, 9999999999999), person_id=person_id, organisational_unit=units[1]
+        ),
     ]
 
     student_associations = [
-        PersonOrganisationalUnitStudentAssociation(person_id=person_id, organisational_unit=units[1]),
-        PersonOrganisationalUnitStudentAssociation(person_id=person_id, organisational_unit=units[2]),
+        PersonOrganisationalUnitStudentAssociation(
+            pure_id=random.randint(0, 9999999999999), person_id=person_id, organisational_unit=units[1]
+        ),
+        PersonOrganisationalUnitStudentAssociation(
+            pure_id=random.randint(0, 9999999999999), person_id=person_id, organisational_unit=units[2]
+        ),
     ]
 
     person = Person(

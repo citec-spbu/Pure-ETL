@@ -8,7 +8,7 @@ from app.ui_parts.search_research_outputs import (
 )
 from app.ui_parts.search_units import search_units_element
 
-dash.register_page(__name__, path="/")
+dash.register_page(__name__, path="/", order=0)
 
 
 def layout():
@@ -37,15 +37,15 @@ def layout():
                 "tabs-searching",
                 [
                     {
-                        "label": "Поиск по organisational units",
+                        "label": "Поиск по организационным единицам",
                         "content": [search_units_element()],
                     },
                     {
-                        "label": "Поиск по persons",
+                        "label": "Поиск по персонам",
                         "content": [search_persons_element()],
                     },
                     {
-                        "label": "Поиск по research outputs",
+                        "label": "Поиск по результатам исследований",
                         "content": [search_research_outputs_element()],
                     },
                 ],

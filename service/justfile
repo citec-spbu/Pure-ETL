@@ -34,7 +34,7 @@ serve:
 
 # Run dash app (UI)
 dash:
-    uv run src/app/client.py
+    uv run src/app/client.py --debug
 
 # Migrate postgres database using alembic
 pg-migrate:
@@ -84,9 +84,12 @@ pg-pull:
 # persons
 # research-outputs
 load-all object:
+    echo "Loading {{object}}"
     curl -X 'POST' 'http://localhost:8000/load/{{object}}' -H 'accept: application/json' -H 'Content-Type: application/json' -d @data/{{object}}.json && echo
+    echo "Done loading {{object}}"
 
 load-all-suggested: (load-all "classification-schemes") (load-all "organisational-units") (load-all "persons") (load-all "research-outputs")
+    echo "Done loading suggested"
 
 generate *args:
     uv run src/app/generate_data.py {{args}}

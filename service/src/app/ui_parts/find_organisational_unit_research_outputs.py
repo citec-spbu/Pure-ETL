@@ -64,13 +64,19 @@ def find_organisational_unit_research_outputs_element(
 
 @aio_register_search
 def find_organisational_unit_research_outputs_query(
-    state: AppState, pattern: str, toggles: dict[str, bool]
+    state: AppState,
+    pattern: str,
+    page_number: int,
+    page_size: int,
+    toggles: dict[str, bool],
 ) -> pl.DataFrame:
     with state.engine.connect() as conn:
         try:
             statement = queries.select_research_outputs_for_units(
-                units=queries.select_units_with_all_children_named(
-                    queries.select_units_with_all_children(filter_units_by_id=[UUID(pattern)]).cte()
+                units=queries.organisational_units.select_units_with_all_children_named(
+                    queries.organisational_units.select_units_with_all_children_filter(
+                        filter_units_by_id=[UUID(pattern)]
+                    ).cte()
                 ).cte()
             ).cte()
         except ValueError:
@@ -94,7 +100,15 @@ def find_organisational_unit_research_outputs_query(
                 statement.c.name_ru.label("linked_through_name_ru"),
                 statement.c.type_id.label("linked_through_type_id"),
                 statement.c.recursion_level.label("linked_through_recursion_level"),
-            ).select_from(statement),
+            )
+            .select_from(statement)
+            .order_by(
+                statement.c.highest_parent_organisational_unit_id,
+                statement.c.organisational_unit_id,
+                statement.c.research_output_id,
+            )
+            .offset((page_number - 1) * page_size)
+            .limit(page_size),
             conn,
         )
         return df
