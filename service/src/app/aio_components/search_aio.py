@@ -342,6 +342,7 @@ class SearchAIO(html.Div):
             "live_search" in internal_toggles_selected
             or (ctx.triggered_id and ctx.triggered_id["subcomponent"] == "search_button")
             or (ctx.triggered_id and ctx.triggered_id["subcomponent"] == "page_number")
+            or (ctx.triggered_id and ctx.triggered_id["subcomponent"] == "page_size")
             or ctx.triggered_id is None
             or (
                 ctx.triggered_id

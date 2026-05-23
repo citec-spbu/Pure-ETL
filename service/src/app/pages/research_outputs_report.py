@@ -5,6 +5,7 @@ import polars as pl
 import sqlalchemy
 import sqlalchemy.orm
 from dash import Input, Output, State, callback, dcc, html
+from dash.exceptions import PreventUpdate
 from plotly import express as px
 
 from app import queries
@@ -552,6 +553,13 @@ def generate_report(inputs, state):
     year_start = state["year_start"]
     year_end = state["year_end"]
     unit_ids = state["selected_units"] or []
+
+    if year_start is None or year_end is None:
+        raise PreventUpdate
+    if int(year_start) > int(year_end):
+        raise PreventUpdate
+    year_start = int(year_start)
+    year_end = int(year_end)
 
     exclude_persons_without_research_outuputs = "exclude_persons_without_research_outuputs" in (state["options"] or [])
 

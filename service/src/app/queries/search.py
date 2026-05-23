@@ -76,7 +76,7 @@ def search_persons(
     Columns returned:
     - `person_id` - `uuid`
     - `first_name` - `text`
-    - `first_name` - `text`
+    - `last_name` - `text`
     - `pure_id` - integer
     - `orcid` - `text`
     """

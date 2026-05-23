@@ -66,17 +66,18 @@ def find_research_output_organisational_units_query(
 ) -> pl.DataFrame:
     with state.engine.connect() as conn:
         try:
-            statement = queries.select_research_outputs_for_units(
-                units=sqlalchemy.select(
-                    OrganisationalUnit.id.label("organisational_unit_id"),
-                    OrganisationalUnit.name_ru.label("organisational_unit_name_ru"),
-                    OrganisationalUnit.type_id.label("organisational_unit_type_id"),
-                )
-                .select_from(OrganisationalUnit)
-                .cte()
-            ).cte()
+            research_output_id = UUID(pattern)
         except ValueError:
             raise SearchException() from None
+        statement = queries.select_research_outputs_for_units(
+            units=sqlalchemy.select(
+                OrganisationalUnit.id.label("organisational_unit_id"),
+                OrganisationalUnit.name_ru.label("organisational_unit_name_ru"),
+                OrganisationalUnit.type_id.label("organisational_unit_type_id"),
+            )
+            .select_from(OrganisationalUnit)
+            .cte()
+        ).cte()
         df = pl.read_database(
             sqlalchemy.select(
                 sqlalchemy.cast(statement.c.research_output_id, sqlalchemy.String),
@@ -90,7 +91,7 @@ def find_research_output_organisational_units_query(
                 statement.c.organisational_unit_type_id,
             )
             .select_from(statement)
-            .where(statement.c.research_output_id == UUID(pattern))
+            .where(statement.c.research_output_id == research_output_id)
             .order_by(statement.c.organisational_unit_id)
             .offset((page_number - 1) * page_size)
             .limit(page_size),

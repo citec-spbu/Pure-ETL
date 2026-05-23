@@ -162,9 +162,11 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
         requested_staff_association_ids = set(requested_staff_associations.keys())
         requested_student_association_ids = set(requested_student_associations.keys())
 
-        requested_staff_unit_ids = set(association["unit_id"] for association in requested_staff_associations.values())
+        requested_staff_unit_ids = set(
+            UUID(association["unit_id"]) for association in requested_staff_associations.values()
+        )
         requested_student_unit_ids = set(
-            association["unit_id"] for association in requested_student_associations.values()
+            UUID(association["unit_id"]) for association in requested_student_associations.values()
         )
 
         requested_unit_ids = requested_staff_unit_ids.union(requested_student_unit_ids)
@@ -237,7 +239,7 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
                 upper=datetime.fromisoformat(period["endDate"]) if period["endDate"] else None,
             )
 
-        for pure_id in requested_staff_association_ids.intersection(person_staff_association_ids):
+        for pure_id in found_units_requested_staff_association_ids.intersection(person_staff_association_ids):
             association = person_staff_associations_map[pure_id]
             requested_association = requested_staff_associations[pure_id]
             if logger is not None:
@@ -246,7 +248,7 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
             if period is not None:
                 association.period = parse_period(period)
             association.organisational_unit_id = UUID(requested_association["unit_id"])
-        for pure_id in requested_student_association_ids.intersection(person_student_association_ids):
+        for pure_id in found_units_requested_student_association_ids.intersection(person_student_association_ids):
             association = person_student_associations_map[pure_id]
             requested_association = requested_student_associations[pure_id]
             if logger is not None:

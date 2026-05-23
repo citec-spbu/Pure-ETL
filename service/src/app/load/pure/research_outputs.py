@@ -198,7 +198,7 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
         requested_organisational_unit_associations = (
             set()
             if research_output_row["organisational_unit_associations"] is None
-            else set(research_output_row["organisational_unit_associations"])
+            else set(UUID(unit_id) for unit_id in research_output_row["organisational_unit_associations"])
         )
 
         requested_person_ids = set(requested_person_associations.keys())
@@ -226,10 +226,10 @@ def load(df: pl.DataFrame, session: Session, logger: Logger | None = None, updat
         organisational_unit_associations_to_remove: list[ResearchOutputOrganisationalUnitAssociation] = []
 
         for association in research_output.person_associations:
-            if association.person_id not in found_requested_person_ids:
+            if association.person_id not in requested_person_ids:
                 person_associations_to_remove.append(association)
         for association in research_output.organisational_unit_associations:
-            if association.organisational_unit_id not in found_requested_organisational_unit_ids:
+            if association.organisational_unit_id not in requested_organisational_unit_ids:
                 organisational_unit_associations_to_remove.append(association)
 
         for association in person_associations_to_remove:

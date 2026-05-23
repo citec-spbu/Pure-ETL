@@ -65,6 +65,7 @@ def main():
                         "Toggle Dark Mode",
                         id="theme-toggle",
                         # todo: hidden because dark mode is hard. Perhaps dash bootstrap components is a good idea
+                        disabled=True,
                         className="button hidden",
                         n_clicks=0,
                     ),

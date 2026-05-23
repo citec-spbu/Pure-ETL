@@ -356,7 +356,7 @@ def collect_faculty_people(state: AppState, unit_ids=queries.organisational_unit
 )
 def update_tables(inputs, state):
     template = "plotly_dark" if state["theme"] == "dark" else "plotly_white"
-    selected_values = inputs["unit_ids"]
+    selected_values = inputs["unit_ids"] or []
     state: AppState = dash.get_app().server.config["APP_STATE"]
 
     try:
