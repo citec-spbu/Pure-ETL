@@ -12,15 +12,15 @@ print(schema)
 
 INSTITUTION_ID = "I172901346"  # ваш ID
 
-# Шаг 1: достаём paper_id из локального файла
-paper_ids = con.execute(f"""
-    SELECT *
-    FROM read_parquet('./data/sciscinet_paper_author_affiliation.parquet')
-    WHERE institutionid = '{INSTITUTION_ID}'
-""").fetchdf()
+# Шаг 1: загружаем аффилиации один раз во временную таблицу
+con.execute(
+    "CREATE TEMP TABLE aff AS SELECT * FROM read_parquet('./data/sciscinet_paper_author_affiliation.parquet') WHERE institutionid = ?",
+    [INSTITUTION_ID],
+)
 
-print(f"Найдено paper_id: {len(paper_ids)}")
-ids = paper_ids['paperid'].tolist()
+print(f"Найдено paper_id: {con.execute('SELECT COUNT(*) FROM aff').fetchone()[0]}")
+
+# ids = con.execute("SELECT paperid FROM aff").fetchdf()['paperid'].tolist()
 
 # Шаг 2: обогащаем через OpenAlex API батчами по 100
 # results = []
@@ -48,9 +48,6 @@ ids = paper_ids['paperid'].tolist()
 #     time.sleep(0.1)
 
 # Шаг 3: фильтруем по году и сохраняем
-
-# Группируем в DuckDB и джойним с sciscinet_papers.parquet — без загрузки всего файла в память
-con.execute("CREATE TEMP TABLE aff AS SELECT * FROM read_parquet('./data/sciscinet_paper_author_affiliation.parquet') WHERE institutionid = '" + INSTITUTION_ID + "'")
 
 df = con.execute("""
     SELECT
