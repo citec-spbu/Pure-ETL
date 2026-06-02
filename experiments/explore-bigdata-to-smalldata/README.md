@@ -6,12 +6,10 @@
 
 Результат — CSV-файл со статьями сотрудников заданного университета начиная с 2015 года.
 
-## Настройка
+## Запуск
 
-В файле `build_faculty_csv.py` на строке 6 необходимо вставить свой HuggingFace токен:
-
-```python
-con.execute("CREATE SECRET (TYPE HUGGINGFACE, TOKEN 'ваш_токен_здесь');")
+```bash
+python build_faculty_csv.py t=hf_...
 ```
 
 Токен можно получить в настройках аккаунта на [huggingface.co](https://huggingface.co/settings/tokens).
@@ -65,9 +63,18 @@ requests
 pip install duckdb pyarrow requests
 ```
 
-## Запуск
+Альтернативно — задать переменную окружения `HUGGING_FACE_TOKEN` и запускать без аргумента:
 
 ```bash
+<<<<<<< Updated upstream
 cd experiments/explore-bigdata-to-smalldata
+=======
+# Linux / macOS
+export HUGGING_FACE_TOKEN=hf_...
+python build_faculty_csv.py
+
+# Windows (PowerShell)
+$env:HUGGING_FACE_TOKEN = "hf_..."
+>>>>>>> Stashed changes
 python build_faculty_csv.py
 ```
