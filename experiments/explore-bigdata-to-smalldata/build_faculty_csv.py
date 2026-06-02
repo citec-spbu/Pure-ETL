@@ -1,9 +1,19 @@
 #  id университета в OpenAlex(совпадает с SciSciNet-v2): i172901346
+import os
+import sys
 import duckdb
+
+hf_token = next(
+    (arg.split("=", 1)[1] for arg in sys.argv[1:] if arg.startswith("t=")),
+    os.environ.get("HUGGING_FACE_TOKEN"),
+)
+if not hf_token:
+    raise SystemExit("Укажите токен: python build_faculty_csv.py t=<TOKEN>  или задайте HUGGING_FACE_TOKEN в окружении")
 
 con = duckdb.connect()
 con.execute("INSTALL httpfs; LOAD httpfs;")
-con.execute("CREATE SECRET (TYPE HUGGINGFACE, TOKEN 'HUGGING_FACE_TOKEN');")  #Установить сюда свой HuggingFace API token
+con.execute("SET VARIABLE hf_token = ?", [hf_token])
+con.execute("CREATE SECRET (TYPE HUGGINGFACE, TOKEN getvariable('hf_token'));")
  
 INSTITUTION_ID = "I172901346"
 HF_DATASET = "Northwestern-CSSI/sciscinet-v2"
