@@ -1,26 +1,35 @@
 #  id университета в OpenAlex(совпадает с SciSciNet-v2): i172901346
+import os
+import sys
 import duckdb
-import requests
-import time
-import pyarrow.parquet as pq
+
+hf_token = next(
+    (arg.split("=", 1)[1] for arg in sys.argv[1:] if arg.startswith("t=")),
+    os.environ.get("HUGGING_FACE_TOKEN"),
+)
+if not hf_token:
+    raise SystemExit("Укажите токен: python build_faculty_csv.py t=<TOKEN>  или задайте HUGGING_FACE_TOKEN в окружении")
 
 con = duckdb.connect()
+con.execute("INSTALL httpfs; LOAD httpfs;")
+con.execute("SET VARIABLE hf_token = ?", [hf_token])
+con.execute("CREATE SECRET (TYPE HUGGINGFACE, TOKEN getvariable('hf_token'));")
+ 
+INSTITUTION_ID = "I172901346"
+HF_DATASET = "Northwestern-CSSI/sciscinet-v2"
 
-schema = pq.read_schema('./sciscinet_papers.parquet')
-print("Схема таблицы:")
-print(schema)
+AFFILIATION_URL = f"hf://datasets/{HF_DATASET}/sciscinet_paper_author_affiliation.parquet"
+PAPERS_URL = f"hf://datasets/{HF_DATASET}/sciscinet_papers.parquet"
 
-INSTITUTION_ID = "I172901346"  # ваш ID
+# Шаг 1: фильтруем аффилиации — DuckDB тянет только нужные row groups через HTTP range requests
+con.execute(
+    f"CREATE TEMP TABLE aff AS SELECT paperid, institutionid, authorid FROM read_parquet('{AFFILIATION_URL}') WHERE institutionid = ?",
+    [INSTITUTION_ID],
+)
 
-# Шаг 1: достаём paper_id из локального файла
-paper_ids = con.execute(f"""
-    SELECT *
-    FROM read_parquet('./data/sciscinet_paper_author_affiliation.parquet')
-    WHERE institutionid = '{INSTITUTION_ID}'
-""").fetchdf()
+print(f"Найдено paper_id: {con.execute('SELECT COUNT(*) FROM aff').fetchone()[0]}")
 
-print(f"Найдено paper_id: {len(paper_ids)}")
-ids = paper_ids['paperid'].tolist()
+# ids = con.execute("SELECT paperid FROM aff").fetchdf()['paperid'].tolist()
 
 # Шаг 2: обогащаем через OpenAlex API батчами по 100
 # results = []
@@ -48,18 +57,14 @@ ids = paper_ids['paperid'].tolist()
 #     time.sleep(0.1)
 
 # Шаг 3: фильтруем по году и сохраняем
-
-# Группируем в DuckDB и джойним с sciscinet_papers.parquet — без загрузки всего файла в память
-con.execute("CREATE TEMP TABLE aff AS SELECT * FROM read_parquet('./data/sciscinet_paper_author_affiliation.parquet') WHERE institutionid = '" + INSTITUTION_ID + "'")
-
-df = con.execute("""
+df = con.execute(f"""
     SELECT
         aff.paperid,
         aff.institutionid,
         list(aff.authorid) AS authorids,
         sp.year
     FROM aff
-    LEFT JOIN read_parquet('./sciscinet_papers.parquet') AS sp
+    LEFT JOIN read_parquet('{PAPERS_URL}') AS sp
         ON aff.paperid = sp.paperid
     GROUP BY aff.paperid, aff.institutionid, sp.year
     HAVING sp.year >= 2015
