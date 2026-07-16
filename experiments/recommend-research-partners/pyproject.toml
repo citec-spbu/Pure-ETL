@@ -1,0 +1,19 @@
+[project]
+name = "recommend-research-partners"
+version = "0.1.0"
+description = "Experiment for recommending potential research partners using publication profiles"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+inspect-research-outputs = "research_partner_recommendation.inspect_research_outputs:main"
+inspect-nested-fields = "research_partner_recommendation.inspect_nested_fields:main"
+build-researcher-publications = "research_partner_recommendation.build_researcher_publications:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/research_partner_recommendation"]
