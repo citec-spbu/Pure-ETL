@@ -10,6 +10,7 @@ dependencies = []
 inspect-research-outputs = "research_partner_recommendation.inspect_research_outputs:main"
 inspect-nested-fields = "research_partner_recommendation.inspect_nested_fields:main"
 build-researcher-publications = "research_partner_recommendation.build_researcher_publications:main"
+build-researcher-profiles = "research_partner_recommendation.build_researcher_profiles:main"
 
 [build-system]
 requires = ["hatchling"]
