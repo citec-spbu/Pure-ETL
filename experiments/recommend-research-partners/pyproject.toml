@@ -14,6 +14,7 @@ inspect-nested-fields = "research_partner_recommendation.inspect_nested_fields:m
 build-researcher-publications = "research_partner_recommendation.build_researcher_publications:main"
 build-researcher-profiles = "research_partner_recommendation.build_researcher_profiles:main"
 build-tfidf-profiles = "research_partner_recommendation.build_tfidf_profiles:main"
+build-tfidf-recommendations = "research_partner_recommendation.build_tfidf_recommendations:main"
 
 [build-system]
 requires = ["hatchling"]
