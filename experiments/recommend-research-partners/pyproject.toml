@@ -4,13 +4,16 @@ version = "0.1.0"
 description = "Experiment for recommending potential research partners using publication profiles"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "scikit-learn>=1.9.0",
+]
 
 [project.scripts]
 inspect-research-outputs = "research_partner_recommendation.inspect_research_outputs:main"
 inspect-nested-fields = "research_partner_recommendation.inspect_nested_fields:main"
 build-researcher-publications = "research_partner_recommendation.build_researcher_publications:main"
 build-researcher-profiles = "research_partner_recommendation.build_researcher_profiles:main"
+build-tfidf-profiles = "research_partner_recommendation.build_tfidf_profiles:main"
 
 [build-system]
 requires = ["hatchling"]
