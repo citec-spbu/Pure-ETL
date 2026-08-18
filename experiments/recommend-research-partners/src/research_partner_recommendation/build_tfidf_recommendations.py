@@ -532,27 +532,6 @@ def write_report(
     full_min, full_max, full_mean, full_median = (
         score_stats(full_scores)
     )
-core_exact_rows = [
-    row
-    for row in core_rows
-    if float(row["similarity"]) >= 0.9999
-]
-
-full_exact_rows = [
-    row
-    for row in full_rows
-    if float(row["similarity"]) >= 0.9999
-]
-
-core_exact_researchers = {
-    row["researcher_id"]
-    for row in core_exact_rows
-}
-
-full_exact_researchers = {
-    row["researcher_id"]
-    for row in full_exact_rows
-}
 
     lines = [
         "# Отчёт о TF-IDF-рекомендациях",

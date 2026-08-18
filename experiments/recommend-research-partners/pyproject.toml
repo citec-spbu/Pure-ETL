@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "scikit-learn>=1.9.0",
+    "sentence-transformers>=5.6.1",
 ]
 
 [project.scripts]
@@ -15,6 +16,10 @@ build-researcher-publications = "research_partner_recommendation.build_researche
 build-researcher-profiles = "research_partner_recommendation.build_researcher_profiles:main"
 build-tfidf-profiles = "research_partner_recommendation.build_tfidf_profiles:main"
 build-tfidf-recommendations = "research_partner_recommendation.build_tfidf_recommendations:main"
+build-embedding-profiles = "research_partner_recommendation.build_embedding_profiles:main"
+build-embedding-recommendations = "research_partner_recommendation.build_embedding_recommendations:main"
+compare-recommendations = "research_partner_recommendation.compare_recommendations:main"
+evaluate-masked-coauthors = "research_partner_recommendation.evaluate_masked_coauthors:main"
 
 [build-system]
 requires = ["hatchling"]
