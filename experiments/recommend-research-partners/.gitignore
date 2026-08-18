@@ -1,0 +1,21 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated experiment output
+output/*
+!output/.gitkeep
+
+# Operating system
+.DS_Store
+Thumbs.db

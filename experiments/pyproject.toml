@@ -13,4 +13,5 @@ dependencies = [
 members = [
     "explore-persons-organisations",
     "explore-research-outputs",
+    "recommend-research-partners",
 ]
