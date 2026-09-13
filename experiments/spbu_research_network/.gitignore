@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Данные (создаются ETL)
+app/pure_data.db
+pure_data.db
+app/graph_cache.pkl
+graph_cache.pkl
+
+# Логи
+app.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
