@@ -1,0 +1,2162 @@
+/* ============================================================
+   GLOBAL
+   ============================================================ */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f6f8;
+    color: #20242a;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+
+.app-navbar {
+    height: 64px;
+    background: #ffffff;
+    border-bottom: 1px solid #e7e9ed;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-inner {
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 28px;
+
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.navbar-brand-custom {
+    color: #171a1f;
+    font-size: 18px;
+    font-weight: 650;
+    white-space: nowrap;
+}
+
+.navbar-brand-custom:hover {
+    color: #171a1f;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 100%;
+}
+
+.nav-link-custom {
+    height: 100%;
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+
+    color: #6d737c;
+    font-size: 14px;
+    font-weight: 500;
+
+    border-bottom: 2px solid transparent;
+
+    transition:
+        color 0.15s ease,
+        border-color 0.15s ease;
+}
+
+.nav-link-custom:hover {
+    color: #20242a;
+}
+
+.nav-link-custom.active {
+    color: #20242a;
+    border-bottom-color: #20242a;
+}
+
+
+/* ============================================================
+   SEARCH
+   ============================================================ */
+
+.navbar-search-placeholder {
+    margin-left: auto;
+
+    min-width: 190px;
+    height: 36px;
+    padding: 0 14px;
+
+    display: flex;
+    align-items: center;
+
+    background: #f5f6f8;
+    border: 1px solid #e4e6ea;
+    border-radius: 8px;
+
+    color: #858b94;
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   MAIN CONTAINER
+   ============================================================ */
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 28px 50px;
+}
+
+
+/* ============================================================
+   PAGE HEADER
+   ============================================================ */
+
+.page-header {
+    margin-bottom: 24px;
+}
+
+.page-title {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 650;
+    letter-spacing: -0.4px;
+}
+
+.page-subtitle {
+    margin-top: 7px;
+    color: #747a83;
+    font-size: 14px;
+}
+
+
+/* ============================================================
+   NETWORK PAGE
+   ============================================================ */
+
+.network-layout {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr) 280px;
+    gap: 16px;
+    align-items: stretch;
+}
+
+
+/* ============================================================
+   PANELS
+   ============================================================ */
+
+.panel {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.panel-header {
+    padding: 16px 18px;
+    border-bottom: 1px solid #eceef1;
+}
+
+.panel-title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 650;
+    color: #292d33;
+}
+
+.panel-body {
+    padding: 18px;
+}
+
+
+/* ============================================================
+   FILTERS
+   ============================================================ */
+
+.filter-group {
+    margin-bottom: 22px;
+}
+
+.filter-group:last-child {
+    margin-bottom: 0;
+}
+
+.filter-label {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #50565e;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.filter-value {
+    color: #252a30;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.filter-help {
+    margin-top: 5px;
+    color: #90959d;
+    font-size: 11px;
+}
+
+
+/* Dash sliders */
+
+.rc-slider {
+    margin: 8px 4px 0;
+}
+
+.rc-slider-track {
+    background: #33383f;
+}
+
+.rc-slider-handle {
+    border-color: #33383f;
+}
+
+.rc-slider-handle:hover,
+.rc-slider-handle:active {
+    border-color: #33383f;
+    box-shadow: 0 0 0 5px rgba(51, 56, 63, 0.1);
+}
+
+.rc-slider-dot-active {
+    border-color: #33383f;
+}
+
+
+/* ============================================================
+   GRAPH PANEL
+   ============================================================ */
+
+.graph-panel {
+    min-width: 0;
+}
+
+.graph-toolbar {
+    padding: 12px 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #eceef1;
+}
+
+.graph-toolbar-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.graph-title {
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.graph-count {
+    color: #858b94;
+    font-size: 12px;
+}
+
+.graph-wrapper {
+    width: 100%;
+    height: 620px;
+    min-height: 620px;
+    position: relative;
+}
+
+.graph-footer {
+    padding: 10px 16px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #eceef1;
+
+    color: #8a9098;
+    font-size: 11px;
+}
+
+
+/* ============================================================
+   LEGEND
+   ============================================================ */
+
+.legend {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    color: #777d86;
+    font-size: 11px;
+}
+
+.legend-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.legend-dot-main {
+    background: #e74c3c;
+}
+
+.legend-dot-other {
+    background: #8c96a3;
+}
+
+
+/* ============================================================
+   AUTHOR CARD
+   ============================================================ */
+
+.author-empty {
+    padding: 30px 8px;
+
+    text-align: center;
+
+    color: #969ba3;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.author-name {
+    margin-bottom: 18px;
+
+    color: #20242a;
+    font-size: 17px;
+    font-weight: 650;
+    line-height: 1.3;
+}
+
+.author-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+
+    margin-bottom: 20px;
+}
+
+.author-metric {
+    padding: 9px 5px;
+
+    background: #f7f8fa;
+    border-radius: 7px;
+
+    text-align: center;
+}
+
+.author-metric-value {
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.author-metric-label {
+    margin-top: 3px;
+
+    color: #858b94;
+    font-size: 10px;
+}
+
+.author-section {
+    margin-top: 18px;
+}
+
+.author-section-title {
+    margin-bottom: 8px;
+
+    color: #747a83;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.topic-tag {
+    display: inline-block;
+
+    margin: 0 4px 5px 0;
+    padding: 4px 7px;
+
+    background: #f1f3f5;
+    border-radius: 5px;
+
+    color: #555b64;
+    font-size: 11px;
+}
+
+.open-profile-btn {
+    width: 100%;
+    margin-top: 18px;
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.btn-primary {
+    background: #292e34 !important;
+    border-color: #292e34 !important;
+}
+
+.btn-primary:hover {
+    background: #171b20 !important;
+    border-color: #171b20 !important;
+}
+
+
+/* ============================================================
+   COMPACT STATS
+   ============================================================ */
+
+.network-stats {
+    padding: 12px 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    border-bottom: 1px solid #eceef1;
+
+    color: #777d86;
+    font-size: 11px;
+}
+
+.network-stat strong {
+    color: #30353b;
+    font-size: 12px;
+    font-weight: 650;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 1100px) {
+
+    .network-layout {
+        grid-template-columns: 190px minmax(0, 1fr);
+    }
+
+    .author-panel {
+        grid-column: 1 / -1;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .navbar-inner {
+        padding: 0 16px;
+        gap: 15px;
+    }
+
+    .navbar-brand-custom {
+        font-size: 16px;
+    }
+
+    .navbar-search-placeholder {
+        display: none;
+    }
+
+    .navbar-links {
+        margin-left: auto;
+    }
+
+    .main-container {
+        padding: 20px 15px 40px;
+    }
+
+    .network-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .graph-wrapper {
+        height: 500px;
+    }
+}
+/* ============================================================
+   STATS CARDS (Обзор)
+   ============================================================ */
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 16px 18px;
+
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.stat-card-icon {
+    font-size: 22px;
+    line-height: 1;
+}
+
+.stat-card-value {
+    font-size: 22px;
+    font-weight: 650;
+    color: #20242a;
+    line-height: 1.1;
+}
+
+.stat-card-label {
+    margin-top: 3px;
+    color: #858b94;
+    font-size: 12px;
+}
+
+
+/* ============================================================
+   OVERVIEW GRID
+   ============================================================ */
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+
+/* ============================================================
+   TOPIC ROWS
+   ============================================================ */
+
+.topic-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f1f3;
+}
+
+.topic-row:last-child {
+    border-bottom: none;
+}
+
+.topic-row-name {
+    color: #30353b;
+    font-size: 13px;
+}
+
+.topic-row-count {
+    color: #858b94;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* ============================================================
+   LINK ARROW
+   ============================================================ */
+
+.link-arrow {
+    color: #20242a;
+    font-weight: 500;
+}
+
+.link-arrow:hover {
+    color: #000000;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 1100px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .overview-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* ============================================================
+   RESEARCHERS PAGE
+   ============================================================ */
+
+.researchers-toolbar {
+    display: grid;
+    grid-template-columns: 1fr 240px 200px;
+    gap: 12px;
+    align-items: center;
+}
+
+.researchers-search {
+    width: 100%;
+    height: 40px;
+    padding: 0 14px;
+
+    background: #f7f8fa;
+    border: 1px solid #e4e6ea;
+    border-radius: 8px;
+
+    color: #20242a;
+    font-size: 14px;
+    outline: none;
+
+    transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.researchers-search:focus {
+    background: #ffffff;
+    border-color: #33383f;
+}
+
+.researchers-dropdown {
+    font-size: 14px;
+}
+
+.researchers-count {
+    margin: 18px 0 14px;
+    color: #858b94;
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   AUTHORS GRID
+   ============================================================ */
+
+.researchers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 14px;
+}
+
+
+/* ============================================================
+   AUTHOR CARD
+   ============================================================ */
+
+.author-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    padding: 18px;
+
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.author-card:hover {
+    border-color: #d0d4d9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.author-card-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #20242a;
+    font-size: 15px;
+    font-weight: 650;
+    line-height: 1.3;
+}
+
+.author-card-icon {
+    font-size: 18px;
+}
+
+.author-card-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.author-card-metric {
+    padding: 9px 10px;
+
+    background: #f7f8fa;
+    border-radius: 7px;
+
+    text-align: center;
+}
+
+.author-card-metric-value {
+    color: #20242a;
+    font-size: 16px;
+    font-weight: 650;
+    line-height: 1.1;
+}
+
+.author-card-metric-label {
+    margin-top: 3px;
+    color: #858b94;
+    font-size: 10px;
+}
+
+.author-card-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+
+    min-height: 24px;
+}
+
+.author-card-actions {
+    display: flex;
+    gap: 8px;
+
+    margin-top: auto;
+}
+
+.author-card-btn {
+    flex: 1;
+    font-size: 12px;
+}
+
+
+/* ============================================================
+   PAGINATION
+   ============================================================ */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    margin-top: 24px;
+    padding: 16px;
+}
+
+.pagination-btn {
+    min-width: 100px;
+    font-size: 13px;
+}
+
+.pagination-info {
+    color: #555b64;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* ============================================================
+   EMPTY STATE
+   ============================================================ */
+
+.empty-state {
+    grid-column: 1 / -1;
+
+    padding: 60px 20px;
+
+    text-align: center;
+}
+
+.empty-state-icon {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.empty-state-title {
+    color: #20242a;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.empty-state-subtitle {
+    margin-top: 6px;
+    color: #858b94;
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 900px) {
+    .researchers-toolbar {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .researchers-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* ============================================================
+   AUTHOR PROFILE
+   ============================================================ */
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 16px;
+
+    color: #6d737c;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    color: #20242a;
+}
+
+.profile-header {
+    margin-bottom: 16px;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #20242a;
+    font-size: 24px;
+    font-weight: 650;
+    line-height: 1.2;
+}
+
+.profile-name-icon {
+    font-size: 26px;
+}
+
+.profile-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin-top: 8px;
+
+    color: #858b94;
+    font-size: 13px;
+}
+
+.profile-meta-link {
+    color: #3B82F6;
+    font-weight: 500;
+}
+
+.profile-meta-link:hover {
+    text-decoration: underline;
+}
+
+.profile-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+
+    margin-top: 20px;
+    max-width: 480px;
+}
+
+.profile-metric {
+    padding: 12px 14px;
+
+    background: #f7f8fa;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.profile-metric-value {
+    color: #20242a;
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 1.1;
+}
+
+.profile-metric-label {
+    margin-top: 4px;
+    color: #858b94;
+    font-size: 11px;
+}
+
+.profile-topics {
+    margin-top: 22px;
+}
+
+.profile-topics-title {
+    margin-bottom: 8px;
+
+    color: #747a83;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.profile-network-btn {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   PROFILE GRID
+   ============================================================ */
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 16px;
+}
+
+
+/* ============================================================
+   PUBLICATIONS
+   ============================================================ */
+
+.publication-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f1f3;
+}
+
+.publication-row:last-child {
+    border-bottom: none;
+}
+
+.publication-year {
+    flex-shrink: 0;
+
+    min-width: 48px;
+
+    color: #858b94;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.publication-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.publication-title {
+    color: #20242a;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.publication-journal {
+    margin-top: 3px;
+    color: #90959d;
+    font-size: 11px;
+}
+
+.publication-cites {
+    flex-shrink: 0;
+
+    text-align: right;
+}
+
+.publication-cites-value {
+    color: #20242a;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.publication-cites-label {
+    color: #858b94;
+    font-size: 11px;
+}
+
+
+/* ============================================================
+   COAUTHORS
+   ============================================================ */
+
+.coauthor-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 9px 0;
+    border-bottom: 1px solid #f0f1f3;
+
+    color: inherit;
+}
+
+.coauthor-row:last-child {
+    border-bottom: none;
+}
+
+.coauthor-row:hover {
+    background: #f7f8fa;
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.coauthor-rank {
+    flex-shrink: 0;
+
+    width: 22px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f1f3f5;
+    border-radius: 50%;
+
+    color: #6d737c;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.coauthor-name {
+    flex: 1;
+
+    color: #20242a;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.coauthor-count {
+    color: #858b94;
+    font-size: 11px;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 900px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .profile-metrics {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .profile-name {
+        font-size: 20px;
+    }
+}
+
+/* ============================================================
+   TOPICS PAGE
+   ============================================================ */
+
+.topics-layout {
+    display: grid;
+    grid-template-columns: 360px minmax(0, 1fr);
+    gap: 16px;
+    align-items: start;
+}
+
+.topics-panel-body {
+    padding: 12px 16px;
+}
+
+.topics-search {
+    width: calc(100% - 24px);
+    margin: 0 12px 12px;
+
+    height: 38px;
+    padding: 0 12px;
+
+    background: #f7f8fa;
+    border: 1px solid #e4e6ea;
+    border-radius: 8px;
+
+    color: #20242a;
+    font-size: 13px;
+    outline: none;
+}
+
+.topics-search:focus {
+    background: #ffffff;
+    border-color: #33383f;
+}
+
+
+/* ============================================================
+   TOPIC LIST
+   ============================================================ */
+
+.topics-list {
+    max-height: 620px;
+    overflow-y: auto;
+    padding: 0 4px;
+}
+
+.topic-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    padding: 10px 12px;
+    margin: 0 8px 2px;
+
+    border-radius: 7px;
+    cursor: pointer;
+
+    transition: background 0.15s ease;
+}
+
+.topic-list-item:hover {
+    background: #f1f3f5;
+}
+
+.topic-list-name {
+    flex: 1;
+    min-width: 0;
+
+    color: #30353b;
+    font-size: 13px;
+    line-height: 1.3;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.topic-list-count {
+    flex-shrink: 0;
+
+    color: #858b94;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* ============================================================
+   TOPIC DETAILS
+   ============================================================ */
+
+.topic-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+}
+
+.topic-details-header {
+    padding: 4px 0 0;
+}
+
+.topic-details-title {
+    margin: 0;
+
+    color: #20242a;
+    font-size: 22px;
+    font-weight: 650;
+    line-height: 1.3;
+}
+
+.topic-details-subtitle {
+    margin-top: 6px;
+    color: #858b94;
+    font-size: 13px;
+}
+
+.topic-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.topic-metric {
+    padding: 14px 16px;
+
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.topic-metric-value {
+    color: #20242a;
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 1.1;
+}
+
+.topic-metric-label {
+    margin-top: 4px;
+    color: #858b94;
+    font-size: 11px;
+}
+
+
+/* ============================================================
+   TOPIC AUTHORS
+   ============================================================ */
+
+.topic-author-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 9px 0;
+    border-bottom: 1px solid #f0f1f3;
+
+    color: inherit;
+}
+
+.topic-author-row:last-child {
+    border-bottom: none;
+}
+
+.topic-author-row:hover {
+    background: #f7f8fa;
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.topic-author-rank {
+    flex-shrink: 0;
+
+    width: 22px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f1f3f5;
+    border-radius: 50%;
+
+    color: #6d737c;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.topic-author-name {
+    flex: 1;
+    min-width: 0;
+
+    color: #20242a;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.topic-author-stats {
+    display: flex;
+    gap: 10px;
+
+    flex-shrink: 0;
+}
+
+.topic-author-stat {
+    color: #858b94;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.topic-network-btn {
+    align-self: flex-start;
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 900px) {
+    .topics-layout {
+        grid-template-columns: 1fr;
+    }
+    .topics-list {
+        max-height: 300px;
+    }
+}
+
+/* ============================================================
+   COMPARE PAGE
+   ============================================================ */
+
+.compare-selectors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.compare-selector {
+    min-width: 0;
+}
+
+.compare-selector .filter-label {
+    margin-bottom: 6px;
+}
+
+
+/* ============================================================
+   AUTHOR CARDS
+   ============================================================ */
+
+.compare-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.compare-author-card {
+    padding: 18px;
+
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.compare-author-empty {
+    color: #858b94;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    min-height: 140px;
+}
+
+.compare-author-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #20242a;
+    font-size: 15px;
+    font-weight: 650;
+    line-height: 1.3;
+}
+
+.compare-author-icon {
+    font-size: 18px;
+}
+
+.compare-author-stats {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.compare-author-stat {
+    color: #555b64;
+    font-size: 12px;
+    padding: 3px 8px;
+    background: #f1f3f5;
+    border-radius: 5px;
+}
+
+.compare-author-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.compare-author-btn {
+    flex: 1;
+    font-size: 12px;
+}
+
+
+/* ============================================================
+   METRICS TABLE
+   ============================================================ */
+
+.compare-metric-row {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) 1fr 1fr 1fr;
+    gap: 12px;
+    align-items: center;
+
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f1f3;
+}
+
+.compare-metric-row:last-child {
+    border-bottom: none;
+}
+
+.compare-metric-header {
+    color: #858b94;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 8px;
+}
+
+.compare-metric-label {
+    color: #30353b;
+    font-size: 13px;
+}
+
+.compare-metric-value {
+    color: #20242a;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.compare-metric-diff {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: right;
+    color: #858b94;
+}
+
+.compare-diff-positive {
+    color: #16A34A;
+}
+
+.compare-diff-negative {
+    color: #DC2626;
+}
+
+
+/* ============================================================
+   TOPICS & ACTIVITY GRID
+   ============================================================ */
+
+.compare-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+    gap: 16px;
+    margin-top: 16px;
+}
+
+
+/* ============================================================
+   TOPICS BLOCK
+   ============================================================ */
+
+.compare-topics-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.compare-topics-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.compare-topics-title {
+    color: #747a83;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.compare-topics-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.topic-tag-common {
+    background: #DCFCE7;
+    color: #166534;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 900px) {
+    .compare-selectors {
+        grid-template-columns: 1fr;
+    }
+    .compare-cards {
+        grid-template-columns: 1fr;
+    }
+    .compare-grid {
+        grid-template-columns: 1fr;
+    }
+    .compare-metric-row {
+        grid-template-columns: minmax(0, 1.5fr) 1fr 1fr 1fr;
+        gap: 6px;
+    }
+    .compare-metric-value,
+    .compare-metric-diff {
+        font-size: 12px;
+    }
+}
+/* ============================================================
+   ANALYTICS PAGE
+   ============================================================ */
+
+.analytics-filters {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+    gap: 24px;
+    align-items: start;
+}
+
+.analytics-filter {
+    min-width: 0;
+}
+
+.analytics-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+
+/* ============================================================
+   TOP TOPICS
+   ============================================================ */
+
+.analytics-topic-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) 40px;
+    gap: 10px;
+    align-items: center;
+
+    padding: 7px 0;
+}
+
+.analytics-topic-name {
+    color: #30353b;
+    font-size: 13px;
+    line-height: 1.3;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.analytics-topic-bar {
+    height: 6px;
+    background: #f1f3f5;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.analytics-topic-bar-fill {
+    height: 100%;
+    background: #33383F;
+    border-radius: 3px;
+}
+
+.analytics-topic-count {
+    color: #858b94;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+/* ============================================================
+   TOP AUTHORS
+   ============================================================ */
+
+.analytics-author-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f1f3;
+
+    color: inherit;
+}
+
+.analytics-author-row:last-child {
+    border-bottom: none;
+}
+
+.analytics-author-row:hover {
+    background: #f7f8fa;
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.analytics-author-rank {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f1f3f5;
+    border-radius: 50%;
+
+    color: #6d737c;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.analytics-author-name {
+    flex: 1;
+    min-width: 0;
+
+    color: #20242a;
+    font-size: 13px;
+    font-weight: 500;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.analytics-author-stats {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.analytics-author-stat {
+    color: #858b94;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+
+/* ============================================================
+   GROWTH LIST
+   ============================================================ */
+
+.analytics-growth-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f1f3;
+}
+
+.analytics-growth-row:last-child {
+    border-bottom: none;
+}
+
+.analytics-growth-icon {
+    flex-shrink: 0;
+    width: 20px;
+    font-size: 14px;
+}
+
+.analytics-growth-name {
+    flex: 1;
+    color: #30353b;
+    font-size: 13px;
+}
+
+.analytics-growth-diff {
+    font-size: 13px;
+    font-weight: 650;
+}
+
+.analytics-growth-positive {
+    color: #16A34A;
+}
+
+.analytics-growth-negative {
+    color: #DC2626;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 900px) {
+    .analytics-filters {
+        grid-template-columns: 1fr;
+    }
+    .analytics-grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+/* ============================================================
+   NAVBAR SEARCH (Dropdown)
+   ============================================================ */
+
+.navbar-search-wrapper {
+    margin-left: auto;
+    min-width: 260px;
+    max-width: 320px;
+}
+
+.navbar-search-dropdown {
+    font-size: 13px;
+}
+
+/* Стилизуем поле ввода */
+.navbar-search-dropdown .Select-control {
+    height: 36px !important;
+    background: #f5f6f8 !important;
+    border: 1px solid #e4e6ea !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+.navbar-search-dropdown .Select-control:hover {
+    border-color: #d0d4d9 !important;
+}
+
+.navbar-search-dropdown .Select-placeholder,
+.navbar-search-dropdown .Select-value-label,
+.navbar-search-dropdown .Select-input > input {
+    color: #858b94 !important;
+    font-size: 13px !important;
+    line-height: 36px !important;
+}
+
+.navbar-search-dropdown .Select-value-label {
+    color: #20242a !important;
+}
+
+.navbar-search-dropdown .Select-menu-outer {
+    margin-top: 4px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    z-index: 2000;
+}
+
+.navbar-search-dropdown .Select-option {
+    font-size: 13px;
+    padding: 8px 12px;
+}
+
+.navbar-search-dropdown .Select-option.is-focused {
+    background: #f1f3f5;
+    color: #20242a;
+}
+
+.navbar-search-dropdown .Select-option.is-selected {
+    background: #e5e7eb;
+    color: #20242a;
+}
+/* ============================================================
+   RESEARCHERS: поиск через Dropdown
+   ============================================================ */
+
+.researchers-search-dropdown {
+    font-size: 14px;
+}
+
+/* Стилизуем поле как input */
+.researchers-search-dropdown .Select-control {
+    height: 40px !important;
+    background: #f7f8fa !important;
+    border: 1px solid #e4e6ea !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+.researchers-search-dropdown .Select-control:hover {
+    border-color: #d0d4d9 !important;
+}
+
+.researchers-search-dropdown .Select-placeholder,
+.researchers-search-dropdown .Select-value-label,
+.researchers-search-dropdown .Select-input > input {
+    color: #20242a !important;
+    font-size: 14px !important;
+    line-height: 40px !important;
+}
+
+.researchers-search-dropdown .Select-placeholder {
+    color: #858b94 !important;
+}
+
+.researchers-search-dropdown .Select-menu-outer {
+    margin-top: 4px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    z-index: 100;
+}
+
+.researchers-search-dropdown .Select-option {
+    font-size: 13px;
+    padding: 8px 12px;
+}
+
+.researchers-search-dropdown .Select-option.is-focused {
+    background: #f1f3f5;
+    color: #20242a;
+}
+
+.researchers-search-dropdown .Select-option.is-selected {
+    background: #e5e7eb;
+    color: #20242a;
+}
+/* Сортировка — без поиска */
+.researchers-sort-dropdown .Select-menu-outer .Select-input {
+    display: none !important;
+}
+/* ============================================================
+   PUBLICATIONS: список + скролл + кнопка
+   ============================================================ */
+
+.publications-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.publications-link {
+    color: #3B82F6;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.publications-link:hover {
+    text-decoration: underline;
+}
+
+.publications-list {
+    max-height: 600px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.publications-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.publications-list::-webkit-scrollbar-track {
+    background: #f5f6f8;
+    border-radius: 3px;
+}
+
+.publications-list::-webkit-scrollbar-thumb {
+    background: #d0d4d9;
+    border-radius: 3px;
+}
+
+.publications-list::-webkit-scrollbar-thumb:hover {
+    background: #b8bec6;
+}
+
+.publications-footer {
+    padding: 12px 18px;
+    border-top: 1px solid #eceef1;
+    text-align: center;
+}
+
+.show-all-btn {
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   PUBLICATION ROW — как ссылка
+   ============================================================ */
+
+.publication-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f1f3;
+
+    color: inherit;
+    transition: background 0.15s ease;
+}
+
+.publication-row:last-child {
+    border-bottom: none;
+}
+
+.publication-row:hover {
+    background: #f7f8fa;
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.publication-row:hover .publication-title {
+    color: #3B82F6;
+}
+/* ============================================================
+   NETWORK: поиск и фильтры
+   ============================================================ */
+
+.network-dropdown {
+    font-size: 13px;
+}
+
+.network-dropdown .Select-control {
+    height: 34px !important;
+    background: #f7f8fa !important;
+    border: 1px solid #e4e6ea !important;
+    border-radius: 7px !important;
+    box-shadow: none !important;
+}
+
+.network-dropdown .Select-placeholder,
+.network-dropdown .Select-value-label,
+.network-dropdown .Select-input > input {
+    color: #20242a !important;
+    font-size: 12px !important;
+    line-height: 34px !important;
+}
+
+.network-dropdown .Select-placeholder {
+    color: #858b94 !important;
+}
+
+.network-dropdown .Select-menu-outer {
+    z-index: 100;
+    font-size: 12px;
+}
+
+.reset-filters-btn {
+    width: 100%;
+    font-size: 12px;
+}
+/* ============================================================
+   TOPICS: dropdown поиск
+   ============================================================ */
+
+.topics-search-dropdown {
+    font-size: 13px;
+    width: 100%;
+}
+
+.topics-search-dropdown .Select-control {
+    height: 38px !important;
+    background: #f7f8fa !important;
+    border: 1px solid #e4e6ea !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    width: 100% !important;
+}
+
+.topics-search-dropdown .Select-control:hover {
+    border-color: #d0d4d9 !important;
+}
+
+.topics-search-dropdown .Select-placeholder,
+.topics-search-dropdown .Select-value-label,
+.topics-search-dropdown .Select-input > input {
+    color: #20242a !important;
+    font-size: 13px !important;
+    line-height: 38px !important;
+}
+
+.topics-search-dropdown .Select-placeholder {
+    color: #858b94 !important;
+}
+
+.topics-search-dropdown .Select-menu-outer {
+    z-index: 100;
+    font-size: 13px;
+    max-height: 400px;
+    width: 100% !important;
+    min-width: 300px;
+}
+
+.topics-search-dropdown .Select-menu {
+    max-height: 380px !important;
+}
+/* ============================================================
+   ANALYTICS: growth list
+   ============================================================ */
+
+.analytics-growth-subtitle {
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f1f3;
+
+    color: #858b94;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.analytics-growth-main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.analytics-growth-detail {
+    color: #858b94;
+    font-size: 11px;
+}
+/* ============================================================
+   OVERVIEW: мини-граф
+   ============================================================ */
+
+.overview-graph-body {
+    padding: 0 !important;
+}
+
+.overview-graph-body .cytoscape-container {
+    border-bottom: 1px solid #eceef1;
+}
+
+
+/* ============================================================
+   OVERVIEW: легенда под графом
+   ============================================================ */
+
+.graph-legend-box {
+    padding: 14px 18px;
+    background: #fafbfc;
+    border-bottom: 1px solid #eceef1;
+}
+
+.graph-legend-title {
+    margin-bottom: 10px;
+    color: #747a83;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.graph-legend-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 20px;
+}
+
+.graph-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555b64;
+    font-size: 12px;
+}
+
+.legend-symbol {
+    width: 14px;
+    text-align: center;
+    color: #858b94;
+    font-size: 12px;
+}
+
+
+/* ============================================================
+   OVERVIEW: topic rows с прогресс-барами
+   ============================================================ */
+
+.topic-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) 40px;
+    gap: 10px;
+    align-items: center;
+    padding: 7px 0;
+}
+
+.topic-row-name {
+    color: #30353b;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.topic-row-bar {
+    height: 6px;
+    background: #f1f3f5;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.topic-row-bar-fill {
+    height: 100%;
+    background: #33383F;
+    border-radius: 3px;
+}
+
+.topic-row-count {
+    color: #858b94;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 900px) {
+    .graph-legend-items {
+        grid-template-columns: 1fr;
+    }
+}
