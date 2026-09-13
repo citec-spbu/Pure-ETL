@@ -34,7 +34,7 @@ spbu_research_network/
 │ ├── utils.py # конфигурация, логирование, хелперы
 │ ├── assets/ # статические ресурсы
 │ │ ├── style.css # стили
-│ │ └── custom.js # (опционально) кастомный JS
+│ │ └── custom.js # кастомный JS
 │ ├── pages/ # страницы дашборда
 │ │ ├── home.py # Обзор
 │ │ ├── researchers.py # Исследователи
